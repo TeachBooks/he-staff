@@ -1,6 +1,8 @@
 (intro)=
 # Welcome to the Template Book
 
+Hello!
+
 _Write book intro here. This is the first page the student will see when opening the url._
 
 This book can be used as a template for other books. It includes all software developed by the CEG interactive books initiative and make it easier to keep various software in those other books up to date.
