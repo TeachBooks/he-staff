@@ -1,9 +1,13 @@
 (intro)=
-# Welcome to the Template Book
+# Welcome to the Hydraulic Engineering Staff Page
 
-_Write book intro here. This is the first page the student will see when opening the url._
+Your one-stop shop for staff information for the Hydraulic Engineering Department!
 
-This book can be used as a template for other books. It includes all software developed by the CEG interactive books initiative and make it easier to keep various software in those other books up to date.
+```{note}
+The contents of this website will be filled in during May and June 2024. We chose this platform because it is very easy to update and modify the information being presented, and because it is being used extensively in education at CEG (e.g., [the MUDE book](https://mude.citg.tudelft.nl/book)).
+
+This book is created from the [TeachBooks Template Book](https://github.com/TeachBooks/template). Visit [teachbooks.tudelft.nl](https://teachbooks.tudelft.nl/) or contact Robert Lanzafame and Tom van Woudenberg at teachbooks@tudelft.nl if you would like more information.
+```
 
 ---
 
