@@ -2,6 +2,9 @@
 
 Floor plans of the HE Department in the 2nd and 3rd Floor of the CiTG Department.
 
+![CiTG Building](he-staf/figures/citg_building.jpg)
+
+
 #### HE Department Offices in CiTG Building | 2nd Floor 
 
 - [Floor Plan Second Floor (PDF)](pdfs/2nd_floor.pdf) - [Download PDF](pdfs/2nd_floor.pdf)
