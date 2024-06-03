@@ -9,5 +9,5 @@ parts:
       sections:
       - file: some_content/text_and_code.ipynb
 # END REMOVE-FROM-PUBLISH
-    - file: references.md
+    - file: contact.md
     - file: credits.md
