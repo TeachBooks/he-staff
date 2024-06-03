@@ -22,7 +22,7 @@ The following layouts are available for permanent or temporary employees of the 
 |:--------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Senior Faculty Member Office**                                     | **HE Support Secretariat**                                                     |
 
-| ![HE Support Office](../figures/support_room_layout_3.77.1.png) |  |
+| <img src="../figures/support_room_layout_3.77.1.png" alt="HE Support Office" width="200"/> |  |
 |:---------------------------------------------------------------:|:-:|
 | **HE Support Office**                                           | |
 
