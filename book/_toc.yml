@@ -5,11 +5,17 @@ parts:
   - caption: Contents
     chapters:
     - file: some_content/example_page_1.md
+        sections:
+          - file: some_content/subpage_1_1.md
+          - file: some_content/subpage_1_2.md      
     - file: some_content/example_page_2.md
+        sections:
+          - file: some_content/subpage_2_1.md
+          - file: some_content/subpage_2_2.md 
     - file: some_content/floorplans.md
 # START REMOVE-FROM-PUBLISH
-      sections:
-      - file: some_content/office_layouts.md
+        sections:
+          - file: some_content/office_layouts.md
 # END REMOVE-FROM-PUBLISH
     - file: contact.md
     - file: credits.md
