@@ -16,8 +16,8 @@ The following layouts are available for permanent or temporary employees of the 
 | **Staff Office Layout II**                                   | **Staff Office Layout III**                                    | **Staff Office Layout IV**                                   |
 
 | ![HE Support Office](../figures/support_room_layout_3.77.1.png) | ![HE Support Secretariat](../figures/support_room_secretariat_layout_3.73.1.png) |  |
-|:-------------------------------------------------:|:-----------------------------------------------------------:|:--:|
-| **HE Support Office**                             | **HE Support Secretariat**                                   |  |
+|:-------------------------------------------------:|:-----------------------------------------------------------:|
+| **HE Support Office**                             | **HE Support Secretariat**                                   |
 
 
 
