@@ -7,7 +7,7 @@ parts:
     - file: some_content/floorplans.md
 # START REMOVE-FROM-PUBLISH
       sections:
-      - file: some_content/office_layouts.ipynb
+      - file: some_content/office_layouts.md
 # END REMOVE-FROM-PUBLISH
     - file: contact.md
     - file: credits.md
