@@ -16,7 +16,11 @@ The following layouts are available for permanent or temporary employees of the 
 
 | <img src="figures/support_room_layout_3.77.1.png" alt="HE Support Office" width="300"/> | <img src="figures/support_room_secretariat_layout_3.73.1.png" alt="HE Support Secretariat" width="300"/> |  |
 |:-------------------------------------------------:|:-----------------------------------------------------------:|:--:|
-| **HE Support Office**                             | **HE Support Secretariat**                                   |  |
+| **HE Support Office**                             | **HE Support Secretariat**                                   |  |\
+
+
+
+![PhD Office Layout II](figures/phd_layout_2.png)
 
 
 For inquiries about the office layouts and office equipment please contact our Office Management Team:  
