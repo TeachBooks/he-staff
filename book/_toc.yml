@@ -4,10 +4,10 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
+    - file: some_content/floorplans.md
 # START REMOVE-FROM-PUBLISH
       sections:
-      - file: some_content/text_and_code.ipynb
+      - file: some_content/office_layouts.ipynb
 # END REMOVE-FROM-PUBLISH
     - file: contact.md
     - file: credits.md
