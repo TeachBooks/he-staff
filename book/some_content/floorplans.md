@@ -8,17 +8,17 @@ Floor plans of the HE Department in the 2nd and 3rd Floor of the CiTG Department
 #### HE Department Offices in CiTG Building | 2nd Floor 
 
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) - [Download PDF](../pdfs/2nd_floor.pdf)
-- [Floor Plan Second Floor (PNG)](../figures/2nd_floor.png) - [Download PNG](../figures/2nd_floor.png)
+- [Floor Plan Second Floor (PNG)](../figures/floor-plan_second_floor.png) - [Download PNG](../figures/floor-plan_second_floor.png)
 
 #### HE Department Offices in CiTG Building | 3rd Floor 
 
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf) - [Download PDF](../pdfs/3rd_floor.pdf)
-- [Floor Plan Third Floor (PNG)](../figures/3rd_floor.png) - [Download PNG](../figures/3rd_floor.png)
+- [Floor Plan Third Floor (PNG)](../figures/floor-plan_third_floor.png) - [Download PNG](../figures/3floor-plan_third_floor.png)
 
 #### Hydraulic Engineering Laboratory in CiTG Building
 
 - [HE Lab (PDF)](../pdfs/waterlab.pdf) - [Download PDF](../pdfs/waterlab.pdf)
-- [HE Lab (PNG)](../figures/waterlab.png) - [Download PNG](../figures/waterlab.png)
+- [HE Lab (PNG)](../figures/floor-plan_he-lab.png) - [Download PNG](../figures/floor-plan_he-lab.png)
 
 #### Instructions
 
