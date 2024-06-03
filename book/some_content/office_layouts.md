@@ -20,7 +20,7 @@ The following layouts are available for permanent or temporary employees of the 
 
 
 
-![PhD Office Layout II](figures/phd_layout_2.png)
+![PhD Office Layout II](he-staff/figures/phd_layout_2.png)
 
 
 For inquiries about the office layouts and office equipment please contact our Office Management Team:  
