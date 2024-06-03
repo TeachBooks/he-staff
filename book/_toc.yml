@@ -4,6 +4,8 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
+    - file: some_content/example_page_1.md
+    - file: some_content/example_page_2.md
     - file: some_content/floorplans.md
 # START REMOVE-FROM-PUBLISH
       sections:
