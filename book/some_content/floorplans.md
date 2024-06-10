@@ -1,3 +1,14 @@
+<style>
+  .zoomable {
+    transition: transform 0.2s; /* Animation */
+    cursor: zoom-in;
+  }
+
+  .zoomable:hover {
+    transform: scale(1.5); /* Zoom in by 1.5x */
+  }
+</style>
+
 # Floor Plans
 
 In this page you can find the floor plans of the HE Department with the relevant offices in the 2nd and 3rd Floor of the Civil Engineering and Geosciences Building and the Hydraulic Engineering Laboratory.
@@ -29,10 +40,4 @@ _________________________________________________________________________
 
 - [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    new Zooming().listen('.zoomable');
-  });
-</script>
 
