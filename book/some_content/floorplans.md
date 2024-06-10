@@ -1,12 +1,13 @@
 <style>
-  .zoomable {
-    transition: transform 0.2s; /* Animation */
-    cursor: zoom-in;
-  }
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 200%;
+  height: auto;
+}
 
-  .zoomable:hover {
-    transform: scale(1.5); /* Zoom in by 1.5x */
-  }
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom) */
+}
 </style>
 
 # Floor Plans
@@ -27,7 +28,7 @@ _________________________________________________________________________
 
 **CEG Building 3rd Floor** 
 
-  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000" class="zoomable"/>
+  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000" class="zoom"/>
   
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
 
