@@ -19,6 +19,7 @@ CEG Building 3rd Floor
   
 HE Laboratory
 
-  ![HE Lab (PNG)](../figures/floor-plan_he-lab.png) 
+<img src="../figures/floor-plan_he-lab.jpg" alt="HE Lab" width="600"/>
+
 - [HE Lab (PDF)](../pdfs/waterlab.pdf)
 
