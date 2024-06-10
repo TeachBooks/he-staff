@@ -26,11 +26,3 @@ The following layouts are available for permanent or temporary employees of the 
 |:---------------------------------------------------------------:|:-:|
 | **HE Support Office**                                           | |
 
-
-For inquiries about the office layouts and office equipment please contact our Office Management Team:  
-**Email:** [test-he@tudelft.nl](mailto:office-management@tudelft.nl)  
-**Phone:** +31 15 27 89000
-
-For inquiries about the office layouts and office equipment please contact our Office Management Team:  
-**Email:** [test-he@tudelft.nl](mailto:test-he@tudelft.nl)  
-**Phone:** +31 15 27 89000
