@@ -1,14 +1,34 @@
 <style>
 .zoom {
   transition: transform .2s; /* Animation */
-  width: 200%;
+  width: 100%;
   height: auto;
 }
 
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom) */
+.zoomed-in {
+  transform: scale(3); /* Zoom in by 3x */
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.zoom');
+  images.forEach(img => {
+    let clickTimeout;
+    img.addEventListener('click', () => {
+      if (clickTimeout) {
+        clearTimeout(clickTimeout);
+        clickTimeout = null;
+        img.classList.toggle('zoomed-in');
+      } else {
+        clickTimeout = setTimeout(() => {
+          clickTimeout = null;
+        }, 300); // 300ms timeout to detect double-click
+      }
+    });
+  });
+});
+</script>
 
 # Floor Plans
 
