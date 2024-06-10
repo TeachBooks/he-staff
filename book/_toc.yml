@@ -11,7 +11,8 @@ parts:
     - file: some_content/department.md
       sections:
       - file: some_content/floorplans.md
-      - file: some_content/office_layouts.md 
+      - file: some_content/office_layouts.md
+      - file: some_content/workspace_guidelines.md
     - file: some_content/finance.md
       sections:
       - file: some_content/sub_page_1_finance.md
