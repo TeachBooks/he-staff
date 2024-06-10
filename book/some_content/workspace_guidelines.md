@@ -16,7 +16,7 @@
 
    For more information, please see this detailed flowchart [link](#).
    
-![Office space](../figures/room-change-guidelines.png)
+<img src="../figures/room-change-guidelines.png" alt="Office space" width="600"/>
 
 
 ### Meeting Rooms
