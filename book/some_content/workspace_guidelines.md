@@ -28,7 +28,7 @@
 <img src="../figures/meeting-rooms-graphic.png" alt="Meeting Rooms" width="600"/>
 
 
-### Rules
+### General Guidelines
 
 #### Flex Rooms
 
