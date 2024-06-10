@@ -14,7 +14,7 @@ _________________________________________________________________________
 
 **CEG Building 3rd Floor** 
 
-  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="800"/>
+  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000"/>
   
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
 
