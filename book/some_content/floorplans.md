@@ -5,32 +5,23 @@ Floor plans of the HE Department in the 2nd and 3rd Floor of the CiTG Department
 ![CiTG Building](../figures/citg_building.jpg)
 
 
-#### HE Department Offices in CiTG Building | 2nd Floor 
+CEG Building 2nd Floor 
 
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) - [Download PDF](../pdfs/2nd_floor.pdf)
 - [Floor Plan Second Floor (PNG)](../figures/floor-plan_second_floor.png) - [Download PNG](../figures/floor-plan_second_floor.png)
 
-#### HE Department Offices in CiTG Building | 3rd Floor 
+CEG Building 3rd Floor 
 
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf) - [Download PDF](../pdfs/3rd_floor.pdf)
 - [Floor Plan Third Floor (PNG)](../figures/floor-plan_third_floor.png) - [Download PNG](../figures/3floor-plan_third_floor.png)
 
-#### Hydraulic Engineering Laboratory in CiTG Building
+HE Laboratory
 
 - [HE Lab (PDF)](../pdfs/waterlab.pdf) - [Download PDF](../pdfs/waterlab.pdf)
 - [HE Lab (PNG)](../figures/floor-plan_he-lab.png) - [Download PNG](../figures/floor-plan_he-lab.png)
 
-#### Instructions
+Contact Us
 
-To view a PDF, click on the link. To download, right-click the "Download" link and select "Save link as...".
-
-#### TU Campus Map
-
-<iframe src="https://map.tudelftcampus.nl/nl/" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
-
-
-#### Contact Us
-
-For any inquiries about the floor plans and offices related to the HE Department, please contact our Office Management Team:  
-**Email:** [test@tudelft.nl](mailto:test@tudelft.nl)  
+For any inquiries about the floor plans and offices related to the HE Department, please contact [...]:  
+**Email:** [...]@tudelft.nl)  
 **Phone:** +31 15 27 89000
