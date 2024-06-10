@@ -1,21 +1,14 @@
 <style>
 .zoom {
   transition: transform .2s; /* Animation */
-  cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
   width: 100%;
   height: auto;
+  cursor: pointer; /* Set cursor to pointer by default */
 }
 
 .zoomed-in {
-  transform: scale(2.0); /* Zoom in by 2.5x */
-  cursor: move; /* Change cursor to move */
-  position: relative; /* Make the image position relative for moving */
-}
-
-.zoom-container {
-  overflow: hidden; /* Hide overflow for zoomed images */
-  position: relative;
-  width: 100%;
+  transform: scale(1.5); /* Zoom in by 1.5x */
+  cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
 }
 </style>
 
@@ -24,44 +17,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = document.querySelectorAll('.zoom');
   
   images.forEach(img => {
-    let clickTimeout;
-    let isZoomed = false;
-    let startX, startY, offsetX, offsetY;
-    
     img.addEventListener('click', () => {
-      if (clickTimeout) {
-        clearTimeout(clickTimeout);
-        clickTimeout = null;
-        img.classList.toggle('zoomed-in');
-        isZoomed = !isZoomed;
-      } else {
-        clickTimeout = setTimeout(() => {
-          clickTimeout = null;
-        }, 300); // 300ms timeout to detect double-click
+      img.classList.toggle('zoomed-in');
+    });
+    
+    img.addEventListener('mousemove', (e) => {
+      if (img.classList.contains('zoomed-in')) {
+        let rect = img.getBoundingClientRect();
+        let x = e.clientX - rect.left; /* Get the x-coordinate of the cursor relative to the image */
+        let y = e.clientY - rect.top; /* Get the y-coordinate of the cursor relative to the image */
+        img.style.transformOrigin = `${x}px ${y}px`; /* Set the transform origin to the cursor position */
       }
     });
-
-    img.addEventListener('mousedown', (e) => {
-      if (isZoomed) {
-        startX = e.clientX;
-        startY = e.clientY;
-        offsetX = img.offsetLeft;
-        offsetY = img.offsetTop;
-        img.style.cursor = 'move';
-        document.addEventListener('mousemove', moveImage);
-        document.addEventListener('mouseup', () => {
-          img.style.cursor = 'zoom-in';
-          document.removeEventListener('mousemove', moveImage);
-        });
-      }
-    });
-
-    function moveImage(e) {
-      let newX = e.clientX - startX + offsetX;
-      let newY = e.clientY - startY + offsetY;
-      img.style.left = `${newX}px`;
-      img.style.top = `${newY}px`;
-    }
   });
 });
 </script>
