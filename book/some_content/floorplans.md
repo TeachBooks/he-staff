@@ -20,11 +20,6 @@ HE Laboratory
 - [HE Lab (PDF)](../pdfs/waterlab.pdf) - [Download PDF](../pdfs/waterlab.pdf)
 - [HE Lab (PNG)](../figures/floor-plan_he-lab.png) - [Download PNG](../figures/floor-plan_he-lab.png)
 
-TU Campus Map
-
-<iframe src="https://map.tudelftcampus.nl/nl/" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
-
-
 Contact Us
 
 For any inquiries about the floor plans and offices related to the HE Department, please contact [...]:  
