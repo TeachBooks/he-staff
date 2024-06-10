@@ -3,7 +3,7 @@
 ### Steps to Request a Room Change
 
 1. **Discuss with Section Leader:**
-   - If you would like to change rooms or swap your workplace, please discuss this with your section leader.
+   - If you would like to change rooms or swap your workplace, please discuss this with your section head.
 
 2. **Inform the Secretariat:**
    - The secretariat will check the floor plan to see if a room is available.
@@ -12,7 +12,7 @@
    - The Secretariat will arrange the move via Facility Management and update the room nameplate.
 
 4. **Update Your Information:**
-   - You need to update your room information on [iam.tudelft.nl]([https://iam.tudelft.nl/]).
+   - You will need to update your room information on [iam.tudelft.nl]([https://iam.tudelft.nl/]).
 
    For more information, please see this detailed flowchart [link](#).
    
@@ -33,8 +33,8 @@
 #### Flex Rooms
 
 - **Flex rooms 3.81 and 3.83:**
-  - Each have 6 workspaces.
-  - Booking is not necessary.
+  - Each flex room has 6 workspaces equipped with docking stations and monitors.
+  - Booking of flex rooms is not necessary.
   - You can store your personal belongings in locked cabinets.
 
 - **PhD Students and Postdocs:**
