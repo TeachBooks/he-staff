@@ -48,3 +48,6 @@
   - Only section leaders and full professors (≥ 0.8 FTE) have the option to request their own room. The available capacity determines if the request can be granted.
   - Part-time colleagues with limited time on-campus (≤0.3 FTE) can choose from several rooms with dedicated facilities for a flexible working environment.
   - Each workplace is available for use by other people on the days the staff member is not scheduled to be on campus.
+ 
+  <img src="../figures/general-guidelines.png" alt="general guidelines" width="600"/>
+
