@@ -16,7 +16,7 @@ _________________________________________________________________________
 
 **CEG Building 3rd Floor** 
 
-  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000"/>
+  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000" class="zoomable"/>
   
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
 
@@ -28,4 +28,11 @@ _________________________________________________________________________
 <img src="../figures/floor-plan_he-lab.jpg" alt="HE Lab" width="800"/>
 
 - [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    new Zooming().listen('.zoomable');
+  });
+</script>
 
