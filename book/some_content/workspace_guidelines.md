@@ -16,7 +16,7 @@
 
    For more information, please see this detailed flowchart [link](#).
    
-<img src="../figures/room-change-guidelines.png" alt="Office space" width="600"/>
+<img src="../figures/room-change-guidelines.png" alt="Room change guidelines" width="600"/>
 
 
 ### Meeting Rooms
@@ -24,8 +24,8 @@
 - There are several meeting rooms (at least 2 small and 2 big).
 - Larger offices can be used (and booked) as meeting rooms when the regular occupant (often a professor) is not there.
 - Meetings with more than 6-8 people will take place on the 2nd floor.
-- 
-![Meeting Rooms](../figures/meeting-rooms-graphic.png)
+
+<img src="../figures/meeting-rooms-graphic.png" alt="Meeting Rooms" width="600"/>
 
 
 ### Rules
