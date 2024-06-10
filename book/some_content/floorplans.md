@@ -1,12 +1,21 @@
 <style>
 .zoom {
   transition: transform .2s; /* Animation */
+  cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
   width: 100%;
   height: auto;
 }
 
 .zoomed-in {
-  transform: scale(3); /* Zoom in by 3x */
+  transform: scale(2.5); /* Zoom in by 2.5x */
+  cursor: move; /* Change cursor to move */
+  position: relative; /* Make the image position relative for moving */
+}
+
+.zoom-container {
+  overflow: hidden; /* Hide overflow for zoomed images */
+  position: relative;
+  width: 100%;
 }
 </style>
 
@@ -15,17 +24,46 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = document.querySelectorAll('.zoom');
   images.forEach(img => {
     let clickTimeout;
+    let isZoomed = false;
+    let startX, startY, moveX, moveY;
+
     img.addEventListener('click', () => {
       if (clickTimeout) {
         clearTimeout(clickTimeout);
         clickTimeout = null;
         img.classList.toggle('zoomed-in');
+        isZoomed = !isZoomed;
       } else {
         clickTimeout = setTimeout(() => {
           clickTimeout = null;
         }, 300); // 300ms timeout to detect double-click
       }
     });
+
+    img.addEventListener('mousedown', (e) => {
+      if (isZoomed) {
+        startX = e.clientX - img.offsetLeft;
+        startY = e.clientY - img.offsetTop;
+        img.style.cursor = 'move';
+        img.addEventListener('mousemove', moveImage);
+      }
+    });
+
+    img.addEventListener('mouseup', () => {
+      img.style.cursor = 'move';
+      img.removeEventListener('mousemove', moveImage);
+    });
+
+    img.addEventListener('mouseleave', () => {
+      img.removeEventListener('mousemove', moveImage);
+    });
+
+    function moveImage(e) {
+      moveX = e.clientX - startX;
+      moveY = e.clientY - startY;
+      img.style.left = `${moveX}px`;
+      img.style.top = `${moveY}px`;
+    }
   });
 });
 </script>
