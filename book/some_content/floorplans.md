@@ -7,7 +7,7 @@
 }
 
 .zoomed-in {
-  transform: scale(2.5); /* Zoom in by 2.5x */
+  transform: scale(1.5); /* Zoom in by 2.5x */
   cursor: move; /* Change cursor to move */
   position: relative; /* Make the image position relative for moving */
 }
