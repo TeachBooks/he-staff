@@ -2,6 +2,18 @@
 
 The following layouts are available for permanent or temporary employees of the HE Department. 
 
+- Flex Rooms: 3.38, 3.81 and 3.93
+- PhD's / Postdoc's Offices ( 2  layouts)
+- Standard office for permanent staff ( 4 layouts)
+- Office for senior staff member (1 layout)
+  ____________________________________________
+
+  Additional Rooms:
+
+  Secretariat Room  3.73.1
+  HE Support Room 3.77.1
+  Management Assistants Room [tbc]
+
 | ![Staff Office Layout I](../figures/staff_office_layout_1.png) | ![Staff Office Layout II](../figures/staff_office_layout_2.png) |
 |:-----------------------------------------------------------:|:------------------------------------------------------------:|
 | **Staff Office Layout I**                                   | **Staff Office Layout II**                                   |
@@ -25,4 +37,9 @@ The following layouts are available for permanent or temporary employees of the 
 | <img src="../figures/support_room_layout_3.77.1.png" alt="HE Support Office" width="200"/> |  |
 |:---------------------------------------------------------------:|:-:|
 | **HE Support Office**                                           | |
+
+
+**Meeting Rooms**
+
+Add graphics and types / room numbers of meeting rooms
 
