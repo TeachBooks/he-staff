@@ -8,7 +8,7 @@ For general inquiries please contact us at:
 
 ### Hiring or Onboarding Inquiries
 For information about our hiring and onboarding procedures, please contact:  
-**Email:** [...]@tudelft.nl](mailto:[...]@tudelft.nl)  
+**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
 
 ### HE Department Head
 **Name:** [...]  
