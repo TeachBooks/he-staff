@@ -8,25 +8,62 @@
 
 .zoomed-in {
   transform: scale(1.75); /* Zoom in by 1.75x */
-  cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
+}
+
+.magnifier {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /* Size of magnifier glass: */
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: none; /* Initially hidden */
+}
+
+.magnifier img {
+  position: absolute;
+  width: 175%; /* Adjust according to zoom level */
+  height: auto;
+  transform: scale(2); /* Magnify inside the circle */
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const images = document.querySelectorAll('.zoom');
-  
   images.forEach(img => {
+    const magnifier = document.createElement('div');
+    magnifier.classList.add('magnifier');
+    const magnifiedImg = img.cloneNode();
+    magnifier.appendChild(magnifiedImg);
+    document.body.appendChild(magnifier);
+
     img.addEventListener('click', () => {
       img.classList.toggle('zoomed-in');
+      magnifier.style.display = img.classList.contains('zoomed-in') ? 'block' : 'none';
     });
-    
+
     img.addEventListener('mousemove', (e) => {
       if (img.classList.contains('zoomed-in')) {
         let rect = img.getBoundingClientRect();
-        let x = e.clientX - rect.left; /* Get the x-coordinate of the cursor relative to the image */
-        let y = e.clientY - rect.top; /* Get the y-coordinate of the cursor relative to the image */
-        img.style.transformOrigin = `${x}px ${y}px`; /* Set the transform origin to the cursor position */
+        let x = e.clientX - rect.left; /* x position within the image */
+        let y = e.clientY - rect.top;  /* y position within the image */
+        magnifier.style.left = `${e.pageX - magnifier.offsetWidth / 2}px`;
+        magnifier.style.top = `${e.pageY - magnifier.offsetHeight / 2}px`;
+        magnifiedImg.style.left = `-${x * 2 - magnifier.offsetWidth / 2}px`;
+        magnifiedImg.style.top = `-${y * 2 - magnifier.offsetHeight / 2}px`;
+      }
+    });
+    
+    img.addEventListener('mouseleave', () => {
+      magnifier.style.display = 'none';
+    });
+    
+    img.addEventListener('mouseenter', () => {
+      if (img.classList.contains('zoomed-in')) {
+        magnifier.style.display = 'block';
       }
     });
   });
