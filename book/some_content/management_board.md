@@ -11,5 +11,5 @@ In this page, the decisions of the management board will be uploaded.
 - Decision number or version : [......]
 
   
-**Preview PDF File Here** | **Download PDF File Here**
+[Add button to...] **Preview PDF File Here** ||| [Add button to...] **Download PDF File Here**
 
