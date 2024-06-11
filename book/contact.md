@@ -4,22 +4,15 @@
 
 ### General Inquiries
 For general inquiries please contact us at:  
-**Email:** [contact-he@tudelft.nl](mailto:contact-he@tudelft.nl)  
-**Phone:** +31 012 34 56789
+**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
 
-### Administrative Office
-For administrative matters, please reach out to our administrative office:  
-**Email:** [he-admin@tudelft.nl](mailto:he-admin@tudelft.nl)  
-**Phone:** +31 15 27 89321
-
-### Hiring / Onboarding Inquiries
+### Hiring or Onboarding Inquiries
 For information about our hiring and onboarding procedures, please contact:  
-**Email:** [hydraulic-research@tudelft.nl](mailto:hydraulic-research@tudelft.nl)  
-**Phone:** +31 15 27 89567
+**Email:** [...]h@tudelft.nl](mailto:[...]@tudelft.nl)  
 
 ### HE Department Head
-**Name:** Prof. Dr. Ir. John Smith  
-**Email:** [j.smith@tudelft.nl](mailto:j.smith@tudelft.nl)  
+**Name:** [...]  
+**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
 **Phone:** +31 012 34 56789
 
 ### HE Department Executive Secretary
