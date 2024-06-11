@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   cursor: pointer; /* Set cursor to pointer by default */
+  position: relative; /* Required for absolute positioning of magnifier */
 }
 
 .zoomed-in {
@@ -15,11 +16,11 @@
   border: 3px solid #000;
   border-radius: 50%;
   cursor: none;
-  /* Size of magnifier glass: */
   width: 100px;
   height: 100px;
   overflow: hidden;
   display: none; /* Initially hidden */
+  z-index: 10; /* Ensure magnifier is above other elements */
 }
 
 .magnifier img {
@@ -33,6 +34,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const images = document.querySelectorAll('.zoom');
+  
   images.forEach(img => {
     const magnifier = document.createElement('div');
     magnifier.classList.add('magnifier');
@@ -40,9 +42,27 @@ document.addEventListener('DOMContentLoaded', function() {
     magnifier.appendChild(magnifiedImg);
     document.body.appendChild(magnifier);
 
+    let clickTimeout;
+    
     img.addEventListener('click', () => {
-      img.classList.toggle('zoomed-in');
-      magnifier.style.display = img.classList.contains('zoomed-in') ? 'block' : 'none';
+      if (clickTimeout) {
+        clearTimeout(clickTimeout);
+        clickTimeout = null;
+        img.classList.toggle('zoomed-in');
+        magnifier.style.display = img.classList.contains('zoomed-in') ? 'block' : 'none';
+        if (!img.classList.contains('zoomed-in')) {
+          magnifier.style.display = 'none';
+        }
+      } else {
+        clickTimeout = setTimeout(() => {
+          clickTimeout = null;
+          img.classList.toggle('zoomed-in');
+          magnifier.style.display = img.classList.contains('zoomed-in') ? 'block' : 'none';
+          if (!img.classList.contains('zoomed-in')) {
+            magnifier.style.display = 'none';
+          }
+        }, 300); // 300ms timeout to detect double-click
+      }
     });
 
     img.addEventListener('mousemove', (e) => {
