@@ -7,7 +7,7 @@
 }
 
 .zoomed-in {
-  transform: scale(1.5); /* Zoom in by 1.5x */
+  transform: scale(2); /* Zoom in by 2x */
   cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
 }
 </style>
