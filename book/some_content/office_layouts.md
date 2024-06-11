@@ -10,9 +10,9 @@ Types of offices within the HE Department for visiting and permanent staff:
 ____________________________________________
   Additional Rooms:
 
-  Secretariat Room  3.73.1
-  HE Support Room 3.77.1
-  Management Assistants Room [tbc]
+  - Secretariat Room  3.73.1
+  - HE Support Room 3.77.1
+  - Management Assistants Room [tbc]
 ____________________________________________
 
 The following layouts are available for permanent or temporary employees of the HE Department. 
