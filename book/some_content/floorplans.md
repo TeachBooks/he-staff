@@ -57,4 +57,8 @@ _________________________________________________________________________
 
 - [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
 
+**Campus Map**
+
+<img src="../figures/Campus Map.jpg" alt="HE Lab" width="800"/>
+
 
