@@ -1,6 +1,22 @@
 # Office Types
 
+Types of offices within the HE Department for visiting and permanent staff:
+
+- Flex Rooms: 3.38, 3.81 and 3.93
+- PhD's / Postdoc's Offices ( 2  layouts)
+- Standard office for permanent staff ( 4 layouts)
+- Office for senior staff member (1 layout)
+  
+____________________________________________
+  Additional Rooms:
+
+  - Secretariat Room  3.73.1
+  - HE Support Room 3.77.1
+  - Management Assistants Room [tbc]
+____________________________________________
+
 The following layouts are available for permanent or temporary employees of the HE Department. 
+
 
 | ![Staff Office Layout I](../figures/staff_office_layout_1.png) | ![Staff Office Layout II](../figures/staff_office_layout_2.png) |
 |:-----------------------------------------------------------:|:------------------------------------------------------------:|
@@ -27,10 +43,7 @@ The following layouts are available for permanent or temporary employees of the 
 | **HE Support Office**                                           | |
 
 
-For inquiries about the office layouts and office equipment please contact our Office Management Team:  
-**Email:** [test-he@tudelft.nl](mailto:office-management@tudelft.nl)  
-**Phone:** +31 15 27 89000
+**Meeting Rooms**
 
-For inquiries about the office layouts and office equipment please contact our Office Management Team:  
-**Email:** [test-he@tudelft.nl](mailto:test-he@tudelft.nl)  
-**Phone:** +31 15 27 89000
+Add graphics and types / room numbers of meeting rooms
+

@@ -1,36 +1,60 @@
+<style>
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: auto;
+  cursor: pointer; /* Set cursor to pointer by default */
+  display: block; /* Center image */
+  margin: auto;
+}
+
+.zoomed-in {
+  transform: scale(1.75); /* Zoom in by 1.75x */
+  cursor: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Magnifying_glass_icon.svg'), auto; /* Change cursor to magnifying glass */
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.zoom');
+  
+  images.forEach(img => {
+    img.addEventListener('click', () => {
+      img.classList.toggle('zoomed-in');
+    });
+  });
+});
+</script>
+
 # Floor Plans
 
-Floor plans of the HE Department in the 2nd and 3rd Floor of the CiTG Department.
+In this page you can find the floor plans of the HE Department with the relevant offices in the 2nd and 3rd Floor of the Civil Engineering and Geosciences Building and the Hydraulic Engineering Laboratory.
 
 ![CiTG Building](../figures/citg_building.jpg)
 
-
-#### HE Department Offices in CiTG Building | 2nd Floor 
-
-- [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) - [Download PDF](../pdfs/2nd_floor.pdf)
-- [Floor Plan Second Floor (PNG)](../figures/floor-plan_second_floor.png) - [Download PNG](../figures/floor-plan_second_floor.png)
-
-#### HE Department Offices in CiTG Building | 3rd Floor 
-
-- [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf) - [Download PDF](../pdfs/3rd_floor.pdf)
-- [Floor Plan Third Floor (PNG)](../figures/floor-plan_third_floor.png) - [Download PNG](../figures/3floor-plan_third_floor.png)
-
-#### Hydraulic Engineering Laboratory in CiTG Building
-
-- [HE Lab (PDF)](../pdfs/waterlab.pdf) - [Download PDF](../pdfs/waterlab.pdf)
-- [HE Lab (PNG)](../figures/floor-plan_he-lab.png) - [Download PNG](../figures/floor-plan_he-lab.png)
-
-#### Instructions
-
-To view a PDF, click on the link. To download, right-click the "Download" link and select "Save link as...".
-
-#### TU Campus Map
-
-<iframe src="https://map.tudelftcampus.nl/nl/" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
+_________________________________________________________________________
 
 
-#### Contact Us
+**CEG Building 2nd Floor**
 
-For any inquiries about the floor plans and offices related to the HE Department, please contact our Office Management Team:  
-**Email:** [test@tudelft.nl](mailto:test@tudelft.nl)  
-**Phone:** +31 15 27 89000
+<img src="../figures/floor-plan_second_floor.jpg" alt="Floor Plan Second Floor" width="800"/>
+
+- [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
+_________________________________________________________________________
+
+**CEG Building 3rd Floor** 
+
+  <img src="../figures/floor-plan_third_floor.jpg" alt="Floor Plan Third Floor" width="1000" class="zoom"/>
+  
+- [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
+
+_________________________________________________________________________
+
+  
+**HE Laboratory**
+
+<img src="../figures/floor-plan_he-lab.jpg" alt="HE Lab" width="800"/>
+
+- [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
+
+
