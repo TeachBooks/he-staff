@@ -9,17 +9,10 @@ This page aims to provide information about the Hydraulic Engineering Department
 Information will be posted the coming months about procedures related to general matters of the department, education, finance and human resources.
 At the moment, information is available regarding the workspace guidelines, available office layouts, and floorplans.
 
-____________________________________________________________________________________________________________________________
+---
 
 **Please note** that the contents of this website will be filled in during June 2024. The current URL is temporary to facilitate our ability to share information with you as soon as possible. At a later moment the website will be moved to a permanent location on a TU Delft server, along with SSO login.
 
-We chose the Jupyter Book/TeachBooks platform because it is very easy to update and modify the information being presented, and because it is being used extensively in education at CEG (e.g., [the MUDE book](https://mude.citg.tudelft.nl/book)).
+**Indormation about the platform:** This webpage is built based on the Jupyter Book & TeachBooks platform because it is being used extensively in education at CEG (e.g., [the MUDE book](https://mude.citg.tudelft.nl/book)) and it offers plenty of advantages. For instance, uploading and sharing documents, e.g. pdf's or image files, is fairly quick to update and maintain. Furthermore, it offers flexibility in building the desired structure with a low level of complexity.
 
-This book is created from the [TeachBooks Template Book](https://github.com/TeachBooks/template). Visit [teachbooks.tudelft.nl](https://teachbooks.tudelft.nl/) or contact Robert Lanzafame and Tom van Woudenberg at teachbooks@tudelft.nl if you would like more information.
-
-
----
-
-This book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+**Credits** This book is created from the [TeachBooks Template Book](https://github.com/TeachBooks/template). Visit [teachbooks.tudelft.nl](https://teachbooks.tudelft.nl/) or contact Robert Lanzafame and Tom van Woudenberg at teachbooks@tudelft.nl if you would like more information.
