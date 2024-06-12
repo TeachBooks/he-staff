@@ -1,6 +1,6 @@
 # Contact Information
 
-Hydraulic Engineering Department | Faculty of Civil Engineering and Geosciences
+**Hydraulic Engineering Department | Faculty of Civil Engineering and Geosciences**
 
 ![Contact Info](figures/contact-info.png)
 
