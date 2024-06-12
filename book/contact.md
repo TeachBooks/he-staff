@@ -2,18 +2,12 @@
 
 ## Hydraulic Engineering Department
 
+
+![Contact Info](/figures/contact-info.png)
+
 ### General Inquiries
 For general inquiries please contact us at:  
-**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
-
-### Hiring or Onboarding Inquiries
-For information about our hiring and onboarding procedures, please contact:  
-**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
-
-### HE Department Head
-**Name:** [...]  
-**Email:** [[...]@tudelft.nl](mailto:[...]@tudelft.nl)  
-**Phone:** +31 012 34 56789
+**Email:** [secr-he-citg@tudelft.nl](mailto:secr-he-citg@tudelft.nl@tudelft.nl)  
 
 ### HE Department Executive Secretary
 **Name:** Elske Bakker  
