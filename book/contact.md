@@ -3,7 +3,7 @@
 ## Hydraulic Engineering Department
 
 
-![Contact Info](/figures/contact-info.png)
+![Contact Info](figures/contact-info.png)
 
 ### General Inquiries
 For general inquiries please contact us at:  
