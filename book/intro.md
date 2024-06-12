@@ -1,7 +1,7 @@
 (intro)=
-# Hydraulic Engineering Staff Website
+# HE Department Info Webpage
 
-Welcome to the information page for the employees of the Hydraulic Engineering Department!
+Welcome to the information page for the employees of the Hydraulic Engineering Department of TU Delft!
 
 ![Staff Office Layout I](../figures/banner-landing-page.jpg)
 
