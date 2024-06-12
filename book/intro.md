@@ -3,7 +3,7 @@
 
 Welcome to the information page for the employees of the Hydraulic Engineering Department of TU Delft!
 
-![Breakwater in Scheveningen](../figures/banner-landing-page.jpg)
+![Breakwater in Scheveningen](/figures/banner-landing-page.jpg)
 
 This page aims to provide information about the Hydraulic Engineering Department on various topics. 
 Information will be posted the coming months about procedures related to general matters of the department, education, finance and human resources.
