@@ -19,5 +19,7 @@ parts:
       - file: some_content/sub_page_1_finance.md
       - file: some_content/sub_page_2_finance.md
     - file: some_content/HR.md
+      sections:
+      - file: some_content/procedures.md
     - file: contact.md
     - file: credits.md
