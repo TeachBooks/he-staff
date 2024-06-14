@@ -22,7 +22,7 @@ parts:
       sections:
 
       # Hiring procedure
-      - file: some_content/Hiring/0introduction.md
+      - file: some_content/Hiring/0Introduction.md
         sections:
         - file: some_content/Hiring/1PreparationPhase.md
           sections:
