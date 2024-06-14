@@ -23,8 +23,7 @@ LinkedIn is an effective social media platform to use for recruitment purposes. 
 
 #### Post the vacancy on LinkedIn 
 
-A step-by-step explanation on spreading a vacancy on your LinkedIn account can be found here 
-<!-- [DOCUMENT LINKEDIN HOW TO SHARE]  -->
+A step-by-step explanation on spreading a vacancy on your LinkedIn account can be found [here](../Hiring/Appendices/How%20to%20share%20a%20TUD%20vacancy%20on%20LinkedIn%20the%20right%20way.pdf) 
 
 Where you are asked to add a personal note, please write 3 to 6 lines about:  
 

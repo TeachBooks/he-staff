@@ -23,8 +23,8 @@ The next step is about the contract details. Discuss the following questions wit
 - On which days will the candidate work? 
 - On which days is the candidate on campus? Note that the TU Delft policy is to work at least 60% of the time on campus. 
 - Enable payroll tax credit (‘loonheffingskorting’)?  
-- Does the candidate want the plus or minus variant? 
-<!-- [SEE DOCUMENT Appendix Table Flexible Working Hours and Times (1)]  -->
+- Does the candidate want the plus or minus variant? More information can be found on [intranet](https://intranet.tudelft.nl/en/-/flexible-working-time) and an overview of the possibilities is given in a [table](../Hiring/Appendices/Appendix%20Table%20Flexible%20Working%20Hours%20and%20Times%20(1).pdf)
+
 
 The management assistant can also ask other questions regarding the contract details during this stage. Also inform the management assistant if the contract dates have changed since the job offer. The management assistant will also contact the department secretary and HR advisor to check the contract details. 
 
