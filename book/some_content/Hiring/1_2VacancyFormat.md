@@ -1,6 +1,6 @@
 ## 1.2 Fill in vacancy format 
 
-Use the vacancy format to gather the required information for the vacancy: [Vacancy Format](../Hiring/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx)
+Use the [vacancy format](../Hiring/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx) to gather the required information for the vacancy.
 
 The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found below.  
 
@@ -17,5 +17,5 @@ It is good practice to form the selection committee in this step:
 * For permanent staff, the department secretary will form the selection committee as there are many rules for those committees.  
 * In case of a PhD and Postdoc positions, we use the 4-eye principle in the selection steps, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire. 
 
-Examples vacancy text can be found here YET TO ADD
-<!-- [EXAMPLES OF VACANCY TEXTS, can use https://sharepoint.tudelft.nl/misc/medewerkersportaal/SitePages/HR%20Vacatureteksten.aspx ]  -->
+<!-- THIS LINK DOES NOT REALLY WORK, HAVE TO CHANGE! -->
+Examples vacancy text can be found [here](https://sharepoint.tudelft.nl/misc/medewerkersportaal/SitePages/HR%20Vacatureteksten.aspx)

@@ -25,14 +25,15 @@ Some important notes:
   * General outlines for job interviews are available for [educational](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), [leadership](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docxSPV%20Education%20Questionaire%20-%2020221220.%20-final.docx) and [research](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) functions.  
   * Candidates for the permanent staff can come to the Netherlands for full job interviews, contact the department secretary for information about the travel allowance, etc 
 
-* Be aware of the knowledge safety check! [LINK SAFETY CHECK] It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
+<!-- Can add a link to the safety check in this section if that page is ready -->
+* Be aware of the knowledge safety check! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
 
   * Send an email to HR with the candidate's name(s) and the number of the vacancy.  
   * They will communicate with the safety knowledge department, and they will inform you about the outcome as soon as they have the result.  
   * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
   * Do not inform the candidates about the knowledge safety check as this information is confidential. 
 
-* Check the English proficiency level (ETV) of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this document](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this document](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
+* Check the English proficiency level (ETV) of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this intranet page](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this intranet page](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
 
 
 * Be aware that the process may take longer depending on the nationality of the candidate. The knowledge safety check and acquiring visa may both take several weeks to months. 
