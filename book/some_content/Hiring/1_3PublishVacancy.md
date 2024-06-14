@@ -1,4 +1,4 @@
-## 1.3 Send Vacancy Format to recruitment 
+## 1.3 Send vacancy format to recruitment 
 
 When both the financial check and department secretary have approved the vacancy, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl 
 

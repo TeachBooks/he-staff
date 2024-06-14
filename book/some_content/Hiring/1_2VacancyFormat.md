@@ -1,11 +1,8 @@
-## 1.2 Fill in Vacancy Format 
+## 1.2 Fill in vacancy format 
 
-Use the vacancy format to gather the required information for the vacancy: 
-<!-- [DOCUMENT VACANCY FORMAT]  -->
+Use the vacancy format to gather the required information for the vacancy: [Vacancy Format](some_content/Hiring/Appendices/Vacancy Format 1.7 - ENG - Version 17-05-2021.docx)
 
-The vacancy text can be written using 
-<!-- [DOCUMENT GUIDE TO CREATE RECRUITMENT TEXT].  -->
-As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found below.  
+The vacancy text can be written using the [vacancy writing guide](some_content/Hiring/Appendices/Guide to creating recruitment text for scientific staff - Jan 2021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found below.  
 
 Contact the department secretary (for PhD/Post-Doc positions) or the HR advisor (for academic career track/ higher functions) to discuss the UFO profile, the conditions of employment and the vacancy text.  
 

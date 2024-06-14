@@ -1,4 +1,4 @@
-## 1.1 Check finances and send to department secretary 
+## 1.1 Financial and departmenal checks 
 
 First of all, there are two checks: 
 
