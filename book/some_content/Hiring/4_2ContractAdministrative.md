@@ -2,7 +2,7 @@
 
 In this phase between the job offer and the first workday, the management assistants play a significant role. They will manage the MyHR process, send foreign students information about housing, sign up the candidate for the graduate school (if PhD) and arrange a laptop and workplace. 
 
-#### MyHR and the contract 
+**MyHR and the contract**
 
 The management assistant follows the workflow in MyHR. MyHR is used to gather the candidate's information and the contract information. It contains steps to obtain approval from several persons. In the end, a contract is made and signed by the candidate. 
 
@@ -30,7 +30,8 @@ The management assistant can also ask other questions regarding the contract det
 
 If you have not heard of the MyHR process for more than a week, you can go to the management assistant to check where the process is currently stuck. They can see at which step action is required and by whom. Contact the person responsible for the current step to continue the process. 
 
-#### When the contract is signed
+**When the contract is signed**
+
 When the contract has been signed, the candidate can apply for a visa. A working permit for EU candidates usually takes ~4 weeks. A residence permit for non-EU candidates usually takes 12 weeks.  
 
 The candidate will automatically get emails for their NetID and campus card. 

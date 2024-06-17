@@ -4,7 +4,7 @@ Once your preferred candidate has accepted the job offer, it’s time to reject 
 
 Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
 
-#### Tips for rejection conversations 
+**Tips for rejection conversations**
 
 When delivering bad news, please ensure you:  
 
