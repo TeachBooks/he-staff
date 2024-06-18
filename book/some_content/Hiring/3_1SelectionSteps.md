@@ -16,7 +16,7 @@ A great guide for these steps can be found in chapter 3 of [this document](../Hi
 
 
 Some important notes: 
-*The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
+* The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
 and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store or send cv's by mail. 
 
 * About the **job interviews**: 

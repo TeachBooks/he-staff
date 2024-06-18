@@ -12,6 +12,7 @@ Some notes regarding the vacancy format:
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
 **Selection committee**
+
 It is good practice to form the selection committee in this step:
 * For permanent staff, the department secretary will form the selection committee as there are many rules for those committees.  
 * In case of a PhD and Postdoc positions, we use the 4-eye principle in the selection steps, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire. 
