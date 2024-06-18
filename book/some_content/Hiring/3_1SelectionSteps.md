@@ -36,4 +36,4 @@ and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/rec
 * Check the **English proficiency level (ETV)** of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this intranet page](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this intranet page](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
 
 
-* Be aware that the process may take longer depending on the nationality of the candidate. The knowledge safety check and acquiring visa may both take several weeks to months. 
+* Be aware that the process may take longer depending on the nationality of the candidate. The knowledge safety check usually takes 2 weeks and in extreme cases 10 weeks. Acquiring visa usually takes ~4 weeks for EU citizens and 12 weeks for non-EU citizens. 
