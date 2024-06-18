@@ -26,9 +26,11 @@ The next step is about the contract details. Discuss the following questions wit
 - Does the candidate want the plus or minus variant? More information can be found on [intranet](https://intranet.tudelft.nl/en/-/flexible-working-time) and an overview of the possibilities is given in a [table](../Hiring/Appendices/Appendix%20Table%20Flexible%20Working%20Hours%20and%20Times%20(1).pdf)
 
 
-The management assistant can also ask other questions regarding the contract details during this stage. Also inform the management assistant if the contract dates have changed since the job offer. The management assistant will also contact the department secretary and HR advisor to check the contract details. 
+The management assistant can also ask other questions regarding the contract details during this stage. Also inform the management assistant if the contract dates have changed since the job offer. The management assistant will also contact the department secretary and HR advisor to check the contract details, after which an automatic flow of approval starts in MyHR.
 
 If you have not heard of the MyHR process for more than a week, you can go to the management assistant to check where the process is currently stuck. They can see at which step action is required and by whom. Contact the person responsible for the current step to continue the process. 
+
+Ultimately, the contract will be made in MyHR and the candidate has to sign it. Congratulations, the candidate is now officially hired!
 
 **When the contract is signed**
 

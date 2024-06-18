@@ -2,13 +2,13 @@
 
 The main steps of the selection process are:
 
-* The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. 
+1. The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. 
 
-* Screening interviews. A screening by short phone or video calls may be a good in-between step before the job interviews. 
+2. Screening interviews. A screening by short phone or video calls may be a good in-between step before the job interviews. 
 
-* The full interviews. Here you check the social and scientific fit of the candidates. 
+3. The full interviews. Here you check the social and scientific fit of the candidates. 
 
-* Choosing a candidate. In this stage you choose the preferred candidate. In this stage you rate candidates based on the criteria you defined, and you make reference calls. 
+4. Choosing a candidate. In this stage you choose the preferred candidate. In this stage you rate candidates based on the criteria you defined, and you make reference calls. 
 
 
 A great guide for these steps can be found in chapter 3 of [this document](../Hiring/Appendices/PhD%20Recruitment%20en%20Selection%20Guide%20V1.pdf). Although this document is written for PhD hiring, it is also very helpful for other functions. 
@@ -28,8 +28,8 @@ and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/rec
 <!-- Can add a link to the safety check in this section if that page is ready -->
 * Be aware of the **knowledge safety check**! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
 
-  * Send an email to HR with the candidate's name(s) and the number of the vacancy.  
-  * They will communicate with the safety knowledge department, and they will inform you about the outcome as soon as they have the result.  
+  * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
+  * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
   * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
   * Do not inform the candidates about the knowledge safety check as this information is confidential. 
 
