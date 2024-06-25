@@ -45,7 +45,7 @@ Available Meeting Rooms in 3rd Floor:
 - 3.47
 - 3.57
 - 3.79
-Note: For up to 4 people, smaller rooms next to lift D are available, noted as Exam room 1 & 2 in the floor plan
+- **Note:** For up to 4 people, smaller rooms next to lift D are available, noted as Exam room 1 & 2 in the floor plan
 
 Available Meeting Rooms in 2nd Floor: 
 - 2.97
