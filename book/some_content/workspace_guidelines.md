@@ -49,5 +49,5 @@
   - Part-time colleagues with limited time on-campus (≤0.3 FTE) can choose from several rooms with dedicated facilities for a flexible working environment.
   - Each workplace is available for use by other people on the days the staff member is not scheduled to be on campus.
  
-![General ](../figures/general-guidelines.png.png)
+![General ](../figures/general-guidelines.png)
 
