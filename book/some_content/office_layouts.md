@@ -42,17 +42,14 @@ The following layouts are available for permanent or temporary employees of the 
 **Meeting Rooms**
 
 Available Meeting Rooms in 3rd Floor: 
-- 3.47
-- 3.57
-- 3.79
-- **Note:** For up to 4 people, smaller rooms next to lift D are available, noted as Exam room 1 & 2 in the floor plan
-
-Available Meeting Rooms in 2nd Floor: 
-- 2.97
+- 3.47 (Bookings for up to 6 people, not a digital booking panel available)
+- 3.57 ( Booking for up to 7 people, whiteboards and monitor)
+- 3.69 ( Bookings for up to 7 people, standing tables, 2 whiteboards, and extra sitting space)
+- 3.79 (Bookings for up to 7 people, white board, flip charts and monitor)
   
-Available Equipment in the meeting rooms: 
-- Display Screen and Camera Set up for online meetings
-- Flip chart or white board
+- **Note:** For up to 4 people, smaller rooms next to lift D are available, noted as Exam room 1 & 2 in the floor plan.
+- These rooms 3.80.6 and 3.82.6 can be booked for up to 4 people and are equiped with a monitor. These can be booked via the contacting the management assitantants.
+
 - Meeting rooms can have either standing tables or standard tables and seats.
 
 **Meeting Rooms Bookings:**
