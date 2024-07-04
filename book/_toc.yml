@@ -36,7 +36,7 @@ parts:
           sections:
           - file: some_content/Hiring/3_1SelectionSteps.md
           - file: some_content/Hiring/3_2JobOffer.md
-        - file: some_content/Hiring/4ConclusionPhase.md
+        - file: some_content/Hiring/4CompletionPhase.md
           sections:
           - file: some_content/Hiring/4_1RejectingCandidates.md
           - file: some_content/Hiring/4_2ContractAdministrative.md
