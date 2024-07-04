@@ -6,7 +6,7 @@
 
 Once your preferred candidate has accepted the job offer, it’s time to reject your 2nd best or silver candidate(s). Rejecting candidates who have been interviewed is done by phone or face-to-face. This is the responsibility of the vacancy holder and not an easy task. These candidates invested time and energy in the application process and must be treated with respect and care. Furthermore, keep in mind that every interaction with a candidate can either harm or improve TU Delft's employer reputation and that of your research department.  
 
-*Please note:* Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
+**Please note:** Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
 
 **Tips for rejection conversations**
 
