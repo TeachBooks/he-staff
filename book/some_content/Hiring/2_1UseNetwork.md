@@ -13,9 +13,9 @@ The so-called “post and pray” strategy is not always sufficient to attract t
 
 **Use your network**
 
-There are some relatively easy things you can do to boost the exposure and appeal of your vacancy. Invite suitable candidates you know through internships, classes or collaborations to apply. Share the vacancy in your department newsletter or weekly stand-up and ask people for names of potential candidates. Take the lead in inviting these people to apply. You can use both LinkedIn and the TU Delft intranet to find ways to contact these people. Candidates who are notified of a vacancy via their network often turn out to be the best employees.  
+There are some relatively easy things you can do to boost the exposure and appeal of your vacancy. Invite suitable candidates you know through internships, classes or collaborations to apply. Share the vacancy with your colleagues and ask people for names of potential candidates. Specify that you would appreciate people sharing the vacancy with possible candidates or send you the names of qualifying Master’s graduates. Take the lead in inviting people to apply. You can use both LinkedIn and the TU Delft intranet to find ways to contact these people.
 
-Spread the word about the position when you visit (job) fairs and conferences or give presentations, share research posters or speak to people in your research area during (conference) lunches. Ask your direct colleagues to support you by providing a ready-made slide that they can include in their PowerPoint presentations or an informative banner to include in research posters. You can also ask the management assistant or department secretary of research groups you collaborate(d) with to share the vacancy in their newsletter. Specify that you would appreciate people sharing the vacancy with possible candidates or send you the names of qualifying Master’s graduates. 
+Spread the word about the position when you visit (job) fairs and conferences or give presentations, share research posters or speak to people in your research area during (conference) lunches. Ask your direct colleagues to support you by providing a ready-made slide that they can include in their PowerPoint presentations or an informative banner to include in research posters.  
 
 **Creating a LinkedIn account**
 

@@ -6,7 +6,7 @@ First, you call the candidate with the good news. Collect the following details 
 
 * Details about the contract, such as duration, starting date, salary, working hours and contact details for follow-up questions. You can revisit the Vacancy Format for details and contact the HR advisor if you have any questions regarding this. Planning the first workday in a holiday period is not preferred, but if you choose to do so please ensure someone will be there for the new employee during the first week. 
 
-* Check the English proficiency level (ETV). At this stage, it is highly recommended to have either a good test result, an English masters degree or a native status by nationality. See also the intranet page [English language skills for PhD candidates](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) or [English language skills for PhD](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv)
+* Check the English proficiency level (ETV). At this stage, it is highly recommended to have either a good test result, an English masters degree or a native status by nationality. See also the intranet page [English language skills for PhD candidates](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) or [English language skills for other scientific staff](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv)
 
 * If you are hiring an international candidate, provide the URL of the website of the Coming to Delft department and a brief introduction of their services.  
 

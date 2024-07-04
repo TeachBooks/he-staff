@@ -2,7 +2,7 @@
 
 The main steps of the selection process are:
 
-1. The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. 
+1. The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. Discuss your thoughts and considerations with the selection committee.
 
 2. Screening interviews. A screening by short phone or video calls may be a good in-between step before the job interviews. 
 
@@ -19,10 +19,13 @@ Some important notes:
 * The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
 and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store or send cv's by mail. 
 
+* Regarding the selection committee: the selection is done using the 4-eye principle, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire.
+
 * About the **job interviews**: 
 
   * The management assistants can help you planning the interviews.  
-  * General outlines for job interviews are available for [educational](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), [leadership](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docxSPV%20Education%20Questionaire%20-%2020221220.%20-final.docx) and [research](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) functions.  
+  * General outlines for job interviews are available for [educational](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), 
+  [leadership](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docx) and [research](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) functions.  
   * Candidates for the permanent staff can come to the Netherlands for full job interviews, contact the department secretary for information about the travel allowance, etc 
 
 <!-- Can add a link to the safety check in this section if that page is ready -->
