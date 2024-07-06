@@ -32,6 +32,8 @@ In this page you can find the floor plans of the HE Department with the relevant
 
 ![CiTG Building](../figures/citg_building.jpg)
 
+
+**Note**: You have the option to download the figure as a PDF or image file, or alternatively, open it in a new tab for a larger view.
 _________________________________________________________________________
 
 
