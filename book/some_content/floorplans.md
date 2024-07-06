@@ -37,14 +37,16 @@ _________________________________________________________________________
 
 **CEG Building 2nd Floor**
 
-<img src="../figures/floor-plan_third_floor.jpg" class="zoom" alt="Floor Plan Third Floor">
+<div style="text-align: center;">
+  <img src="../figures/floor-plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
+</div>
 
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
 _________________________________________________________________________
 
 **CEG Building 3rd Floor** 
 
-![Floor Plan Third Floor](../figures/floor-plan_third_floor.jpg){: .zoom}
+![Floor Plan Third Floor](../figures/floor-plan_third_floor.jpg)
   
 - [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
 
@@ -53,7 +55,7 @@ _________________________________________________________________________
   
 **HE Laboratory**
 
-![HE Lab](../figures/floor-plan_he-lab.jpg){: .zoom}
+![HE Lab](../figures/floor-plan_he-lab.jpg)
 
 - [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
 
