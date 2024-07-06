@@ -30,14 +30,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 In this page you can find the floor plans of the HE Department with the relevant offices in the 2nd and 3rd Floor of the Civil Engineering and Geosciences Building and the Hydraulic Engineering Laboratory.
 
-![CITG Building](../figures/citg_building.jpg){: .zoom}
+![CITG Building](../figures/citg_building.jpg)
 
 _________________________________________________________________________
 
 
 **CEG Building 2nd Floor**
 
-![Floor Plan Second Floor](../figures/floor-plan_second_floor.jpg){: .zoom}
+<img src="../figures/floor-plan_third_floor.jpg" class="zoom" alt="Floor Plan Third Floor">
 
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
 _________________________________________________________________________
