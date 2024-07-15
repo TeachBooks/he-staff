@@ -35,7 +35,7 @@ In this page you can find the floor plans of the HE Department with the relevant
 </div>
 
 
-**CEG Building 2nd Floor**
+### CEG Building 2nd Floor
 
 <div style="text-align: center;">
   <img src="../figures/floor_plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
@@ -44,7 +44,7 @@ In this page you can find the floor plans of the HE Department with the relevant
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
 _________________________________________________________________________
 
-**CEG Building 3rd Floor** 
+### CEG Building 3rd Floor
 
 <div style="text-align: center;">
   <img src="../figures/floor_plan_third_floor.jpg" class="zoom" alt="Floor Plan Third Floor">
@@ -55,7 +55,7 @@ _________________________________________________________________________
 _________________________________________________________________________
 
   
-**HE Laboratory**
+### HE Laboratory
 
 <div style="text-align: center;">
   <img src="../figures/floor_plan_he_lab.jpg" class="zoom" alt="Floor Plan HE Lab">
