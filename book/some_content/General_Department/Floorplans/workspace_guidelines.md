@@ -16,7 +16,7 @@
 
    For more information, please see this detailed flowchart [link](#).
    
-![General ](../figures/room-change-guidelines.png)
+![General ](/book/figures/room-change-guidelines.png)
 
 
 ### Meeting Rooms
@@ -25,7 +25,7 @@
 - Larger offices can be used (and booked) as meeting rooms when the regular occupant (often a professor) is not there.
 - Meetings with more than 6-8 people will take place on the 2nd floor.
 
-![General ](../figures/meeting-rooms-graphic.png)
+![General ](/book/figures/meeting-rooms-graphic.png)
 
 
 ### General Guidelines
@@ -49,5 +49,5 @@
   - Part-time colleagues with limited time on-campus (≤0.3 FTE) can choose from several rooms with dedicated facilities for a flexible working environment.
   - Each workplace is available for use by other people on the days the staff member is not scheduled to be on campus.
  
-![General ](../figures/general-guidelines.png)
+![General ](/book/figures/general-guidelines.png)
 
