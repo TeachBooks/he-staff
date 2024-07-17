@@ -34,6 +34,8 @@ In this page you can find the floor plans of the HE Department with the relevant
   <img src="../../../figures/citg_building.jpg" alt="CITG Building" width="70%">
 </div>
 
+> **Note:**
+> You have the option to download the figure as a PDF or image file, or alternatively, open it in a new tab for a larger view. Additionally, clicking on the image will allow you to zoom in, and clicking again will return it to its original size.
 
 ### CEG Building 2nd Floor
 
