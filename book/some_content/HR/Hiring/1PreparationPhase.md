@@ -1,4 +1,4 @@
-# 1 Preparation phase
+# Phase 1: Preparation
 
 ![Preparation phase](../Hiring/Appendices/1Preparation.PNG)
 

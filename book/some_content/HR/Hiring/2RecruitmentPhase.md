@@ -1,4 +1,4 @@
-# 2 Recruitment phase
+# Phase 2: Recruitment
 
 ![RecruitmentPhase](../Hiring/Appendices/2Recruitment.PNG)
 

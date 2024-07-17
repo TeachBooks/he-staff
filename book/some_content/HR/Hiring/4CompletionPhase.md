@@ -1,4 +1,4 @@
-# 4 Completion phase
+# Phase 4: Completion
 
 ![Completion Phase](../Hiring/Appendices/4Completion.PNG)
 

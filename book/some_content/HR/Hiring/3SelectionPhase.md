@@ -1,4 +1,4 @@
-# 3 Selection phase
+# Phase 3: Selection
 
 ![SelectionPhase](../Hiring/Appendices/3Selection.PNG)
 
