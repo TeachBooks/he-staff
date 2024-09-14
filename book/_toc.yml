@@ -30,17 +30,8 @@ parts:
           # - file: some_content/Hiring/1_2VacancyFormat.md
           # - file: some_content/Hiring/1_3PublishVacancy.md
         - file: some_content/Hiring/PhDPostDocs/2RecruitmentPhase.md
-          # sections:
-          # - file: some_content/Hiring/2_1UseNetwork.md
         - file: some_content/Hiring/PhDPostDocs/3SelectionPhase.md
-          # sections:
-          # - file: some_content/Hiring/3_1SelectionSteps.md
-          # - file: some_content/Hiring/3_2JobOffer.md
         - file: some_content/Hiring/PhDPostDocs/4CompletionPhase.md
-          # sections:
-          # - file: some_content/Hiring/4_1RejectingCandidates.md
-          # - file: some_content/Hiring/4_2ContractAdministrative.md
-          # - file: some_content/Hiring/4_3FirstWorkday.md
 
         # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
       - file: some_content/Hiring/HigherFunctions/0Introduction.md

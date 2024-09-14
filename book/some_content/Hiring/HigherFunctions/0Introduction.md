@@ -1,6 +1,6 @@
-# Hiring
+# Hiring of Lecturers, Assistant and Associate Professors
 
-Congratulations, you have sufficient funding and inspiration to start a new (sub)project. But how do you get the right candidate to apply for your vacancy? And how do you know who is the best candidate for this specific project? This webpage clarifies the A-Z recruitment and selection process. The aim is to make the process manageable and respectful to all people involved. 
+Congratulations, you have sufficient funding and inspiration to hire a Lecturer, Assistant Proffessor or Associate Professor. But how do you get the right candidate to apply for your vacancy? And how do you know who is the best candidate for this specific project? This webpage clarifies the A-Z recruitment and selection process. The aim is to make the process manageable and respectful to all people involved. 
 
 How to use this? Just follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively.
 
