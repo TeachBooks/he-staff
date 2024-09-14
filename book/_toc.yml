@@ -21,26 +21,34 @@ parts:
     - file: some_content/HR.md
       sections:
 
-      # Hiring procedure
-      - file: some_content/Hiring/0Introduction.md
+      # Hiring procedure PhD and PostDocs
+      - file: some_content/Hiring/PhDPostDocs/0Introduction.md
         sections:
-        - file: some_content/Hiring/1PreparationPhase.md
+        - file: some_content/Hiring/PhDPostDocs/1PreparationPhase.md
           # sections:
           # - file: some_content/Hiring/1_1FinancialDepartmentalChecks.md
           # - file: some_content/Hiring/1_2VacancyFormat.md
           # - file: some_content/Hiring/1_3PublishVacancy.md
-        - file: some_content/Hiring/2RecruitmentPhase.md
+        - file: some_content/Hiring/PhDPostDocs/2RecruitmentPhase.md
           # sections:
           # - file: some_content/Hiring/2_1UseNetwork.md
-        - file: some_content/Hiring/3SelectionPhase.md
+        - file: some_content/Hiring/PhDPostDocs/3SelectionPhase.md
           # sections:
           # - file: some_content/Hiring/3_1SelectionSteps.md
           # - file: some_content/Hiring/3_2JobOffer.md
-        - file: some_content/Hiring/4CompletionPhase.md
+        - file: some_content/Hiring/PhDPostDocs/4CompletionPhase.md
           # sections:
           # - file: some_content/Hiring/4_1RejectingCandidates.md
           # - file: some_content/Hiring/4_2ContractAdministrative.md
           # - file: some_content/Hiring/4_3FirstWorkday.md
-      
+
+        # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
+      - file: some_content/Hiring/HigherFunctions/0Introduction.md
+        sections:
+        # - file: some_content/Hiring/HigherFunctions/1PreparationPhase.md
+        # - file: some_content/Hiring/HigherFunctions/2RecruitmentPhase.md
+        # - file: some_content/Hiring/HigherFunctions/3SelectionPhase.md
+        - file: some_content/Hiring/HigherFunctions/4CompletionPhase.md
+
     - file: contact.md
     - file: credits.md

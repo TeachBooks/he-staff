@@ -1,3 +1,7 @@
+# 2 Recruitment phase
+
+![RecruitmentPhase](../PhDPostDocs/Appendices/2Recruitment.PNG)
+
 ## 2.1 Use your network 
 
 Your vacancy can now be found by job seekers who are actively looking for vacancies and using search terms matching your vacancy text on the specific platforms. This still excludes candidates such as:  
@@ -23,7 +27,7 @@ LinkedIn is an effective social media platform to use for recruitment purposes. 
 
 **Post the vacancy on LinkedIn**
 
-A step-by-step explanation on spreading a vacancy on your LinkedIn account can be found [here](../Hiring/Appendices/How%20to%20share%20a%20TUD%20vacancy%20on%20LinkedIn%20the%20right%20way.pdf) 
+A step-by-step explanation on spreading a vacancy on your LinkedIn account can be found [here](../PhDPostDocs/Appendices/How%20to%20share%20a%20TUD%20vacancy%20on%20LinkedIn%20the%20right%20way.pdf) 
 
 Where you are asked to add a personal note, please write 3 to 6 lines about:  
 
