@@ -21,14 +21,14 @@ The money streams to the university are organised in first, second, third and fo
 
 ![Division of First Money Stream](../Finance/Appendices/DivisionFirstMoneyStream.png)
 
-The ministry of  Education, Culture and Science has a budget for all universities. TU Delfts receives a share of that budged based on a fixed component and a variable component. The variable component is dependent on the number of students, the number of BSc and MSc diplomas and the number of PhD defences. This division of a fixed and variable component is also used in the further division over the faculties and departments.
+The ministry of  Education, Culture and Science has a budget for all universities. The TU Delft receives a share of that budged based on a fixed component and a variable component. The variable component is dependent on the number of students, the number of BSc and MSc diplomas and the number of PhD defences. This division of a fixed and variable component is also used in the further division over the faculties and departments.
 
 The first money stream is distributed over the TU Delft into three categories: 
 - The university services like HR, finance and ICT.
 
 - Organisation-wide budgets. Those budgets are about the TU Delft wide agenda as defined by the executive board. These budgets are used for strategic funds and programmes and projects.
 
-- The faculties. Within each faculty this money is distributed over the departments, like the Hydraulic Engineering department.
+- The faculties. Within each faculty this money is distributed over the departments like the Hydraulic Engineering department.
 
 
 
