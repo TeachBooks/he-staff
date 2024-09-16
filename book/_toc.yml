@@ -14,10 +14,9 @@ parts:
         sections:
         - file: some_content/office_layouts.md
         - file: some_content/workspace_guidelines.md
-    - file: some_content/finance.md
+    - file: some_content/Finance/finance.md
       sections:
-      - file: some_content/sub_page_1_finance.md
-      - file: some_content/sub_page_2_finance.md
+      - file: some_content/Finance/MoneyStreamsUniversity.md
     - file: some_content/HR.md
       sections:
 
