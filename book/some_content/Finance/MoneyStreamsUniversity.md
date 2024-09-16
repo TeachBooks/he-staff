@@ -1,4 +1,5 @@
-# University money streams
+# Basics of Finance
+
 This page tells the basics of the money streams within the university and the department. 
 
 ### University Financial Streams 
