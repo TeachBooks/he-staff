@@ -1,6 +1,6 @@
 # 2 Recruitment phase
 
-![RecruitmentPhase](../Hiring/Appendices/2Recruitment.PNG)
+![RecruitmentPhase](../HigherFunctions/Appendices/2Recruitment.PNG)
 
 ## 2.1 Use your network 
 
@@ -62,13 +62,13 @@ Make sure the selection day is planned and blocked in the agenda of the selectio
 
 During the day, the candidates have to give a presentation and a trial lecture and they are interviewed. Note that there are set criteria for these positions, see related documents on the right side of [this intranet page](https://intranet.tudelft.nl/-/performance-wp-criteria?p_l_back_url=%2Fsearch%3Fq%3Dwp%2Bcriteria) (set language to NL if not visible) 
 
-Think about which parts of the day will be attended by which part of the selection committee, as a group of 12 people can feel intimidating. For example, you can split the interviews into three separate interviews done by separate parts of the selection committee, the topics being: [education](DOC EDUCATION JOB INTERVIEW), [science](DOC SCIENCE JOB INTERVIEW) and [valorisation/leadership](DOC VAL/LEAD JOB INTERVIEW).  
+Think about which parts of the day will be attended by which part of the selection committee, as a group of 12 people can feel intimidating. For example, you can split the interviews into three separate interviews done by separate parts of the selection committee, the topics being: [education](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Education%20Questionaire%20-%2020221220.%20-final%20(2).docx), [research](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Research%20Questionaire%2020221220%20-%20final%20(2).docx) and [valorisation/leadership](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Leadership%20questionaire%2020221220%20-%20final%20(1).docx). 
 
 Make clear what the presentation and trial lecture should contain. You can use part of the [invitation to the on campus interviews](INVITATION ON CAMPUS) for this step. 
 
-Define what questions you will ask during the interviews. Deviate as little as possible from those questions to ensure equal treatment of all candidates. Example job interview questions can be found [here](tools - Example job interview questions) 
+Define what questions you will ask during the interviews. Deviate as little as possible from those questions to ensure equal treatment of all candidates. Example job interview questions can be found [here](../HigherFunctions/Appendices/3.%20%20ExampleQuestons_Interviews.pdf) 
 
-Think about how the grading will be done. An example scoresheet can be found [here](tools – interview scoresheet). 
+Think about how the grading will be done. An example scoresheet can be found [here](../HigherFunctions/Appendices/2.%20interview_scoresheet_ACT.docx). 
 
 Discuss the selection strategy with some members of the selection committee. 
 
@@ -80,7 +80,9 @@ Make a time schedule for the selection day.
 
 Some examples of time schedules are shown below 
 
-<!-- INSERT HERE IMAGES OF DAY PLANNING !!! -->
+![TimeTableOnCampusSelection1](../HigherFunctions/Appendices/TimeTableOnCampusSelection1.png)
+
+![TimeTableOnCampusSelection2](../HigherFunctions/Appendices/TimeTableOnCampusSelection2.png)
 
 The selection day consists of the following parts: 
 
@@ -104,19 +106,19 @@ Do not forget the practicalities:
 
 The selection committee should get access to the talentlink. 
 
-Inform the selection committee about the selection day. You can use this [template](SelectionDay planning voor committee) to structure your information towards the committee. Do not forget to add the score sheet and the interview questions. This information can be send by mail and can be added to the agenda by the management assistant. 
+Inform the selection committee about the selection day. You can use this [template](../HigherFunctions/Appendices/ToSelectionCommittee_OnCampusSelection.docx) to structure your information towards the committee. Do not forget to add the score sheet and the interview questions. This information can be send by mail and can be added to the agenda by the management assistant. 
 
  
 
 **Inform students for the trial lectures**
 
-Inform students about the trial lectures and make sure there will be enough students. You can send a message via Brightspace and mail by using this [standardized message](ToStudents...). The waterbouwdispuut can also help you to get students. You can contact them via Waterbouwdispuut-citg@tudelft.nl . You can find a standard email [here](ToWaterbouwDispuut). 
+Inform students about the trial lectures and make sure there will be enough students. You can send a message via Brightspace and mail by using this [standardized message](../HigherFunctions/Appendices/ToStudents_TrialLectures.docx). The waterbouwdispuut can also help you to get students. You can contact them via Waterbouwdispuut-citg@tudelft.nl . You can find a standard email [here](../HigherFunctions/Appendices/ToWaterbouwDispuut_AskStudentsForTrialLectures.docxToWaterbouwDispuut). 
 
  
 
 **Informing the candidates**
 
-At this stage, you do not know who will be interviewed during the selection day. However, you can already prepare the invitation for the on campus interviews. An example invitation can be found [here]( INVITATION CANDIDATES ON CAMPUS). 
+At this stage, you do not know who will be interviewed during the selection day. However, you can already prepare the invitation for the on campus interviews. An example invitation can be found [here](../HigherFunctions/Appendices/ToCandidates_InvitationOnCampus.docx). 
 
 It is good to know already that the airplane ticket and hotel costs are paid by us if the candidate does not live in The Netherlands. The management assistant can help you with this. 
 

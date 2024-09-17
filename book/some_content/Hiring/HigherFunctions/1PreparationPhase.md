@@ -12,9 +12,9 @@ First, check the financial parameters and meet with the department secretary and
 
 Next, make a draft profile for the vacancy and discuss it with: 
 
-The department MT. They will give feedback on the draft profile and vacancy. The department chair will ask the dean for permission. 
+- The department MT. They will give feedback on the draft profile and vacancy. The department chair will ask the dean for permission. 
 
-The faculty MT. They will give feedback on the draft profile and proposed composition of the selection committee, see also step 1.2 Compose committee. 
+- The faculty MT. They will give feedback on the draft profile and proposed composition of the selection committee, see also step 1.2 Compose committee. 
 
  
 
@@ -52,7 +52,7 @@ These committees are rather large and planning the day of on campus interviews r
 
 ## 1.3 Create and post vacancy
 
-Create the vacancy by filling in the [vacancy format](../Hiring/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx).
+Create the vacancy by filling in the [vacancy format](../HigherFunctions/Appendices/1Preparation.PNG).
 
 
 Some notes regarding the vacancy format:

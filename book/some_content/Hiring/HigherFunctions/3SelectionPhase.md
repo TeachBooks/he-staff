@@ -1,68 +1,58 @@
 # 3 Selection phase
 
-![SelectionPhase](../Hiring/Appendices/3Selection.PNG)
+![SelectionPhase](../HigherFunctions/Appendices/3Selection.PNG)
 
 
-## 3.1 Selection steps 
+## 3.1 CV Selection to longlist 
 
-The main steps of the selection process are:
+The selection starts with the preselection, which is done by the committee chair and 2 other members of the selection committee. This subpart of the selection committee is also referred to as the small committee. Use talentlink to put all candidates into the categories invite, reject and doubt. This step results in a longlist of candidates. In the next step, you will interview those candidates online. 
 
-1. The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. Discuss your thoughts and considerations with the selection committee.
+If there are a large number of applicants, you will want to make a first selection based on a single, must-have criterion. Next, you can use your full scoring chart. Your checklist and scoring strategy for the CV review stage may look like the example below. Stick to the checklist and be aware of biased conclusions. For example, CV gaps are often not explained by applicants. The tendency might be to assume the negative and reject these candidates. However, there are many good reasons for CV gaps. 
 
-2. Screening interviews. A screening by short phone or video calls may be a good in-between step before the job interviews. 
+![SelectionScoringChart](../HigherFunctions/Appendices/SelectionScoringChart.png)
 
-3. The full interviews. Here you check the social and scientific fit of the candidates. 
+Rejected candidates must be informed within 2 weeks after the application deadline. Email templates are available in the recruitment system and can be sent by the management assistants. After candidates have been interviewed, it’s best for the vacancy holder to send rejections by email or phone. Find guidelines and tips in paragraph 4.2. 
 
-4. Choosing a candidate. In this stage you choose the preferred candidate. In this stage you rate candidates based on the criteria you defined, and you make reference calls. 
+Before scheduling the interviews, you may choose to do a 15-20 minute screening by phone or video call. You will be surprised by some candidates and disappointed by others.  
 
+ 
 
-A great guide for these steps can be found in chapter 3 of [this document](../Hiring/Appendices/PhD%20Recruitment%20en%20Selection%20Guide%20V1.pdf). Although this document is written for PhD hiring, it is also very helpful for other functions. 
+## 3.2 Online interviews to shortlist 
 
+This intermediate step is useful if you have more than 3 candidates left.  
 
+<!-- [deze tekst in een opvallend blokje zetten]  -->
+**! Knowledge safety check !**
+It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
 
-Some important notes: 
-* The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
-and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store or send cv's by mail. 
+- Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy. 
 
-* Regarding the selection committee: the selection is done using the 4-eye principle, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire.
+- HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result. 
 
-* About the **job interviews**: 
+- This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
 
-  * The management assistants can help you planning the interviews.  
-  * General outlines for job interviews are available for [educational](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), 
-  [leadership](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docx) and [research](../Hiring/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) functions.  
-  * Candidates for the permanent staff can come to the Netherlands for full job interviews, contact the department secretary for information about the travel allowance, etc 
+- Do not inform the candidates about the knowledge safety check as this information is confidential. 
 
-<!-- Can add a link to the safety check in this section if that page is ready -->
-* Be aware of the **knowledge safety check**! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
+Discuss with the small committee who the 4-5 best candidates are. Interview them online. You can use [this document](../HigherFunctions/Appendices/OnlineInterviewAgenda.docx) for a possible agenda.  
 
-  * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
-  * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
-  * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
-  * Do not inform the candidates about the knowledge safety check as this information is confidential. 
+Also make reference calls. Guidelines for reference calls can be found [here](../HigherFunctions/Appendices/ReferenceCall_BasicGuidelines.docx) 
 
-* Check the **English proficiency level (ETV)** of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this intranet page](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this intranet page](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
+ 
 
+## 3.3 On campus selection 
 
-* Be aware that the process may take longer depending on the nationality of the candidate. The knowledge safety check usually takes 2 weeks and in extreme cases 10 weeks. Acquiring visa usually takes ~4 weeks for EU citizens and 12 weeks for non-EU citizens. 
+The next step consists of the on campus interviews.  
 
+Return to step *2.2 Prepare on campus selection* and check if you have done all those preparation steps. 
 
-## 3.2 Job offer 
+- Make sure that all selection committee members have the day in their agenda and have received all documents: the scoring chart, the planning of the day. Also have the [template for the advice to the dean](TEMLATE DEAN ADVICE) ready. Print the documents if necessary. 
 
-When you have selected your preferred candidate and the Knowledge Safety Check is positive, you can inform the candidate and send a job offer. Make sure you do not reject your second-best or silver candidate(s) before the job offer is signed.  
+- Inform the candidates about the on campus interviews by using the mail you previously prepared. Also call the candidates whom you rejected after the online interviews if you have not done this already. Tips for rejection conversations can be found in section 4.2 Reject candidates[LINK]. 
 
-First, you call the candidate with the good news. Collect the following details before calling the candidate: 
+- Make sure all rooms are booked, coffee and tea and lunch (if needed) is ordered, a host will welcome the candidates and there are students to attend the trial lectures. 
 
-* Details about the contract, such as duration, starting date, salary, working hours and contact details for follow-up questions. You can revisit the Vacancy Format for details and contact the HR advisor if you have any questions regarding this. Planning the first workday in a holiday period is not preferred, but if you choose to do so please ensure someone will be there for the new employee during the first week. 
+ 
 
-* Check the English proficiency level (ETV). At this stage, it is highly recommended to have either a good test result, an English masters degree or a native status by nationality. See also the intranet page [English language skills for PhD candidates](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) or [English language skills for other scientific staff](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv)
+After the selection day you send your advice to the dean. You can continue with the next step if the dean has approved. 
 
-* If you are hiring an international candidate, provide the URL of the website of the Coming to Delft department and a brief introduction of their services.  
-
-* If you are hiring a PhD, include a brief introduction to the Graduate School and the mentor programme. 
-
-* Gather information about the next steps of the process: the job offer, the contract, the first workday. Preferably, you also provide the candidate with a time indication of the next steps. 
-
-Next, you contact the management assistant for the job offer. The management assistant will make the job offer based on the information you provide: duration, starting date, salary, working hours, english proficiency (ETV) and contact details. The management assistant will send the job offer to the candidate with you in the cc. 
-
-Update Talentlink. When the job offer is accepted and all other candidates are rejected, contact the management assistant to close the vacancy in Talentlink. 
+ 
