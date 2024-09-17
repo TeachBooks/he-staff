@@ -5,6 +5,7 @@ The Management Team (MT) of the Department of HE is responsible for the strategi
 All decisions made by the MT must align with the broader faculty policy to ensure consistency and adherence to the university’s overarching guidelines.
 
 The MT consists of the following members:
+
 **Head of Department:** Prof.dr. A. (Andrei) Metrikine
 
 **Section Leaders:**
