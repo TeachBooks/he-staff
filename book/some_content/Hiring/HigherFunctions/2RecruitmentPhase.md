@@ -84,6 +84,31 @@ Some examples of time schedules are shown below
 
 ![TimeTableOnCampusSelection2](../HigherFunctions/Appendices/TimeTableOnCampusSelection2.png)
 
+| Start  | Finish | Programme                                                                |
+|--------|--------|--------------------------------------------------------------------------|
+| 08:30  | 08:45  | Preliminary discussion with committee (without the candidate present)    |
+| 08:45  | 09:00  | Start presentation candidate one                                         |
+| 09:00  | 09:45  | Discussion candidate one with the committee                              |
+| 09:45  | 09:55  | Break                                                                    |
+| 09:55  | 10:25  | Trial lecture candidate one                                              |
+| 10:25  | 10:30  | Reflection on the trial lecture with students (without candidate present)|
+| 10:30  | 10:35  | Individual reflection candidate one                                      |
+| 10:35  | 10:45  | Start presentation candidate two                                         |
+| 10:45  | 11:30  | Discussion candidate two with the committee                              |
+| 11:30  | 11:40  | Break                                                                    |
+| 11:40  | 12:10  | Trial lecture candidate two                                              |
+| 12:10  | 12:15  | Reflection on the trial lecture with students (without candidate present) |
+| 12:15  | 12:20  | Individual reflection candidate two                                      |
+| 12:20  | 13:00  | Lunch break                                                              |
+| 13:00  | 13:15  | Start presentation candidate three                                       |
+| 13:15  | 14:00  | Discussion candidate three with the committee                            |
+| 14:00  | 14:10  | Break                                                                    |
+| 14:10  | 14:40  | Trial lecture candidate three                                            |
+| 14:40  | 14:45  | Reflection on the trial lecture with students (without candidate present) |
+| 14:45  | 14:50  | Individual reflection candidate three                                    |
+| 14:50  | 15:30  | Final evaluation, writing of advice to the dean                          |
+
+
 The selection day consists of the following parts: 
 
 - A preliminary discussion with at least the vacancy holder, selection committee chair and department secretary (strongly advised). During the preliminary discussion you can go through the day, check how tight the time schedule is and discuss the role of the chair.  
