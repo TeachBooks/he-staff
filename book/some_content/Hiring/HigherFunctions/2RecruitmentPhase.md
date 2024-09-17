@@ -78,7 +78,7 @@ Discuss the selection strategy with some members of the selection committee.
 
 Make a time schedule for the selection day. An example can be found below and its original file [here](../HigherFunctions/Appendices/TimeTableSelectionDay.xlsx)
 
-![TimeTableOnCampusSelection](../HigherFunctions/Appendices/TimeTableOnCampusSelection.png)
+![TimeTableOnCampusSelection](../HigherFunctions/Appendices/TimeTableOnCampusSelection.PNG)
 
 The selection day consists of the following parts: 
 
