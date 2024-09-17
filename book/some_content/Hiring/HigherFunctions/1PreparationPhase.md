@@ -1,55 +1,92 @@
 # 1 Preparation phase
 
+<!-- To do: add link in 1.1? -->
+
 ![Preparation phase](../Hiring/Appendices/1Preparation.PNG)
 
-## 1.1 Financial and departmenal checks 
+The three substeps of this phase are really intertwined. Therefore, start by reading all three steps to get an idea of the dependencies. 
 
-First of all, there are two checks: 
+## 1.1 Discuss vacancy 
 
-* The financial check. If the vacancy is part of a project (2nd/3rd cashflow), the internal budget has to be checked. If the vacancy has a 1st cashflow, contact the Business Controller David Lodowica for the financial check. 
-* The departmental check. Inform the department secretary and your section head about the vacancy you want to post. 
+First, check the financial parameters and meet with the department secretary and the HR advisor to discuss the practicalities of the hiring process. 
 
-If this is your first time being a vacancy holder, also meet with the department secretary and the HR advisor to discuss the practicalities of the hiring process. 
+Next, make a draft profile for the vacancy and discuss it with: 
 
-If both checks are complete, you can continue with the next step.
+The department MT. They will give feedback on the draft profile and vacancy. The department chair will ask the dean for permission. 
+
+The faculty MT. They will give feedback on the draft profile and proposed composition of the selection committee, see also step 1.2 Compose committee. 
+
+ 
+
+## 1.2 Compose selection committee 
+
+Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Check if the department chair agrees with this committee. 
+
+The selection committee should consist at least one woman and requires the following functions: 
+
+- Department chair of another department  
+
+- Section leader (vacancy holder) of the relevant group  
+
+- Department chair of the relevant department  
+
+- Member of the Academic Career Committe (ACC) of another department  
+
+- Full or associate professor from another section, same department  
+
+- Full or associate professor of another department or faculty  
+
+- Program director  
+
+- Assistant professor from the same section (substantive secretary)  
+
+- HR Advisor  
+
+- Department Secretary (process secretary) 
 
 
-## 1.2 Fill in vacancy format 
+Plan selection day 
 
-Use the [vacancy format](../Hiring/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx) to gather the required information for the vacancy.
+These committees are rather large and planning the day of on campus interviews requires good planning. Start planning the selection day already in this stage as the availability of possible committee members is a considerable limiting factor. A reasonable moment will be 4 weeks after the closure date of the vacancy. The management assistant can help you with the planning of the selection day. 
+
+
+## 1.3 Create and post vacancy
+
+Create the vacancy by filling in the [vacancy format](../Hiring/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx).
 
 
 Some notes regarding the vacancy format:
-* Contact the department secretary to discuss the UFO profile, the conditions of employment and the vacancy text. 
-* The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for PhD functions 
-[1](../Hiring/Appendices/ExamplesVacancyTexts/PhD%20Position%20Decentralised%20Machine%20Learning.docx)
-[2](../Hiring/Appendices/ExamplesVacancyTexts/PhD%20Position%20Modelling%20of%20Regional%20Criminal%20Vulnerability%20and%20Supply%20Chains.docx)
-[3](../Hiring/Appendices/ExamplesVacancyTexts/PhD%20Position%20Spread%20in%20Networks.docx)
-[4](../Hiring/Appendices/ExamplesVacancyTexts/PhD%20Positions%20in%20Thermoplastic%20Composites.docx)
-and for Postdoc functions
-[1](../Hiring/Appendices/ExamplesVacancyTexts/Postdoc%20Damping%20of%20Critical%20Electrical%20Oscillatory%20Phenomena.docx)
-[2](../Hiring/Appendices/ExamplesVacancyTexts/Postdoc%20Ethical%20Impact%20of%20Technology%20on%20Society.docx)
-[3](../Hiring/Appendices/ExamplesVacancyTexts/Postdoc%20Partnerschap%20met%20omwonenden%20in%20bouwprocessen.docx)
+* Contact the HR advisor (for academic career track/ higher functions) to discuss the UFO profile, the conditions of employment and the vacancy text. 
+* The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for Assistent and Associate professors 
+[1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Biotechnology%20for%20Sustainable%20Food%20Security.docx)
+[2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant-Associate%20Professor%20Complex%20Ship%20Design.docx)
+[3](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Electrification%20of%20Transportation.docx)
+and Lecturers
+[1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Principal%20Educator%20-%20EN.docx)
+[2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Projectdocent%20werktuigbouwkunde%20(parttime).docx)
+[3](../HigherFunctions/Appendices/ExamplesVacancyTexts/Principal%20Educator%20-%20EN.docx)
 <!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
 * Some extra tips regarding the requirements formulation and selection strategy can be found in [this document](../Hiring/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
+* Add the on campus interview dates if you already succeeded in planning the on campus selection with the full committee. 
 * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. 
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
-**Selection committee**
+When the vacancy form is complete, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl . Also communicate with recruitment about the type of appendices, such as: 
 
-It is good practice to form the selection committee in this step. In case of a PhD and Postdoc positions, we use the 4-eye principle in the selection steps, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire. 
-
-
-
-## 1.3 Send vacancy format to recruitment 
-
-As soon as the financial check and department secretary have approved the vacancy and the vacancy form has been completed, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl 
+- Motivation and CV 
+- List of publications 
+- Research statement  
+- Teaching statement 
+- Names and contact of at least 3 referents outside the TU Delft 
 
 After submitting your vacancy, it will appear on: 
 
-* TU Delft's internal (intranet) vacancy page 
-* TU Delft's external vacancy page 
-* Academic Transfer 
-* TU Delft's LinkedIn job page 
+- TU Delft’s internal (intranet) vacancy page 
+
+- TU Delft’s external vacancy page 
+
+- Academic Transfer 
+
+- TU Delft’s LinkedIn job page 

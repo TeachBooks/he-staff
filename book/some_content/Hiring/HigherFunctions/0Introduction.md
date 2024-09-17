@@ -1,11 +1,19 @@
 # Hiring of Lecturers, Assistant and Associate Professors
 
-Congratulations, you have sufficient funding and inspiration to hire a Lecturer, Assistant Proffessor or Associate Professor. But how do you get the right candidate to apply for your vacancy? And how do you know who is the best candidate for this specific project? This webpage clarifies the A-Z recruitment and selection process. The aim is to make the process manageable and respectful to all people involved. 
+This procedure is a guide for the hiring of Lecturers, Assistant Professors (UD) and Associate Professors (UHD). The procedure for promotion and hiring of full professors is not treated here. For the full professor procedure, you can contact the HR advisor and check [this link](https://intranet.tudelft.nl/-/recruitment-selection-and-internal-procedure-of-academic-staff?p_l_back_url=%2Fsearch%3Fq%3Dbenoemings)  
 
-How to use this? Just follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively.
+How to use this? Just follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively. 
 
-![The steps of the hiring procedure](../Hiring/Appendices/OverviewImage.png)
+![The steps of the hiring procedure](../HigherFunctions/Appendices/OverviewImageHigher.PNG)
 
-**Note**: these steps are not applicable for hiring a student assistant. Student assistants are officially hired by FlexDelft. Contact someone who recently hired a TA for the current TA hiring process. 
+A [stepwise approach](../HigherFunctions/Appendices/8.%20Recruitment%20and%20selection%20procedure%20Assistant%20Professors%20and%20Associate%20Professors%20including%20Academic%20Career%20Trackers.pdf) is available and can be used as an addition to this procedure. 
 
-*Do you have any feedback regarding this procedure? Please let us know via D.A.J.vanDieren@tudelft.nl*
+*We are currently in a test phase of this procedure. Please let us know if you see any room for improvement via D.A.J.vanDieren@tudelft.nl*
+
+
+
+
+
+
+
+
