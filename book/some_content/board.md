@@ -6,6 +6,7 @@ All decisions made by the MT must align with the broader faculty policy to ensur
 
 The MT consists of the following members:
 **Head of Department:** Prof.dr. A. (Andrei) Metrikine
+
 **Section Leaders:**
 -Dr. ir. B.C. (Bram) van Prooijen (CE),
 -Dr.ir. A. (Astrid) Blom (R&P),
@@ -13,8 +14,11 @@ The MT consists of the following members:
 -Dr. T.S. (Ton) van den Bremer (EFM),
 -Dr.ir. O. (Oswaldo) Morales Napoles (HFSR),
 -Dr.ir. B. (Bas) Hofland
+
 **Executive Secretary:** E.H. (Elske) Bakker.
+
 **HR Advisor:** M. (Monique) Scheers-van der Horst
+
 **Finance:** W.D. (David) Lodowica
 
 The MT meets every two weeks on Thursday to make key decisions. In urgent cases, additional meetings may be scheduled. If you have any points you would like the MT to address, please contact your section leader or the Executive Secretary to have them included in the agenda.
