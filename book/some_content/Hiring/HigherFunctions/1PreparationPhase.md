@@ -1,8 +1,7 @@
 # 1 Preparation phase
 
-<!-- To do: add link in 1.1? -->
 
-![Preparation phase](../Hiring/Appendices/1Preparation.PNG)
+![Preparation phase](../HigherFunctions/Appendices/1Preparation.PNG)
 
 The three substeps of this phase are really intertwined. Therefore, start by reading all three steps to get an idea of the dependencies. 
 

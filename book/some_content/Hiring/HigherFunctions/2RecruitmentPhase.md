@@ -90,7 +90,7 @@ The selection day consists of the following parts:
 
 - The candidates have to give a presentation and a trial lecture and they are interviewed.  
 
-- Final evaluation round. The result will be and advice from the selection committee to the dean. The dean can ask for a discussion about the advice and will accept or reject the advice. You can use the [template advice to dean](ADVICE TO DEAN) for this. 
+- Final evaluation round. The result will be and advice from the selection committee to the dean. The dean can ask for a discussion about the advice and will accept or reject the advice. You can use the [template advice to dean](../HigherFunctions/Appendices/ToDean_AdviceOfCommittee.docx) for this. 
 
 Do not forget the practicalities: 
 
