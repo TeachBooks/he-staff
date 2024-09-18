@@ -61,7 +61,7 @@ _________________________________________________________________________
 **HE Laboratory**
 
 <div style="text-align: center;">
-  <img src="../figures/floor_plan_he-lab.jpg" class="zoom" alt="Floor Plan HE Lab">
+  <img src="../figures/floor_plan_he_lab.jpg" class="zoom" alt="Floor Plan HE Lab">
 </div>
 
 - [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
