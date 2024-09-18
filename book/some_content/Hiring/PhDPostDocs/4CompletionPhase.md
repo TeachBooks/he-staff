@@ -8,7 +8,7 @@ Once your preferred candidate has accepted the job offer, it’s time to reject 
 
 **Please note:** Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
 
-**Tips for rejection conversations**
+<!-- **Tips for rejection conversations** -->
 
 ```{admonition} Tips for rejection conversations
 :class: tip, dropdown
@@ -36,7 +36,7 @@ When delivering bad news, please ensure you:
     6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times. 
 ```
 
-When delivering bad news, please ensure you:  
+<!-- When delivering bad news, please ensure you:  
 
 * Do not postpone it. Get it done before the weekend whenever possible. The candidate will be expecting a follow-up and will feel disappointed if they haven’t heard from you. These candidates will share a bad experience with their peers. This could harm your reputation as an employer within the highly specific network you both operate in.  
 
@@ -56,7 +56,7 @@ When delivering bad news, please ensure you:
 
     5. If a candidate feels angry, don’t take anything personally. Stay calm. Anger can be beneficial for the candidate, too. Don’t try to explain your reasoning during the peak of an emotion. Let the candidate know that you understand their reaction and allow them time to process. If a candidate is very upset, guard your boundaries. In this case, you can kindly end the conversation by stating that you will be in touch again the next day to answer any remaining questions. Always follow up on your promise.  
 
-    6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times. 
+    6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times.  -->
 
 
 
