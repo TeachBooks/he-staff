@@ -49,7 +49,7 @@ You have the option to download the figure as a PDF or image file, or alternativ
   <img src="../../../book/figures/floor_plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
 </div>
 
-- [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
+- [Floor Plan Second Floor (PDF)](../../../pdfs/2nd_floor.pdf) 
 _________________________________________________________________________
 
 **CEG Building 3rd Floor** 
@@ -58,7 +58,7 @@ _________________________________________________________________________
   <img src="../../../figures/floor_plan_third_floor.jpg" class="zoom" alt="Floor Plan Third Floor">
 </div>
   
-- [Floor Plan Third Floor (PDF)](../pdfs/3rd_floor.pdf)
+- [Floor Plan Third Floor (PDF)](../../../pdfs/3rd_floor.pdf)
 
 _________________________________________________________________________
 
@@ -69,4 +69,4 @@ _________________________________________________________________________
   <img src="../../../figures/floor_plan_he_lab.jpg" class="zoom" alt="Floor Plan HE Lab">
 </div>
 
-- [HE Lab Floorplan (PDF)](../pdfs/waterlab.pdf)
+- [HE Lab Floorplan (PDF)](../../../pdfs/waterlab.pdf)
