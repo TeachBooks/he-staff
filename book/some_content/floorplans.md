@@ -42,7 +42,11 @@ You have the option to download the figure as a PDF or image file, or alternativ
 **CEG Building 2nd Floor**
 
 <div style="text-align: center;">
-  <img src="../../figures/floor_plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
+  <img src="../figures/floor_plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
+</div>
+
+<div style="text-align: center;">
+  <img src="../../book/figures/floor_plan_second_floor.jpg" class="zoom" alt="Floor Plan Second Floor">
 </div>
 
 - [Floor Plan Second Floor (PDF)](../pdfs/2nd_floor.pdf) 
