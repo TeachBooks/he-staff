@@ -10,8 +10,7 @@ parts:
     - file: some_content/Education/education.md
     - file: some_content/General_Department/department.md
       sections:
-      # - file: some_content/General_Department/Floorplans/floorplans.md
-      - file: some_content/General_Department/Floorplans/floorplans_copy.md
+      - file: some_content/General_Department/Floorplans/floorplans.md
         sections:
         - file: some_content/General_Department/Floorplans/office_layouts.md
         - file: some_content/General_Department/Floorplans/workspace_guidelines.md
