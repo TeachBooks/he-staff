@@ -18,6 +18,15 @@ The main steps of the selection process are:
 
 A great guide for these steps can be found in chapter 3 of [this document](../PhDPostDocs/Appendices/PhD%20Recruitment%20en%20Selection%20Guide%20V1.pdf). Although this document is written for PhD hiring, it is also very helpful for other functions. 
 
+```{admonition} Knowledge safety check
+:class: warning, dropdown
+* Be aware of the **knowledge safety check**! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
+
+  * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
+  * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
+  * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
+  * Do not inform the candidates about the knowledge safety check as this information is confidential. 
+```
 
 
 Some important notes: 
@@ -33,13 +42,6 @@ and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/rec
   [leadership](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docx) and [research](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) functions.  
   * Candidates for the permanent staff can come to the Netherlands for full job interviews, contact the department secretary for information about the travel allowance, etc 
 
-<!-- Can add a link to the safety check in this section if that page is ready -->
-* Be aware of the **knowledge safety check**! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
-
-  * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
-  * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
-  * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
-  * Do not inform the candidates about the knowledge safety check as this information is confidential. 
 
 * Check the **English proficiency level (ETV)** of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this intranet page](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this intranet page](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
 

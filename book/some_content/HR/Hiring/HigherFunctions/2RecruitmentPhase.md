@@ -21,6 +21,9 @@ There are some relatively easy things you can do to boost the exposure and appea
 
 Spread the word about the position when you visit (job) fairs and conferences or give presentations, share research posters or speak to people in your research area during (conference) lunches. Ask your direct colleagues to support you by providing a ready-made slide that they can include in their PowerPoint presentations or an informative banner to include in research posters.  
 
+```{admonition} Using LinkedIn
+:class: info, dropdown
+
 **Creating a LinkedIn account**
 
 LinkedIn is an effective social media platform to use for recruitment purposes. If you don’t have a LinkedIn profile, we recommend you create one when you start recruiting. Including a profile picture, sharing your position and field of expertise and selecting TU Delft as your current employer will make you more successful as a recruiter on LinkedIn. Start inviting current and previous colleagues to activate your network of first-degree connections. Invite some of TU Delft’s talent acquisition specialists, as they have large and relevant networks. The magic of social media is that your reach will swiftly increase via your second-degree connections (the connections of your connections). All vacancies submitted for publication online are automatically posted on the TU Delft LinkedIn page. Boost the number of people who read your vacancy by sharing it as a post on your LinkedIn page. Your vacancy will then appear in the timeline, or the homepage, of everyone in your network. Subsequently, it will find its way to your 2nd-degree connections and beyond.  
@@ -38,7 +41,7 @@ Where you are asked to add a personal note, please write 3 to 6 lines about:
 3. And add a call to action such as: “Apply now or DM me for more information.” 
 
 Don’t forget to respond to reactions. 
-
+```
 
 ## 2.2 Prepare on campus selection 
 
@@ -64,7 +67,7 @@ During the day, the candidates have to give a presentation and a trial lecture a
 
 Think about which parts of the day will be attended by which part of the selection committee, as a group of 12 people can feel intimidating. For example, you can split the interviews into three separate interviews done by separate parts of the selection committee, the topics being: [education](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Education%20Questionaire%20-%2020221220.%20-final%20(2).docx), [research](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Research%20Questionaire%2020221220%20-%20final%20(2).docx) and [valorisation/leadership](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Leadership%20questionaire%2020221220%20-%20final%20(1).docx). 
 
-Make clear what the presentation and trial lecture should contain. You can use part of the [invitation to the on campus interviews](INVITATION ON CAMPUS) for this step. 
+Make clear what the presentation and trial lecture should contain. You can use part of the [invitation to the on campus interviews](../HigherFunctions/Appendices/ToCandidates_InvitationOnCampus.docx) as ideas. 
 
 Define what questions you will ask during the interviews. Deviate as little as possible from those questions to ensure equal treatment of all candidates. Example job interview questions can be found [here](../HigherFunctions/Appendices/3.%20%20ExampleQuestons_Interviews.pdf) 
 

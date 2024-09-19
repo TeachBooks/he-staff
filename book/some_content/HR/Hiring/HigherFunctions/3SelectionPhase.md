@@ -3,8 +3,9 @@
 ![SelectionPhase](../HigherFunctions/Appendices/3Selection.PNG)
 
 
-<!-- [deze tekst in een opvallend blokje zetten]  -->
-**! Knowledge safety check !**
+```{admonition} Knowledge safety check
+:class: warning, dropdown
+
 It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
 
 - Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy. 
@@ -14,7 +15,7 @@ It is wise to start the knowledge safety check as soon as you have a shortlist o
 - This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
 
 - Do not inform the candidates about the knowledge safety check as this information is confidential. 
-
+```
 
 ## 3.1 CV Selection to longlist 
 

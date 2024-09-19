@@ -48,7 +48,7 @@ The management assistant follows the workflow in MyHR. MyHR is used to gather th
 Contact the management assistant to start up the MyHR process. They will need information about the candidate in two stages. 
 
 ```{admonition} What information is needed for te first stage of MyHR?
-:class: tip, dropdown
+:class: info, dropdown
 
 - Initials of first names 
 - First names 

@@ -21,7 +21,10 @@ Next, make a draft profile for the vacancy and discuss it with:
 
 Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Check if the department chair agrees with this committee. 
 
-The selection committee should consist at least one woman and requires the following functions: 
+```{admonition} Who should be in the selection committee?
+:class: info, dropdown
+
+The selection committee should consist of at least one woman and requires the following functions:
 
 - Department chair of another department  
 
@@ -42,7 +45,7 @@ The selection committee should consist at least one woman and requires the follo
 - HR Advisor  
 
 - Department Secretary (process secretary) 
-
+```
 
 Plan selection day 
 
@@ -83,9 +86,6 @@ When the vacancy form is complete, you can send the vacancy form to recruitment:
 After submitting your vacancy, it will appear on: 
 
 - TU Delft’s internal (intranet) vacancy page 
-
 - TU Delft’s external vacancy page 
-
 - Academic Transfer 
-
 - TU Delft’s LinkedIn job page 
