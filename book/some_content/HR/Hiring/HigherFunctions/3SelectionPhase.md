@@ -6,7 +6,7 @@
 ```{admonition} Knowledge safety check
 :class: warning, dropdown
 
-It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
+Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. How to do it? 
 
 - Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy. 
 
