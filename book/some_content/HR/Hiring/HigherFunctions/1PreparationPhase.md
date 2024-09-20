@@ -75,15 +75,10 @@ and Lecturers
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
-When the vacancy form is complete, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl . Also communicate with recruitment about the type of appendices, such as: 
 
-- Motivation and CV 
-- List of publications 
-- Research statement  
-- Teaching statement 
-- Names and contact of at least 3 referents outside the TU Delft 
+When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl).
 
-After submitting your vacancy, it will appear on: 
+After submitting your vacancy will appear on: 
 
 - TU Delft’s internal (intranet) vacancy page 
 - TU Delft’s external vacancy page 
