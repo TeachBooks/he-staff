@@ -7,7 +7,7 @@
 
 The main steps of the selection process are:
 
-1. The CV check. In this step you reject the candidate who miss must-haves. You also comment on the other candidates. If no promising candidates have applied, contact the talent acquisition specialist or the HR advisor. Discuss your thoughts and considerations with the selection committee.
+1. The CV check. In this step you reject the candidates who miss must-haves. You also comment on the other candidates. Discuss your thoughts and considerations with the selection committee. Contact the talent acquisition specialist or the HR advisor if no promising candidates have applied. 
 
 2. Screening interviews. A screening by short phone or video calls may be a good in-between step before the job interviews. 
 
@@ -20,7 +20,7 @@ A great guide for these steps can be found in chapter 3 of [this document](../Ph
 
 ```{admonition} Knowledge safety check
 :class: warning, dropdown
-* Be aware of the **knowledge safety check**! It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. Students from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. How to do it? 
+Be aware of the **knowledge safety check**! Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. How to do it? 
 
   * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
   * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
@@ -31,7 +31,7 @@ A great guide for these steps can be found in chapter 3 of [this document](../Ph
 
 Some important notes: 
 * The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
-and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store or send cv's by mail. 
+and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store CVs or send CVs by mail. 
 
 * Regarding the selection committee: the selection is done using the 4-eye principle, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire.
 
@@ -67,4 +67,4 @@ First, you call the candidate with the good news. Collect the following details 
 
 Next, you contact the management assistant for the job offer. The management assistant will make the job offer based on the information you provide: duration, starting date, salary, working hours, english proficiency (ETV) and contact details. The management assistant will send the job offer to the candidate with you in the cc. 
 
-Update Talentlink. When the job offer is accepted and all other candidates are rejected, contact the management assistant to close the vacancy in Talentlink. 
+Do not forget to update Talentlink. When the job offer is accepted and all other candidates are rejected, contact the management assistant to close the vacancy in Talentlink. 

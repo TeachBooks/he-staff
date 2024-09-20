@@ -22,17 +22,17 @@ When delivering bad news, please ensure you:
 
 More guidelines on delivering bad news in a positive way:  
 
-    1. Start with the announcement: “Hello Tristan, I am calling about your application to the position of PhD candidate. Is this a good time to talk?”  
+1. Start with the announcement: “Hello Tristan, I am calling about your application to the position of PhD candidate. Is this a good time to talk?”  
 
-    2. Share the message. Be clear, factual and concise. This will reduce the likelihood of a candidate experiencing anger. For example: “Unfortunately, I have bad news. We have decided not to make you an offer for this position. The main reason is…..”  
+2. Share the message. Be clear, factual and concise. This will reduce the likelihood of a candidate experiencing anger. For example: “Unfortunately, I have bad news. We have decided not to make you an offer for this position. The main reason is…..”  
 
-    3. Pause and listen. You may also ask the candidate “How does this makes you feel?” Don’t guess how the candidate feels. When an emotion is shared or visible, acknowledge it. “I can hear that you are disappointed/upset and I understand”.    
+3. Pause and listen. You may also ask the candidate “How does this makes you feel?” Don’t guess how the candidate feels. When an emotion is shared or visible, acknowledge it. “I can hear that you are disappointed/upset and I understand”.    
 
-    4. If a candidate feels sad or disappointed, this is a healthy part of the process of letting expectations go. Allow space for the candidate to regain their balance. Don’t disempower the candidate by feeling sorry for them.   
+4. If a candidate feels sad or disappointed, this is a healthy part of the process of letting expectations go. Allow space for the candidate to regain their balance. Don’t disempower the candidate by feeling sorry for them.   
 
-    5. If a candidate feels angry, don’t take anything personally. Stay calm. Anger can be beneficial for the candidate, too. Don’t try to explain your reasoning during the peak of an emotion. Let the candidate know that you understand their reaction and allow them time to process. If a candidate is very upset, guard your boundaries. In this case, you can kindly end the conversation by stating that you will be in touch again the next day to answer any remaining questions. Always follow up on your promise.  
+5. If a candidate feels angry, don’t take anything personally. Stay calm. Anger can be beneficial for the candidate, too. Don’t try to explain your reasoning during the peak of an emotion. Let the candidate know that you understand their reaction and allow them time to process. If a candidate is very upset, guard your boundaries. In this case, you can kindly end the conversation by stating that you will be in touch again the next day to answer any remaining questions. Always follow up on your promise.  
 
-    6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times. 
+6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times. 
 ```
 
 
@@ -63,12 +63,16 @@ Contact the management assistant to start up the MyHR process. They will need in
 - Has this person been employed at TU Delft before? 
 ```
 
-The second step is about the contract details. Discuss the following questions with the candidate and give the outcomes to the management assistant: 
+The second step is about the contract details. Discuss the questions with the candidate and give the outcomes to the management assistant
+
+```{admonition} What information is needed for te second stage of MyHR?
+:class: info, dropdown
+
 - On which days will the candidate work? 
 - On which days is the candidate on campus? Note that the TU Delft policy is to work at least 60% of the time on campus. 
 - Enable payroll tax credit (‘loonheffingskorting’)?  
 - Does the candidate want the plus or minus variant? More information can be found on [intranet](https://intranet.tudelft.nl/en/-/flexible-working-time) and an overview of the possibilities is given in a [table](../PhDPostDocs/Appendices/Appendix%20Table%20Flexible%20Working%20Hours%20and%20Times%20(1).pdf)
-
+```
 
 The management assistant can also ask other questions regarding the contract details during this stage. Also inform the management assistant if the contract dates have changed since the job offer. The management assistant will also contact the department secretary and HR advisor to check the contract details, after which an automatic flow of approval starts in MyHR.
 
