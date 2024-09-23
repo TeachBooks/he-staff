@@ -17,6 +17,10 @@ Candidates from or with connections to China, Russia, Belarus, Iran and North Ko
 - Do not inform the candidates about the knowledge safety check as this information is confidential. 
 ```
 
+The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
+and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store CVs or send CVs by mail. 
+
+
 ## 3.1 CV Selection to longlist 
 
 The selection starts with the preselection, which is done by the committee chair and 2 other members of the selection committee. This subpart of the selection committee is also referred to as the small committee. Use talentlink to put all candidates into the categories invite, reject and doubt. This step results in a longlist of candidates. In the next step, you will interview those candidates online. 
@@ -37,8 +41,34 @@ This intermediate step is useful if you have more than 3 candidates left.
 
 Discuss with the small committee who the 4-5 best candidates are. Interview them online. You can use [this document](../HigherFunctions/Appendices/OnlineInterviewAgenda.docx) for a possible agenda.  
 
-Also make reference calls. Guidelines for reference calls can be found [here](../HigherFunctions/Appendices/ReferenceCall_BasicGuidelines.docx) 
+Also make reference calls.
 
+```{admonition} Guidelines for reference calls
+:class: tip, dropdown
+
+Basic guidelines for a valuable reference call: 
+
+-	Start by introducing yourself and state the purpose of your call. 
+-	Confirm whether it’s a convenient time to talk. 
+-	Briefly describe the position (field of expertise, core goals, most important techniques). 
+-	Confirm the relationship between the referent and the candidate. 
+-	Verify basic duties such as internship topics, products, duties and dates of assignments/ internships. 
+-	Ask your project-specific questions about knowledge, skills and competencies (e.g., time management, technical experience, and content of theoretical or practical courses). 
+-	Ask for examples when the reference offers an opinion. 
+-	Be consistent. Ask the same questions about all final candidates and weigh the information equally; what disqualifies one should be the basis for disqualifying others.
+
+Questions could include: 
+
+-	What was the nature and length of your relationship with the candidate? 
+-	Which duties and responsibilities were assigned to the candidate? 
+-	Did they complete them satisfactorily? 
+-	Did they go above and beyond what was required without being asked? 
+-	What were the candidate’s strengths as an employee/intern/student? 
+-	What would you consider as the ideal next step for this candidate? Why? 
+-	Would you hire or want to work with the candidate again? Why? 
+-	Why did they leave the position? (if applicable). 
+-	Is there anything else I should take into consideration before I hire this candidate?
+```
  
 
 ## 3.3 On campus selection 

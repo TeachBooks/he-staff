@@ -22,7 +22,7 @@ There are some relatively easy things you can do to boost the exposure and appea
 Spread the word about the position when you visit (job) fairs and conferences or give presentations, share research posters or speak to people in your research area during (conference) lunches. Ask your direct colleagues to support you by providing a ready-made slide that they can include in their PowerPoint presentations or an informative banner to include in research posters.  
 
 ```{admonition} Using LinkedIn
-:class: info, dropdown
+:class: tip, dropdown
 **Creating a LinkedIn account**
 
 LinkedIn is an effective social media platform to use for recruitment purposes. If you don’t have a LinkedIn profile, we recommend you create one when you start recruiting. Including a profile picture, sharing your position and field of expertise and selecting TU Delft as your current employer will make you more successful as a recruiter on LinkedIn. Start inviting current and previous colleagues to activate your network of first-degree connections. Invite some of TU Delft’s talent acquisition specialists, as they have large and relevant networks. The magic of social media is that your reach will swiftly increase via your second-degree connections (the connections of your connections). All vacancies submitted for publication online are automatically posted on the TU Delft LinkedIn page. Boost the number of people who read your vacancy by sharing it as a post on your LinkedIn page. Your vacancy will then appear in the timeline, or the homepage, of everyone in your network. Subsequently, it will find its way to your 2nd-degree connections and beyond.  

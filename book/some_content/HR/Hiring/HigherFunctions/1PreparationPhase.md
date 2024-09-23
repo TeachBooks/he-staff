@@ -22,7 +22,7 @@ Next, make a draft profile for the vacancy and discuss it with:
 Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Check if the department chair agrees with this committee. 
 
 ```{admonition} Who should be in the selection committee?
-:class: info, dropdown
+:class: tip, dropdown
 
 The selection committee should consist of at least one woman and requires the following functions:
 

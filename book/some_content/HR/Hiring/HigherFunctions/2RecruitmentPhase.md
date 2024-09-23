@@ -22,7 +22,7 @@ There are some relatively easy things you can do to boost the exposure and appea
 Spread the word about the position when you visit (job) fairs and conferences or give presentations, share research posters or speak to people in your research area during (conference) lunches. Ask your direct colleagues to support you by providing a ready-made slide that they can include in their PowerPoint presentations or an informative banner to include in research posters.  
 
 ```{admonition} Using LinkedIn
-:class: info, dropdown
+:class: tip, dropdown
 
 **Creating a LinkedIn account**
 
