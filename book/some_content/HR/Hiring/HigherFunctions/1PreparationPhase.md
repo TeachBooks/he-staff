@@ -21,7 +21,10 @@ Next, make a draft profile for the vacancy and discuss it with:
 
 Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Check if the department chair agrees with this committee. 
 
-The selection committee should consist at least one woman and requires the following functions: 
+```{admonition} Who should be in the selection committee?
+:class: tip, dropdown
+
+The selection committee should consist of at least one woman and requires the following functions:
 
 - Department chair of another department  
 
@@ -42,11 +45,9 @@ The selection committee should consist at least one woman and requires the follo
 - HR Advisor  
 
 - Department Secretary (process secretary) 
+```
 
-
-Plan selection day 
-
-These committees are rather large and planning the day of on campus interviews requires good planning. Start planning the selection day already in this stage as the availability of possible committee members is a considerable limiting factor. A reasonable moment will be 4 weeks after the closure date of the vacancy. The management assistant can help you with the planning of the selection day. 
+Plan the selection day as soon as possible. These committees are rather large and planning a day can therefore be a challenging task. A reasonable moment to plan the selection day is 4 weeks after the closure date of the vacancy. The management assistant can help you with the planning of the selection day. 
 
 
 ## 1.3 Create and post vacancy
@@ -55,7 +56,7 @@ Create the vacancy by filling in the [vacancy format](../HigherFunctions/Appendi
 
 
 Some notes regarding the vacancy format:
-* Contact the HR advisor (for academic career track/ higher functions) to discuss the UFO profile, the conditions of employment and the vacancy text. 
+* Contact the HR advisor to discuss the UFO profile, the conditions of employment and the vacancy text. 
 * The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for Assistent and Associate professors 
 [1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Biotechnology%20for%20Sustainable%20Food%20Security.docx)
 [2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant-Associate%20Professor%20Complex%20Ship%20Design.docx)
@@ -66,26 +67,18 @@ and Lecturers
 [3](../HigherFunctions/Appendices/ExamplesVacancyTexts/Principal%20Educator%20-%20EN.docx)
 <!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
 * Some extra tips regarding the requirements formulation and selection strategy can be found in [this document](../Hiring/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
-* Add the on campus interview dates if you already succeeded in planning the on campus selection with the full committee. 
+* Add the on campus interview dates in the text if you already succeeded in planning the on campus selection with the full committee. 
 * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. 
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
-When the vacancy form is complete, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl . Also communicate with recruitment about the type of appendices, such as: 
 
-- Motivation and CV 
-- List of publications 
-- Research statement  
-- Teaching statement 
-- Names and contact of at least 3 referents outside the TU Delft 
+When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl).
 
-After submitting your vacancy, it will appear on: 
+After submitting your vacancy will appear on: 
 
 - TU Delft’s internal (intranet) vacancy page 
-
 - TU Delft’s external vacancy page 
-
 - Academic Transfer 
-
 - TU Delft’s LinkedIn job page 

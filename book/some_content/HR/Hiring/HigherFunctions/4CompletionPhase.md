@@ -32,7 +32,8 @@ Once your preferred candidate has accepted the job offer, it’s time to reject 
 
 Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
 
-**Tips for rejection conversations**
+```{admonition} Tips for rejection conversations
+:class: tip, dropdown
 
 When delivering bad news, please ensure you: 
 
@@ -55,7 +56,7 @@ More guidelines on delivering bad news in a positive way:
 5. If a candidate feels angry, don’t take anything personally. Stay calm. Anger can be beneficial for the candidate, too. Don’t try to explain your reasoning during the peak of an emotion. Let the candidate know that you understand their reaction and allow them time to process. If a candidate is very upset, guard your boundaries. In this case, you can kindly end the conversation by stating that you will be in touch again the next day to answer any remaining questions. Always follow up on your promise. 
 
 6. Once the peak of the emotion has passed, again offer your fact-based explanation and answer any questions. Don’t alter your initial explanation. Acknowledge any emotions. Sometimes, you will have to repeat your answer several times. 
-
+```
  
 
 ## 4.3 Contract and administrative tasks 
@@ -66,7 +67,11 @@ In this phase between the job offer and the first workday, the management assist
 
 The management assistant follows the workflow in MyHR. MyHR is used to gather the candidate's information and the contract information. It contains steps to obtain approval from several persons. In the end, a contract is made and signed by the candidate. 
 
-Contact the management assistant to start up the MyHR process. They will need information about the candidate in two stages. First, they need the following information about the candidate: 
+Contact the management assistant to start up the MyHR process. They will need information about the candidate in two stages. 
+
+```{admonition} What information is needed for the first stage of MyHR?
+:class: tip, dropdown
+
 - Initials of first names 
 - First names 
 - Preferred name (in Dutch: roepnaam) 
@@ -78,8 +83,9 @@ Contact the management assistant to start up the MyHR process. They will need in
 - E-mail private 
 - Organisatorical unit (i.e. name of section or department) 
 - Has this person been employed at TU Delft before? 
+```
 
-The next step is about the contract details. Discuss the following questions with the candidate and give the outcomes to the management assistant: 
+The second step is about the contract details. Discuss the following questions with the candidate and give the outcomes to the management assistant: 
 - On which days will the candidate work? 
 - On which days is the candidate on campus? Note that the TU Delft policy is to work at least 60% of the time on campus. 
 - Enable payroll tax credit (‘loonheffingskorting’)?  

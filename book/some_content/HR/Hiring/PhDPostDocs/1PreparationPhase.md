@@ -11,7 +11,7 @@ First of all, there are two checks:
 
 If this is your first time being a vacancy holder, also meet with the department secretary and the HR advisor to discuss the practicalities of the hiring process. 
 
-If both checks are complete, you can continue with the next step.
+If both checks are complete you can continue with the next step.
 
 
 ## 1.2 Fill in vacancy format 
@@ -21,7 +21,7 @@ Use the [vacancy format](../PhDPostDocs/Appendices/Vacancy%20Format%201.7%20-%20
 
 Some notes regarding the vacancy format:
 * Contact the department secretary to discuss the UFO profile, the conditions of employment and the vacancy text. 
-* The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for PhD functions 
+* The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts are available for PhD functions 
 [1](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Decentralised%20Machine%20Learning.docx)
 [2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Modelling%20of%20Regional%20Criminal%20Vulnerability%20and%20Supply%20Chains.docx)
 [3](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Spread%20in%20Networks.docx)
@@ -31,7 +31,7 @@ and for Postdoc functions
 [2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Ethical%20Impact%20of%20Technology%20on%20Society.docx)
 [3](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Partnerschap%20met%20omwonenden%20in%20bouwprocessen.docx)
 <!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
-* Some extra tips regarding the requirements formulation and selection strategy can be found in [this document](../PhDPostDocs/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
+* Some extra tips on formulating the requirements and using it in the selection strategy can be found in [this document](../PhDPostDocs/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
 * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. 
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
@@ -45,11 +45,11 @@ It is good practice to form the selection committee in this step. In case of a P
 
 ## 1.3 Send vacancy format to recruitment 
 
-As soon as the financial check and department secretary have approved the vacancy and the vacancy form has been completed, you can send the vacancy form to recruitment: Recruitment-CITG@tudelft.nl 
+As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl)
 
-After submitting your vacancy, it will appear on: 
+After submitting your vacancy will appear on: 
 
-* TU Delft's internal (intranet) vacancy page 
-* TU Delft's external vacancy page 
-* Academic Transfer 
-* TU Delft's LinkedIn job page 
+- TU Delft’s internal (intranet) vacancy page 
+- TU Delft’s external vacancy page 
+- Academic Transfer 
+- TU Delft’s LinkedIn job page 
