@@ -6,8 +6,12 @@ Welcome to the information page for the employees of the Hydraulic Engineering D
 ![Landing page](/figures/Campus-TUDelft-intro.jpg)
 
 This page aims to provide information about the Hydraulic Engineering Department on various topics. 
-Information will be posted the coming months about procedures related to general matters of the department, education, finance and human resources.
-At the moment, information is available regarding the workspace guidelines, available office layouts, and floorplans.
+Information will be posted the coming months about procedures related to general matters of the hydraylic engineering department, education, finance and human resources.
+At the moment, information is available regarding: *workspace guidelines*, *hiring and onboarding proceedures*, *available office layouts*, and *floorplans*.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 **Please note:** that the contents of this website will be filled in during June 2024. The current URL is temporary to facilitate our ability to share information with you as soon as possible. At a later moment the website will be moved to a permanent location on a TU Delft server, along with SSO login.
 
