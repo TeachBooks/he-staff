@@ -18,16 +18,6 @@
    
 ![General ](../../../figures/room-change-guidelines.png)
 
-
-### Meeting Rooms
-
-- There are several meeting rooms (at least 2 small and 2 big).
-- Larger offices can be used (and booked) as meeting rooms when the regular occupant (often a professor) is not there.
-- Meetings with more than 6-8 people will take place on the 2nd floor.
-
-![General ](../../../figures/meeting-rooms-graphic.png)
-
-
 ### General Guidelines
 
 #### Flex Rooms
