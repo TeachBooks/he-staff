@@ -27,7 +27,7 @@ The MT meets every two weeks on Thursday to make key decisions. In urgent cases,
 Decisions table:
 
 
-![footer](/../figures/footer-tudelft.jpg)
+![footer](/../../figures/footer-tudelft.jpg)
 
 
 
