@@ -39,20 +39,3 @@ The following layouts are available for permanent or temporary employees of the 
 | **Senior Faculty Member Office**                                     | **HE Support Secretariat**                                                     |
 
 
-**Meeting Rooms**
-
-Available Meeting Rooms in 3rd Floor: 
-- 3.47 (Bookings for up to 6 people, not a digital booking panel available)
-- 3.57 ( Booking for up to 7 people, whiteboards and monitor)
-- 3.69 ( Bookings for up to 7 people, standing tables, 2 whiteboards, and extra sitting space)
-- 3.79 (Bookings for up to 7 people, white board, flip charts and monitor)
-  
-- **Note:** For up to 4 people, smaller rooms next to lift D are available, noted as Exam room 1 & 2 in the floor plan.
-- These rooms 3.80.6 and 3.82.6 can be booked for up to 4 people and are equiped with a monitor. These can be booked via the contacting the management assitantants.
-
-- Meeting rooms can have either standing tables or standard tables and seats.
-
-**Meeting Rooms Bookings:**
-- Booking of standard meeting rooms is posible by permanent employees.
-- To book one of the faculty meeting rooms in the second floor, please direct your request to secr-he-citg@tudelft.nl
-- To book a lecture room, please contact roosters-citg@tudelft.nl
