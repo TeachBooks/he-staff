@@ -21,3 +21,6 @@ For general inquiries please contact us at:
 
 ### HE Department Webpage
 [Hydraulic Engineering Department - TU Delft](https://www.tudelft.nl/citg/over-faculteit/afdelingen/hydraulic-engineering)
+
+
+![footer](figures/footer-tudelft.jpg)
