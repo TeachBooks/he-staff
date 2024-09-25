@@ -44,7 +44,7 @@ You have the option to download the figure as a PDF or image file, or alternativ
   <img src="../../../_static/figures/floor_plan_second_floor.jpg" class="zoom" alt="CITG Building">
 </div>
 
-- [Floor Plan Second Floor (PDF)](../../../pdfs/2nd_floor.pdf) 
+- [Floor Plan Second Floor (PDF)](../../../pdfs/2nd_floor_update.pdf) 
 _________________________________________________________________________
 
 ### CEG Building 3rd Floor
@@ -53,7 +53,7 @@ _________________________________________________________________________
   <img src="../../../_static/figures/floor_plan_third_floor.jpg" class="zoom" alt="CITG Building">
 </div>
   
-- [Floor Plan Third Floor (PDF)](../../../pdfs/3rd_floor.pdf)
+- [Floor Plan Third Floor (PDF)](../../../pdfs/3rd_floor_update.pdf)
 
 _________________________________________________________________________
 
