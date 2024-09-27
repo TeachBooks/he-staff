@@ -20,7 +20,9 @@ Use the [vacancy format](../PhDPostDocs/Appendices/Vacancy%20Format%201.7%20-%20
 
 
 Some notes regarding the vacancy format:
-* Contact the department secretary to discuss the UFO profile, the conditions of employment and the vacancy text. 
+* Ask the department secretary to fill in part of the format, e.g. the UFO profile and the cash flow. 
+<!-- * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
+* The cash flow is 1 for direct employees and 2/3 for project employees. -->
 * The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts are available for PhD functions 
 [1](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Decentralised%20Machine%20Learning.docx)
 [2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Modelling%20of%20Regional%20Criminal%20Vulnerability%20and%20Supply%20Chains.docx)
@@ -31,9 +33,7 @@ and for Postdoc functions
 [2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Ethical%20Impact%20of%20Technology%20on%20Society.docx)
 [3](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Partnerschap%20met%20omwonenden%20in%20bouwprocessen.docx)
 <!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
-* Some extra tips on formulating the requirements and using it in the selection strategy can be found in [this document](../PhDPostDocs/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
-* The Talent Acquisition Specialist of the faculty is Avital Fishman. 
-* The cash flow is 1 for direct employees and 2/3 for project employees. 
+* Some extra tips on formulating the requirements and using it in the selection strategy can be found in [this document](../PhDPostDocs/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf) 
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
