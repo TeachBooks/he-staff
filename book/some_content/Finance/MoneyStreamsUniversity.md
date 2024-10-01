@@ -1,34 +1,27 @@
-# Basics of Finance
+# Funding and Financial Distribution at TU Delft
 
-This page tells the basics of the money streams within the university and the department. 
+### The Four Main Sources of University Income
 
-### University Financial Streams 
-
-The money streams to the university are organised in first, second, third and fourth money streams.  
+University funding is categorised into four main streams: the first, second, third, and fourth.
 
 ![Money Streams](../Finance/Appendices/MoneyStreams.png)
 
-- The first money stream consists of a direct contribution from the government and tuition fees. The tuition fees of European (EER) students are partially paid by the government. 
-
-- The second money stream comes from funds that are in the end paid by the government: the NWO or KNAW funds. 
-
-- The third money stream comes from companies, non-profit institutions and the European Union.  
-
-- The fourth money stream refers to money that a university receives outside of traditional money sources, e.g. donations. 
+•	**First Money Stream:** This consists of direct government contributions and tuition fees. For European students, part of the tuition fees is subsidised by the Dutch government.
+•	**Second Money Stream:** These funds are also government-sourced, but come through organisations like NWO (Dutch Research Council) or KNAW (Royal Netherlands Academy of Arts and Sciences).
+•	**Third Money Stream:** This includes funding from companies, non-profit organizations, and the European Union.
+•	**Fourth Money Stream:** Refers to income outside traditional sources, such as donations or private gifts.
 
 
-### Distribution of the first money stream 
+### Allocating the First Money Stream within TU Delft
+
+The Ministry of Education, Culture and Science allocates a budget for all Dutch universities. TU Delft receives a share of this budget, which is divided into two components: a fixed portion and a variable portion. The variable component depends on factors such as the number of students, BSc and MSc degrees awarded, and PhD defenses. This system of fixed and variable components also comes back in the internal allocation of funds to faculties and departments.
 
 ![Division of First Money Stream](../Finance/Appendices/DivisionFirstMoneyStream.png)
 
-The ministry of  Education, Culture and Science has a budget for all universities. The TU Delft receives a share of that budged based on a fixed component and a variable component. The variable component is dependent on the number of students, the number of BSc and MSc diplomas and the number of PhD defences. This division of a fixed and variable component is also used in the further division over the faculties and departments.
-
-The first money stream is distributed over the TU Delft into three categories: 
-- The university services like HR, finance and ICT.
-
-- Organisation-wide budgets. Those budgets are about the TU Delft wide agenda as defined by the executive board. These budgets are used for strategic funds and programmes and projects.
-
-- The faculties. Within each faculty this money is distributed over the departments like the Hydraulic Engineering department.
+Within TU Delft, the first money stream is distributed among three main bodies:
+1.	**University Services:** These include services such as HR, Finance, and ICT.
+2.	**Organisation-Wide Budgets:** These are used for strategic funds, programs, and projects aligned with the TU Delft agenda, as set by the Executive Board.
+3.	**Faculties:** Each faculty receives a portion of the first money stream, which is then distributed among its departments, such as the Hydraulic Engineering department.
 
 
 
