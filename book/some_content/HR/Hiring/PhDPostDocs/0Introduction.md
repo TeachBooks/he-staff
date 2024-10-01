@@ -1,8 +1,8 @@
 # Hiring a PhD or PostDoc
 
-Congratulations, you have sufficient funding and inspiration to start a new (sub)project. But how do you get the right candidate to apply for your vacancy? And how do you know who is the best candidate for this specific project? This webpage clarifies the A-Z recruitment and selection process. The aim is to make the process manageable and respectful to all people involved. 
+You have secured the necessary funding to initiate a new (sub)project. The next step is to ensure that the right candidate applies for your vacancy, and that you select the most suitable individual for your project. This webpage outlines the complete recruitment and selection process, designed to make the procedure both efficient and respectful to all participants.
 
-How to use this? Just follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively.
+How to use this? Follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively.
 
 ![The steps of the hiring procedure](../PhDPostDocs/Appendices/OverviewImage.PNG)
 

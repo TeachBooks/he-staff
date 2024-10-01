@@ -4,14 +4,12 @@
 
 ## 1.1 Financial and departmenal checks 
 
-First of all, there are two checks: 
+Before posting a vacancy, the internal project budget must be approved. This applies to all project-funded vacancies (second or third cash flow).
 
-* The financial check. If the vacancy is part of a project (2nd/3rd cashflow), the internal budget has to be checked. If the vacancy has a 1st cashflow, contact the Business Controller David Lodowica for the financial check. 
-* The departmental check. Inform the department secretary and your section head about the vacancy you want to post. 
+For first-time vacancy holders it is recommended to meet with both the Department Secretary and the HR Advisor to discuss the practicalities of the hiring process.
 
-If this is your first time being a vacancy holder, also meet with the department secretary and the HR advisor to discuss the practicalities of the hiring process. 
+Once the financial check is complete, you may proceed to the next step
 
-If both checks are complete you can continue with the next step.
 
 
 ## 1.2 Fill in vacancy format 
@@ -39,8 +37,7 @@ and for Postdoc functions
 
 **Selection committee**
 
-It is good practice to form the selection committee in this step. In case of a PhD and Postdoc positions, we use the 4-eye principle in the selection steps, meaning you select together with at least one other person. This is done to avoid biased decisions and blind spots. Try to include a senior staff member and someone neutral, who doesn’t have a vested interest in the hire. 
-
+At this stage, it is advisable to establish the selection committee. For PhD and Postdoc positions, the four-eye principle is applied during the selection process. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
 
 
 ## 1.3 Send vacancy format to recruitment 

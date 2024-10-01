@@ -19,7 +19,7 @@ Next, make a draft profile for the vacancy and discuss it with:
 
 ## 1.2 Compose selection committee 
 
-Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Check if the department chair agrees with this committee. 
+Form the Appointments Advisory Committee (AAC) together with the department secretary and HR advisor. Please verify whether the department chair approves of this committee.
 
 ```{admonition} Who should be in the selection committee?
 :class: tip, dropdown
@@ -56,7 +56,7 @@ Create the vacancy by filling in the [vacancy format](../HigherFunctions/Appendi
 
 
 Some notes regarding the vacancy format:
-* Contact the HR advisor to discuss the UFO profile, the conditions of employment and the vacancy text. 
+* Contact the HR advisor and fill the format together. Discuss the UFO profile, the conditions of employment and the vacancy text.
 * The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for Assistent and Associate professors 
 [1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Biotechnology%20for%20Sustainable%20Food%20Security.docx)
 [2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant-Associate%20Professor%20Complex%20Ship%20Design.docx)
