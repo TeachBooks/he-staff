@@ -8,7 +8,7 @@ Once your preferred candidate has accepted the job offer, it is important to not
 
 Remember, every interaction with a candidate can influence TU Delft’s reputation as an employer, as well as the reputation of your research department. Careful handling of rejections contributes to maintaining a positive professional image.
 
-**Note:** During the rejection conversation, do not reference the knowledge safety check. The outcome of this check is confidential and should not be shared with candidates. Instead, you can inform them that another candidate was deemed more suitable for the position
+**Note:** During the rejection conversation, do not reference the knowledge safety check. The outcome of this check is confidential and should not be shared with candidates. Instead, you can inform them that another candidate was deemed more suitable for the position.
 
 
 ```{admonition} Tips for rejection conversations
@@ -49,7 +49,7 @@ The management assistant follows the workflow in MyHR. MyHR is used to gather th
 
 Contact the management assistant to start up the MyHR process. They will need information about the candidate in two stages. 
 
-```{admonition} What information is needed for the first stage of MyHR?
+```{admonition} What information is required for the first stage of MyHR?
 :class: info, dropdown
 
 - Initials of first names 
@@ -67,7 +67,7 @@ Contact the management assistant to start up the MyHR process. They will need in
 
 The second step is about the contract details. Discuss the questions with the candidate and give the outcomes to the management assistant
 
-```{admonition} What information is needed for the second stage of MyHR?
+```{admonition} What information is required for the second stage of MyHR?
 :class: info, dropdown
 
 - On which days will the candidate work? 
