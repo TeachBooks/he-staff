@@ -2,11 +2,13 @@
 
 ![Completion Phase](../PhDPostDocs/Appendices/4Completion.PNG)
 
-## 4.1 Reject candidates 
+## 4.1 Rejecting candidates 
 
-Once your preferred candidate has accepted the job offer, it’s time to reject your 2nd best or silver candidate(s). Rejecting candidates who have been interviewed is done by phone or face-to-face. This is the responsibility of the vacancy holder and not an easy task. These candidates invested time and energy in the application process and must be treated with respect and care. Furthermore, keep in mind that every interaction with a candidate can either harm or improve TU Delft's employer reputation and that of your research department.  
+Once your preferred candidate has accepted the job offer, it is important to notify the remaining candidates. Candidates who were interviewed should be informed of the decision either by phone or in person. As the vacancy holder, this is your responsibility, and while it may be a challenging task, it is essential that these candidates are treated with respect and professionalism, acknowledging the time and effort they have invested in the application process.
 
-**Please note:** Do not mention the knowledge safety check in your rejection conversation. The outcome of the knowledge safety check may not be shared with the candidates. Instead, you can mention that other candidates were more suitable for this position. 
+Remember, every interaction with a candidate can influence TU Delft’s reputation as an employer, as well as the reputation of your research department. Careful handling of rejections contributes to maintaining a positive professional image.
+
+**Note:** During the rejection conversation, do not reference the knowledge safety check. The outcome of this check is confidential and should not be shared with candidates. Instead, you can inform them that another candidate was deemed more suitable for the position
 
 
 ```{admonition} Tips for rejection conversations
@@ -87,10 +89,10 @@ When the contract has been signed, the candidate can apply for a visa. A working
 The candidate will automatically get emails for their NetID and campus card. 
 
 
-## 4.3 First workday 
+## 4.3 First workday
 
-Congratulations, the new candidate will soon arrive! Think about the welcome you give: How will their first workday and workweek look like? Make sure to make a round introducing people and please do visit the management assistants.  
+The new employee will soon join the team. It is important to consider how you will structure their first day and the initial week. Ensure they receive a warm welcome, including an introduction to key colleagues and a visit to the management assistants.
 
-In the first week you also plan a meeting 2 weeks before the end of the trial period to review their performance. This conversation is a good opportunity to let the candidate know what you think. Compliment the candidate on positive points and tell in where you see room for improvement. If the candidate is malfunctioning, contact the HR advisor a few weeks before the end of the trial period. 
+During the first week, schedule a meeting to take place two weeks before the end of the trial period. This meeting will allow you to review the new employee’s performance. Use this opportunity to provide constructive feedback—highlighting strengths while identifying areas for improvement. If there are serious concerns regarding the employee’s performance, it is advisable to consult the HR Advisor a few weeks prior to the end of the trial period.
 
-And one final comment: you must delete all files of the vacancy process for privacy reasons. 
+Lastly, please ensure that all documents related to the hiring process are deleted for privacy compliance.

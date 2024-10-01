@@ -7,8 +7,11 @@ University funding is categorised into four main streams: the first, second, thi
 ![Money Streams](../Finance/Appendices/MoneyStreams.png)
 
 •	**First Money Stream:** This consists of direct government contributions and tuition fees. For European students, part of the tuition fees is subsidised by the Dutch government.
+
 •	**Second Money Stream:** These funds are also government-sourced, but come through organisations like NWO (Dutch Research Council) or KNAW (Royal Netherlands Academy of Arts and Sciences).
+
 •	**Third Money Stream:** This includes funding from companies, non-profit organizations, and the European Union.
+
 •	**Fourth Money Stream:** Refers to income outside traditional sources, such as donations or private gifts.
 
 
