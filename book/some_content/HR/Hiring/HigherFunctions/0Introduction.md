@@ -6,7 +6,7 @@ How to use this? Follow the steps according to the image below. At the left of y
 
 ![The steps of the hiring procedure](../HigherFunctions/Appendices/OverviewImageHigher.PNG)
 
-The procedure for promotion and hiring of full professors is not treated here. For the full professor procedure, you can contact the HR advisor and check [this link](https://intranet.tudelft.nl/-/recruitment-selection-and-internal-procedure-of-academic-staff?p_l_back_url=%2Fsearch%3Fq%3Dbenoemings)  
+The procedure for promotion and hiring of full professors is not treated here. For the full professor procedure, you can contact the HR advisor and you can check [this link](https://intranet.tudelft.nl/-/recruitment-selection-and-internal-procedure-of-academic-staff?p_l_back_url=%2Fsearch%3Fq%3Dbenoemings)  
 
 
 *We are currently in a test phase of this procedure. Please let us know if you see any room for improvement via D.A.J.vanDieren@tudelft.nl*

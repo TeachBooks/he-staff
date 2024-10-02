@@ -17,31 +17,29 @@ Candidates from or with connections to China, Russia, Belarus, Iran and North Ko
 - Do not inform the candidates about the knowledge safety check as this information is confidential. 
 ```
 
-The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
+The selection process is done using **Talentlink**. Detailed instructions are provided in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
 and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store CVs or send CVs by mail. 
 
 
 ## 3.1 CV Selection to longlist 
 
-The selection starts with the preselection, which is done by the committee chair and 2 other members of the selection committee. This subpart of the selection committee is also referred to as the small committee. Use talentlink to put all candidates into the categories invite, reject and doubt. This step results in a longlist of candidates. In the next step, you will interview those candidates online. 
+The selection process begins with a preselection, carried out by the committee chair and two additional members of the selection committee, also referred to as the "small committee." Utilize Talentlink to categorize candidates into "invite," "reject," and "doubt" groups. This stage results in the creation of a longlist of candidates, who will then proceed to online interviews.
 
-If there are a large number of applicants, you will want to make a first selection based on a single, must-have criterion. Next, you can use your full scoring chart. Your checklist and scoring strategy for the CV review stage may look like the example below. Stick to the checklist and be aware of biased conclusions. For example, CV gaps are often not explained by applicants. The tendency might be to assume the negative and reject these candidates. However, there are many good reasons for CV gaps. 
+In cases where there are a large number of applicants, it is advisable to make an initial selection based on a single, essential criterion. Subsequently, you may apply the full scoring chart. Your checklist and scoring method for the CV review stage should follow a structured approach, such as the example provided below. Adhere strictly to the checklist and remain mindful of potential biases. For example, CV gaps may be interpreted negatively, leading to the rejection of candidates. However, it is important to consider that such gaps may have valid reasons.
 
 ![SelectionScoringChart](../HigherFunctions/Appendices/SelectionScoringChart.png)
 
-Rejected candidates must be informed within 2 weeks after the application deadline. Email templates are available in the recruitment system and can be sent by the management assistants. After candidates have been interviewed, it’s best for the vacancy holder to send rejections by email or phone. Find guidelines and tips in paragraph 4.2. 
+Rejected candidates must be informed within two weeks after the application deadline. Email templates for rejection are available in the recruitment system and can be sent by the management assistants. For candidates who have been interviewed, it is preferable for the vacancy holder to personally communicate rejections via email or phone. Guidelines and tips can be found in *Paragraph 4.2*.
 
-Before scheduling the interviews, you may choose to do a 15-20 minute screening by phone or video call. You will be surprised by some candidates and disappointed by others.  
+Before scheduling the interviews, you may choose to do a 15-20 minute screening by phone or video call. This can provide additional insights, as some candidates may exceed expectations, while others may not. 
 
  
 
 ## 3.2 Online interviews to shortlist 
 
-This intermediate step is useful if you have more than 3 candidates left.  
+This intermediate step is useful when more than three candidates remain in the selection process. 
 
-Discuss with the small committee who the 4-5 best candidates are. Interview them online. You can use [this document](../HigherFunctions/Appendices/OnlineInterviewAgenda.docx) for a possible agenda.  
-
-Also make reference calls.
+Consult with the small committee to identify the top four to five candidates. Conduct online interviews with these selected candidates. A proposed agenda can be found in [this document.](../HigherFunctions/Appendices/OnlineInterviewAgenda.docx) Also make reference calls.
 
 ```{admonition} Guidelines for reference calls
 :class: tip, dropdown
@@ -75,16 +73,15 @@ Questions could include:
 
 The next step consists of the on campus interviews.  
 
-Return to step *2.2 Prepare on campus selection* and check if you have done all those preparation steps. 
+Return to step *2.2 Prepare on campus selection* to ensure all necessary preparations have been completed.
 
-- Make sure that all selection committee members have the day in their agenda and have received all documents: the scoring chart, the planning of the day. Also have the [template for the advice to the dean](../HigherFunctions/Appendices/ToDean_AdviceOfCommittee.docx) ready. Print the documents if necessary. 
+- Ensure that all members of the selection committee have the date marked in their calendars and have received the required documents, including the scoring chart and the schedule for the day. Additionally, have the template for the advice to the dean readily available. If necessary, print these documents.
 
-- Inform the candidates about the on campus interviews by using the mail you previously prepared. Also call the candidates whom you rejected after the online interviews if you have not done this already. Tips for rejection conversations can be found in section *4.2 Reject candidates*. 
+- Inform the candidates about the on-campus interviews using the pre-prepared email. Also, if you have not already done so, contact the candidates who were not selected following the online interviews. Guidance for conducting rejection conversations can be found in *Section 4.2: Reject Candidates*.
 
-- Make sure all rooms are booked, coffee and tea and lunch (if needed) is ordered, a host will welcome the candidates and there are students to attend the trial lectures. 
+- Verify that all rooms have been booked, refreshments (coffee, tea) and lunch (if applicable) have been arranged, a host is available to greet the candidates, and students are present to attend the trial lectures.
 
- 
 
-After the selection day you send your advice to the dean. You can continue with the next step if the dean has approved. 
+After the selection day you send your advice to the dean. You can continue to the next phase once the dean has approved. 
 
  
