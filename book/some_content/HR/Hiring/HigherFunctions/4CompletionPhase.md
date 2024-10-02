@@ -17,7 +17,6 @@ First, you call the candidate with the good news. Collect the following details 
 
 - Gather information about the next steps of the process: the job offer, the contract, the first workday. Preferably, you also provide the candidate with a time indication of the next steps. 
 
- 
 
 When the candidate has accepted the job offer: 
 
@@ -98,13 +97,13 @@ The management assistant can also ask other questions regarding the contract det
 
 If you have not heard of the MyHR process for more than a week, you can go to the management assistant to check where the process is currently stuck. They can see at which step action is required and by whom. Contact the person responsible for the current step to continue the process. 
 
-Ultimately, the contract will be made in MyHR and the candidate has to sign it. Congratulations, the candidate is now officially hired!
+Ultimately, the contract will be made in MyHR and the candidate has to sign it. Congratulations, the candidate is now officially employed!
 
 When the contract is signed:
 
 - When the contract is signed, the candidate can apply for a visa. A working permit for EU candidates usually takes ~4 weeks. A residence permit for non-EU candidates usually takes 12 weeks. 
 
-- The candidate will automatically get emails for their NetID and campus card. 
+- The candidate will automatically receive emails for their NetID and campus card. 
 
 ## 4.4 First workday 
 

@@ -11,9 +11,9 @@ First, check the financial parameters and meet with the department secretary and
 
 Next, make a draft profile for the vacancy and discuss it with: 
 
-- The department MT. They will give feedback on the draft profile and vacancy. The department chair will ask the dean for permission. 
+- The department MT. They will provide feedback on the draft profile and vacancy. The department chair will ask the dean for permission. 
 
-- The faculty MT. They will give feedback on the draft profile and proposed composition of the selection committee, see also step 1.2 Compose committee. 
+- The faculty MT. They will provide feedback on the draft profile and proposed composition of the selection committee, see also step 1.2 Compose committee. 
 
  
 
