@@ -8,7 +8,7 @@
 
 For english, please read the following summary, for the full document, please consult the pdf document. 
 
-Download the PDF [(here)](/MT_Decision_HE.pdf) 
+Download the PDF [(here)](MT_Decision_HE.pdf) 
 
 **English summary**
 Decision:
