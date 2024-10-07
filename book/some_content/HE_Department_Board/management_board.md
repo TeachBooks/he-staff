@@ -1,5 +1,7 @@
 # Management Board Decisions 
 
+In this page the decision of the management board will be posted:
+
 |**Title of Decision:**| Reimbursement of Stolen Items within the Hydraulic Engineering Department |
 |:----------------:|----------------:|
 
@@ -8,7 +10,6 @@
 
 For english, please read the following summary, for the full document, please consult the pdf document. 
 
-Download the PDF [(here)](MT_Decision_HE.pdf) 
 
 **English summary**
 _______________________
@@ -25,6 +26,8 @@ After this communication, the department will no longer offer reimbursement for 
 
 It is the responsibility of the owner to store items safely.
 Departmental items, such as laptops or other equipment provided by the department, remain the responsibility of the department itself. These items will, if necessary, be reimbursed according to the standard departmental procedure for damage or loss, regardless of whether they were stored in a secured area.
+
+Download the PDF of the full decision (in Dutch) [(here)](MT_Decision_HE.pdf) 
  
 -----------------------------------------------------------------------------------------------------
 
