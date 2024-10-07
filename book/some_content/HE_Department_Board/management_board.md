@@ -4,8 +4,8 @@
 In this page, the decisions of the management board will be uploaded.
 
 
-| Date: 19/09/2024 | Date: 19/09/2024 | Decision Number: 2024.01 |
-|:----------------:|:----------------:|-------------------------:|
+| Date: 19/09/2024 | Decision Number: 2024.01 |
+|:----------------:|:-------------------------:|
 
 **Title of Decision:** Reimbursement of Stolen Items within the Hydraulic Engineering Department 
 
