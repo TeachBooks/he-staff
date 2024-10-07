@@ -11,7 +11,7 @@ For english, please read the following summary, for the full document, please co
 Download the PDF [(here)](MT_Decision_HE.pdf) 
 
 **English summary**
-Decision:
+_______________________
 **The HE MT has decided the following regarding the reimbursement of stolen personal and departmental items within the CEG faculty:**
 
 The department offers a one-time reimbursement for stolen personal items with a value of up to €250 that were stolen during the summer of 2024, provided that the following conditions are met:
