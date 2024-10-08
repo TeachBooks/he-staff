@@ -1,7 +1,12 @@
+<style>
+{
+  font-size: 13 px
+}
+</style>
 # Management Board Decisions 
 
-In this page the decisions of the management board will be posted:
 
+In this page the decisions of the management board will be posted:
 
 |Title of Decision:| Reimbursement of Stolen Items within the Hydraulic Engineering Department |
 |------------------|----------------|
