@@ -31,8 +31,9 @@
   </tr>
 </table>
 
-<p>The full text of the decision is available (in Dutch) in the following PDF file; a summary in English is provided as well.</p>
-<p>You can download the file <a href="MT_Decision_HE.pdf">here</a>.</p>
+<p class="small-text">The full text of the decision is available (in Dutch) in the following PDF file; a summary in English is provided as well.</p>
+<p class="small-text">You can download the file <a href="MT_Decision_HE.pdf">here</a>.</p>
+</div>
 
 ![footer](footer-tudelft.jpg)
  
