@@ -1,11 +1,13 @@
 <style>
   table {
     font-size: 12px; /* Decrease font size */
-    margin: 0 auto; /* Center the table */
+    margin-left: 0; /* Align to the left */
     border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Add space above the table */
+
   }
   th, td {
-    padding: 2px; /* Decrease padding */
+    padding: 5px; /* Decrease padding */
     border: 1px solid #ddd; /* Add borders */
   }
 </style>
@@ -20,7 +22,7 @@
     <td>Reimbursement of Stolen Items within the Hydraulic Engineering Department</td>
   </tr>
   <tr>
-    <th>Date:</th>
+    <th>Decision Date:</th>
     <td>19/09/2024</td>
   </tr>
   <tr>
