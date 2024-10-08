@@ -1,3 +1,4 @@
+# Management Board Published Decisions
 <style>
   table {
     font-size: 12px; /* Decrease font size for the table */
