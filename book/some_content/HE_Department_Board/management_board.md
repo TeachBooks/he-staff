@@ -39,6 +39,9 @@
       <td><a href="MT_Decision_HE.pdf">Download PDF</a></td>
     </tr>
   </table>
+  
+   <p class="small-text">You can download the file <a href="MT_Decision_HE.pdf">here</a>.</p>
+</div>
 
 
 ![footer](footer-tudelft.jpg)
