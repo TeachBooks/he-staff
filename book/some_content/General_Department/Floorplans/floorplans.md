@@ -35,25 +35,26 @@ In this page you can find the floor plans of the HE Department with the relevant
 </div>
 
 ```{note}
-You have the option to download the figure as a PDF or image file, or alternatively, open it in a new tab for a larger view. Additionally, clicking on the image will allow you to zoom in, and clicking again will return it to its original size. 
+Last update 10-10-2024.
+Floorplans can be downloaded in PDF or image file, or alternatively, opened in a new tab for a larger view.
 ```
 
 ### CEG Building 2nd Floor
 
 <div style="text-align: center;">
-  <img src="../../../_static/figures/floor_plan_second_floor.jpg" class="zoom" alt="CITG Building">
+  <img src="second-floor-october2024.jpg" class="zoom" alt="CITG Building">
 </div>
 
-- [Floor Plan Second Floor (PDF)](../../../pdfs/2nd_floor_update.pdf) 
+- [Floor Plan Second Floor (PDF)](second-floor-october2024.pdf) 
 _________________________________________________________________________
 
 ### CEG Building 3rd Floor
 
 <div style="text-align: center;">
-  <img src="../../../_static/figures/floor_plan_third_floor.jpg" class="zoom" alt="CITG Building">
+  <img src="third-floor-october2024.jpg" class="zoom" alt="CITG Building">
 </div>
   
-- [Floor Plan Third Floor (PDF)](../../../pdfs/3rd_floor_update.pdf)
+- [Floor Plan Third Floor (PDF)](third-floor-october2024.pdf)
 
 _________________________________________________________________________
 
