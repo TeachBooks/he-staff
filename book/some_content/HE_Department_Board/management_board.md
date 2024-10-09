@@ -1,5 +1,7 @@
 # Management Board Published Decisions
 
+<p class="small-text">The full text of the decision is available (in Dutch) in the PDFs linked below; a summary in English is provided as well.</p>
+
 
 <style>
   table {
@@ -37,9 +39,6 @@
       <td><a href="MT_Decision_HE.pdf">Download PDF</a></td>
     </tr>
   </table>
-
-  <p class="small-text">The full text of the decision is available (in Dutch) in the following PDF file; a summary in English is provided as well.</p>
-
 
 
 ![footer](footer-tudelft.jpg)
