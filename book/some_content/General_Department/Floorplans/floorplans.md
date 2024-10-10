@@ -34,34 +34,28 @@ In this page you can find the floor plans of the HE Department with the relevant
   <img src="../../../_static/figures/tudelft-autumn.jpg" alt="CITG Building" width="70%">
 </div>
 
-```{note}
-You have the option to download the figure as a PDF or image file, or alternatively, open it in a new tab for a larger view. Additionally, clicking on the image will allow you to zoom in, and clicking again will return it to its original size. 
-```
 
 ### CEG Building 2nd Floor
 
-<div style="text-align: center;">
-  <img src="../../../_static/figures/floor_plan_second_floor.jpg" class="zoom" alt="CITG Building">
-</div>
-
-- [Floor Plan Second Floor (PDF)](../../../pdfs/2nd_floor_update.pdf) 
+- Download image of floorplan of second floor [here](second-floor-october24.jpg).
+- Download pdf of floorplan of second floor [here](second-floor-october2024.pdf).
+```{note}
+Last update 10-10-2024.
+```
 _________________________________________________________________________
 
 ### CEG Building 3rd Floor
 
-<div style="text-align: center;">
-  <img src="../../../_static/figures/floor_plan_third_floor.jpg" class="zoom" alt="CITG Building">
-</div>
-  
-- [Floor Plan Third Floor (PDF)](../../../pdfs/3rd_floor_update.pdf)
-
+- Download image of floorplan of third floor [here](third-floor-october2024.jpg).
+- Download pdf of floorplan of third floor [here](third-floor-october2024.pdf).
+```{note}
+Last update 10-10-2024.
+```
 _________________________________________________________________________
 
   
 ### HE Laboratory
 
-<div style="text-align: center;">
-  <img src="../../../_static/figures/floor_plan_he_lab.jpg" class="zoom" alt="CITG Building" >
-</div>
+- Download image of floorplan of waterlab [here](../../../_static/figures/floor_plan_he_lab.jpg).
+- Download pdf of floorplan of waterlab [here](../../../pdfs/waterlab.pdf).
 
-- [HE Lab Floorplan (PDF)](../../../pdfs/waterlab.pdf)
