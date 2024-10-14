@@ -6,6 +6,8 @@
 
 Before posting a vacancy, the internal project budget must be approved. This applies to all project-funded vacancies (second or third cash flow).
 
+<!-- Later we can add a link in the paragraph above to the internal budget explanation -->
+
 For first-time vacancy holders it is recommended to meet with both the Department Secretary and the HR Advisor to discuss the practicalities of the hiring process.
 
 Once the financial check is complete, you may proceed to the next step
@@ -18,7 +20,7 @@ Use the [vacancy format](../PhDPostDocs/Appendices/Vacancy%20Format%201.7%20-%20
 
 
 Some notes regarding the vacancy format:
-* Ask the department secretary to fill in part of the format, e.g. the UFO profile and the cash flow. 
+* Ask the department secretary to fill in part of the format, e.g. the UFO profile and the cash flow. As a vacancy holder, you formulate the vacancy text and the requirements.
 <!-- * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. -->
 * The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts are available for PhD functions 
@@ -40,7 +42,7 @@ and for Postdoc functions
 At this stage, it is advisable to establish the selection committee. For PhD and Postdoc positions, the four-eye principle is applied during the selection process. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
 
 
-## 1.3 Send vacancy format to recruitment 
+## 1.3 Send vacancy format 
 
 As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl)
 
