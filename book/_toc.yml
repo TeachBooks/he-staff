@@ -40,6 +40,6 @@ parts:
         - file: some_content/HR/Hiring/HigherFunctions/3SelectionPhase.md
         - file: some_content/HR/Hiring/HigherFunctions/4CompletionPhase.md
         # Hiring graphics
-      - file: some_content/HR/Hiring/hiring_graphics.md
+      - file: some_content/HR/Hiring/Graphics/hiring_graphics.md
     - file: contact.md
     - file: credits.md
