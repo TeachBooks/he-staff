@@ -11,15 +11,15 @@ The MT consists of the following members:
 **Section Leaders:**
 - Dr. ir. B.C. (Bram) van Prooijen (CE),
 
-- Dr.ir. A. (Astrid) Blom (R&P),
+- Dr. ir. A. (Astrid) Blom (R&P),
 
 - Dr. ir. A. (Apostolos) Tsouvalas (OE),
 
 - Dr. T.S. (Ton) van den Bremer (EFM),
 
-- Dr.ir. O. (Oswaldo) Morales Napoles (HFSR),
+- Dr. ir. O. (Oswaldo) Morales Napoles (HFSR),
 
-- Dr.ir. B. (Bas) Hofland
+- Dr. ir. B. (Bas) Hofland
 
 **Executive Secretary:** E.H. (Elske) Bakker
 

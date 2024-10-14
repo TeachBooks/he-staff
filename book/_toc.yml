@@ -24,22 +24,17 @@ parts:
       - file: some_content/HR/Hiring/PhDPostDocs/0Introduction.md
         sections:
         - file: some_content/HR/Hiring/PhDPostDocs/1PreparationPhase.md
-          # sections:
-          # - file: some_content/HR/Hiring/1_1FinancialDepartmentalChecks.md
-          # - file: some_content/HR/Hiring/1_2VacancyFormat.md
-          # - file: some_content/HR/Hiring/1_3PublishVacancy.md
         - file: some_content/HR/Hiring/PhDPostDocs/2RecruitmentPhase.md
         - file: some_content/HR/Hiring/PhDPostDocs/3SelectionPhase.md
         - file: some_content/HR/Hiring/PhDPostDocs/4CompletionPhase.md
-
-        # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
+      # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
       - file: some_content/HR/Hiring/HigherFunctions/0Introduction.md
         sections:
         - file: some_content/HR/Hiring/HigherFunctions/1PreparationPhase.md
         - file: some_content/HR/Hiring/HigherFunctions/2RecruitmentPhase.md
         - file: some_content/HR/Hiring/HigherFunctions/3SelectionPhase.md
         - file: some_content/HR/Hiring/HigherFunctions/4CompletionPhase.md
-        # Hiring graphics
+      # Hiring graphics
       - file: some_content/HR/Hiring/Graphics/hiring_graphics.md
     - file: contact.md
     - file: credits.md

@@ -1,5 +1,11 @@
 # Hiring a Lecturer or Assistant/Associate Professor
 
+```{admonition} New recruitment system
+:class: warning, dropdown
+
+Please note that the recruitment system Talentlink has just been replaced by MyCareer. An update of the adjusted process is expected in the upcoming weeks. Contact the management assistants or recruitment if you have any questions regarding the new recruitment system.
+```
+
 This procedure is a guide for the hiring of Lecturers, Assistant Professors (UD) and Associate Professors (UHD). 
 
 How to use this? Follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively. A [stepwise approach](../HigherFunctions/Appendices/8.%20Recruitment%20and%20selection%20procedure%20Assistant%20Professors%20and%20Associate%20Professors%20including%20Academic%20Career%20Trackers.pdf) is available and can be used as an addition to this procedure. 
