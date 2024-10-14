@@ -7,7 +7,7 @@
 
 The key stages of the selection process are as follows:
 
-1. **The CV review in Talentlink.** During this stage, candidates who do not meet the must-have qualifications are rejected. For the remaining candidates, you provide feedback and comments. It is advisable to discuss your evaluations and considerations with the selection committee. Contact the talent acquisition specialist or the HR advisor if no promising candidates have applied. 
+1. **The CV review in Talentlink.** During this stage, candidates who do not meet the must-have qualifications are rejected. For the remaining candidates, you provide feedback and comments. It is advisable to discuss your evaluations and considerations with the selection committee.
 
 
 2. **Screening Interviews:** Conducting brief phone or video interviews can serve as a useful preliminary step before proceeding to formal job interviews.
@@ -34,6 +34,8 @@ Some important notes:
 * The selection process is done using **Talentlink**. Instructions can be found in a [series of videos](https://www.youtube.com/watch?v=qbWrpIaE6Ac&list=PLvaU1SY38TUVKbhgaSeaaKQhWeHsRUDiZ&index=1)
 and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/recruitmentsysteem). Use this system as much as possible and do not store CVs or send CVs by mail. 
 
+* Contact the talent acquisition specialist or the HR advisor if no promising candidates have applied. 
+
 * Regarding the selection committee: the selection is done using the four-eye principle. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
 
 * About the **job interviews**: 
@@ -41,7 +43,7 @@ and in [quick reference charts](https://intranet.tudelft.nl/en/group/guest/-/rec
   * The management assistants can help you planning the interviews.  
   * Using an [interview agenda](../PhDPostDocs/Appendices/Interview%20agenda%20-%20PhD%20Recruitment%20en%20Selection%20Guide%20V1%202023.05.docx) is recommended to treat all candidates the same.The interviews can also be split into [educational](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), 
   [leadership](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docx) and [research](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) sections.
-  <!-- * Candidates for the permanent staff can come to the Netherlands for full job interviews, contact the department secretary for information about the travel allowance, etc  -->
+
 
 
 * Check the **English proficiency level (ETV)** of the candidates. An additional test is needed if PhD candidates are non-native speakers and have not followed their masters in English, see [this intranet page](https://intranet.tudelft.nl/en/-/english-language-skills-etv-for-phd-candidates?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for PhD's and [this intranet page](https://intranet.tudelft.nl/en/-/itav-english-language-skills?p_l_back_url=%2Fen%2Fgroup%2Fguest%2Fsearch%3Fq%3Detv) for other scientific staff.
@@ -65,6 +67,7 @@ First, you contact the candidate to share the positive news. Before doing so, en
 * If the candidate is a PhD hire, include an introduction to the Graduate School and the mentor programme.
 
 * In addition, gather information regarding the subsequent steps in the process: the job offer, the contract, and the candidate's first workday. It is advisable to give the candidate an estimated timeline for these steps.
+
 
 Afterwards, contact the management assistant to prepare the formal job offer. The management assistant will draft the offer based on the details you provide, including the contract duration, start date, salary, working hours, English proficiency (ETV), and relevant contact information. The job offer will be sent to the candidate, with you in the cc.
 

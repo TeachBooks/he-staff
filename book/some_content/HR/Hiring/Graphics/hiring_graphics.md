@@ -7,25 +7,25 @@ You can download the png file and adjust it by adding text via power point and s
 
 Alternatively, contact us, and we will make the adjustments.
 
-| ![](hiring_graphic_1.png) | ![](hiring_graphic_2.png) |
+| ![](./Files/hiring_graphic_1.png) | ![](./Files/hiring_graphic_2.png) |
 |:-----------------------------------------------------------:|:------------------------------------------------------------:|
-|Download [here](hiring_graphic_1.png)                                | Download [here](hiring_graphic_2.png)                                     |
+|Download [here](./Files/hiring_graphic_1.png)                                | Download [here](./Files/hiring_graphic_2.png)                                        |
 
-| ![](hiring_graphic_3.png) | ![](hiring_graphic_4.png) |
+| ![](./Files/hiring_graphic_3.png) | ![](./Files/hiring_graphic_4.png) |
 |:--------------------------------------------------------------:|:-------------------------------------------------------------:|
-|Download [here](hiring_graphic_3.png)                               |  Download [here](hiring_graphic_4.png)                                   |
+|Download [here](./Files/hiring_graphic_3.png)                               |  Download [here](./Files/hiring_graphic_4.png)                                   |
 
-| ![](hiring_graphic_5.png) | ![](hiring_graphic_6.png) |
+| ![](./Files/hiring_graphic_5.png) | ![](./Files/hiring_graphic_6.png) |
 |:--------------------------------------------------------------:|:-------------------------------------------------------------:|
-|Download [here](hiring_graphic_5.png)                               |  Download [here](hiring_graphic_6.png)                                   |
+|Download [here](./Files/hiring_graphic_5.png)                               |  Download [here](./Files/hiring_graphic_6.png)                                   |
 
-| ![](hiring_graphic_7.png) | ![](hiring_graphic_8.png) |
+| ![](./Files/hiring_graphic_7.png) | ![](./Files/hiring_graphic_8.png) |
 |:--------------------------------------------------------------:|:-------------------------------------------------------------:|
-|Download [here](hiring_graphic_7.png)                    | Download [here](hiring_graphic_8.png)                                    |
+|Download [here](./Files/hiring_graphic_7.png)                    | Download [here](./Files/hiring_graphic_8.png)                                    |
 
 Need more help or adjustments in one of the designs above? Please direct your emails to Maria at m.s.sklia@tudelft.nl. 
 
 
-![footer](footer-tudelft.jpg)
+![footer](./Files/footer-tudelft.jpg)
  
 -----------------------------------------------------------------------------------------------------
