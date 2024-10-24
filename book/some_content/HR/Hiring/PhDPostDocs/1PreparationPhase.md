@@ -16,11 +16,11 @@ Once the financial check is complete, you may proceed to the next step
 
 ## 1.2 Fill in vacancy format 
 
-Use the [vacancy format](../PhDPostDocs/Appendices/Vacancy%20Format%201.7%20-%20ENG%20-%20Version%2017-05-2021.docx) to gather the required information for the vacancy.
+Use the vacancy format for [PhDs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20PHD.docx) or [PostDocs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20POSTDOC.docx) to gather the required information for the vacancy.
 
 
 Some notes regarding the vacancy format:
-* Ask the department secretary to fill in part of the format, e.g. the UFO profile and the cash flow. As a vacancy holder, you formulate the vacancy text and the requirements.
+* Standard contract details apply for these positions and are already filled in.
 <!-- * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. -->
 * The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts are available for PhD functions 
