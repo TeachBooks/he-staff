@@ -59,3 +59,11 @@ _________________________________________________________________________
 - Download image of floorplan of waterlab [here](../../../_static/figures/floor_plan_he_lab.jpg).
 - Download pdf of floorplan of waterlab [here](../../../pdfs/waterlab.pdf).
 
+
+<script src="https://utteranc.es/client.js"
+        repo="TeachBooks/he-staff"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
