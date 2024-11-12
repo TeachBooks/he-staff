@@ -10,6 +10,8 @@ only_build_toc_files: true
 
 html:
   favicon : "figures/favicon.ico"
+  comments:
+    hypothesis: true
 
 sphinx:
   config:
