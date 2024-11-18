@@ -84,9 +84,11 @@ Ultimately, the contract will be made in MyHR and the candidate has to sign it. 
 
 **When the contract is signed**
 
-When the contract has been signed, the candidate can apply for a visa. A working permit for EU candidates usually takes ~4 weeks. A residence permit for non-EU candidates usually takes 12 weeks.  
+When the contract has been signed, the candidate will automatically get emails for their NetID and campus card.
 
-The candidate will automatically get emails for their NetID and campus card. 
+The visa are requested by the management assistant. A working permit for EU candidates usually takes ~4 weeks. A residence permit for non-EU candidates usually takes 12 weeks.  
+<!-- Management assistants contact HR Services for the visa -->
+
 
 
 ## 4.3 First workday
