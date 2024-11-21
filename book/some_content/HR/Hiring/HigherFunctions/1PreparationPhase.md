@@ -52,20 +52,12 @@ Plan the selection day as soon as possible. These committees are rather large an
 
 ## 1.3 Create and post vacancy
 
-Create the vacancy by filling in the [vacancy format](../HigherFunctions/Appendices/1Preparation.PNG).
+Create the vacancy by filling in the [vacancy format](../HigherFunctions/Appendices/Vacancy%20format%20ENG%20-%20October%202024.docx).
 
 
 Some notes regarding the vacancy format:
 * Contact the HR advisor and fill the format together. Discuss the UFO profile, the conditions of employment and the vacancy text.
-* The vacancy text can be written using the [vacancy writing guide](../Hiring/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts can be found for Assistent and Associate professors 
-[1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Biotechnology%20for%20Sustainable%20Food%20Security.docx)
-[2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant-Associate%20Professor%20Complex%20Ship%20Design.docx)
-[3](../HigherFunctions/Appendices/ExamplesVacancyTexts/Assistant%20Professor%20Electrification%20of%20Transportation.docx)
-and Lecturers
-[1](../HigherFunctions/Appendices/ExamplesVacancyTexts/Principal%20Educator%20-%20EN.docx)
-[2](../HigherFunctions/Appendices/ExamplesVacancyTexts/Projectdocent%20werktuigbouwkunde%20(parttime).docx)
-[3](../HigherFunctions/Appendices/ExamplesVacancyTexts/Principal%20Educator%20-%20EN.docx)
-<!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
+* The vacancy text can be written using the vacancy writing guide. The guide and examples of vacancy texts are available [here](https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx). Please note: a vpn connection is required to access this link from outside the campus.
 * Some extra tips regarding the requirements formulation and selection strategy can be found in [this document](../Hiring/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
 * Add the on campus interview dates in the text if you already succeeded in planning the on campus selection with the full committee. 
 * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
@@ -74,11 +66,11 @@ and Lecturers
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
 
-When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl).
+When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl). The vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl) and the recruitment assistant will create the vacancy in the recruitmentsystem. You will receive an email to approve the vacancy.
 
 After submitting your vacancy will appear on: 
 
 - TU Delft’s internal (intranet) vacancy page 
 - TU Delft’s external vacancy page 
-- Academic Transfer 
+- Academic Transfer and Euraxess
 - TU Delft’s LinkedIn job page 
