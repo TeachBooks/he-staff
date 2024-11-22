@@ -7,7 +7,7 @@ The selection process is done using **MyCareer**. Instructions can be found [on 
 
 ## 3.1 CV Selection to longlist 
 
-The selection process begins with a preselection, carried out by the committee chair and two additional members of the selection committee, also referred to as the "small committee." Utilize MyCareer to categorize candidates into "invite," "reject," and "doubt" groups. This stage results in the creation of a longlist of candidates, who will then proceed to online interviews.
+The selection process begins with a preselection, carried out by the committee chair and two additional members of the selection committee, also referred to as the "small committee." Utilize MyCareer to categorize candidates into "recommended" and "not recommended" and put comments for each candidate. This stage results in the creation of a longlist of candidates, who will then proceed to online interviews.
 
 Contact the talent acquisition specialist (A.Fishman@tudelft.nl) or the HR advisor (m.scheers-vanderhorst@tudelft.nl) if no promising candidates have applied. 
 
