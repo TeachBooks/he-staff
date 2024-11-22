@@ -17,12 +17,7 @@ First, you call the candidate with the good news. Collect the following details 
 
 - Gather information about the next steps of the process: the job offer, the contract, the first workday. Preferably, you also provide the candidate with a time indication of the next steps. 
 
-
-When the candidate has accepted the job offer: 
-
-- contact the management assistant to close the vacancy in Talentlink, and 
-
-- inform the selection committee about the outcome of the selection process 
+Inform the selection committee about the outcome of the selection process when the candidate has accepted the job offer.
 
 
 ## 4.2 Reject candidates 

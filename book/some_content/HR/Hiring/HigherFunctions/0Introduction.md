@@ -1,10 +1,5 @@
 # Hiring a Lecturer or Assistant/Associate Professor
 
-```{admonition} New recruitment system
-:class: warning, dropdown
-
-Please note that the recruitment system Talentlink has just been replaced by MyCareer. An update of the adjusted process is expected in the upcoming weeks. Contact the management assistants or recruitment if you have any questions regarding the new recruitment system.
-```
 
 This procedure is a guide for the hiring of Lecturers, Assistant Professors (UD) and Associate Professors (UHD). 
 
@@ -15,10 +10,7 @@ How to use this? Follow the steps according to the image below. At the left of y
 The procedure for promotion and hiring of full professors is not treated here. For the full professor procedure, you can contact the HR advisor and you can check [this link](https://intranet.tudelft.nl/-/recruitment-selection-and-internal-procedure-of-academic-staff?p_l_back_url=%2Fsearch%3Fq%3Dbenoemings)  
 
 
-*We are currently in a test phase of this procedure. Please let us know if you see any room for improvement via D.A.J.vanDieren@tudelft.nl*
-
-
-
+*We highly value your feedback! Please let us know when anything can be improved by sending an email to webmaster-wbk-citg@tudelft.nl*
 
 
 

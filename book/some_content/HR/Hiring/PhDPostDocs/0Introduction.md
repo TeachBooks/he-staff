@@ -9,4 +9,4 @@ How to use this? Follow the steps according to the image below. At the left of y
 
 <!-- **Note**: these steps are not applicable for hiring a student assistant. Student assistants are officially hired by FlexDelft. Contact someone who recently hired a TA for the current TA hiring process.  -->
 
-*Do you have any feedback regarding this procedure? Please let us know via D.A.J.vanDieren@tudelft.nl*
+*We highly value your feedback! Please let us know when anything can be improved by sending an email to webmaster-wbk-citg@tudelft.nl*

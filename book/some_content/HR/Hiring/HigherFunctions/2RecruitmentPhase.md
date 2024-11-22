@@ -43,27 +43,33 @@ Where you are asked to add a personal note, please write 3 to 6 lines about:
 Don’t forget to respond to reactions. 
 ```
 
-## 2.2 Prepare on campus selection 
+## 2.2 Prepare for the selection phase
 
 Utilize the period during which the vacancy is open to thoroughly prepare for the selection phase.
 
 The key steps of the selection process are: 
 
-1. **CV screening:** This initial review is conducted by a subset of the selection committee, referred to as the "small committee." Candidates are categorized into three groups in Talentlink: accepted, rejected, or uncertain, resulting in a longlist of candidates.
+1. **CV screening:** This initial review is conducted by a subset of the selection committee, referred to as the "small committee." Candidates are categorized into three groups in MyCareer: accepted, rejected, or uncertain, resulting in a longlist of candidates.
 
 2. **Online interviews:** If there are more than three strong candidates, online interviews should be conducted with the longlisted candidates. The small committee will narrow the list down to a maximum of three candidates, forming the shortlist.
 
-3. **On-campus interviews:** This step involves the full selection committee and all shortlisted candidates are invited to the campus. This step results in an advice to the dean. 
+3. **On-campus interviews:** This step involves the full selection committee and all shortlisted candidates are invited to the campus. This step results in an advice to the dean. The on-campus interviews require significant preparation. 
 
-The on-campus interviews require significant preparation. Follow the steps below in advance to ensure a smooth selection process.
+Follow the steps below in advance to ensure a smooth selection process.
 
-**Plan the selection moment**
+**Plan the selection day**
 
 Ensure that the selection day is scheduled and blocked in the calendars of all committee members. Ideally, all activities should occur on the same day to ensure equal treatment of all candidates. However, you can consider having the final discussion on the next morning to give the selection committee some time to reflect. 
 
 **Define the selection strategy**
 
-During the selection day, the candidates have to give a presentation and a trial lecture and they are interviewed. Be aware that specific criteria for these positions have been established. Relevant documents can be found on the right-hand side of [this intranet page](https://intranet.tudelft.nl/-/performance-wp-criteria?p_l_back_url=%2Fsearch%3Fq%3Dwp%2Bcriteria) (set language to NL if the documents are not visible) 
+The CV review stage should follow a structured approach. An example of a scoring chart is provided below.
+
+![SelectionScoringChart](../HigherFunctions/Appendices/SelectionScoringChart.png)
+
+Be aware that specific criteria for these positions have been established. Relevant documents can be found on the right-hand side of [this intranet page](https://intranet.tudelft.nl/-/performance-wp-criteria?p_l_back_url=%2Fsearch%3Fq%3Dwp%2Bcriteria) (set language to NL if the documents are not visible)
+
+During the selection day, the candidates have to give a presentation and a trial lecture and they are interviewed. 
 
 Consider the composition of the committee for various parts of the day, as a large group (e.g., 12 people) may appear intimidating. For example, interviews could be split into three sessions, each focusing on [education](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Education%20Questionaire%20-%2020221220.%20-final%20(2).docx), [research](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Research%20Questionaire%2020221220%20-%20final%20(2).docx) and [valorisation/leadership](../HigherFunctions/Appendices/SeparatedInterviews/SPV%20Leadership%20questionaire%2020221220%20-%20final%20(1).docx), conducted by different subgroups of the committee.
 
@@ -91,6 +97,7 @@ The selection day consists of the following parts:
 
 - **Final evaluation:** The committee will conduct a final evaluation, resulting in a recommendation to the dean. The dean may request further discussion and will either accept or reject the committee’s recommendation. Use the template [Advice to the Dean](../HigherFunctions/Appendices/ToDean_AdviceOfCommittee.docx) for this stage.
 
+
 Do not forget the practical arrangements: 
 
 - Ask the management assistant to reserve two rooms close to each other for that day. In one room, the selection committee will come together and discuss the candidates. In the other room, the candidate can prepare for the presentation without the whole committee in the room. 
@@ -103,7 +110,7 @@ Do not forget the practical arrangements:
 
 **Inform the selection committee**
 
-Ensure that the selection committee has access to Talentlink.
+Ensure that the selection committee has access to MyCareer.
 
 Inform the selection committee about the selection day. You can use this [template](../HigherFunctions/Appendices/ToSelectionCommittee_OnCampusSelection.docx) to organize the information towards the committee. Be sure to include the score sheet and interview questions. This information can be sent via email and added to the agenda by the management assistant.
 
