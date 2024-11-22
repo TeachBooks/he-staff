@@ -16,23 +16,14 @@ Once the financial check is complete, you may proceed to the next step
 
 ## 1.2 Fill in vacancy format 
 
-Use the vacancy format for [PhDs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20PHD.docx) or [PostDocs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20POSTDOC.docx) to gather the required information for the vacancy.
+Use the vacancy format for [PhDs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20PHD.docx) or [PostDocs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20POSTDOC.docx) to gather the required information for the vacancy. As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. 
 
 
 Some notes regarding the vacancy format:
 * Standard contract details apply for these positions and are already filled in.
 <!-- * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. -->
-* The vacancy text can be written using the [vacancy writing guide](../PhDPostDocs/Appendices/Guide%20to%20creating%20recruitment%20text%20for%20scientific%20staff%20-%20Jan%202021.pdf) . As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. Examples of vacancy texts are available for PhD functions 
-[1](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Decentralised%20Machine%20Learning.docx)
-[2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Modelling%20of%20Regional%20Criminal%20Vulnerability%20and%20Supply%20Chains.docx)
-[3](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Position%20Spread%20in%20Networks.docx)
-[4](../PhDPostDocs/Appendices/ExamplesVacancyTexts/PhD%20Positions%20in%20Thermoplastic%20Composites.docx)
-and for Postdoc functions
-[1](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Damping%20of%20Critical%20Electrical%20Oscillatory%20Phenomena.docx)
-[2](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Ethical%20Impact%20of%20Technology%20on%20Society.docx)
-[3](../PhDPostDocs/Appendices/ExamplesVacancyTexts/Postdoc%20Partnerschap%20met%20omwonenden%20in%20bouwprocessen.docx)
-<!-- source (https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx)  -->
+* The vacancy text can be written using the vacancy writing guide. The guide and examples of vacancy texts are available [here](https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx). Please note: a vpn connection is required to access this link from outside the campus.
 * Some extra tips on formulating the requirements and using it in the selection strategy can be found in [this document](../PhDPostDocs/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf) 
 * The standard time for a vacancy posting to stay active is 4-6 weeks. Contact Dept-Chair-HE@tudelft.nl if you would like to deviate from this.  
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
@@ -44,11 +35,11 @@ At this stage, it is advisable to establish the selection committee. For PhD and
 
 ## 1.3 Send vacancy format 
 
-As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl)
+As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl). The vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl) and the recruitment assistant will create the vacancy in the recruitmentsystem. You will receive an email to approve the vacancy.
 
-After submitting your vacancy will appear on: 
+After approval your vacancy will appear on: 
 
 - TU Delft’s internal (intranet) vacancy page 
 - TU Delft’s external vacancy page 
-- Academic Transfer 
+- Academic Transfer and Euraxess
 - TU Delft’s LinkedIn job page 

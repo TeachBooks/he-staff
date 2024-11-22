@@ -2,7 +2,7 @@
 
 ![Completion Phase](../HigherFunctions/Appendices/4Completion.PNG)
 
-## 4.1 Contact with the candidate 
+## 4.1 Contact with the candidate and job offer
 
 When you have selected your preferred candidate and the Knowledge Safety Check is positive, you can inform the candidate and send a job offer. Make sure you do not reject your second-best or silver candidate(s) before the job offer is signed. 
 
@@ -17,12 +17,9 @@ First, you call the candidate with the good news. Collect the following details 
 
 - Gather information about the next steps of the process: the job offer, the contract, the first workday. Preferably, you also provide the candidate with a time indication of the next steps. 
 
+Send the job offer to the candidate. Discuss any changes with the HR advisor.
 
-When the candidate has accepted the job offer: 
-
-- contact the management assistant to close the vacancy in Talentlink, and 
-
-- inform the selection committee about the outcome of the selection process 
+Inform the selection committee about the outcome of the selection process when the candidate has accepted the job offer.
 
 
 ## 4.2 Reject candidates 
