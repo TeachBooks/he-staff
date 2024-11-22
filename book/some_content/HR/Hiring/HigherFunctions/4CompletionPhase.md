@@ -17,6 +17,8 @@ First, you call the candidate with the good news. Collect the following details 
 
 - Gather information about the next steps of the process: the job offer, the contract, the first workday. Preferably, you also provide the candidate with a time indication of the next steps. 
 
+Send the job offer to the candidate. Discuss any changes with the HR advisor.
+
 Inform the selection committee about the outcome of the selection process when the candidate has accepted the job offer.
 
 
