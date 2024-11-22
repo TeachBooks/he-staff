@@ -2,7 +2,7 @@
 
 ![Completion Phase](../HigherFunctions/Appendices/4Completion.PNG)
 
-## 4.1 Contact with the candidate 
+## 4.1 Contact with the candidate and job offer
 
 When you have selected your preferred candidate and the Knowledge Safety Check is positive, you can inform the candidate and send a job offer. Make sure you do not reject your second-best or silver candidate(s) before the job offer is signed. 
 

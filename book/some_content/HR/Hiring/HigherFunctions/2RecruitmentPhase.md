@@ -67,7 +67,7 @@ The CV review stage should follow a structured approach. An example of a scoring
 
 ![SelectionScoringChart](../HigherFunctions/Appendices/SelectionScoringChart.png)
 
-Be aware that specific criteria for these positions have been established. Relevant documents can be found on the right-hand side of [this intranet page](https://intranet.tudelft.nl/-/performance-wp-criteria?p_l_back_url=%2Fsearch%3Fq%3Dwp%2Bcriteria) (set language to NL if the documents are not visible)
+Be aware that specific criteria for these positions have been established on the topics research, education, leadership and valorisation. Relevant documents can be found on the right-hand side of [this intranet page](https://intranet.tudelft.nl/-/performance-wp-criteria?p_l_back_url=%2Fsearch%3Fq%3Dwp%2Bcriteria)
 
 During the selection day, the candidates have to give a presentation and a trial lecture and they are interviewed. 
 
@@ -97,6 +97,8 @@ The selection day consists of the following parts:
 
 - **Final evaluation:** The committee will conduct a final evaluation, resulting in a recommendation to the dean. The dean may request further discussion and will either accept or reject the committee’s recommendation. Use the template [Advice to the Dean](../HigherFunctions/Appendices/ToDean_AdviceOfCommittee.docx) for this stage.
 
+
+**Practical arrangements**
 
 Do not forget the practical arrangements: 
 

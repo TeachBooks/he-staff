@@ -3,23 +3,7 @@
 ![SelectionPhase](../HigherFunctions/Appendices/3Selection.PNG)
 
 
-```{admonition} Knowledge safety check
-:class: warning, dropdown
-
-Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. How to do it? 
-
-- Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy. 
-
-- HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result. 
-
-- This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
-
-- Do not inform the candidates about the knowledge safety check as this information is confidential. 
-```
-
 The selection process is done using **MyCareer**. Instructions can be found [on this intranet page](https://intranet.tudelft.nl/-/recruitment-system?p_l_back_url=%2Fsearch%3Fq%3Drecruitment). Use this system as much as possible and do not store CVs or send CVs by mail. 
-
-
 
 ## 3.1 CV Selection to longlist 
 
@@ -36,6 +20,20 @@ Rejected candidates must be informed within two weeks after the application dead
 
 
 ## 3.2 Online interviews to shortlist 
+
+```{admonition} Knowledge safety check
+:class: warning, dropdown
+
+Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. How to do it? 
+
+- Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy. 
+
+- HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result. 
+
+- This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
+
+- Do not inform the candidates about the knowledge safety check as this information is confidential. 
+```
 
 This intermediate step is useful when more than three candidates remain in the selection process. 
 
