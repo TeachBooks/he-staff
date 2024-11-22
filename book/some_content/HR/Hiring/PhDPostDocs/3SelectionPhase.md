@@ -17,7 +17,7 @@ The key stages of the selection process are as follows:
 4. **Candidate selection.** In this stage, you select the preferred candidate. In this stage you rate candidates based on the criteria you defined, and you make reference calls. 
 
 
-Please use Chapter 3 of [this document](../PhDPostDocs/Appendices/PhD%20Recruitment%20en%20Selection%20Guide%20V1.pdf) as a guide for these steps. Although this guide is written for PhD hiring, it is also very valuable to use for other functions. 
+Please use Chapter 3 of the 'PhD Recruitment and Selection Guide', which can be found on [this intranet page](https://intranet.tudelft.nl/-/posting-a-vacancy?p_l_back_url=%2Fsearch%3Fq%3Dhiring%2Band%2Bselection%2Bguide). Although this guide is written for PhD hiring, it is also very valuable to use for other functions. 
 
 ```{admonition} Knowledge safety check
 :class: warning, dropdown
