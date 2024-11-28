@@ -17,10 +17,6 @@ parts:
         - file: some_content/General_Department/Floorplans/meetingrooms.md
     # PhD information
     - file: some_content/PhDs/PhDs.md
-      sections:
-      - file: some_content/PhDs/onboarding.md
-      - file: some_content/PhDs/defence.md
-      - file: some_content/PhDs/leaving.md
     - file: some_content/Finance/finance.md
       sections:
       - file: some_content/Finance/MoneyStreamsUniversity.md
