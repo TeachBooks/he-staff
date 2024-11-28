@@ -1,1 +1,1 @@
-# For PhDs
+# Information for PhD Candidates and Supervisors
