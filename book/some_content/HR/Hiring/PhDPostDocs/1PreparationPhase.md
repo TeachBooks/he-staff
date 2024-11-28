@@ -8,7 +8,7 @@ Before posting a vacancy, the internal project budget must be approved. This app
 
 <!-- Later we can add a link in the paragraph above to the internal budget explanation -->
 
-For first-time vacancy holders it is recommended to meet with both the Department Secretary and the HR Advisor to discuss the practicalities of the hiring process.
+For first-time vacancy holders it is recommended to meet with both the Department Secretary to discuss the practicalities of the hiring process.
 
 Once the financial check is complete, you may proceed to the next step
 
@@ -35,7 +35,7 @@ At this stage, it is advisable to establish the selection committee. For PhD and
 
 ## 1.3 Send vacancy format 
 
-As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl). The vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl) and the recruitment assistant will create the vacancy in the recruitmentsystem. You will receive an email to approve the vacancy.
+As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to secr-he-citg@tudelft.nl. The department secretary will check the vacancy and the vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl). The recruitment assistant will create the vacancy in the recruitmentsystem, after which you will receive an email to approve the vacancy.
 
 After approval your vacancy will appear on: 
 
