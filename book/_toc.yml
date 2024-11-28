@@ -33,6 +33,7 @@ parts:
         - file: some_content/HR/Hiring/PhDPostDocs/2RecruitmentPhase.md
         - file: some_content/HR/Hiring/PhDPostDocs/3SelectionPhase.md
         - file: some_content/HR/Hiring/PhDPostDocs/4CompletionPhase.md
+        - file: some_content/HR/Hiring/PhDPostDocs/5SummaryTable.md
       # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
       - file: some_content/HR/Hiring/HigherFunctions/0Introduction.md
         sections:
