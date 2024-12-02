@@ -7,8 +7,7 @@
 
 The key stages of the selection process are as follows:
 
-1. **The CV review in the recruitment system.** During this stage, candidates who do not meet the must-have qualifications are rejected. For the remaining candidates, you provide feedback and comments. It is advisable to discuss your evaluations and considerations with the selection committee. Please note: we aim to inform candidates about their application (rejection or invitation) within 2 weeks of the application deadline. Please finish the cv-review within those 2 weeks. The Management Assistants will then reject the candidates via the recruitment system and they can help you with planning the interviews.
-
+1. **The CV review in the recruitment system.** During this stage, candidates who do not meet the must-have qualifications are rejected. For the remaining candidates, you provide feedback and comments. It is advisable to discuss your evaluations and considerations with the selection committee. 
 
 2. **Screening Interviews:** Conducting brief phone or video interviews can serve as a useful preliminary step before proceeding to formal job interviews.
 
@@ -23,21 +22,25 @@ Please use Chapter 3 of the 'PhD Recruitment and Selection Guide', which can be 
 :class: warning, dropdown
 Be aware of the **knowledge safety check**! Candidates from or with connections to China, Russia, Belarus, Iran and North Korea should be checked. It is wise to start the knowledge safety check as soon as you have a shortlist of the 3-4 best candidates. How to do it? 
 
-  * Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.  
-  * HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result.  
+<!-- Send an email to HR with the candidate(s) name(s) to be checked and the number of the vacancy.HR will communicate with the safety knowledge department. HR will inform you about the outcome as soon as they have the result. -->
+
+  * Send an email to the department secretary with the candidate(s) name(s) to be checked and the number of the vacancy.  
+  * The department secretary will inform you about the results of the knowledge safety check.  
   * This check takes approximately 2 weeks and may in extreme cases take up to 10 weeks. 
   * Do not inform the candidates about the knowledge safety check as this information is confidential. 
 ```
 
 
 Some important notes: 
+* Regarding the selection committee: the selection is done using the four-eye principle. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
+
 * The selection process is done using **MyCareer**. Instructions can be found [on this intranet page](https://intranet.tudelft.nl/-/recruitment-system?p_l_back_url=%2Fsearch%3Fq%3Drecruitment). Use this system as much as possible and do not store CVs or send CVs by mail. 
 
 * For a smooth selection process, it helps to plan the CV review and some potential interview moments soon in the agendas of the committee members.
 
 * Contact the talent acquisition specialist (A.Fishman@tudelft.nl) or the HR advisor (m.scheers-vanderhorst@tudelft.nl) if no promising candidates have applied. 
 
-* Regarding the selection committee: the selection is done using the four-eye principle. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
+* Please note: we aim to inform candidates about their application (rejection or invitation) within 2 weeks of the application deadline. Please finish the cv-review within those 2 weeks. The Management Assistants will then reject the candidates via the recruitment system and they can help you with planning the interviews.
 
 * About the **job interviews**: 
 
@@ -108,5 +111,4 @@ First, you contact the candidate to share the positive news. Before doing so, en
 * In addition, gather information regarding the subsequent steps in the process: the job offer, the contract, and the candidate's first workday. It is advisable to give the candidate an estimated timeline for these steps.
 
 
-Afterwards, contact the management assistant to prepare the formal job offer. The management assistant will draft the offer based on the details you provide, including the contract duration, start date, salary, working hours, English proficiency (ETV), and relevant contact information. The job offer will be sent to the candidate, with you in the cc.
-
+Afterwards, contact the management assistant to prepare the formal job offer. Additional information may be needed, for which they will contact you and the candidate. The job offer is checked by the department secretary and HR advisor before sending it.
