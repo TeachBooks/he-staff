@@ -57,7 +57,7 @@ The visa are requested by the management assistant. A working permit for EU cand
 
 ## 4.2 First workday
 
-The new employee will soon join the team. It is important to consider how you will structure their first day and the initial week. Ensure they receive a warm welcome, including an introduction to key colleagues and a visit to the management assistants. [This file](../../../PhDs/Appendices/supervisor_checklist.pdf) can be used as guide for the onboarding process.
+The new employee will soon join the team. It is important to consider how you will structure their first day and the initial week. Ensure they receive a warm welcome, including an introduction to key colleagues and a visit to the management assistants. [This checklist](../../../PhDs/Appendices/supervisor_checklist.pdf) can be used as guide for the onboarding process.
 
 During the first week, schedule a meeting to take place two weeks before the end of the trial period. This meeting will allow you to review the new employee’s performance. Use this opportunity to provide constructive feedback—highlighting strengths while identifying areas for improvement. If there are serious concerns regarding the employee’s performance, it is advisable to consult the HR Advisor a few weeks prior to the end of the trial period.
 
