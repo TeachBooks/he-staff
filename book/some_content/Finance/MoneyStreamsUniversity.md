@@ -27,5 +27,10 @@ Within TU Delft, the first money stream is distributed among three main bodies:
 3.	**Faculties:** Each faculty receives a portion of the first money stream, which is then distributed among its departments, such as the Hydraulic Engineering department.
 
 
+Hieronder kan je het figuurtje nog een keer zien.
+
+![Figuurnaam die je niet ziet](../Finance/Appendices/MoneyStreams.png)
+
+
 
  
