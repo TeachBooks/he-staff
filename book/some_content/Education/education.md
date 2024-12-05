@@ -1,3 +1,2 @@
 # Education
 
-heel verhaal....

@@ -41,7 +41,5 @@ parts:
     # PhD information
     - file: some_content/PhDs/PhDs.md
     - file: some_content/Education/education.md
-      sections:
-      - file: some_content/Education/brightspace.md
     - file: contact.md
     - file: credits.md
