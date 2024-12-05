@@ -3,7 +3,7 @@
 
 This procedure is a guide for the hiring of Lecturers, Assistant Professors (UD) and Associate Professors (UHD). 
 
-How to use this? Follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively. A [stepwise approach](../HigherFunctions/Appendices/8.%20Recruitment%20and%20selection%20procedure%20Assistant%20Professors%20and%20Associate%20Professors%20including%20Academic%20Career%20Trackers.pdf) is available and can be used as an addition to this procedure. 
+How to use this? Follow the steps according to the image below. At the left of your screen you find all steps which you can follow consecutively. A [stepwise approach](../HigherFunctions/Appendices/8.%20Recruitment%20and%20selection%20procedure%20Professors.pdf) is available and can be used as an addition to this procedure. 
 
 ![The steps of the hiring procedure](../HigherFunctions/Appendices/OverviewImageHigher.PNG)
 
