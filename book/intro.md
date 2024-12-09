@@ -13,4 +13,4 @@ Information will be posted the coming months about procedures related to general
 -----------------------------------------------------------------------------------------------------------------------
 
 
-**Credits:** This book is created from the [TeachBooks Template Book](https://github.com/TeachBooks/template). Visit [teachbooks.tudelft.nl](https://teachbooks.tudelft.nl/) or contact Robert Lanzafame and Tom van Woudenberg at teachbooks@tudelft.nl if you would like more information. For contentwise feedback, please contact the webmaster of hydraulic engineering (webmaster-wbk-citg@tudelft.nl)
+**Credits:** This book is created from the [TeachBooks Template Book](https://github.com/TeachBooks/template). Visit [teachbooks.tudelft.nl](https://teachbooks.tudelft.nl/) or contact Robert Lanzafame and Tom van Woudenberg at teachbooks@tudelft.nl if you would like more information. 
