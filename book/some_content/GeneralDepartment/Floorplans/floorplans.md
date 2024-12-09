@@ -37,8 +37,8 @@ In this page you can find the floor plans of the HE Department with the relevant
 
 ### CEG Building 2nd Floor
 
-- Download image of floorplan of second floor [here](second-floor-nov-24.jpg).
-- Download pdf of floorplan of second floor [here](second-floor-nov-24.pdf).
+- Download image of floorplan of second floor [here](./Appendices/second-floor-nov-24.jpg).
+- Download pdf of floorplan of second floor [here](./Appendices/second-floor-nov-24.pdf).
 ```{note}
 Last update 21-11-2024.
 ```
@@ -50,8 +50,8 @@ _________________________________________________________________________
 You can preview the files by right clicking on the links below and selecting open in new tab, for both jpg and pdf files.
 ```
 
-- Download image of floorplan of third floor [here](third-floor-nov-24.jpg).
-- Download pdf of floorplan of third floor [here](third-floor-nov-24.pdf).
+- Download image of floorplan of third floor [here](./Appendices/third-floor-nov-24.jpg).
+- Download pdf of floorplan of third floor [here](./Appendices/third-floor-nov-24.pdf).
 ```{note}
 Last update 10-10-2024.
 ```
@@ -60,6 +60,6 @@ _________________________________________________________________________
   
 ### HE Laboratory
 
-- Download image of floorplan of waterlab [here](wlab_nov_24.jpg).
-- Download pdf of floorplan of waterlab [here](wlab_nov_24.pdf).
+- Download image of floorplan of waterlab [here](./Appendices/wlab_nov_24.jpg).
+- Download pdf of floorplan of waterlab [here](./Appendices/wlab_nov_24.pdf).
 

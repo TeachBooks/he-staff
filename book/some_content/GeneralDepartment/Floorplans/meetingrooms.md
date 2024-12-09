@@ -1,13 +1,14 @@
 ### Meeting Rooms
 
-![General ](../../../figures/meeting-rooms-graphic.png)
+![General ](./Appendices/MeetingRooms/meeting-rooms-graphic.png)
+
 
 Available **meeting Rooms** on the third floor: 
 - **3.47** (Bookings for up to 6 people, not a digital booking panel available)
 - **3.57** (Booking for up to 7 people, whiteboards and monitor)
 - **3.79** (Bookings for up to 7 people, white board, flip charts and monitor)
 - **3.69** (Larger, board meeting room, 10-12 people, whiteboard and monitor)
- ![General ](../../../figures/meeting-rooms-overview.png)
+ ![General ](./Appendices/MeetingRooms/meeting-rooms-overview.png)
  
 **Additional meeting rooms:** 
 For up to 4 people, smaller rooms next to lift D are available.

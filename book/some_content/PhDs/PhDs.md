@@ -9,5 +9,5 @@ Below you can find onoarding and end-of-contract checklists for PhD candidates a
 
 
 
-![footer](./Appendices/footer.jpg)
+![footer](../../figures/footer-tudelft.jpg)
 
