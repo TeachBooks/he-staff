@@ -8,9 +8,9 @@ parts:
     chapters:
     - file: some_content/General_Department/department.md
       sections:
-      - file: some_content/HE_Department_Board/board.md
+      - file: some_content/General_Department/HE_Department_Board/board.md
         sections:
-        - file: some_content/HE_Department_Board/management_board.md   
+        - file: some_content/General_Department/HE_Department_Board/management_board.md   
       - file: some_content/General_Department/Floorplans/floorplans.md
         sections:
         - file: some_content/General_Department/Floorplans/office_layouts.md
