@@ -8,6 +8,12 @@
 For general inquiries please contact us at:  
 **Email:** [secr-he-citg@tudelft.nl](mailto:secr-he-citg@tudelft.nl@tudelft.nl)  
 
+### Webpage content
+For contentwise feedback, please contact the webmaster of hydraulic engineering:
+**Name:** Jelle Gortemaker
+**Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl)
+
+
 ### HE Department Executive Secretary
 **Name:** Elske Bakker  
 **Email:** [E.H.Bakker@tudelft.nl](mailto:E.H.Bakker@tudelft.nl)  
