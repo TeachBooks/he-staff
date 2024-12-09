@@ -16,7 +16,7 @@
 
    For more information, please see this detailed flowchart [link](#).
    
-![General ](../../../figures/room-change-guidelines.png)
+![General ](./Appendices/room-change-guidelines.png)
 
 ### General Guidelines
 

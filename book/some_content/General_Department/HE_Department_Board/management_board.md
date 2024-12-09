@@ -9,7 +9,7 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 
 
 
-![footer](footer-tudelft.jpg)
+![footer](../../../figures/footer-tudelft.jpg)
  
 -----------------------------------------------------------------------------------------------------
 
