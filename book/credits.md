@@ -15,8 +15,6 @@ This book is created from the [TeachBooks Template Book](https://github.com/Teac
 <!-- This webpage is built based on the Jupyter Book & TeachBooks platform because it is being used extensively in education at CEG (e.g., [the MUDE book](https://mude.citg.tudelft.nl/book)) and it offers plenty of advantages. For instance, uploading and sharing documents, e.g. pdf's or image files, is fairly quick to update and maintain. Furthermore, it offers flexibility in building the desired structure with a low level of complexity. -->
 
 
-**Credits:** 
-
 ## About the Editor
 
 The webmaster of civil engineering can be contacted for feedback and changes of content via webmaster-wbk-citg@tudelft.nl
