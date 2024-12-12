@@ -10,6 +10,7 @@ For general inquiries please contact us at:
 
 ### Webpage content
 For contentwise feedback, please contact the webmaster of hydraulic engineering:
+
 **Name:** Jelle Gortemaker
 **Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl)
 
@@ -19,8 +20,8 @@ For contentwise feedback, please contact the webmaster of hydraulic engineering:
 **Email:** [E.H.Bakker@tudelft.nl](mailto:E.H.Bakker@tudelft.nl)  
 **Phone:** +31 012 34 56789
 
-### Visiting Address
-**Office:** CiTG, Floor 3rd, Room 3.00
+<!-- ### Visiting Address
+**Office:** CiTG, Floor 3rd, Room 3.00 -->
 
 ### Management Assistants per Section:
 **Location:** CiTG, 3rd Floor, Room 3.73.1
