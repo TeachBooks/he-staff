@@ -1,12 +1,13 @@
 # Information for PhDs 
 
 
+### PhD defence guidelines
+The budget guidelines for PhD defences can be found in [this pdf file](./Appendices/PhD_Defence_Budget_Guidelines–Hydraulic_Engineering_01012025.pdf) 
 
-The updated policy on budget guidelines for PhD defences can be found in the following pdf file.
-[Download here](./Appendices/PhD_Defence_Budget_Guidelines–Hydraulic_Engineering_01012025.pdf) 
 
+### Onboarding and end-of-contract checklists
 
-Below you can find onoarding and end-of-contract checklists for PhD candidates and supervisors.
+Below you can find onboarding and end-of-contract checklists for PhD candidates and supervisors.
 
 - PhD candidate onboarding checklist. [Download here](./Appendices/candidate_checklist.pdf)   <br>
   The pdf file with candidate's checklist corresponds to the image shown below.  <br>
