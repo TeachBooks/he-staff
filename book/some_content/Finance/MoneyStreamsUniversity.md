@@ -4,7 +4,7 @@
 
 University funding is categorised into four main streams: the first, second, third, and fourth.
 
-![Money Streams](../Finance/Appendices/MoneyStreams.png)
+![Money Streams](./Appendices/MoneyStreams.png)
 
 •	**First Money Stream:** This consists of direct government contributions and tuition fees. For European students, part of the tuition fees is subsidised by the Dutch government.
 
@@ -19,7 +19,7 @@ University funding is categorised into four main streams: the first, second, thi
 
 The Ministry of Education, Culture and Science allocates a budget for all Dutch universities. TU Delft receives a share of this budget, which is divided into two components: a fixed portion and a variable portion. The variable component depends on factors such as the number of students, BSc and MSc degrees awarded, and PhD defenses. This system of fixed and variable components also comes back in the internal allocation of funds to faculties and departments.
 
-![Division of First Money Stream](../Finance/Appendices/DivisionFirstMoneyStream.png)
+![Division of First Money Stream](./Appendices/DivisionFirstMoneyStream.png)
 
 Within TU Delft, the first money stream is distributed among three main bodies:
 1.	**University Services:** These include services such as HR, Finance, and ICT.
