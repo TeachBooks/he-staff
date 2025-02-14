@@ -134,3 +134,7 @@ _build/
 
 # poetry files
 pyproject.toml
+
+
+# temporary ignore the workflow 
+.github/workflows/deploy-server.yml
