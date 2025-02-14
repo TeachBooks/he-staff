@@ -26,17 +26,28 @@ jobs:
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          config: |
+            Host jumphost
+              HostName student-linux.tudelft.nl
+              User ${{ secrets.JUMP_USER }}
+              IdentityFile ~/.ssh/id_ed25519
+            
+            Host target
+              HostName edu01.citg.tudelft.nl
+              User ${{ secrets.SSH_USER }}
+              ProxyJump jumphost
+              IdentityFile ~/.ssh/id_ed25519
           
       - name: Deploy content and rebuild container
         run: |
-          # Deploy the content
+          # Deploy the content using ProxyJump
           rsync -avz --delete \
-            -e "ssh -p ${{ secrets.SSH_PORT }}" \
+            -e "ssh -J ${{ secrets.JUMP_USER }}@student-linux.tudelft.nl" \
             download/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/web_server/htdocs/he/
+            ${{ secrets.SSH_USER }}@edu01.citg.tudelft.nl:/var/web_server/htdocs/he/
           
-          # SSH into server and rebuild container
-          ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} '
+          # Execute commands through the jump host
+          ssh -J ${{ secrets.JUMP_USER }}@student-linux.tudelft.nl ${{ secrets.SSH_USER }}@edu01.citg.tudelft.nl '
             cd /var/web_server/htdocs/he && \
             sudo docker compose down && \
             sudo docker compose up -d --build
