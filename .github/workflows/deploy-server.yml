@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy and Build HE Website
 
 on:
   workflow_run:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  deploy-and-build:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     
@@ -27,9 +27,17 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
           
-      - name: Deploy to server
+      - name: Deploy content and rebuild container
         run: |
+          # Deploy the content
           rsync -avz --delete \
             -e "ssh -p ${{ secrets.SSH_PORT }}" \
             download/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/usr/share/nginx/html/he/
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/web_server/htdocs/he/
+          
+          # SSH into server and rebuild container
+          ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} '
+            cd /var/web_server/htdocs/he && \
+            sudo docker compose down && \
+            sudo docker compose up -d --build
+          '
