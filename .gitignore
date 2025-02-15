@@ -137,4 +137,4 @@ pyproject.toml
 
 
 # temporary ignore the workflow 
-#.github/workflows/deploy-server.yml
+.github/workflows/deploy-server.yml
