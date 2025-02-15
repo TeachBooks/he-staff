@@ -37,6 +37,20 @@ jobs:
               User ${{ secrets.SSH_USER }}
               ProxyJump jumphost
               IdentityFile ~/.ssh/id_ed25519
+
+
+      - name: Test SSH Connection
+        run: |
+          # Test DNS resolution
+          nslookup student-linux.tudelft.nl
+          
+          # Test basic connectivity
+          ping -c 4 student-linux.tudelft.nl || true
+          
+          # Try SSH with verbose output
+          ssh -vvv -o ConnectTimeout=30 ${{ secrets.JUMP_USER }}@student-linux.tudelft.nl 'echo test' || true
+
+              
           
       - name: Deploy content and rebuild container
         run: |
