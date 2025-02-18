@@ -43,7 +43,7 @@ parts:
     # PhD information
     - file: some_content/PhDs/PhDs.md
     - file: some_content/Education/education.md
-    - file: some/content/Social Safety/social_safety.md
+    - file: some_content/Social Safety/social_safety.md
     - file: contact.md
     - file: credits.md
 
