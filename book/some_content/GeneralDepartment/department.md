@@ -7,9 +7,7 @@ Currently, the general information about the department available on the website
 - Floorplans of the second floor, third floor, and waterlab, including staff members per room, available to preview or download in PDF format.
 - Office types and layouts within the HE Department.
 
-<div style="text-align: center;">
-<img src="/book/figures/Vernieuwde Afsluitdijk vanaf kruin small.jpg" alt="Afsluitdijk">
-</div>
+![Landing page](/../figures/Campus-TUDelft-intro.jpg)
 
 
 
