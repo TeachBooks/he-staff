@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 In this page you can find the floor plans of the HE Department with the relevant offices in the 2nd and 3rd Floor of the Civil Engineering and Geosciences Building and the Hydraulic Engineering Laboratory.
 
 <div style="text-align: center;">
-  <img src="book/figures/Vernieuwde Afsluitdijk vanaf kruin IMG_E8923.JPG/" alt="CITG Building" width="70%">
+<img src="/book/figures/citg_building.jpg" alt="CiTG building">
 </div>
 
 
