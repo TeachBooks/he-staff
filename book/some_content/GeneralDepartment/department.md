@@ -7,6 +7,12 @@ Currently, the general information about the department available on the website
 - Floorplans of the second floor, third floor, and waterlab, including staff members per room, available to preview or download in PDF format.
 - Office types and layouts within the HE Department.
 
-![General Department Photo ](../../figures/Vernieuwde%20Afsluitdijk%20vanaf%20kruin%20IMG_E8923.JPG)
+![General_Department_photo](/book/figures/Aflsuitdijk_met%20nieuwe_blokken.JPG)
+
+
+
+
+
+
 
 
