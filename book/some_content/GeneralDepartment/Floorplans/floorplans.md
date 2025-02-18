@@ -61,3 +61,6 @@ _________________________________________________________________________
 - Download image of floorplan of waterlab [here](./Appendices/wlab_nov_24.jpg).
 - Download pdf of floorplan of waterlab [here](./Appendices/wlab_nov_24.pdf).
 
+
+
+[def]: /book/figures/citg_building.jpg
