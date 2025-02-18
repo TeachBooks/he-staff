@@ -13,7 +13,7 @@ The HE Staff Meetings are held every 6 weeks.
 | Friday, July 11, 2025    |                  |                     |
 | Wednesday, September 3, 2025 |            |                     |
 | Monday, October 13, 2025 |              |                     |
-| Tuesday, November 26, 2025 |               |                     |
+| Tuesday, November 25, 2025 |               |                     |
 
 
 *Content for the meetings will be added later*
