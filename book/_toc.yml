@@ -12,7 +12,7 @@ parts:
         sections:
         - file: some_content/GeneralDepartment/HE_Department_Board/management_board.md   
       - file: some_content/GeneralDepartment/HEStaffMeetings/HEStaffMeetings.md
-      - file: some_content/GeneralDepartment/Floorplans/floorplans.md
+      - file: some_content/GeneralDepartment/Floorplans/floorplans copy.md
         sections:
         - file: some_content/GeneralDepartment/Floorplans/office_layouts.md
         - file: some_content/GeneralDepartment/Floorplans/workspace_guidelines.md
