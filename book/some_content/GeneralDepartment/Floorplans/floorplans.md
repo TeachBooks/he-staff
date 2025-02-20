@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 .zoom {
   transition: transform .2s; /* Animation */
   width: 100%;
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-</script>
+</script> -->
 
 # Floor Plans
 
