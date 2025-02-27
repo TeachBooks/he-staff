@@ -48,6 +48,7 @@ jobs:
       - name: Trigger deployment on self-hosted runner
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.GHCR_TOKEN }}  # Use your PAT with workflow permissions
           script: |
             const backendImage = '${{ github.event.inputs.backend_image }}' || `ghcr.io/teachbooks/he-backend:${{ github.sha }}`;
             const frontendVersion = '${{ github.event.inputs.frontend_version }}' || '${{ github.sha }}';
@@ -62,5 +63,3 @@ jobs:
                 frontend_version: frontendVersion
               }
             });
-            
-            console.log(`Deployment job triggered with backend: ${backendImage} and frontend: ${frontendVersion}`);
