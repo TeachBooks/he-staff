@@ -42,9 +42,10 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./backend
+          file: ./backend/Dockerfile  # Explicitly specify the Dockerfile path
           push: true
           tags: ghcr.io/teachbooks/he-backend:${{ github.sha }},ghcr.io/teachbooks/he-backend:latest
-
+          
       - name: Trigger deployment on self-hosted runner
         uses: actions/github-script@v6
         with:
