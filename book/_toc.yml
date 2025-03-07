@@ -1,19 +1,22 @@
 format: jb-book
 root: intro.md
 
+# Make lines invisible by control + /
+
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/General_Department/department.md
+    - file: some_content/GeneralDepartment/department.md
       sections:
-      - file: some_content/HE_Department_Board/board.md
+      - file: some_content/GeneralDepartment/HE_Department_Board/board.md
         sections:
-        - file: some_content/HE_Department_Board/management_board.md   
-      - file: some_content/General_Department/Floorplans/floorplans.md
+        - file: some_content/GeneralDepartment/HE_Department_Board/management_board.md   
+      - file: some_content/GeneralDepartment/HEStaffMeetings/HEStaffMeetings.md
+      - file: some_content/GeneralDepartment/Floorplans/floorplans.md
         sections:
-        - file: some_content/General_Department/Floorplans/office_layouts.md
-        - file: some_content/General_Department/Floorplans/workspace_guidelines.md
-        - file: some_content/General_Department/Floorplans/meetingrooms.md
+        - file: some_content/GeneralDepartment/Floorplans/office_layouts.md
+        - file: some_content/GeneralDepartment/Floorplans/workspace_guidelines.md
+        - file: some_content/GeneralDepartment/Floorplans/meetingrooms.md
     - file: some_content/HR/HR.md
       sections:
       # Hiring procedure PhD and PostDocs
@@ -33,11 +36,14 @@ parts:
         - file: some_content/HR/Hiring/HigherFunctions/4CompletionPhase.md
       # Hiring graphics
       - file: some_content/HR/Hiring/Graphics/hiring_graphics.md
+    # Finance  
     - file: some_content/Finance/finance.md
       sections:
       - file: some_content/Finance/MoneyStreamsUniversity.md
     # PhD information
     - file: some_content/PhDs/PhDs.md
     - file: some_content/Education/education.md
+    - file: some_content/Social_Safety/social_safety.md
     - file: contact.md
     - file: credits.md
+
