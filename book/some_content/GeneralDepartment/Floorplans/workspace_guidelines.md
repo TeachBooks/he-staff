@@ -12,9 +12,9 @@
    - The Secretariat will arrange the move via Facility Management and update the room nameplate.
 
 4. **Update Your Information:**
-   - You will need to update your room information on [iam.tudelft.nl]([https://iam.tudelft.nl/]).
+   - You will need to update your room information on [iam.tudelft.nl](https://www.tudelft.nl/e-service).
 
-   For more information, please see this detailed flowchart [link](#).
+   For more information, please see this detailed flowchart [link](./Appendices/room-change-guidelines.png).
    
 ![General ](./Appendices/room-change-guidelines.png)
 
