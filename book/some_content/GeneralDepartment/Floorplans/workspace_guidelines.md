@@ -14,7 +14,7 @@
 4. **Update Your Information:**
    - You will need to update your room information on [iam.tudelft.nl](https://www.tudelft.nl/e-service).
 
-   For more information, please see this detailed flowchart [link](#).
+   For more information, please see this detailed flowchart [link](./Appendices/room-change-guidelines.png).
    
 ![General ](./Appendices/room-change-guidelines.png)
 
