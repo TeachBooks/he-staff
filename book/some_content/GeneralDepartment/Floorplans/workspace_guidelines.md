@@ -9,7 +9,7 @@
    - The Management Assistants will check the floor plan to see if a room is available.
 
 3. **Arrangement by Management Assistants:**
-   - The Management Assistants will arrange the move via Facility Management and update the room nameplate.
+   - The Management Assistant will arrange the move via Facility Management and update the room nameplate.
 
 4. **Update Your Information:**
    - You will need to update your room information on [iam.tudelft.nl](https://www.tudelft.nl/en/e-service).
