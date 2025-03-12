@@ -5,11 +5,11 @@
 1. **Discuss with Section Leader:**
    - If you would like to change rooms or swap your workplace, please discuss this with your section head.
 
-2. **Inform the Secretariat:**
-   - The secretariat will check the floor plan to see if a room is available.
+2. **Inform the Management Assistants:**
+   - The Management Assistants will check the floor plan to see if a room is available.
 
-3. **Arrangement by Secretariat:**
-   - The Secretariat will arrange the move via Facility Management and update the room nameplate.
+3. **Arrangement by Management Assistants:**
+   - The Management Assistants will arrange the move via Facility Management and update the room nameplate.
 
 4. **Update Your Information:**
    - You will need to update your room information on [iam.tudelft.nl]([https://iam.tudelft.nl/]).
