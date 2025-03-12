@@ -1,0 +1,32 @@
+# .github/workflows/book-post-deploy.yml
+name: Book Post-Deployment
+
+on:
+  workflow_run:
+    workflows: ["call-deploy-book"]
+    types:
+      - completed
+
+jobs:
+  copy-to-server:
+    runs-on: self-hosted
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Copy book to server
+        run: |
+          # Assuming the book is built to the _build/html directory
+          if [ -d "book/_build/html" ]; then
+            # Create the target directory if it doesn't exist
+            mkdir -p /var/web_server/htdocs/book
+            
+            # Copy the built book to the server
+            cp -r book/_build/html/* /var/web_server/htdocs/book/
+            
+            echo "Book copied to server successfully!"
+          else
+            echo "Book directory not found!"
+            exit 1
+          fi

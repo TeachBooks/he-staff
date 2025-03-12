@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HE - CITG TU Delft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #00a6d6; /* TU Delft Blue */
+        }
+        button {
+            background-color: #00a6d6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HE Server - CITG TU Delft</h1>
+    <p>Version deployed by GitHub Actions!</p>
+    <p>Current time: <span id="time"></span></p>
+    
+    <button id="testApi">Test API Connection</button>
+    <div id="message"></div>
+    
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString();
+        
+        document.getElementById('testApi').addEventListener('click', async () => {
+            const messageDiv = document.getElementById('message');
+            messageDiv.style.display = 'block';
+            messageDiv.textContent = 'Connecting to API...';
+            
+            try {
+                const response = await fetch('/api/hello');
+                const data = await response.json();
+                messageDiv.textContent = 'API Response: ' + data.message;
+            } catch (error) {
+                messageDiv.textContent = 'Error connecting to API: ' + error.message;
+            }
+        });
+    </script>
+</body>
+</html>
