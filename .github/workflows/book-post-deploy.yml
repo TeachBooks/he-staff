@@ -1,3 +1,4 @@
+# .github/workflows/book-post-deploy.yml
 name: Book Post-Deployment
 
 on:
@@ -11,40 +12,56 @@ jobs:
     runs-on: self-hosted
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Get workflow details
+        id: workflow-details
+        uses: actions/github-script@v6
         with:
-          ref: ${{ github.event.workflow_run.head_branch }}
-        
-      - name: Debug book path
+          script: |
+            const workflow_run_id = ${{ github.event.workflow_run.id }};
+            console.log(`Workflow Run ID: ${workflow_run_id}`);
+            
+            // List artifacts from the workflow run
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: workflow_run_id
+            });
+            
+            // Find the book artifact
+            const artifactId = artifacts.data.artifacts.find(a => a.name === 'main').id;
+            console.log(`Artifact ID: ${artifactId}`);
+            
+            return {
+              artifact_id: artifactId,
+              run_id: workflow_run_id
+            };
+      
+      - name: Download artifact
         run: |
-          echo "Current directory: $(pwd)"
-          echo "Listing all _build directories:"
-          find . -name "_build" -type d
+          # Create a temporary directory
+          mkdir -p /tmp/book-download
+          cd /tmp/book-download
           
-      - name: Copy book to server
-        run: |
-          # Create destination directory if it doesn't exist
-          mkdir -p /var/web_server/htdocs/book
+          # Download the artifact using the GitHub API
+          curl -L -o book.zip \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/artifacts/${{ fromJSON(steps.workflow-details.outputs.result).artifact_id }}/zip"
           
-          # Check all possible book build locations
-          if [ -d "book/_build/html" ]; then
-            cp -r book/_build/html/* /var/web_server/htdocs/book/
-            echo "Book copied from book/_build/html/ successfully!"
-          elif [ -d "_build/html" ]; then
-            cp -r _build/html/* /var/web_server/htdocs/book/
-            echo "Book copied from _build/html/ successfully!"
-          else
-            # Find any html build directory
-            BOOK_DIR=$(find . -path "*/_build/html" -type d | head -n 1)
-            if [ -n "$BOOK_DIR" ]; then
-              cp -r $BOOK_DIR/* /var/web_server/htdocs/book/
-              echo "Book copied from $BOOK_DIR successfully!"
-            else
-              echo "Book directory not found! Creating placeholder..."
-              echo "<html><body><h1>HE Staff Book</h1><p>Book content will appear here after successful build.</p></body></html>" > /var/web_server/htdocs/book/index.html
-            fi
-          fi
+          # Unzip the downloaded file
+          unzip book.zip -d extracted
+          
+          # Clean the existing book directory
+          rm -rf /var/web_server/htdocs/book/*
+          
+          # Copy the extracted book to the web server
+          cp -r extracted/* /var/web_server/htdocs/book/
           
           # Set proper permissions
           chmod -R 755 /var/web_server/htdocs/book/
+          
+          # Clean up
+          cd /
+          rm -rf /tmp/book-download
+          
+          echo "Book deployed successfully!"
