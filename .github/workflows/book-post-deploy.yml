@@ -47,17 +47,11 @@ jobs:
             # If no book directory found, create a placeholder
             echo "Book directory not found, creating placeholder"
             mkdir -p /var/web_server/htdocs/book
-            cat > /var/web_server/htdocs/book/index.html << 'EOF'
-<!DOCTYPE html>
-<html>
-<head>
-  <title>HE Staff Book</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-  </style>
-</head>
-<body>
-  <h1>HE Staff Book</h1>
-  <p>The book content will appear here after a successful build.</p>
-</body>
-</html>
+            
+            # Create simple placeholder without heredoc
+            echo "<html><head><title>HE Staff Book</title></head><body><h1>HE Staff Book</h1><p>The book content will appear here after a successful build.</p></body></html>" > /var/web_server/htdocs/book/index.html
+            
+            # Set permissions
+            chmod -R 755 /var/web_server/htdocs/book/
+            echo "Placeholder created successfully!"
+          fi
