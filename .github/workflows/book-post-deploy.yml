@@ -47,7 +47,7 @@ jobs:
             # If no book directory found, create a placeholder
             echo "Book directory not found, creating placeholder"
             mkdir -p /var/web_server/htdocs/book
-            cat > /var/web_server/htdocs/book/index.html << 'EOHTML'
+            cat > /var/web_server/htdocs/book/index.html << 'EOF'
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,8 +61,3 @@ jobs:
   <p>The book content will appear here after a successful build.</p>
 </body>
 </html>
-EOHTML
-            # Set permissions
-            chmod -R 755 /var/web_server/htdocs/book/
-            echo "Placeholder created successfully!"
-          fi
