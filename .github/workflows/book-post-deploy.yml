@@ -15,42 +15,54 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.workflow_run.head_branch }}
-          fetch-depth: 1
-      
-      - name: Get branch name
-        id: get-branch
-        run: |
-          BRANCH="${GITHUB_REF##*/}"
-          if [ -z "$BRANCH" ]; then
-            BRANCH="${{ github.event.workflow_run.head_branch }}"
-          fi
-          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-          echo "Branch identified as: $BRANCH"
-      
-      - name: Download artifact
-        id: download
-        continue-on-error: true
-        run: |
-          # Try to download the artifact using GitHub CLI
-          WORKFLOW_ID="${{ github.event.workflow_run.id }}"
-          echo "Trying to download from workflow ID: $WORKFLOW_ID"
           
-          mkdir -p /tmp/artifact-download
-          # This might fail, but that's OK, we'll fall back to direct deployment
-          gh run download $WORKFLOW_ID --dir /tmp/artifact-download || true
+      - name: Find and deploy book content
+        run: |
+          # Debug information
+          echo "Current directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
           
-          if [ -d "/tmp/artifact-download" ] && [ "$(ls -A /tmp/artifact-download)" ]; then
-            echo "artifacts_found=true" >> $GITHUB_OUTPUT
-            echo "Downloaded artifacts:"
-            ls -la /tmp/artifact-download
+          # Try to find the book in various locations
+          if [ -d "book/_build/html" ]; then
+            BOOK_DIR="book/_build/html"
+          elif [ -d "_build/html" ]; then
+            BOOK_DIR="_build/html"
           else
-            echo "artifacts_found=false" >> $GITHUB_OUTPUT
-            echo "No artifacts found or download failed"
+            # Look for any _build/html directory
+            BOOK_DIR=$(find . -path "*/_build/html" -type d | head -n 1)
           fi
-      
-      - name: Deploy book using script
-        run: |
-          BRANCH="${{ steps.get-branch.outputs.branch }}"
           
-          # Run our enhanced deployment script
-          /var/web_server/deploy-book.sh "$BRANCH"
+          # If we found a book directory
+          if [ -n "$BOOK_DIR" ]; then
+            echo "Found book directory: $BOOK_DIR"
+            # Create target directory
+            mkdir -p /var/web_server/htdocs/book
+            # Copy book content
+            cp -r "$BOOK_DIR"/* /var/web_server/htdocs/book/
+            # Set permissions
+            chmod -R 755 /var/web_server/htdocs/book/
+            echo "Book copied successfully!"
+          else
+            # If no book directory found, create a placeholder
+            echo "Book directory not found, creating placeholder"
+            mkdir -p /var/web_server/htdocs/book
+            cat > /var/web_server/htdocs/book/index.html << 'EOHTML'
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HE Staff Book</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+  </style>
+</head>
+<body>
+  <h1>HE Staff Book</h1>
+  <p>The book content will appear here after a successful build.</p>
+</body>
+</html>
+EOHTML
+            # Set permissions
+            chmod -R 755 /var/web_server/htdocs/book/
+            echo "Placeholder created successfully!"
+          fi
