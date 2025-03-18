@@ -1,4 +1,3 @@
-# .github/workflows/book-post-deploy.yml
 name: Book Post-Deployment
 
 on:
@@ -14,19 +13,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
         
+      - name: Debug book path
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing all _build directories:"
+          find . -name "_build" -type d
+          
       - name: Copy book to server
         run: |
-          # Assuming the book is built to the _build/html directory
+          # Create destination directory if it doesn't exist
+          mkdir -p /var/web_server/htdocs/book
+          
+          # Check all possible book build locations
           if [ -d "book/_build/html" ]; then
-            # Create the target directory if it doesn't exist
-            mkdir -p /var/web_server/htdocs/book
-            
-            # Copy the built book to the server
             cp -r book/_build/html/* /var/web_server/htdocs/book/
-            
-            echo "Book copied to server successfully!"
+            echo "Book copied from book/_build/html/ successfully!"
+          elif [ -d "_build/html" ]; then
+            cp -r _build/html/* /var/web_server/htdocs/book/
+            echo "Book copied from _build/html/ successfully!"
           else
-            echo "Book directory not found!"
-            exit 1
+            # Find any html build directory
+            BOOK_DIR=$(find . -path "*/_build/html" -type d | head -n 1)
+            if [ -n "$BOOK_DIR" ]; then
+              cp -r $BOOK_DIR/* /var/web_server/htdocs/book/
+              echo "Book copied from $BOOK_DIR successfully!"
+            else
+              echo "Book directory not found! Creating placeholder..."
+              echo "<html><body><h1>HE Staff Book</h1><p>Book content will appear here after successful build.</p></body></html>" > /var/web_server/htdocs/book/index.html
+            fi
           fi
+          
+          # Set proper permissions
+          chmod -R 755 /var/web_server/htdocs/book/

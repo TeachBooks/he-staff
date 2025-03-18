@@ -7,9 +7,11 @@ on:
       backend_image:
         description: 'Backend Docker image to deploy'
         required: true
+        default: 'ghcr.io/teachbooks/he-backend:latest'
       frontend_version:
         description: 'Frontend version to deploy'
         required: true
+        default: 'main'
 
 jobs:
   deploy:
