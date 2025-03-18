@@ -17,169 +17,40 @@ jobs:
           ref: ${{ github.event.workflow_run.head_branch }}
           fetch-depth: 1
       
-      - name: Debug directory structure
+      - name: Get branch name
+        id: get-branch
         run: |
-          echo "Current directory: $(pwd)"
-          echo "Listing all directories:"
-          ls -la
-          echo "Looking for _build directories:"
-          find . -name "_build" -type d | xargs ls -la
-          echo "Looking for HTML directories:"
-          find . -name "html" -type d
-      
-      - name: Download artifact from workflow
-        uses: actions/github-script@v6
-        id: download-artifact
-        with:
-          script: |
-            const fs = require('fs');
-            const workflow_run_id = ${{ github.event.workflow_run.id }};
-            
-            console.log(`Downloading artifacts from workflow run ${workflow_run_id}`);
-            
-            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: workflow_run_id
-            });
-            
-            const bookArtifact = artifacts.data.artifacts.find(artifact => 
-              artifact.name === 'main' || artifact.name === 'book' || artifact.name === 'html'
-            );
-            
-            if (!bookArtifact) {
-              console.log('No book artifact found in the workflow run. Available artifacts:');
-              artifacts.data.artifacts.forEach(a => console.log(` - ${a.name}`));
-              return { found: false };
-            }
-            
-            console.log(`Found artifact: ${bookArtifact.name} (ID: ${bookArtifact.id})`);
-            
-            const download = await github.rest.actions.downloadArtifact({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              artifact_id: bookArtifact.id,
-              archive_format: 'zip'
-            });
-            
-            fs.writeFileSync('/tmp/book.zip', Buffer.from(download.data));
-            console.log('Artifact downloaded to /tmp/book.zip');
-            
-            return { found: true };
-      
-      - name: Extract and deploy book
-        if: fromJSON(steps.download-artifact.outputs.result).found
-        run: |
-          # Extract branch name from GitHub context
           BRANCH="${GITHUB_REF##*/}"
-          echo "Deploying book for branch: $BRANCH"
-          
-          # Create directories
-          mkdir -p /tmp/book-extracted
-          
-          # Extract the downloaded artifact
-          unzip -q /tmp/book.zip -d /tmp/book-extracted
-          
-          # List extracted content
-          echo "Extracted content:"
-          ls -la /tmp/book-extracted
-          
-          # Determine the deployment path based on branch
-          if [ "$BRANCH" == "main" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/book"
-          elif [ "$BRANCH" == "draft" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/draft"
-          else
-            DEPLOY_PATH="/var/web_server/htdocs/branches/$BRANCH"
+          if [ -z "$BRANCH" ]; then
+            BRANCH="${{ github.event.workflow_run.head_branch }}"
           fi
-          
-          # Create the deploy directory if it doesn't exist
-          mkdir -p $DEPLOY_PATH
-          
-          # Clear the deployment directory
-          echo "Clearing $DEPLOY_PATH"
-          find $DEPLOY_PATH -mindepth 1 -delete || true
-          
-          # Copy the extracted content
-          echo "Copying extracted content to $DEPLOY_PATH"
-          cp -r /tmp/book-extracted/* $DEPLOY_PATH/
-          
-          # Set permissions
-          chmod -R 755 $DEPLOY_PATH
-          
-          # Clean up
-          rm -rf /tmp/book-extracted
-          rm -f /tmp/book.zip
-          
-          echo "Book deployed successfully to $DEPLOY_PATH"
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+          echo "Branch identified as: $BRANCH"
       
-      - name: Try direct file copy if artifact not found
-        if: ${{ !fromJSON(steps.download-artifact.outputs.result).found }}
+      - name: Download artifact
+        id: download
+        continue-on-error: true
         run: |
-          # Get branch name
-          BRANCH="${GITHUB_REF##*/}"
-          echo "Branch: $BRANCH"
+          # Try to download the artifact using GitHub CLI
+          WORKFLOW_ID="${{ github.event.workflow_run.id }}"
+          echo "Trying to download from workflow ID: $WORKFLOW_ID"
           
-          # Define possible build directories
-          BUILD_DIRS=(
-            "book/_build/html"
-            "_build/html"
-            "docs/_build/html"
-            "_site"
-          )
+          mkdir -p /tmp/artifact-download
+          # This might fail, but that's OK, we'll fall back to direct deployment
+          gh run download $WORKFLOW_ID --dir /tmp/artifact-download || true
           
-          # Try to find a valid build directory
-          FOUND_BUILD_DIR=""
-          for dir in "${BUILD_DIRS[@]}"; do
-            if [ -d "$dir" ]; then
-              echo "Found build directory: $dir"
-              FOUND_BUILD_DIR="$dir"
-              break
-            fi
-          done
-          
-          # If no predefined directory was found, search for any html directory
-          if [ -z "$FOUND_BUILD_DIR" ]; then
-            # Look for any html directory under _build
-            FOUND_BUILD_DIR=$(find . -path "*/_build/html" -type d | head -n 1)
-            
-            if [ -n "$FOUND_BUILD_DIR" ]; then
-              echo "Found HTML directory: $FOUND_BUILD_DIR"
-            else
-              echo "No HTML build directory found!"
-              exit 1
-            fi
-          fi
-          
-          # Determine the deployment path based on branch
-          if [ "$BRANCH" == "main" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/book"
-          elif [ "$BRANCH" == "draft" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/draft"
+          if [ -d "/tmp/artifact-download" ] && [ "$(ls -A /tmp/artifact-download)" ]; then
+            echo "artifacts_found=true" >> $GITHUB_OUTPUT
+            echo "Downloaded artifacts:"
+            ls -la /tmp/artifact-download
           else
-            DEPLOY_PATH="/var/web_server/htdocs/branches/$BRANCH"
+            echo "artifacts_found=false" >> $GITHUB_OUTPUT
+            echo "No artifacts found or download failed"
           fi
-          
-          # Create the deploy directory if it doesn't exist
-          mkdir -p $DEPLOY_PATH
-          
-          # Clear the deployment directory
-          echo "Clearing $DEPLOY_PATH"
-          find $DEPLOY_PATH -mindepth 1 -delete || true
-          
-          # Copy the built content
-          echo "Copying $FOUND_BUILD_DIR/* to $DEPLOY_PATH"
-          cp -r "$FOUND_BUILD_DIR"/* $DEPLOY_PATH/
-          
-          # Set permissions
-          chmod -R 755 $DEPLOY_PATH
-          
-          echo "Book deployed successfully to $DEPLOY_PATH"
       
-      - name: Update branch index
+      - name: Deploy book using script
         run: |
-          # Create branches directory if it doesn't exist
-          mkdir -p /var/web_server/htdocs/branches
+          BRANCH="${{ steps.get-branch.outputs.branch }}"
           
-          # Update the branches index
-          /var/web_server/update-branch-index.sh
+          # Run our enhanced deployment script
+          /var/web_server/deploy-book.sh "$BRANCH"
