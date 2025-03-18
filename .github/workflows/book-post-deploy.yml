@@ -1,4 +1,3 @@
-# .github/workflows/book-post-deploy.yml
 name: Book Post-Deployment
 
 on:
@@ -12,21 +11,191 @@ jobs:
     runs-on: self-hosted
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        
-      - name: Copy book to server
+      - name: Get workflow details
+        id: workflow-details
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const workflow_run_id = ${{ github.event.workflow_run.id }};
+            console.log(`Workflow Run ID: ${workflow_run_id}`);
+            
+            const run = await github.rest.actions.getWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: workflow_run_id
+            });
+            
+            const branch = run.data.head_branch;
+            console.log(`Branch: ${branch}`);
+            
+            return { branch: branch };
+            
+      - name: Download artifact
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const workflow_run_id = ${{ github.event.workflow_run.id }};
+            
+            // List artifacts from the workflow run
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: workflow_run_id
+            });
+            
+            // Find the artifact with the built book
+            const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
+            if (!book_artifact) {
+              console.log('No main artifact found!');
+              return;
+            }
+            
+            console.log(`Found artifact: ${book_artifact.id}`);
+            
+            // Download the artifact
+            const download = await github.rest.actions.downloadArtifact({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              artifact_id: book_artifact.id,
+              archive_format: 'zip'
+            });
+            
+            // Write the zip file to disk
+            fs.writeFileSync('/tmp/book.zip', Buffer.from(download.data));
+            console.log('Artifact downloaded to /tmp/book.zip');
+            
+      - name: Deploy book
         run: |
-          # Assuming the book is built to the _build/html directory
-          if [ -d "book/_build/html" ]; then
-            # Create the target directory if it doesn't exist
-            mkdir -p /var/web_server/htdocs/book
-            
-            # Copy the built book to the server
-            cp -r book/_build/html/* /var/web_server/htdocs/book/
-            
-            echo "Book copied to server successfully!"
+          # Extract branch name
+          BRANCH=$(echo '${{ fromJSON(steps.workflow-details.outputs.result).branch }}')
+          echo "Deploying book for branch: $BRANCH"
+          
+          # Create a temporary directory
+          mkdir -p /tmp/book-extract
+          
+          # Extract the downloaded zip
+          unzip -q /tmp/book.zip -d /tmp/book-extract
+          
+          # Determine the deployment location based on branch
+          if [ "$BRANCH" == "main" ]; then
+            DEPLOY_PATH="/var/web_server/htdocs/book"
+          elif [ "$BRANCH" == "draft" ]; then
+            DEPLOY_PATH="/var/web_server/htdocs/draft"
+            mkdir -p $DEPLOY_PATH
           else
-            echo "Book directory not found!"
-            exit 1
+            # For other branches, deploy to a subdirectory in branches
+            DEPLOY_PATH="/var/web_server/htdocs/branches/$BRANCH"
+            mkdir -p $DEPLOY_PATH
           fi
+          
+          # Clean the deployment directory
+          rm -rf $DEPLOY_PATH/*
+          
+          # Copy the extracted content
+          cp -r /tmp/book-extract/* $DEPLOY_PATH/
+          
+          # Set permissions
+          chmod -R 755 $DEPLOY_PATH
+          
+          # Clean up
+          rm -rf /tmp/book-extract
+          rm -f /tmp/book.zip
+          
+          echo "Book deployed successfully to $DEPLOY_PATH"
+          
+      - name: Update branch index
+        run: |
+          # Create branches directory if it doesn't exist
+          mkdir -p /var/web_server/htdocs/branches
+          
+          # Generate an index of all branches
+          cat > /var/web_server/htdocs/branches/index.html << 'INNERHTML'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>HE Staff Book - All Branches</title>
+            <style>
+              body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+              }
+              .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+              }
+              h1, h2 {
+                color: #00A6D6;
+              }
+              h1 {
+                border-bottom: 2px solid #00A6D6;
+                padding-bottom: 10px;
+              }
+              ul {
+                list-style-type: none;
+                padding: 0;
+              }
+              li {
+                margin-bottom: 10px;
+                padding: 10px;
+                background-color: #f8f8f8;
+                border-radius: 4px;
+              }
+              a {
+                color: #00A6D6;
+                text-decoration: none;
+                font-weight: bold;
+              }
+              a:hover {
+                text-decoration: underline;
+              }
+              .main-link, .draft-link {
+                margin-bottom: 20px;
+                padding: 15px;
+                background-color: #e6f7ff;
+                border-radius: 4px;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <h1>HE Staff Book - All Branches</h1>
+              
+              <div class="main-link">
+                <a href="/book">Main Branch Book</a> - The primary production version
+              </div>
+              
+              <div class="draft-link">
+                <a href="/draft">Draft Branch Book</a> - The current development version
+              </div>
+              
+              <h2>All Branch Versions:</h2>
+              <ul>
+          INNERHTML
+          
+          # Add each branch as a list item
+          for branch_dir in /var/web_server/htdocs/branches/*/; do
+            if [ -d "$branch_dir" ]; then
+              branch_name=$(basename "$branch_dir")
+              echo "      <li><a href=\"/branches/$branch_name\">$branch_name</a></li>" >> /var/web_server/htdocs/branches/index.html
+            fi
+          done
+          
+          # Close the HTML
+          cat >> /var/web_server/htdocs/branches/index.html << 'INNERHTML'
+              </ul>
+            </div>
+          </body>
+          </html>
+          INNERHTML
+          
+          echo "Branch index updated"
