@@ -27,6 +27,8 @@
   - Booking of flex rooms is not necessary.
   - You can store your personal belongings in locked cabinets.
 
+# test
+
 - **PhD Students and Postdocs:**
   - Have their own desk.
   - Are allowed to work at home but will have a desk for their entire FTE (as long as their contract lasts).
