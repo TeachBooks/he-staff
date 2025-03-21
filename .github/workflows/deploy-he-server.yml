@@ -1,0 +1,27 @@
+# .github/workflows/deploy-he-server.yml
+name: Deploy HE Server
+
+on:
+  workflow_dispatch:
+    inputs:
+      backend_image:
+        description: 'Backend Docker image to deploy'
+        required: true
+        default: 'ghcr.io/teachbooks/he-backend:latest'
+      frontend_version:
+        description: 'Frontend version to deploy'
+        required: true
+        default: 'main'
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.frontend_version }}
+          
+      - name: Deploy using script
+        run: |
+          /var/web_server/deploy.sh ${{ github.event.inputs.backend_image }} ${{ github.event.inputs.frontend_version }}

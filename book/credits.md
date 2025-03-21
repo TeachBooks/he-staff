@@ -3,8 +3,8 @@
 
 ## How the book is made
 
-This book was created by a team of students together with Elske Bakker. In 2024, the team supported the Hydraulic Engineering Department by documenting the department's procedures. We are grateful for the valuable contributions of Maria Sklia, Abdulkarim Natto, Debora van Dieren, and Federico Raimondi.
 
+This book was created by a team of students together with Elske Bakker. In 2024, the team supported the Hydraulic Engineering Department by documenting the department's procedures. We are grateful for the valuable contributions of Maria Sklia, Abdulkarim Natto, Debora van Dieren, and Federico Raimondi.
 
 
 <!-- edit $CI_PROJECT_NAME below accordingly -->
