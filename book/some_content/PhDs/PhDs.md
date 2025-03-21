@@ -36,6 +36,8 @@ Below you can find onboarding and end-of-contract checklists for PhD candidates 
   <br>
   ![](./Appendices/offboarding_checklist.jpg)
   <br>
+  <br>- The file including Caterer' Order Form, for PhD Defence Arrangements [Download here](./Appendices/Caterer's%20Order%20Form%20-%20PhD%20Defence%20Arrangements%20TU%20Delft%202024-2025.xlsx)  <br>
+  <br>
   <br>
 - The file including Caterer' Order Form, for PhD Defence Arrangements [Download here](./Appendices/Caterer's%20Order%20Form%20-%20PhD%20Defence%20Arrangements%20TU%20Delft%202024-2025.xlsx)  <br>
   <br> 
