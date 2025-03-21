@@ -1,5 +1,4 @@
-## Project Guidelines
-
+# Project Guidelines
 
 # The rates from Rijkswaterstaat [tarieven Rijkswaterstaat](./Appendices/Geactualiseerde_tarieven_rijkswaterstaat_signedKH.pdf).
 
