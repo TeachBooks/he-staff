@@ -31,14 +31,13 @@ Below you can find onboarding and end-of-contract checklists for PhD candidates 
   <br>
   <br>
   <br>
-- End of contract checklist. [Download here](./Appendices/offboarding_checklist.pdf)   <br>
-  The pdf file including the offboarding checklist corresponds to the image shown below. <br>
+-  The pdf file including the offboarding checklist corresponds to the image shown below. <br>
   <br>
   ![](./Appendices/offboarding_checklist.jpg)
   <br>
   Below the pdf file for the Procedure for terminating the PhD trajectory. It concerns operationalisation and steps to take when promotors or PhD candidates want to stop. These are additional activities on top of any HR-related requirements. Detailed instructions can also be found on the graduate school webpage, "supervisor situations," in related documents.  <br>
   <br>
-  ![Download here](././Appendices/Termination%20Proceduresituatie%201-2-3.pdf)
+  ![Download here](././Appendices/Termination%20Proceduresituatie123.pdf)
   <br>
   <br>- The file including Caterer' Order Form, for PhD Defence Arrangements 
   ![Download here](./Appendices/Caterer's%20Order%20Form%20-%20PhD%20Defence%20Arrangements%20TU%20Delft%202024-2025.xlsx)  <br>
