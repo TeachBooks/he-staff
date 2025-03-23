@@ -11,5 +11,8 @@ This page provides essential guidelines and regulations for project-related acti
 ### Rates Rijkswaterstaat
 [download here](../Finance/Appendices/Geactualiseerde_tarieven_rijkswaterstaat_signedKH.pdf)
 
+### Approval Internal budget before project submission
+[download here](.././Finance/Appendices/2025.02_Approval_internal_budget_before_project_submission.pdf)
+
 
  
