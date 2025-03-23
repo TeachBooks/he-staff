@@ -39,7 +39,7 @@ parts:
     # Finance  
     - file: some_content/Finance/finance.md
       sections:
-       - file: some_content\Finance\Project_Guidelines.md
+       - file: some_content/Finance/Project_Guidelines.md
        - file: some_content/Finance/MoneyStreamsUniversity.md     
     # PhD information
     - file: some_content/PhDs/PhDs.md
