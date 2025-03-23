@@ -5,10 +5,10 @@ This page provides essential guidelines and regulations for project-related acti
 
 ## Rates
 
-![Rates TUDelft]
+### Rates TU Delft
 [download here](../Finance/Appendices/Tarievenbrief_2024_%20Nederlands.pdf)
 
-![Rates Rijkswaterstaat]
+### Rates Rijkswaterstaat
 [download here](../Finance/Appendices/Geactualiseerde_tarieven_rijkswaterstaat_signedKH.pdf)
 
 
