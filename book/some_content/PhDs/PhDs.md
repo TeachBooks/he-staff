@@ -37,7 +37,6 @@ Below you can find onboarding and end-of-contract checklists for PhD candidates 
   <br>
   <br>
   <br>
-  <br>
 -  Below the pdf file for the Procedure for terminating the PhD trajectory. It concerns operationalisation and steps to take when promotors or PhD candidates want to stop. These are additional activities on top of any HR-related requirements. Detailed instructions can also be found on the graduate school webpage, "supervisor situations," in related documents.
   [Download here](././Appendices/Termination_Proceduresituatie123.pdf)  <br>
   <br>
