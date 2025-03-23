@@ -6,8 +6,7 @@ The HE Staff Meetings are held every 6 weeks.
 
 | Meeting Date          | Theme         | Presentation     |
 |-----------------------|--------------------|---------------------|
-| Tuesday, March 17, 2025   |      Project budget           | [powerpoint] (../Appendices/Presentatie_HE_afdelingsbestuur_2025-03-18_final_version.pdf)
-| Wednesday, April 16, 2025 |                |                     |
+| Tuesday, March 17, 2025   |      Project budget           | ![GeneralDepartmentphoto](../../GeneralDepartment/Appendices/Presentatie_HE_afdelingsbestuur_2025-03-18_final_version.pdf)| Wednesday, April 16, 2025 |                |                     |
 | Thursday, May 22, 2025  |                  |                     |
 | Friday, July 11, 2025    |                  |                     |
 | Wednesday, September 3, 2025 |            |                     |
