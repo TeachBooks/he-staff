@@ -39,11 +39,13 @@ parts:
     # Finance  
     - file: some_content/Finance/finance.md
       sections:
-      - file: some_content/Finance/MoneyStreamsUniversity.md
+       - file: some_content/Finance/Project_Guidelines.md
+       - file: some_content/Finance/MoneyStreamsUniversity.md     
     # PhD information
     - file: some_content/PhDs/PhDs.md
     - file: some_content/Education/education.md
     - file: some_content/Social_Safety/social_safety.md
     - file: contact.md
     - file: credits.md
+    
 

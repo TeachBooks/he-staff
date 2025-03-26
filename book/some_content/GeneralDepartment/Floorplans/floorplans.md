@@ -58,8 +58,8 @@ _________________________________________________________________________
   
 ### HE Laboratory
 
-- Download image of floorplan of waterlab [here](./Appendices/wlab_nov_24.jpg).
-- Download pdf of floorplan of waterlab [here](./Appendices/wlab_nov_24.pdf).
+- Download image of floorplan of waterlab [here](./Appendices/wlab_march_2025.jpg).
+- Download pdf of floorplan of waterlab [here](./Appendices/wlab_march_2.pdf).
 
 
 

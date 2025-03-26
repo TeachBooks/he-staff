@@ -1,3 +1,4 @@
+# .github/workflows/deploy-to-he-server.yml
 name: Deploy to HE Server
 
 on:
@@ -34,7 +35,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GHCR_TOKEN }}  # Use the PAT instead of GITHUB_TOKEN
+          password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Build and push backend image
         if: ${{ github.event.inputs.backend_image == '' }}
@@ -48,7 +49,7 @@ jobs:
       - name: Trigger deployment on self-hosted runner
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GHCR_TOKEN }}  # Use your PAT with workflow permissions
+          github-token: ${{ secrets.GHCR_TOKEN }}
           script: |
             const backendImage = '${{ github.event.inputs.backend_image }}' || `ghcr.io/teachbooks/he-backend:${{ github.sha }}`;
             const frontendVersion = '${{ github.event.inputs.frontend_version }}' || '${{ github.sha }}';
