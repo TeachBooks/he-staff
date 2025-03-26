@@ -198,4 +198,8 @@ jobs:
           </html>
           INNERHTML
           
+<<<<<<< main
           echo "Branch index updated"
+=======
+          echo "Branch index updated"
+>>>>>>> jgortemaker

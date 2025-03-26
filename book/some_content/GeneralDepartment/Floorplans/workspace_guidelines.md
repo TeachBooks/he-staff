@@ -5,11 +5,11 @@
 1. **Discuss with Section Leader:**
    - If you would like to change rooms or swap your workplace, please discuss this with your section head.
 
-2. **Inform the Secretariat:**
-   - The secretariat will check the floor plan to see if a room is available.
+2. **Inform the Management Assistants:**
+   - The Management Assistants will check the floor plan to see if a room is available.
 
-3. **Arrangement by Secretariat:**
-   - The Secretariat will arrange the move via Facility Management and update the room nameplate.
+3. **Arrangement by Management Assistants:**
+   - The Management Assistant will arrange the move via Facility Management and update the room nameplate.
 
 4. **Update Your Information:**
    - You will need to update your room information on [iam.tudelft.nl](https://www.tudelft.nl/en/e-service).
@@ -26,6 +26,8 @@
   - Each flex room has 6 workspaces equipped with docking stations and monitors.
   - Booking of flex rooms is not necessary.
   - You can store your personal belongings in locked cabinets.
+
+# test
 
 - **PhD Students and Postdocs:**
   - Have their own desk.
