@@ -27,7 +27,6 @@
   - Booking of flex rooms is not necessary.
   - You can store your personal belongings in locked cabinets.
 
-# test
 
 - **PhD Students and Postdocs:**
   - Have their own desk.
