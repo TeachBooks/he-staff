@@ -35,10 +35,10 @@ In this page you can find the floor plans of the HE Department with the relevant
 
 ### CEG Building 2nd Floor
 
-- Download image of floorplan of second floor [here](./Appendices/second-floor-nov-24.jpg).
-- Download pdf of floorplan of second floor [here](./Appendices/second-floor-nov-24.pdf).
+- Download image of floorplan of second floor [here](./Appendices/2floor_HE_14042025.jpg).
+- Download pdf of floorplan of second floor [here](./Appendices/2_floor_plan_14042025.pdf).
 ```{note}
-Last update 19-12-2024.
+Last update 14-04-2025.
 ```
 _________________________________________________________________________
 
@@ -48,10 +48,10 @@ _________________________________________________________________________
 You can preview the files by right clicking on the links below and selecting open in new tab, for both jpg and pdf files.
 ```
 
-- Download image of floorplan of third floor [here](./Appendices/third-floor-dec-24.jpg).
-
+- Download image of floorplan of third floor [here](./Appendices/3_floorplans_HE_14042025.jpg).
+- Download pdf of floorplan of third floor [here](./Appendices/3_floor%20plan_14042025.pdf).
 ```{note}
-Last update 19-12-2024.
+Last update 14-04-2025.
 ```
 _________________________________________________________________________
 
