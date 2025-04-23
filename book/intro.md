@@ -3,8 +3,6 @@
 
 Welcome to the information page for the employees of the Hydraulic Engineering Department of TU Delft!
 
-(test)
-
 ![Landing page](/../figures/Campus-TUDelft-intro.jpg) 
 
 This page aims to provide information about the Hydraulic Engineering Department on various topics. 
