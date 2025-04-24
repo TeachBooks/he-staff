@@ -1,205 +1,132 @@
-name: Book Post-Deployment
+# .github/workflows/book-post-deploy.yml (Updated - Simpler Output Handling)
+name: Book Post-Deployment (Updated)
 
 on:
   workflow_run:
-    workflows: ["call-deploy-book"]
+    workflows: ["call-deploy-book"] # Triggered after the main build workflow completes
     types:
       - completed
 
 jobs:
   copy-to-server:
-    runs-on: self-hosted
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: self-hosted # Runs on your server (e.g., he01)
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} # Only run if the build workflow succeeded
     steps:
-      - name: Get workflow details
+      # Step 1: Get workflow details (Branch Name)
+      - name: Get workflow details (Branch Name)
         id: workflow-details
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Use default token to access workflow run info
           script: |
             const workflow_run_id = ${{ github.event.workflow_run.id }};
             console.log(`Workflow Run ID: ${workflow_run_id}`);
-            
             const run = await github.rest.actions.getWorkflowRun({
               owner: context.repo.owner,
               repo: context.repo.repo,
               run_id: workflow_run_id
             });
-            
             const branch = run.data.head_branch;
             console.log(`Branch: ${branch}`);
-            
-            return { branch: branch };
-            
-      - name: Download artifact
+            // Directly return the branch name for the output 'branch'
+            core.setOutput('branch', branch); # Use core.setOutput for clarity
+
+      # Step 2: Download book artifact
+      - name: Download book artifact
+        id: download-artifact
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
             const workflow_run_id = ${{ github.event.workflow_run.id }};
-            
-            // List artifacts from the workflow run
+            const artifact_path = '/tmp/book_artifact'; // Define download path
+            fs.mkdirSync(artifact_path, { recursive: true });
+            console.log(`Created artifact directory: ${artifact_path}`);
             const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
               owner: context.repo.owner,
               repo: context.repo.repo,
               run_id: workflow_run_id
             });
-            
-            // Find the artifact with the built book
             const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
             if (!book_artifact) {
-              console.log('No main artifact found!');
+              core.setFailed('No artifact named "main" found!');
               return;
             }
-            
-            console.log(`Found artifact: ${book_artifact.id}`);
-            
-            // Download the artifact
+            console.log(`Found artifact: ${book_artifact.name} (ID: ${book_artifact.id})`);
             const download = await github.rest.actions.downloadArtifact({
               owner: context.repo.owner,
               repo: context.repo.repo,
               artifact_id: book_artifact.id,
               archive_format: 'zip'
             });
-            
-            // Write the zip file to disk
-            fs.writeFileSync('/tmp/book.zip', Buffer.from(download.data));
-            console.log('Artifact downloaded to /tmp/book.zip');
-            
-      - name: Deploy book
-        run: |
-          # Extract branch name
-          BRANCH=$(echo '${{ fromJSON(steps.workflow-details.outputs.result).branch }}')
+            const zip_path = path.join(artifact_path, 'book.zip');
+            fs.writeFileSync(zip_path, Buffer.from(download.data));
+            console.log(`Artifact downloaded to ${zip_path}`);
+            // Directly return the zip path for the output 'artifact_zip_path'
+            core.setOutput('artifact_zip_path', zip_path); # Use core.setOutput
+
+      # Step 3: Deploy book using deployment script
+      - name: Deploy book using deployment script
+        run: | # Use literal block scalar
+          # Access outputs directly using standard syntax
+          BRANCH='${{ steps.workflow-details.outputs.branch }}'
+          ARTIFACT_ZIP_PATH='${{ steps.download-artifact.outputs.artifact_zip_path }}'
+
           echo "Deploying book for branch: $BRANCH"
-          
-          # Create a temporary directory
-          mkdir -p /tmp/book-extract
-          
-          # Extract the downloaded zip
-          unzip -q /tmp/book.zip -d /tmp/book-extract
-          
-          # Determine the deployment location based on branch
-          if [ "$BRANCH" == "main" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/book"
-          elif [ "$BRANCH" == "draft" ]; then
-            DEPLOY_PATH="/var/web_server/htdocs/draft"
-            mkdir -p $DEPLOY_PATH
-          else
-            # For other branches, deploy to a subdirectory in branches
-            DEPLOY_PATH="/var/web_server/htdocs/branches/$BRANCH"
-            mkdir -p $DEPLOY_PATH
+          echo "Artifact zip path: $ARTIFACT_ZIP_PATH"
+
+          # Define directory for extracting the artifact content
+          EXTRACT_DIR="/tmp/book-extract-$$" # Use process ID for uniqueness
+          mkdir -p "$EXTRACT_DIR"
+          echo "Created extraction directory: $EXTRACT_DIR"
+
+          # Extract the downloaded zip file
+          echo "Extracting artifact from $ARTIFACT_ZIP_PATH to $EXTRACT_DIR..."
+          unzip -q "$ARTIFACT_ZIP_PATH" -d "$EXTRACT_DIR"
+          if [ $? -ne 0 ]; then
+            echo "::error::Failed to unzip artifact."
+            exit 1
           fi
-          
-          # Clean the deployment directory
-          rm -rf $DEPLOY_PATH/*
-          
-          # Copy the extracted content
-          cp -r /tmp/book-extract/* $DEPLOY_PATH/
-          
-          # Set permissions
-          chmod -R 755 $DEPLOY_PATH
-          
-          # Clean up
-          rm -rf /tmp/book-extract
-          rm -f /tmp/book.zip
-          
-          echo "Book deployed successfully to $DEPLOY_PATH"
-          
-      - name: Update branch index
+          echo "Artifact extracted successfully."
+
+          # List extracted files for verification (optional)
+          echo "Extracted content:"
+          ls -la "$EXTRACT_DIR"
+
+          # *** Call the updated deploy-book.sh script ***
+          echo "Running deployment script: /var/web_server/deploy-book.sh $BRANCH"
+          # Ensure the script handles finding the extracted content
+          # One way is to run the script from a location where it can find the content,
+          # or pass the extract directory as an argument if the script supports it.
+          # Assuming the script's search logic is sufficient for now.
+          sudo /var/web_server/deploy-book.sh "$BRANCH" # Pass branch name as argument
+          if [ $? -ne 0 ]; then
+            echo "::error::Deployment script failed."
+            # Optionally keep temp files for debugging by commenting out the exit
+            # exit 1
+          else
+            echo "Deployment script finished successfully."
+          fi
+
+          # Clean up temporary files
+          echo "Cleaning up temporary files..."
+          rm -rf "$EXTRACT_DIR"
+          rm -f "$ARTIFACT_ZIP_PATH" # Remove the zip file itself
+          # Remove the parent artifact directory if empty (be cautious)
+          rmdir /tmp/book_artifact 2>/dev/null || true
+
+      # Step 4: Update branch index (Optional - Call Script)
+      - name: Update branch index (Optional - Call Script)
+        # Executes the separate script to generate the index HTML file.
         run: |
-          # Create branches directory if it doesn't exist
-          mkdir -p /var/web_server/htdocs/branches
-          
-          # Generate an index of all branches
-          cat > /var/web_server/htdocs/branches/index.html << 'INNERHTML'
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>HE Staff Book - All Branches</title>
-            <style>
-              body {
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                margin: 0;
-                padding: 20px;
-                background-color: #f5f5f5;
-              }
-              .container {
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 20px;
-                background-color: white;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-              }
-              h1, h2 {
-                color: #00A6D6;
-              }
-              h1 {
-                border-bottom: 2px solid #00A6D6;
-                padding-bottom: 10px;
-              }
-              ul {
-                list-style-type: none;
-                padding: 0;
-              }
-              li {
-                margin-bottom: 10px;
-                padding: 10px;
-                background-color: #f8f8f8;
-                border-radius: 4px;
-              }
-              a {
-                color: #00A6D6;
-                text-decoration: none;
-                font-weight: bold;
-              }
-              a:hover {
-                text-decoration: underline;
-              }
-              .main-link, .draft-link {
-                margin-bottom: 20px;
-                padding: 15px;
-                background-color: #e6f7ff;
-                border-radius: 4px;
-              }
-            </style>
-          </head>
-          <body>
-            <div class="container">
-              <h1>HE Staff Book - All Branches</h1>
-              
-              <div class="main-link">
-                <a href="/book">Main Branch Book</a> - The primary production version
-              </div>
-              
-              <div class="draft-link">
-                <a href="/draft">Draft Branch Book</a> - The current development version
-              </div>
-              
-              <h2>All Branch Versions:</h2>
-              <ul>
-          INNERHTML
-          
-          # Add each branch as a list item
-          for branch_dir in /var/web_server/htdocs/branches/*/; do
-            if [ -d "$branch_dir" ]; then
-              branch_name=$(basename "$branch_dir")
-              echo "      <li><a href=\"/branches/$branch_name\">$branch_name</a></li>" >> /var/web_server/htdocs/branches/index.html
-            fi
-          done
-          
-          # Close the HTML
-          cat >> /var/web_server/htdocs/branches/index.html << 'INNERHTML'
-              </ul>
-            </div>
-          </body>
-          </html>
-          INNERHTML
-          
-<<<<<<< main
-          echo "Branch index updated"
-=======
-          echo "Branch index updated"
->>>>>>> jgortemaker
+          echo "Calling update-branch-index.sh script..."
+          # Call the script that now contains the correct logic and paths
+          sudo /var/web_server/update-branch-index.sh
+          if [ $? -ne 0 ]; then
+            echo "::error::Failed to update branch index."
+            # exit 1 # Optionally fail the workflow
+          else
+            echo "Branch index script finished."
+          fi
