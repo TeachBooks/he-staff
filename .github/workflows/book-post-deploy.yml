@@ -24,37 +24,17 @@ jobs:
     # Run if triggered by workflow_run AND it was successful, OR if triggered manually
     if: (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch'
     steps:
-      # Step 1: Determine Branch and Source Run ID based on trigger
-      - name: Determine Inputs
-        id: inputs
-        run: |
-          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
-            echo "Triggered by workflow_run"
-            # Get details from the triggering workflow_run event
-            SOURCE_RUN_ID="${{ github.event.workflow_run.id }}"
-            # Need to get branch from workflow run details (using API or previous step if kept)
-            # For simplicity here, let's assume the previous step 'workflow-details' is kept
-            # and provides the branch output when triggered by workflow_run
-            # If removing the github-script step, we'd need another way to get the branch for workflow_run
-            BRANCH_NAME="${{ github.event.workflow_run.head_branch }}" # Directly available
-            echo "Source Run ID (from workflow_run): $SOURCE_RUN_ID"
-            echo "Branch Name (from workflow_run): $BRANCH_NAME"
-
-          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "Triggered by workflow_dispatch"
-            # Get details from manual inputs
-            SOURCE_RUN_ID="${{ github.event.inputs.source_run_id }}"
-            BRANCH_NAME="${{ github.event.inputs.branch }}"
-            echo "Source Run ID (from input): $SOURCE_RUN_ID"
-            echo "Branch Name (from input): $BRANCH_NAME"
-          else
-            echo "::error::Unsupported event type: ${{ github.event_name }}"
-            exit 1
-          fi
-
-          # Set outputs for subsequent steps
-          echo "source_run_id=$SOURCE_RUN_ID" >> $GITHUB_OUTPUT
-          echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
+# Step 1: Get workflow details (Branch Name) - MINIMAL DEBUGGING STEP
+      - name: Get workflow details (Branch Name) - MINIMAL DEBUGGING STEP
+        id: workflow-details
+        uses: actions/github-script@v6
+        with:
+          # No token needed for this simple test
+          script: |
+            console.log('Minimal script test execution.');
+            // Try setting a simple static output
+            core.setOutput('branch', 'static-debug-branch');
+            console.log('Minimal script test finished.');
 
       # Step 2: Download book artifact (Uses determined Source Run ID)
       - name: Download book artifact
