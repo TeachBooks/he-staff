@@ -1,4 +1,4 @@
-# .github/workflows/book-post-deploy.yml (Added workflow_dispatch trigger)
+# .github/workflows/book-post-deploy.yml (Use shell script for determining inputs)
 name: Book Post-Deployment (Updated)
 
 on:
@@ -21,22 +21,49 @@ jobs:
   copy-to-server:
     runs-on: self-hosted
     # Conditional execution based on trigger type
-    # Run if triggered by workflow_run AND it was successful, OR if triggered manually
     if: (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch'
     steps:
-# Step 1: Get workflow details (Branch Name) - MINIMAL DEBUGGING STEP
-      - name: Get workflow details (Branch Name) - MINIMAL DEBUGGING STEP
-        id: workflow-details
-        uses: actions/github-script@v6
-        with:
-          # No token needed for this simple test
-          script: |
-            console.log('Minimal script test execution.');
-            // Try setting a simple static output
-            core.setOutput('branch', 'static-debug-branch');
-            console.log('Minimal script test finished.');
+      # Step 1: Determine Branch and Source Run ID using shell and context
+      # Replaces the problematic github-script step
+      - name: Determine Inputs
+        id: inputs
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            echo "Triggered by workflow_run"
+            # Get details directly from the workflow_run event context
+            SOURCE_RUN_ID="${{ github.event.workflow_run.id }}"
+            BRANCH_NAME="${{ github.event.workflow_run.head_branch }}"
+            echo "Source Run ID (from workflow_run): $SOURCE_RUN_ID"
+            echo "Branch Name (from workflow_run): $BRANCH_NAME"
+
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Triggered by workflow_dispatch"
+            # Get details from manual inputs
+            SOURCE_RUN_ID="${{ github.event.inputs.source_run_id }}"
+            BRANCH_NAME="${{ github.event.inputs.branch }}"
+            echo "Source Run ID (from input): $SOURCE_RUN_ID"
+            echo "Branch Name (from input): $BRANCH_NAME"
+          else
+            echo "::error::Unsupported event type: ${{ github.event_name }}"
+            exit 1
+          fi
+
+          # Validate required variables
+          if [[ -z "$SOURCE_RUN_ID" ]]; then
+            echo "::error::Source Run ID could not be determined."
+            exit 1
+          fi
+          if [[ -z "$BRANCH_NAME" ]]; then
+            echo "::error::Branch Name could not be determined."
+            exit 1
+          fi
+
+          # Set outputs for subsequent steps
+          echo "source_run_id=$SOURCE_RUN_ID" >> $GITHUB_OUTPUT
+          echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
       # Step 2: Download book artifact (Uses determined Source Run ID)
+      # This step should now work as it receives the source_run_id output
       - name: Download book artifact
         id: download-artifact
         uses: actions/github-script@v6
@@ -51,7 +78,8 @@ jobs:
             const workflow_run_id = process.env.WORKFLOW_RUN_ID; // Read from env
             console.log(`Using Source Workflow Run ID: ${workflow_run_id}`);
             if (!workflow_run_id) {
-              core.setFailed('Source Workflow Run ID could not be determined!');
+              // This check should ideally not be hit due to validation in previous step
+              core.setFailed('Source Workflow Run ID environment variable not set!');
               return;
             }
             const artifact_path = '/tmp/book_artifact';
@@ -80,6 +108,7 @@ jobs:
             core.setOutput('artifact_zip_path', zip_path);
 
       # Step 3: Deploy book using deployment script (Uses determined Branch Name)
+      # This step should now work as it receives the branch output
       - name: Deploy book using deployment script
         run: |
           # Get branch name from the 'Determine Inputs' step
