@@ -1,0 +1,51 @@
+name: Deploy Book (Basic)
+
+on:
+  push:
+    branches:
+      - main
+      - draft
+      - test-branch # For initial testing
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install jupyter-book
+
+      - name: Build the Book
+        run: jupyter-book build book/
+
+      - name: Deploy Book
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+            DEPLOY_PATH="/var/www/he.citg.tudelft.nl/$BRANCH_NAME"
+
+            if [ "$BRANCH_NAME" == "main" ]; then
+              DEPLOY_PATH="/var/www/he.citg.tudelft.nl"
+              # Move old index (adjust path if needed!)
+              mv /var/www/he.citg.tudelft.nl/index.html /var/www/he.citg.tudelft.nl/admin/index.html
+            fi
+
+            echo "Deploying to: $DEPLOY_PATH"
+            mkdir -p "$DEPLOY_PATH"
+            rm -rf "$DEPLOY_PATH/*"
+            cp -r book/_build/html/* "$DEPLOY_PATH/"
+            chmod -R 755 "$DEPLOY_PATH"
+            echo "Deployment complete!"
