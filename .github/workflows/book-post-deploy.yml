@@ -1,4 +1,4 @@
-# .github/workflows/book-post-deploy.yml (Updated)
+# .github/workflows/book-post-deploy.yml (Updated - Simpler Output Handling)
 name: Book Post-Deployment (Updated)
 
 on:
@@ -12,6 +12,7 @@ jobs:
     runs-on: self-hosted # Runs on your server (e.g., he01)
     if: ${{ github.event.workflow_run.conclusion == 'success' }} # Only run if the build workflow succeeded
     steps:
+      # Step 1: Get workflow details (Branch Name)
       - name: Get workflow details (Branch Name)
         id: workflow-details
         uses: actions/github-script@v6
@@ -20,20 +21,17 @@ jobs:
           script: |
             const workflow_run_id = ${{ github.event.workflow_run.id }};
             console.log(`Workflow Run ID: ${workflow_run_id}`);
-
-            // Fetch the details of the workflow run that triggered this one
             const run = await github.rest.actions.getWorkflowRun({
               owner: context.repo.owner,
               repo: context.repo.repo,
               run_id: workflow_run_id
             });
-
-            const branch = run.data.head_branch; // Extract the branch name
+            const branch = run.data.head_branch;
             console.log(`Branch: ${branch}`);
+            // Directly return the branch name for the output 'branch'
+            core.setOutput('branch', branch); # Use core.setOutput for clarity
 
-            // Pass the branch name to subsequent steps
-            return { branch: branch };
-
+      # Step 2: Download book artifact
       - name: Download book artifact
         id: download-artifact
         uses: actions/github-script@v6
@@ -44,50 +42,39 @@ jobs:
             const path = require('path');
             const workflow_run_id = ${{ github.event.workflow_run.id }};
             const artifact_path = '/tmp/book_artifact'; // Define download path
-
-            // Create the artifact download directory
             fs.mkdirSync(artifact_path, { recursive: true });
             console.log(`Created artifact directory: ${artifact_path}`);
-
-            // List artifacts from the triggering workflow run
             const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
               owner: context.repo.owner,
               repo: context.repo.repo,
               run_id: workflow_run_id
             });
-
-            // Find the artifact named 'main' (adjust if artifact name is different)
             const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
             if (!book_artifact) {
               core.setFailed('No artifact named "main" found!');
               return;
             }
             console.log(`Found artifact: ${book_artifact.name} (ID: ${book_artifact.id})`);
-
-            // Download the artifact
             const download = await github.rest.actions.downloadArtifact({
               owner: context.repo.owner,
               repo: context.repo.repo,
               artifact_id: book_artifact.id,
               archive_format: 'zip'
             });
-
-            // Define the path for the downloaded zip file
             const zip_path = path.join(artifact_path, 'book.zip');
             fs.writeFileSync(zip_path, Buffer.from(download.data));
             console.log(`Artifact downloaded to ${zip_path}`);
+            // Directly return the zip path for the output 'artifact_zip_path'
+            core.setOutput('artifact_zip_path', zip_path); # Use core.setOutput
 
-            // Return the path to the downloaded zip file
-            return { artifact_zip_path: zip_path };
-
+      # Step 3: Deploy book using deployment script
       - name: Deploy book using deployment script
-        run: |
-          # Extract branch name obtained from the first step
-          BRANCH=$(echo '${{ fromJSON(steps.workflow-details.outputs.result).branch }}')
-          echo "Deploying book for branch: $BRANCH"
+        run: | # Use literal block scalar
+          # Access outputs directly using standard syntax
+          BRANCH='${{ steps.workflow-details.outputs.branch }}'
+          ARTIFACT_ZIP_PATH='${{ steps.download-artifact.outputs.artifact_zip_path }}'
 
-          # Define the path where the artifact zip was downloaded
-          ARTIFACT_ZIP_PATH=$(echo '${{ fromJSON(steps.download-artifact.outputs.result).artifact_zip_path }}')
+          echo "Deploying book for branch: $BRANCH"
           echo "Artifact zip path: $ARTIFACT_ZIP_PATH"
 
           # Define directory for extracting the artifact content
@@ -109,13 +96,15 @@ jobs:
           ls -la "$EXTRACT_DIR"
 
           # *** Call the updated deploy-book.sh script ***
-          # The script will find the content in $EXTRACT_DIR based on its search logic
-          # We assume the deploy-book.sh script is executable and in the expected location
           echo "Running deployment script: /var/web_server/deploy-book.sh $BRANCH"
+          # Ensure the script handles finding the extracted content
+          # One way is to run the script from a location where it can find the content,
+          # or pass the extract directory as an argument if the script supports it.
+          # Assuming the script's search logic is sufficient for now.
           sudo /var/web_server/deploy-book.sh "$BRANCH" # Pass branch name as argument
           if [ $? -ne 0 ]; then
             echo "::error::Deployment script failed."
-            # Optionally keep temp files for debugging
+            # Optionally keep temp files for debugging by commenting out the exit
             # exit 1
           else
             echo "Deployment script finished successfully."
@@ -125,77 +114,19 @@ jobs:
           echo "Cleaning up temporary files..."
           rm -rf "$EXTRACT_DIR"
           rm -f "$ARTIFACT_ZIP_PATH" # Remove the zip file itself
-          # Optionally remove the parent artifact directory if empty, handle with care
-          # rmdir /tmp/book_artifact || true
+          # Remove the parent artifact directory if empty (be cautious)
+          rmdir /tmp/book_artifact 2>/dev/null || true
 
-      - name: Update branch index (Optional - Updated Links)
-        # This step generates an HTML index of deployed branches.
-        # Adjust or remove if not needed, or use /var/web_server/update-branch-index.sh if it exists and is updated.
+      # Step 4: Update branch index (Optional - Call Script)
+      - name: Update branch index (Optional - Call Script)
+        # Executes the separate script to generate the index HTML file.
         run: |
-          echo "Updating branch index..."
-          # Define the target directory for the index file and ensure it exists
-          BRANCH_INDEX_DIR="/var/web_server/htdocs/branches" # Consider if this path is still relevant or should be /usr/share/nginx/html/branches
-          BRANCH_INDEX_FILE="$BRANCH_INDEX_DIR/index.html"
-          mkdir -p "$BRANCH_INDEX_DIR"
-
-          # Generate the start of the HTML index file
-          cat > "$BRANCH_INDEX_FILE" << 'INNERHTML'
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>HE Staff Book - Deployed Versions</title>
-            <style>
-              body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f5f5f5; }
-              .container { max-width: 800px; margin: 0 auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-              h1, h2 { color: #00A6D6; }
-              h1 { border-bottom: 2px solid #00A6D6; padding-bottom: 10px; }
-              ul { list-style-type: none; padding: 0; }
-              li { margin-bottom: 10px; padding: 10px; background-color: #f8f8f8; border-radius: 4px; }
-              a { color: #00A6D6; text-decoration: none; font-weight: bold; }
-              a:hover { text-decoration: underline; }
-              .special-link { margin-bottom: 20px; padding: 15px; background-color: #e6f7ff; border-radius: 4px; }
-            </style>
-          </head>
-          <body>
-            <div class="container">
-              <h1>HE Staff Book - Deployed Versions</h1>
-
-              <div class="special-link">
-                <a href="/">Main Branch Book</a> (Root)
-              </div>
-              <div class="special-link">
-                <a href="/admin/">Admin Page</a>
-              </div>
-              <div class="special-link">
-                <a href="/draft/">Draft Branch Book</a>
-              </div>
-
-              <h2>Other Deployed Branches:</h2>
-              <ul>
-INNERHTML
-
-          # Define the base directory where branches are deployed by the script
-          # IMPORTANT: This MUST match the base path used in deploy-book.sh for non-main/non-draft branches
-          BRANCH_DEPLOY_BASE="/usr/share/nginx/html"
-
-          # Add each branch directory found in the deployment base as a list item
-          # Exclude special directories like main_book_root, admin, draft, branches
-          for branch_dir in "$BRANCH_DEPLOY_BASE"/*/; do
-            if [ -d "$branch_dir" ]; then
-              branch_name=$(basename "$branch_dir")
-              # Check if it's one of the special directories we link separately or the index directory itself
-              if [[ "$branch_name" != "main_book_root" && "$branch_name" != "admin" && "$branch_name" != "draft" && "$branch_name" != "branches" && "$branch_name" != "static" ]]; then
-                # Assume the directory name is the sanitized branch name used for the URL path
-                echo "      <li><a href=\"/$branch_name/\">$branch_name</a></li>" >> "$BRANCH_INDEX_FILE"
-              fi
-            fi
-          done
-
-          # Close the HTML
-          cat >> "$BRANCH_INDEX_FILE" << 'INNERHTML'
-              </ul>
-            </div>
-          </body>
-          </html>
-INNERHTML
-          echo "Branch index updated at $BRANCH_INDEX_FILE"
+          echo "Calling update-branch-index.sh script..."
+          # Call the script that now contains the correct logic and paths
+          sudo /var/web_server/update-branch-index.sh
+          if [ $? -ne 0 ]; then
+            echo "::error::Failed to update branch index."
+            # exit 1 # Optionally fail the workflow
+          else
+            echo "Branch index script finished."
+          fi
