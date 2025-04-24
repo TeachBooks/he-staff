@@ -1,4 +1,4 @@
-# .github/workflows/book-post-deploy.yml (Updated - Simpler Output Handling)
+# .github/workflows/book-post-deploy.yml 
 name: Book Post-Deployment (Updated)
 
 on:
@@ -29,7 +29,7 @@ jobs:
             const branch = run.data.head_branch;
             console.log(`Branch: ${branch}`);
             // Directly return the branch name for the output 'branch'
-            core.setOutput('branch', branch); # Use core.setOutput for clarity
+            core.setOutput('branch', branch);
 
       # Step 2: Download book artifact
       - name: Download book artifact
@@ -65,7 +65,7 @@ jobs:
             fs.writeFileSync(zip_path, Buffer.from(download.data));
             console.log(`Artifact downloaded to ${zip_path}`);
             // Directly return the zip path for the output 'artifact_zip_path'
-            core.setOutput('artifact_zip_path', zip_path); # Use core.setOutput
+            core.setOutput('artifact_zip_path', zip_path);
 
       # Step 3: Deploy book using deployment script
       - name: Deploy book using deployment script
@@ -97,10 +97,6 @@ jobs:
 
           # *** Call the updated deploy-book.sh script ***
           echo "Running deployment script: /var/web_server/deploy-book.sh $BRANCH"
-          # Ensure the script handles finding the extracted content
-          # One way is to run the script from a location where it can find the content,
-          # or pass the extract directory as an argument if the script supports it.
-          # Assuming the script's search logic is sufficient for now.
           sudo /var/web_server/deploy-book.sh "$BRANCH" # Pass branch name as argument
           if [ $? -ne 0 ]; then
             echo "::error::Deployment script failed."
