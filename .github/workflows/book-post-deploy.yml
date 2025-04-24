@@ -1,57 +1,98 @@
-# .github/workflows/book-post-deploy.yml (Updated - Simpler Output Handling)
+# .github/workflows/book-post-deploy.yml (Use shell script for determining inputs)
 name: Book Post-Deployment (Updated)
 
 on:
+  # Option 1: Trigger automatically after call-deploy-book completes (Keep this if needed)
   workflow_run:
-    workflows: ["call-deploy-book"] # Triggered after the main build workflow completes
+    workflows: ["call-deploy-book"]
     types:
       - completed
+  # Option 2: Allow manual triggering via Actions UI
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch name to deploy'
+        required: true
+      source_run_id:
+        description: 'Run ID of the completed "call-deploy-book" workflow whose artifact should be deployed'
+        required: true
 
 jobs:
   copy-to-server:
-    runs-on: self-hosted # Runs on your server (e.g., he01)
-    if: ${{ github.event.workflow_run.conclusion == 'success' }} # Only run if the build workflow succeeded
+    runs-on: self-hosted
+    # Conditional execution based on trigger type
+    if: (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch'
     steps:
-      # Step 1: Get workflow details (Branch Name)
-      - name: Get workflow details (Branch Name)
-        id: workflow-details
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }} # Use default token to access workflow run info
-          script: |
-            const workflow_run_id = ${{ github.event.workflow_run.id }};
-            console.log(`Workflow Run ID: ${workflow_run_id}`);
-            const run = await github.rest.actions.getWorkflowRun({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: workflow_run_id
-            });
-            const branch = run.data.head_branch;
-            console.log(`Branch: ${branch}`);
-            // Directly return the branch name for the output 'branch'
-            core.setOutput('branch', branch); # Use core.setOutput for clarity
+      # Step 1: Determine Branch and Source Run ID using shell and context
+      # Replaces the problematic github-script step
+      - name: Determine Inputs
+        id: inputs
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            echo "Triggered by workflow_run"
+            # Get details directly from the workflow_run event context
+            SOURCE_RUN_ID="${{ github.event.workflow_run.id }}"
+            BRANCH_NAME="${{ github.event.workflow_run.head_branch }}"
+            echo "Source Run ID (from workflow_run): $SOURCE_RUN_ID"
+            echo "Branch Name (from workflow_run): $BRANCH_NAME"
 
-      # Step 2: Download book artifact
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Triggered by workflow_dispatch"
+            # Get details from manual inputs
+            SOURCE_RUN_ID="${{ github.event.inputs.source_run_id }}"
+            BRANCH_NAME="${{ github.event.inputs.branch }}"
+            echo "Source Run ID (from input): $SOURCE_RUN_ID"
+            echo "Branch Name (from input): $BRANCH_NAME"
+          else
+            echo "::error::Unsupported event type: ${{ github.event_name }}"
+            exit 1
+          fi
+
+          # Validate required variables
+          if [[ -z "$SOURCE_RUN_ID" ]]; then
+            echo "::error::Source Run ID could not be determined."
+            exit 1
+          fi
+          if [[ -z "$BRANCH_NAME" ]]; then
+            echo "::error::Branch Name could not be determined."
+            exit 1
+          fi
+
+          # Set outputs for subsequent steps
+          echo "source_run_id=$SOURCE_RUN_ID" >> $GITHUB_OUTPUT
+          echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      # Step 2: Download book artifact (Uses determined Source Run ID)
+      # This step should now work as it receives the source_run_id output
       - name: Download book artifact
         id: download-artifact
         uses: actions/github-script@v6
+        env:
+          # Pass the determined Source Run ID to the script environment
+          WORKFLOW_RUN_ID: ${{ steps.inputs.outputs.source_run_id }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
-            const workflow_run_id = ${{ github.event.workflow_run.id }};
-            const artifact_path = '/tmp/book_artifact'; // Define download path
+            const workflow_run_id = process.env.WORKFLOW_RUN_ID; // Read from env
+            console.log(`Using Source Workflow Run ID: ${workflow_run_id}`);
+            if (!workflow_run_id) {
+              // This check should ideally not be hit due to validation in previous step
+              core.setFailed('Source Workflow Run ID environment variable not set!');
+              return;
+            }
+            const artifact_path = '/tmp/book_artifact';
             fs.mkdirSync(artifact_path, { recursive: true });
             console.log(`Created artifact directory: ${artifact_path}`);
             const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              run_id: workflow_run_id
+              run_id: parseInt(workflow_run_id, 10) // Use the determined ID
             });
             const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
             if (!book_artifact) {
-              core.setFailed('No artifact named "main" found!');
+              core.setFailed(`No artifact named "main" found for Run ID ${workflow_run_id}!`);
               return;
             }
             console.log(`Found artifact: ${book_artifact.name} (ID: ${book_artifact.id})`);
@@ -64,21 +105,25 @@ jobs:
             const zip_path = path.join(artifact_path, 'book.zip');
             fs.writeFileSync(zip_path, Buffer.from(download.data));
             console.log(`Artifact downloaded to ${zip_path}`);
-            // Directly return the zip path for the output 'artifact_zip_path'
-            core.setOutput('artifact_zip_path', zip_path); # Use core.setOutput
+            core.setOutput('artifact_zip_path', zip_path);
 
-      # Step 3: Deploy book using deployment script
-      - name: Deploy book using deployment script
-        run: | # Use literal block scalar
-          # Access outputs directly using standard syntax
-          BRANCH='${{ steps.workflow-details.outputs.branch }}'
+# Step 3: Deploy book using deployment script (Pass content path)
+      - name: Deploy book using deployment script (Pass content path)
+        run: |
+          # Get branch name and artifact path from previous steps
+          BRANCH='${{ steps.inputs.outputs.branch }}'
           ARTIFACT_ZIP_PATH='${{ steps.download-artifact.outputs.artifact_zip_path }}'
+
+          if [ -z "$BRANCH" ] || [ -z "$ARTIFACT_ZIP_PATH" ]; then
+            echo "::error::Branch name or Artifact path is empty. Previous steps might have failed."
+            exit 1
+          fi
 
           echo "Deploying book for branch: $BRANCH"
           echo "Artifact zip path: $ARTIFACT_ZIP_PATH"
 
           # Define directory for extracting the artifact content
-          EXTRACT_DIR="/tmp/book-extract-$$" # Use process ID for uniqueness
+          EXTRACT_DIR="/tmp/book-extract-$$"
           mkdir -p "$EXTRACT_DIR"
           echo "Created extraction directory: $EXTRACT_DIR"
 
@@ -90,21 +135,16 @@ jobs:
             exit 1
           fi
           echo "Artifact extracted successfully."
-
-          # List extracted files for verification (optional)
-          echo "Extracted content:"
           ls -la "$EXTRACT_DIR"
 
-          # *** Call the updated deploy-book.sh script ***
-          echo "Running deployment script: /var/web_server/deploy-book.sh $BRANCH"
-          # Ensure the script handles finding the extracted content
-          # One way is to run the script from a location where it can find the content,
-          # or pass the extract directory as an argument if the script supports it.
-          # Assuming the script's search logic is sufficient for now.
-          sudo /var/web_server/deploy-book.sh "$BRANCH" # Pass branch name as argument
+          # *** Call the updated deploy-book.sh script with TWO arguments ***
+          # Argument 1: Branch Name
+          # Argument 2: Path to extracted content
+          echo "Running deployment script: /var/web_server/deploy-book.sh \"$BRANCH\" \"$EXTRACT_DIR\""
+          # Use sudo to run the script
+          sudo /var/web_server/deploy-book.sh "$BRANCH" "$EXTRACT_DIR" # Pass EXTRACT_DIR as the second argument
           if [ $? -ne 0 ]; then
             echo "::error::Deployment script failed."
-            # Optionally keep temp files for debugging by commenting out the exit
             # exit 1
           else
             echo "Deployment script finished successfully."
@@ -113,20 +153,17 @@ jobs:
           # Clean up temporary files
           echo "Cleaning up temporary files..."
           rm -rf "$EXTRACT_DIR"
-          rm -f "$ARTIFACT_ZIP_PATH" # Remove the zip file itself
-          # Remove the parent artifact directory if empty (be cautious)
+          rm -f "$ARTIFACT_ZIP_PATH"
           rmdir /tmp/book_artifact 2>/dev/null || true
 
       # Step 4: Update branch index (Optional - Call Script)
       - name: Update branch index (Optional - Call Script)
-        # Executes the separate script to generate the index HTML file.
         run: |
           echo "Calling update-branch-index.sh script..."
-          # Call the script that now contains the correct logic and paths
           sudo /var/web_server/update-branch-index.sh
           if [ $? -ne 0 ]; then
             echo "::error::Failed to update branch index."
-            # exit 1 # Optionally fail the workflow
+            # exit 1
           else
             echo "Branch index script finished."
           fi
