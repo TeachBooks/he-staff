@@ -1,4 +1,4 @@
-# .github/workflows/book-post-deploy.yml 
+# .github/workflows/book-post-deploy.yml (Updated - Pass ID via env var)
 name: Book Post-Deployment (Updated)
 
 on:
@@ -16,38 +16,54 @@ jobs:
       - name: Get workflow details (Branch Name)
         id: workflow-details
         uses: actions/github-script@v6
+        # Pass workflow run ID as an environment variable
+        env:
+          WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }} # Use default token to access workflow run info
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const workflow_run_id = ${{ github.event.workflow_run.id }};
+            # Access the ID from the environment variable
+            const workflow_run_id = process.env.WORKFLOW_RUN_ID;
             console.log(`Workflow Run ID: ${workflow_run_id}`);
+            if (!workflow_run_id) {
+              core.setFailed('Workflow Run ID environment variable not set!');
+              return;
+            }
             const run = await github.rest.actions.getWorkflowRun({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              run_id: workflow_run_id
+              run_id: parseInt(workflow_run_id, 10) // Ensure it's an integer
             });
             const branch = run.data.head_branch;
             console.log(`Branch: ${branch}`);
-            // Directly return the branch name for the output 'branch'
             core.setOutput('branch', branch);
 
       # Step 2: Download book artifact
       - name: Download book artifact
         id: download-artifact
         uses: actions/github-script@v6
+        # Pass workflow run ID as an environment variable
+        env:
+          WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
-            const workflow_run_id = ${{ github.event.workflow_run.id }};
+            // Access the ID from the environment variable
+            const workflow_run_id = process.env.WORKFLOW_RUN_ID;
+            console.log(`Workflow Run ID: ${workflow_run_id}`);
+            if (!workflow_run_id) {
+              core.setFailed('Workflow Run ID environment variable not set!');
+              return;
+            }
             const artifact_path = '/tmp/book_artifact'; // Define download path
             fs.mkdirSync(artifact_path, { recursive: true });
             console.log(`Created artifact directory: ${artifact_path}`);
             const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              run_id: workflow_run_id
+              run_id: parseInt(workflow_run_id, 10) // Ensure it's an integer
             });
             const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
             if (!book_artifact) {
@@ -64,7 +80,6 @@ jobs:
             const zip_path = path.join(artifact_path, 'book.zip');
             fs.writeFileSync(zip_path, Buffer.from(download.data));
             console.log(`Artifact downloaded to ${zip_path}`);
-            // Directly return the zip path for the output 'artifact_zip_path'
             core.setOutput('artifact_zip_path', zip_path);
 
       # Step 3: Deploy book using deployment script
@@ -73,6 +88,12 @@ jobs:
           # Access outputs directly using standard syntax
           BRANCH='${{ steps.workflow-details.outputs.branch }}'
           ARTIFACT_ZIP_PATH='${{ steps.download-artifact.outputs.artifact_zip_path }}'
+
+          # Basic check if variables are empty
+          if [ -z "$BRANCH" ] || [ -z "$ARTIFACT_ZIP_PATH" ]; then
+            echo "::error::Branch name or Artifact path is empty. Previous steps might have failed."
+            exit 1
+          fi
 
           echo "Deploying book for branch: $BRANCH"
           echo "Artifact zip path: $ARTIFACT_ZIP_PATH"
