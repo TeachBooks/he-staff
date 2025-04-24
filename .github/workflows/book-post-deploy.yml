@@ -107,11 +107,10 @@ jobs:
             console.log(`Artifact downloaded to ${zip_path}`);
             core.setOutput('artifact_zip_path', zip_path);
 
-      # Step 3: Deploy book using deployment script (Uses determined Branch Name)
-      # This step should now work as it receives the branch output
-      - name: Deploy book using deployment script
+# Step 3: Deploy book using deployment script (Pass content path)
+      - name: Deploy book using deployment script (Pass content path)
         run: |
-          # Get branch name from the 'Determine Inputs' step
+          # Get branch name and artifact path from previous steps
           BRANCH='${{ steps.inputs.outputs.branch }}'
           ARTIFACT_ZIP_PATH='${{ steps.download-artifact.outputs.artifact_zip_path }}'
 
@@ -123,10 +122,12 @@ jobs:
           echo "Deploying book for branch: $BRANCH"
           echo "Artifact zip path: $ARTIFACT_ZIP_PATH"
 
+          # Define directory for extracting the artifact content
           EXTRACT_DIR="/tmp/book-extract-$$"
           mkdir -p "$EXTRACT_DIR"
           echo "Created extraction directory: $EXTRACT_DIR"
 
+          # Extract the downloaded zip file
           echo "Extracting artifact from $ARTIFACT_ZIP_PATH to $EXTRACT_DIR..."
           unzip -q "$ARTIFACT_ZIP_PATH" -d "$EXTRACT_DIR"
           if [ $? -ne 0 ]; then
@@ -136,8 +137,12 @@ jobs:
           echo "Artifact extracted successfully."
           ls -la "$EXTRACT_DIR"
 
-          echo "Running deployment script: /var/web_server/deploy-book.sh $BRANCH"
-          sudo /var/web_server/deploy-book.sh "$BRANCH"
+          # *** Call the updated deploy-book.sh script with TWO arguments ***
+          # Argument 1: Branch Name
+          # Argument 2: Path to extracted content
+          echo "Running deployment script: /var/web_server/deploy-book.sh \"$BRANCH\" \"$EXTRACT_DIR\""
+          # Use sudo to run the script
+          sudo /var/web_server/deploy-book.sh "$BRANCH" "$EXTRACT_DIR" # Pass EXTRACT_DIR as the second argument
           if [ $? -ne 0 ]; then
             echo "::error::Deployment script failed."
             # exit 1
@@ -145,6 +150,7 @@ jobs:
             echo "Deployment script finished successfully."
           fi
 
+          # Clean up temporary files
           echo "Cleaning up temporary files..."
           rm -rf "$EXTRACT_DIR"
           rm -f "$ARTIFACT_ZIP_PATH"
