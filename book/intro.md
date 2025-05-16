@@ -1,13 +1,14 @@
 (intro)=
-# HE Department info webpage
+# Hydraulic Engineering Staff Page
 
-Welcome to the information page for the employees of the Hydraulic Engineering Department of TU Delft!
+**Welcome to the Hydraulic Engineering Staff Page**
 
 ![Landing page](/../figures/Campus-TUDelft-intro.jpg) 
 
-This page aims to provide information about the Hydraulic Engineering Department on various topics. 
-Information will be posted the coming months about procedures related to general matters of the hydraulic engineering department, education, finance and human resources.
+This platform is intended to provide staff members of the Hydraulic Engineering department with practical information on a range of topics. It already provides information on departmental procedures, and will continue to be updated as new topics or documents become available.
 
+Please note that this page may include personal information relevant to HE staff and is intended to make frequently needed information easier to find. However, it does *not* replace the official TU Delft intranet or its formal documentation.
+All staff members are warmly invited to contribute. If you notice something is missing or have suggestions for improvement, please contact [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl).
 
 
 
