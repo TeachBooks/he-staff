@@ -1,8 +1,9 @@
 # Human Resources
 
-#test 24-04-2025 (3)
+This page contains practical information related to recruitment and appointments within the Hydraulic Engineering department. Each topic is presented in a separate section for easy access.
 
-This page contains information about hiring:
-- A process description is available for hiring a PhD or PostDoc.
-- A process description is available for hiring an assistant professor, associate professor or lecturer.
-- Template images are available to promote your vacancy on social media.
+You will find the following:
+- Hiring PhDs and PostDocs
+- Hiring academic Staff
+- Vacancy promotion
+- HE hospitality agreement policy
