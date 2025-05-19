@@ -1,4 +1,4 @@
-# Hiring Graphics
+# Vacancy Promotion
 
 
 In case you need some inspiration about how to promote a new vacancy on your social media or linkedin account, have a look, and feel free to use the following graphics!
