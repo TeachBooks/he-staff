@@ -28,4 +28,3 @@ Need more help or adjustments in one of the designs above? Please direct your em
 
 ![footer](./Files/footer-tudelft.jpg)
  
------------------------------------------------------------------------------------------------------
