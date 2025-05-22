@@ -6,51 +6,51 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/GeneralDepartment/department.md
+    - file: GeneralDepartment/department.md
       sections:
-      - file: some_content/GeneralDepartment/HE_Department_Board/board.md
+      - file: GeneralDepartment/HE_Department_Board/board.md
         sections:
-        - file: some_content/GeneralDepartment/HE_Department_Board/management_board.md
-        - file: some_content/GeneralDepartment/HE_Department_Board/weekmails.md   
-      - file: some_content/GeneralDepartment/HEStaffMeetings/HEStaffMeetings.md
-      - file: some_content/GeneralDepartment/Floorplans/floorplans.md
+        - file: GeneralDepartment/HE_Department_Board/management_board.md
+        - file: GeneralDepartment/HE_Department_Board/weekmails.md   
+      - file: GeneralDepartment/HEStaffMeetings/HEStaffMeetings.md
+      - file: GeneralDepartment/Floorplans/floorplans.md
         sections:
-        - file: some_content/GeneralDepartment/Floorplans/office_layouts.md
-        - file: some_content/GeneralDepartment/Floorplans/workspace_guidelines.md
-        - file: some_content/GeneralDepartment/Floorplans/meetingrooms.md
-    - file: some_content/HR/HR.md
+        - file: GeneralDepartment/Floorplans/office_layouts.md
+        - file: GeneralDepartment/Floorplans/workspace_guidelines.md
+        - file: GeneralDepartment/Floorplans/meetingrooms.md
+    - file: HR/HR.md
       sections:
       # Hiring procedure PhD and PostDocs
-      - file: some_content/HR/Hiring/PhDPostDocs/0Introduction.md
+      - file: HR/Hiring/PhDPostDocs/0Introduction.md
         sections:
-        - file: some_content/HR/Hiring/PhDPostDocs/1PreparationPhase.md
-        - file: some_content/HR/Hiring/PhDPostDocs/2RecruitmentPhase.md
-        - file: some_content/HR/Hiring/PhDPostDocs/3SelectionPhase.md
-        - file: some_content/HR/Hiring/PhDPostDocs/4CompletionPhase.md
-        - file: some_content/HR/Hiring/PhDPostDocs/5SummaryTable.md
+        - file: HR/Hiring/PhDPostDocs/1PreparationPhase.md
+        - file: HR/Hiring/PhDPostDocs/2RecruitmentPhase.md
+        - file: HR/Hiring/PhDPostDocs/3SelectionPhase.md
+        - file: HR/Hiring/PhDPostDocs/4CompletionPhase.md
+        - file: HR/Hiring/PhDPostDocs/5SummaryTable.md
       # Hiring procedure Higher functions (assistant professors, associate professors, lecturers)
-      - file: some_content/HR/Hiring/HigherFunctions/0Introduction.md
+      - file: HR/Hiring/HigherFunctions/0Introduction.md
         sections:
-        - file: some_content/HR/Hiring/HigherFunctions/1PreparationPhase.md
-        - file: some_content/HR/Hiring/HigherFunctions/2RecruitmentPhase.md
-        - file: some_content/HR/Hiring/HigherFunctions/3SelectionPhase.md
-        - file: some_content/HR/Hiring/HigherFunctions/4CompletionPhase.md
+        - file: HR/Hiring/HigherFunctions/1PreparationPhase.md
+        - file: HR/Hiring/HigherFunctions/2RecruitmentPhase.md
+        - file: HR/Hiring/HigherFunctions/3SelectionPhase.md
+        - file: HR/Hiring/HigherFunctions/4CompletionPhase.md
       # Vacancy Promotion
-      - file: some_content/HR/Hiring/Vacancy_Promotion/vacancy_promotion.md
+      - file: HR/Hiring/Vacancy_Promotion/vacancy_promotion.md
       # HE Hospitality Agreement Policy
-      - file: some_content/HR/Hiring/HospitalityAgreement/Hospitality_Agreement.md
+      - file: HR/Hiring/HospitalityAgreement/Hospitality_Agreement.md
     # Finance  
-    - file: some_content/Finance/finance.md
+    - file: Finance/finance.md
       sections:
-       - file: some_content/Finance/MoneyStreamsUniversity.md     
-       - file: some_content/Finance/Project_Guidelines.md
-       - file: some_content/Finance/Internal_rates.md
+       - file: Finance/MoneyStreamsUniversity.md     
+       - file: Finance/Project_Guidelines.md
+       - file: Finance/Internal_rates.md
     # PhD information
-    - file: some_content/PhDs/0Introduction.md
+    - file: PhDs/0Introduction.md
       sections:
-       - file: some_content/PhDs/PhDs.md
-    - file: some_content/Education/education.md
-    - file: some_content/Social_Safety/social_safety.md
+       - file: PhDs/PhDs.md
+    - file: Education/education.md
+    - file: Social_Safety/social_safety.md
     - file: contact.md
     - file: credits.md
     
