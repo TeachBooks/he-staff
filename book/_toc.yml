@@ -38,7 +38,7 @@ parts:
       # Vacancy Promotion
       - file: HR/Hiring/Vacancy_Promotion/vacancy_promotion.md
       # HE Hospitality Agreement Policy
-      - file: HR/Hiring/HospitalityAgreement/Hospitality_Agreement.md
+      - file: HR/Hiring/Hospitality_Agreement.md
     # Finance  
     - file: Finance/finance.md
       sections:
