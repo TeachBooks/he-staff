@@ -9,6 +9,3 @@ This platform is intended to provide staff members of the Hydraulic Engineering 
 
 Please note that this page may include personal information relevant to HE staff and is intended to make frequently needed information easier to find. However, it does *not* replace the official TU Delft intranet or its formal documentation.
 All staff members are warmly invited to contribute. If you notice something is missing or have suggestions for improvement, please contact [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl).
-
-
-
