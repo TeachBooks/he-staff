@@ -120,13 +120,13 @@ Inform the selection committee about the selection day. You can use this [templa
 
 **Inform students for the trial lectures**
 
-Inform students about the trial lectures, ensuring sufficient attendance. You can send a message via Brightspace and mail by using [standardized message](../HigherFunctions/Appendices/ToStudents_TrialLectures.docx) provided. Additionally, the Waterbouwdispuut can assist in securing student participation. They can be contacted via Waterbouwdispuut-citg@tudelft.nl, and a sample email is available [here](../HigherFunctions/Appendices/ToWaterbouwDispuut_AskStudentsForTrialLectures.docxToWaterbouwDispuut). 
+Inform students about the trial lectures, ensuring sufficient attendance. You can send a message via Brightspace and mail by using [standardized message](../HigherFunctions/Appendices/ToStudents_TrialLectures.docx) provided. Additionally, the Waterbouwdispuut can assist in securing student participation. They can be contacted via Waterbouwdispuut-citg@tudelft.nl, and a sample email is available [here](./Appendices/ToWaterbouwDispuut_AskStudentsForTrialLectures.docx). 
 
  
 
 **Informing the candidates**
 
-At this stage, you do not know who will be interviewed during the selection day. However, you can already prepare the invitation for the on campus interviews. An example invitation can be found [here](../HigherFunctions/Appendices/ToCandidates_InvitationOnCampus.docx). 
+At this stage, you do not know who will be interviewed during the selection day. However, you can already prepare the invitation for the on campus interviews. An example invitation can be found [here](./Appendices/ToCandidates_InvitationOnCampus.docx). 
 
 It is important to note that airplane and hotel costs will be covered for candidates residing outside the Netherlands. The management assistant can assist with these arrangements.
  
