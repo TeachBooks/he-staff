@@ -3,7 +3,7 @@
 
 **Welcome to the Hydraulic Engineering Staff Page**
 
-![Landing page](/../figures/Oosterscheldekering.jpg) 
+![Landing page](/../figures/Campus-TUDelft-intro.jpg) 
 
 This platform is intended to provide staff members of the Hydraulic Engineering department with practical information on a range of topics. It already provides information on departmental procedures, and will continue to be updated as new topics or documents become available.
 
