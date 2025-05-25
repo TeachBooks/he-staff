@@ -7,5 +7,3 @@ You will find the following:
 - Hiring academic Staff
 - Vacancy promotion
 - HE hospitality agreement policy
-
-test123
