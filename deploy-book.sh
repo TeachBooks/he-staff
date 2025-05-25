@@ -78,6 +78,7 @@ if [ "$BRANCH" == "main" ]; then
   else
     echo "::warning::Admin source directory '$ADMIN_SOURCE_DIR' not found."
   fi
+fi
 
 # --- Optional: Update Branch Index ---
 UPDATE_SCRIPT="/var/web_server/update-branch-index.sh"
