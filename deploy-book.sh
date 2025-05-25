@@ -43,6 +43,8 @@ if [ $? -ne 0 ]; then echo "::error::Failed to create directory $DEPLOY_PATH_BOO
 
 echo "Cleaning $DEPLOY_PATH_BOOK..."
 find "$DEPLOY_PATH_BOOK" -mindepth 1 -delete || echo "Warning: Cleaning $DEPLOY_PATH_BOOK might have encountered issues."
+# Remove any empty directories that may remain (including old some_content)
+find "$DEPLOY_PATH_BOOK" -type d -empty -delete || echo "Warning: Removing empty directories in $DEPLOY_PATH_BOOK might have encountered issues."
 
 echo "Copying content from $CONTENT_SOURCE_DIR to $DEPLOY_PATH_BOOK..."
 rsync -a --delete "$CONTENT_SOURCE_DIR/" "$DEPLOY_PATH_BOOK/"
