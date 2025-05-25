@@ -54,6 +54,32 @@ server {
         try_files $uri $uri/ =404;
     }
 
+    location ^~ /draft/_static/ {
+        alias /usr/share/nginx/html/draft/_static/;
+        try_files $uri $uri/ =404;
+    }
+    location ^~ /draft/_images/ {
+        alias /usr/share/nginx/html/draft/_images/;
+        try_files $uri $uri/ =404;
+    }
+    location ^~ /draft/_downloads/ {
+        alias /usr/share/nginx/html/draft/_downloads/;
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ ^/([^/]+)/_static/ {
+        alias /usr/share/nginx/html/$1/_static/;
+        try_files $uri $uri/ =404;
+    }
+    location ~ ^/([^/]+)/_images/ {
+        alias /usr/share/nginx/html/$1/_images/;
+        try_files $uri $uri/ =404;
+    }
+    location ~ ^/([^/]+)/_downloads/ {
+        alias /usr/share/nginx/html/$1/_downloads/;
+        try_files $uri $uri/ =404;
+    }
+
     # --- API Location ---
     location /api {
         proxy_pass http://backend;
