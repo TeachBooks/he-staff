@@ -50,6 +50,13 @@ echo "Copying content from $CONTENT_SOURCE_DIR to $DEPLOY_PATH_BOOK..."
 rsync -a --delete "$CONTENT_SOURCE_DIR/" "$DEPLOY_PATH_BOOK/"
 if [ $? -ne 0 ]; then echo "::error::Failed to copy book content using rsync."; exit 1; fi
 
+# --- Flatten some_content if present ---
+if [ -d "$DEPLOY_PATH_BOOK/some_content" ]; then
+  echo "Flattening some_content to root..."
+  mv "$DEPLOY_PATH_BOOK/some_content/"* "$DEPLOY_PATH_BOOK/"
+  rmdir "$DEPLOY_PATH_BOOK/some_content"
+fi
+
 echo "Setting standard permissions (755) for $DEPLOY_PATH_BOOK..."
 # Use sudo as the parent directory might require it to change permissions recursively
 sudo chmod -R 755 "$DEPLOY_PATH_BOOK"
