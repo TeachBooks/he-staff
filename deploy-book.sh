@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xe
 
 # Deploys book content using host paths and basic chmod 755 permissions.
 
@@ -42,13 +42,26 @@ mkdir -p "$DEPLOY_PATH_BOOK"
 if [ $? -ne 0 ]; then echo "::error::Failed to create directory $DEPLOY_PATH_BOOK"; exit 1; fi
 
 echo "Cleaning $DEPLOY_PATH_BOOK..."
-find "$DEPLOY_PATH_BOOK" -mindepth 1 -delete || echo "Warning: Cleaning $DEPLOY_PATH_BOOK might have encountered issues."
+rm -rf "$DEPLOY_PATH_BOOK"/*
+rm -rf "$DEPLOY_PATH_BOOK"/.[!.]*
+rm -rf "$DEPLOY_PATH_BOOK"/..?*
+if [ $? -ne 0 ]; then echo "::error::Failed to remove files in $DEPLOY_PATH_BOOK"; exit 1; fi
+
 # Remove any empty directories that may remain (including old some_content)
 find "$DEPLOY_PATH_BOOK" -type d -empty -delete || echo "Warning: Removing empty directories in $DEPLOY_PATH_BOOK might have encountered issues."
 
 echo "Copying content from $CONTENT_SOURCE_DIR to $DEPLOY_PATH_BOOK..."
-rsync -a --delete "$CONTENT_SOURCE_DIR/" "$DEPLOY_PATH_BOOK/"
+rsync -av "$CONTENT_SOURCE_DIR/" "$DEPLOY_PATH_BOOK/"
 if [ $? -ne 0 ]; then echo "::error::Failed to copy book content using rsync."; exit 1; fi
+
+echo "==== 복사 후 실제 파일 리스트 (HR 디렉토리) ===="
+ls -alR "$DEPLOY_PATH_BOOK/HR" || echo "No HR directory found."
+if [ -f "$DEPLOY_PATH_BOOK/HR/HR.html" ]; then
+  echo "==== HR.html 파일 내용 (상위 20줄) ===="
+  head -20 "$DEPLOY_PATH_BOOK/HR/HR.html"
+else
+  echo "No HR.html file found in $DEPLOY_PATH_BOOK/HR/"
+fi
 
 # --- Flatten some_content if present ---
 if [ -d "$DEPLOY_PATH_BOOK/some_content" ]; then
