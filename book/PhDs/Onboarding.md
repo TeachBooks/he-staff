@@ -1,11 +1,4 @@
-# Information for PhDs 
-
-
-### PhD defence guidelines
-The budget guidelines for PhD defences can be found in [this pdf file](./Appendices/PhD_Defence_Budget_Guidelines–Hydraulic_Engineering_01012025.pdf) 
-
-
-### Onboarding and end-of-contract checklists
+# Onboarding and end-of-contract checklists
 
 Below you can find onboarding and end-of-contract checklists for PhD candidates and supervisors.
 
@@ -45,6 +38,3 @@ Below you can find onboarding and end-of-contract checklists for PhD candidates 
 -  The file including Caterer' Order Form, for PhD Defence Arrangements [Download here](./Appendices/Caterer's%20Order%20Form%20-%20PhD%20Defence%20Arrangements%20TU%20Delft%202024-2025.xlsx)  <br>
   <br> 
   <br>
-
-![footer](../../figures/footer-tudelft.jpg)
-
