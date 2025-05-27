@@ -48,7 +48,9 @@ parts:
     # PhD information
     - file: PhDs/0Introduction.md
       sections:
-       - file: PhDs/PhDs.md
+       - file: PhDs/PhdDefenceGuidelines.md
+       - file: PhDs/Onboarding.md
+       - file: PhDs/PhdCouncil.md
     - file: Education/education.md
     - file: Social_Safety/social_safety.md
     - file: contact.md
