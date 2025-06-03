@@ -2,7 +2,7 @@
 
 This page provides essential guidelines and regulations for project-related activities at TU Delft. It is designed to assist project leaders, applicants, and team members in ensuring clear procedures
 
-Before submitting any project proposal externally, staff are expected to request formal approval from the Hydraulic Engineering department. This policy ensures that projects align with departmental priorities and makes the administrative handling of awarded projects significantly more efficient.
+Before submitting any project proposal externally, staff are expected to request formal approval from the Hydraulic Engineering department. This policy ensures that projects align with departmental priorities and makes the administrative handling of awarded projects significantly more efficient
 
 Below you will find the key documents to guide you through the process:
 
