@@ -11,7 +11,8 @@ For general inquiries please contact us at:
 ### Webpage content
 For contentwise feedback, please contact the webmaster of hydraulic engineering:
 
-**Name:** Jelle Gortemaker␣␣
+**Name:** Jelle Gortemaker
+
 **Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl)
 
 
