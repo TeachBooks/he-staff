@@ -8,6 +8,7 @@ on:
     paths:
       - 'backend/**'
       - 'frontend/**'
+      - 'book/**'
       - '.github/workflows/deploy-to-he-server.yml'
   workflow_dispatch:
     inputs:
