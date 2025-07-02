@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install TeachBooks
-        run: pip install teachbooks
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Build the book
         run: teachbooks build book
