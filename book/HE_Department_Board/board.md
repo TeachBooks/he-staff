@@ -19,7 +19,7 @@ The MT consists of the following members:
 
 - Dr. ir. O. (Oswaldo) Morales Napoles (HFSR),
 
-- Dr. ir. B. (Bas) Hofland
+- Dr. ir. W. (Wim) Uijttewaal
 
 **Executive Secretary:** E.H. (Elske) Bakker
 
@@ -28,6 +28,8 @@ The MT consists of the following members:
 **Finance:** W.D. (David) Lodowica
 
 The MT meets every two weeks on Thursday to make key decisions. In urgent cases, additional meetings may be scheduled. If you have any points you would like the MT to address, please contact your section leader or the Executive Secretary to have them included in the agenda.
+
+test!
 
 ![footer](/book/figures/footer-tudelft.jpg)
 
