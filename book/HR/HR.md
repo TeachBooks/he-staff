@@ -7,3 +7,5 @@ You will find the following:
 - Hiring academic Staff
 - Vacancy promotion
 - HE hospitality agreement policy
+
+![footer](../figures/footer-tudelft.jpg)

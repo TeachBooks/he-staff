@@ -15,7 +15,7 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 | 2025.05         | [Approval of the Hydraulic Engineering Hospitality policy](./DecisionFiles/2025.05%20Approval%20of%20the%20Hydraulic%20Engineering%20Hospitality%20%20policy.pdf)| 19/09/2024 |
 
 
-![footer](../../../figures/footer-tudelft.jpg)
+![footer](../../figures/footer-tudelft.jpg)
  
 -----------------------------------------------------------------------------------------------------
 
