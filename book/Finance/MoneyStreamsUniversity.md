@@ -26,6 +26,4 @@ Within TU Delft, the first money stream is distributed among three main bodies:
 2.	**Organisation-Wide Budgets:** These are used for strategic funds, programs, and projects aligned with the TU Delft agenda, as set by the Executive Board.
 3.	**Faculties:** Each faculty receives a portion of the first money stream, which is then distributed among its departments, such as the Hydraulic Engineering department.
 
-
-
- 
+![footer](../figures/footer-tudelft.jpg) 

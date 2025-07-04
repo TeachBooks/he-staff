@@ -64,3 +64,5 @@ _________________________________________________________________________
 
 
 [def]: /book/figures/citg_building.jpg
+
+![footer](../../figures/footer-tudelft.jpg)
