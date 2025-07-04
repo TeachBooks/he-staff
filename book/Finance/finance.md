@@ -8,3 +8,5 @@ You will find information on:
 - The current internal rates to be used in project proposals and budget planning.
 
 This page aims to make financial procedures more transparent and easier to follow. Updates will be added as new policies or tools become available.
+
+![footer](../figures/footer-tudelft.jpg)
