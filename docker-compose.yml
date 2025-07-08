@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/web_server/htdocs:/usr/share/nginx/html
+      - /var/web_server/htdocs/default.conf:/etc/nginx/conf.d/default.conf
+      - /var/web_server/htdocs/he/config/certs:/var/web_server/htdocs/he/config/certs
+    restart: always
+    networks:
+      - web_network
+    depends_on:
+      - backend
+      
+  backend:
+    image: ghcr.io/teachbooks/he-backend:latest
+    container_name: backend
+    environment:
+      - SECRET_KEY=your-production-secret-key-change-this
+    networks:
+      - web_network
+    restart: always
+
+networks:
+  web_network:
+    driver: bridge
