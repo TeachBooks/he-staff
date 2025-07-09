@@ -21,7 +21,6 @@ The MT consists of the following members:
 
 - Dr. ir. W. (Wim) Uijttewaal
 
-test
 
 **Executive Secretary:** E.H. (Elske) Bakker
 
@@ -31,9 +30,6 @@ test
 
 The MT meets every two weeks on Thursday to make key decisions. In urgent cases, additional meetings may be scheduled. If you have any points you would like the MT to address, please contact your section leader or the Executive Secretary to have them included in the agenda.
 
-test!
 
-![footer](/book/figures/footer-tudelft.jpg)
-
-
+![footer](../figures/footer-tudelft.jpg)
 
