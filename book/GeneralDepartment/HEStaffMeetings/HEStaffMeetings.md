@@ -2,7 +2,7 @@
 
 The HE Staff Meetings are held every 6 weeks.
 
-### Meeting dates
+## Meeting dates
 
 | Meeting Date          | Theme         | Presentation     |
 |-----------------------|--------------------|---------------------|
@@ -19,5 +19,3 @@ The HE Staff Meetings are held every 6 weeks.
 *Content for the meetings will be added later*
 
 ![footer](../../figures/footer-tudelft.jpg)
-
------------------------------------------------------------------------------------------------------
