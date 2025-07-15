@@ -32,8 +32,40 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./backend
-          file: ./backend/Dockerfile  # Explicitly specify the Dockerfile path
+          file: ./backend/Dockerfile
           push: true
           tags: |
             ghcr.io/teachbooks/he-backend:latest
             ghcr.io/teachbooks/he-backend:${{ github.sha }}
+
+  deploy:
+    needs: build_and_push
+    runs-on: self-hosted  # Use the same self-hosted runner as book deployment
+    steps:
+      - name: Deploy backend to server
+        run: |
+          echo "🚀 Starting backend deployment..."
+          
+          # Navigate to docker-compose directory
+          cd /var/web_server
+          
+          # Pull latest backend image
+          echo "📥 Pulling latest backend image..."
+          sudo docker compose pull backend
+          
+          # Restart backend service
+          echo "🔄 Restarting backend service..."
+          sudo docker compose up -d backend
+          
+          # Wait a moment for container to start
+          sleep 3
+          
+          # Show deployment status
+          echo "✅ Deployment status:"
+          sudo docker compose ps backend
+          
+          # Check if backend is responding
+          echo "🔍 Testing backend health..."
+          curl -f https://he.citg.tudelft.nl/api/health || echo "⚠️  Backend health check failed"
+          
+          echo "🎉 Backend deployment completed!"
