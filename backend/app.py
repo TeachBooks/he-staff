@@ -17,6 +17,11 @@ def health():
 def root():
     return jsonify({"message": "HE Staff Backend API is running"})
 
+@app.route('/consume')
+def consume_metadata():
+    """Entity ID endpoint - return metadata"""
+    return saml_metadata()
+
 # SAML Configuration with explicit security settings (no signing)
 def get_saml_settings():
     return {
