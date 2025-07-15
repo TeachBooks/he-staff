@@ -1,6 +1,6 @@
 # Funding and Financial Distribution at TU Delft
 
-### The Four Main Sources of University Income
+## The Four Main Sources of University Income
 
 University funding is categorised into four main streams: the first, second, third, and fourth.
 

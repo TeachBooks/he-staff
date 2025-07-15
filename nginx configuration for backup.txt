@@ -41,6 +41,7 @@ server {
     }
 
     # --- Specific Main Book Assets (High Priority) ---
+    # main 페이지용
     location ^~ /_static/ {
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
@@ -54,6 +55,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
+    # draft 페이지용 (정적 에셋)
     location ^~ /draft/_static/ {
         alias /usr/share/nginx/html/draft/_static/;
         try_files $uri $uri/ =404;
@@ -67,6 +69,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
+    # 동적 브랜치용 (정적 에셋)
     location ~ ^/([^/]+)/_static/ {
         alias /usr/share/nginx/html/$1/_static/;
         try_files $uri $uri/ =404;
@@ -94,7 +97,6 @@ server {
     location ~ ^/([^/]+)/ {
         set $branch_path $1;
         # Safety checks (optional)
-        # if ($branch_path = "api" ) { return 404; }
 
         root /usr/share/nginx/html; # Correct root for branches
         index index.html;
@@ -183,10 +185,8 @@ server {
 
     # --- Dynamic Branch Location ---
     # Handles ONLY requests WITH trailing slash (e.g., /test-branch/)
-    location ~ ^/([^/]+)/ { # Dynamic branches
+    location ~ ^/(?!api)([^/]+)/ { # Dynamic branches
         set $branch_path $1;
-        # Safety checks (optional)
-        # if ($branch_path = "api" ) { return 404; }
 
         root /usr/share/nginx/html/main_book_root;
         index index.html;

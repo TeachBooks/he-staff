@@ -13,6 +13,5 @@ Here are all the previous team updates stored for your reference.
 
 
 ![footer](../../figures/footer-tudelft.jpg)
- 
------------------------------------------------------------------------------------------------------
+
 
