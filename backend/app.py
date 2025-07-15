@@ -52,12 +52,12 @@ def init_saml_auth(req):
     auth = OneLogin_Saml2_Auth(req, get_saml_settings())
     return auth
 
+
 def prepare_flask_request(request):
-    url_data = request.url.split('?')
     return {
-        'https': 'on' if request.scheme == 'https' else 'off',
-        'http_host': request.host,
-        'server_port': request.environ.get('SERVER_PORT'),
+        'https': 'on',
+        'http_host': 'he.citg.tudelft.nl',
+        'server_port': '443',
         'script_name': request.path,
         'get_data': request.args.copy(),
         'post_data': request.form.copy()
@@ -66,15 +66,27 @@ def prepare_flask_request(request):
 # SAML endpoints matching TU Delft configuration
 @app.route('/api/auth/saml/login')
 def saml_login():
-    """Initiate SAML login"""
+    """Initiate SAML login with improved debugging"""
     try:
         req = prepare_flask_request(request)
+        print(f"SAML Login Request prepared: {req}")
+        
         auth = init_saml_auth(req)
         sso_url = auth.login()
+        
         print(f"SAML Login initiated, redirecting to: {sso_url}")
+        
+        # Check for errors in SAML request generation
+        errors = auth.get_errors()
+        if errors:
+            print(f"SAML Login Errors: {errors}")
+            return jsonify({'error': 'SAML login failed', 'details': errors}), 500
+            
         return redirect(sso_url)
     except Exception as e:
         print(f"SAML Login Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return jsonify({'error': 'SAML login failed', 'details': str(e)}), 500
 
 @app.route('/api/auth/saml/consume', methods=['POST'])
