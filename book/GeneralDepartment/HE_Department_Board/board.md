@@ -6,7 +6,7 @@ All decisions made by the MT must align with the broader faculty policy to ensur
 
 The MT consists of the following members:
 
-**Head of Department:** Prof. dr. ir. S.N. (Bas) Jonkman
+**Head of Department:** Prof. dr. ir. T. (Tiziana) Rossetto
 
 **Section Leaders:**
 - Dr. ir. B.C. (Bram) van Prooijen (CE),
