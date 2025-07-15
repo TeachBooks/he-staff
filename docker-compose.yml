@@ -24,30 +24,10 @@ services:
     restart: always
     networks:
       - web_network
-    environment:
-      # Generate with: python3 -c "import secrets; print(secrets.token_hex(32))"
-      - SECRET_KEY=${SECRET_KEY:-f7c518ccb0ce0dcfccdc85ff96d2700a5f6ec2a31f06a091df01c0bcb8d786be}
-
-  # SAML proxy for SSO (Optional - can be removed if using backend SAML)
-  saml-proxy:
-    image: linyang1218/saml-proxy:1.0
-    container_name: saml-proxy
-    environment:
-      COOKIE_SECRET: 9ex1PArJbm+q99PFV055AMd8JmYig8DxYHQwnrzipQZvGRvF/mUxr0I519RDgZZX
-      RACK_ENV: production
-      SAML_IDP_METADATA: https://login-test.tudelft.nl/sso/saml2/idp/metadata.php
-      SAML_SP_ENTITY_ID: https://he.citg.tudelft.nl/consume
-      SAML_ASSERTION_CONSUMER_SERVICE_URL: https://he.citg.tudelft.nl/consume
-      SAML_CERTIFICATE: 'config/he-saml/certificate.crt'
-      SAML_PRIVATE_KEY: 'config/he-saml/privateKey.key'
-      SAML_AUTHN_REQUESTS_SIGNED: 'true'
-      SAML_METADATA_SIGNED: 'true'
     volumes:
-      - /var/web_server/saml/mappings.yaml.erb:/app/config/mappings.yaml.erb
-      - /var/web_server/saml:/app/config/he-saml
-    restart: always
-    networks:
-      - web_network
+      - /var/web_server/saml/certs:/app/saml/certs:ro
+    environment:
+      - SECRET_KEY=${SECRET_KEY:-f7c518ccb0ce0dcfccdc85ff96d2700a5f6ec2a31f06a091df01c0bcb8d786be}
 
 networks:
   web_network:

@@ -17,20 +17,20 @@ def health():
 def root():
     return jsonify({"message": "HE Staff Backend API is running"})
 
-# SAML Configuration
+# SAML Configuration with explicit security settings (no signing)
 def get_saml_settings():
     return {
         "sp": {
             "entityId": "https://he.citg.tudelft.nl/consume",
             "assertionConsumerService": {
-                "url": "https://he.citg.tudelft.nl/api/auth/saml/consume",  # Match TU Delft configuration
+                "url": "https://he.citg.tudelft.nl/api/auth/saml/consume",
                 "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
             },
             "singleLogoutService": {
-                "url": "https://he.citg.tudelft.nl/api/auth/saml/logout",  # Updated path
+                "url": "https://he.citg.tudelft.nl/api/auth/saml/logout",
                 "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
             },
-            "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",  # Match TU Delft metadata
+            "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent",
             "x509cert": "",
             "privateKey": ""
         },
@@ -45,6 +45,35 @@ def get_saml_settings():
                 "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
             },
             "x509cert": "MIIEGzCCAwOgAwIBAgIJAOZpaPLm92tzMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJOTDEVMBMGA1UECAwMWnVpZC1Ib2xsYW5kMQ4wDAYDVQQHDAVEZWxmdDEmMCQGA1UECgwdVGVjaG5pc2NoZSBVbml2ZXJzaXRlaXQgRGVsZnQxFTATBgNVBAsMDElDVCBEaXJlY3RpZTEuMCwGA1UEAwwlbG9naW4tdGVzdC50dWRlbGZ0Lm5sIG1ldGFkYXRhIHNpZ25lcjAeFw0xOTA1MDkxNTIwMzRaFw0yOTA1MDgxNTIwMzRaMIGjMQswCQYDVQQGEwJOTDEVMBMGA1UECAwMWnVpZC1Ib2xsYW5kMQ4wDAYDVQQHDAVEZWxmdDEmMCQGA1UECgwdVGVjaG5pc2NoZSBVbml2ZXJzaXRlaXQgRGVsZnQxFTATBgNVBAsMDElDVCBEaXJlY3RpZTEuMCwGA1UEAwwlbG9naW4tdGVzdC50dWRlbGZ0Lm5sIG1ldGFkYXRhIHNpZ25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMV7uciTXKvoMwvFsYL79t6fMPn44/fOZRPHEz1cKQPjhecAsNKW72EqUUCoMLPk18AACagfd4Eil07l9FTwYhVoXSuvbmM3i51DSwfDEjI7VxoBtR8OdM2XFntcvuVxPiLOAJHA9hTDngA1gG1GYHbweDsgWhaCJ1VH6UB95klrq6++91vauXjqGx463QkLvVpFnPk2TZiTL253wfw6h2QHomiIPyyBdPtP5Lg5R7COTJrz4neGZk3adXJEnlSIZfA587kXm4TU3wPDoCMAM9xpozGtvWWGz1o9U79nxz7vJt1xIGA/TS7C0zvZ5BK0Te/3nLEcFnMnTqQxeKoqQK0CAwEAAaNQME4wHQYDVR0OBBYEFKo0sh4IIRzpRqD1+OIFjJCYres6MB8GA1UdIwQYMBaAFKo0sh4IIRzpRqD1+OIFjJCYres6MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADwqQgupwUjLHDUjvKc7zGEx01DA4QAYD1FWBd9EkVw2YBJvh8EMlPfmUshbqk6ruDA/TtSm8jhcUCGD2fDO5a4eC6lml8jVmDAVssjnc9dOmcxDUIss3YrWJV2nqwOUL2g4zS75duaPpYONVxvcZTkc/Idb5OLm8kc9VxZpZ4ynMiJOMir/5K3j5VL+oglmNx0zr9SU73OepKUCCKz/84tRduKWbWKpiO3bry8jY3w8XzVnOd+rrYz44FzxDH/+NcIF5Ur1Gw/402kQpjDLz303Z81L4jR9Lc5C1edtilEFkrrZ0ckqVmqFy2EDDfWfO+X3M3Vb00CHEZV0EejfcRw="
+        },
+        "security": {
+            # Explicitly disable all signing requirements
+            "authnRequestsSigned": False,
+            "logoutRequestSigned": False,
+            "logoutResponseSigned": False,
+            "signMetadata": False,
+            
+            # Response validation settings
+            "wantAssertionsSigned": False,  # Don't require signed assertions
+            "wantNameId": True,
+            "wantAssertionsEncrypted": False,
+            "wantNameIdEncrypted": False,
+            
+            # Authentication context
+            "requestedAuthnContext": True,
+            "requestedAuthnContextComparison": "exact",
+            
+            # XML validation
+            "wantXMLValidation": True,
+            
+            # Destination validation
+            "relaxDestinationValidation": True,  # More lenient validation
+            "destinationStrictlyMatches": False,
+            
+            # Other settings
+            "allowRepeatAttributeName": False,
+            "rejectUnsolicitedResponsesWithInResponseTo": True,
+            "signatureAlgorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
         }
     }
 
