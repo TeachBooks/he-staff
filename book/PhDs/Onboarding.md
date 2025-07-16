@@ -17,7 +17,7 @@ Below you can find onboarding and end-of-contract checklists for PhD candidates 
   <br>
   <br>
   <br>
-- PhD Candidate: Useful info, services and links. [Download here](./Appendices/phd_useful_info.pdf)
+- PhD Candidate: Useful info, services and links. [Download here](./Appendices/phd_useful_info.pdf) <br>
   The pdf file with useful info and links corresponds to the image shown below, but please notice that links are clickable only at the PDF version. <br>
   <br>
   ![](./Appendices/useful_links.jpg)

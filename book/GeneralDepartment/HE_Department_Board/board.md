@@ -19,7 +19,7 @@ The MT consists of the following members:
 
 - Dr. ir. O. (Oswaldo) Morales Napoles (HFSR),
 
-- Dr. ir. B. (Wim) Uijttewaal
+- Dr. ir. W.S.J. (Wim) Uijttewaal
 
 **Executive Secretary:** E.H. (Elske) Bakker
 
