@@ -52,7 +52,7 @@ parts:
        - file: PhDs/Onboarding.md
        - file: PhDs/PhdCouncil.md
     - file: Education/education.md
-    - file: Social_Safety/social_safety.md
+    - file: social_safety.md
     - file: contact.md
     - file: credits.md
     
