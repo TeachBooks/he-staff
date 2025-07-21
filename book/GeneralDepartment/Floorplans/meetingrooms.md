@@ -36,3 +36,5 @@ These rooms **3.80.6** and **3.82.6** can be booked for up to 4 people and are e
 In case there is a problem please contact your own management assistant.
 
 
+![footer](../../figures/footer-tudelft.jpg)
+

@@ -1,6 +1,5 @@
 # Management Board Published Decisions
 
-
 The full text of the decision is available (in Dutch) in the PDFs linked below; a summary in English is provided as well.
 
 | Decision Number | Title of Decision                                             | Date       |
@@ -14,8 +13,4 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 | 2025.04         | [Approval of the Hydraulic Engineering Project guidelines](./DecisionFiles/2025.04%20Approval%20of%20the%20Hydraulic%20Engineering%20Project%20Guidelines.pdf) | 19/09/2024 |
 | 2025.05         | [Approval of the Hydraulic Engineering Hospitality policy](./DecisionFiles/2025.05%20Approval%20of%20the%20Hydraulic%20Engineering%20Hospitality%20%20policy.pdf)| 19/09/2024 |
 
-
-![footer](../../../figures/footer-tudelft.jpg)
- 
------------------------------------------------------------------------------------------------------
-
+![footer](../../figures/footer-tudelft.jpg)

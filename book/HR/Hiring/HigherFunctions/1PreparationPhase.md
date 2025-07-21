@@ -58,7 +58,7 @@ Create the vacancy by filling in the [vacancy format](./Appendices/Vacancy%20for
 Some notes regarding the vacancy format:
 * Contact the HR advisor and fill the format together. Discuss the UFO profile, the conditions of employment and the vacancy text.
 * The vacancy text can be written using the vacancy writing guide. The guide and examples of vacancy texts are available [here](https://sharepoint.tudelft.nl/misc/medewerkersportaal/_layouts/15/start.aspx#/SitePages/HR%20Vacatureteksten.aspx). Please note: a vpn connection is required to access this link from outside the campus.
-* Some extra tips regarding the requirements formulation and selection strategy can be found in [this document](./HigherFunctions/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf)
+* Some extra tips regarding the requirements formulation and selection strategy can be found in <!-- [this document](./HigherFunctions/Appendices/7%20Tips%20for%20crafting%20a%20Selection%20Strategy.pdf) -->
 * Add the on campus interview dates in the text if you already succeeded in planning the on campus selection with the full committee. 
 * The Talent Acquisition Specialist of the faculty is Avital Fishman. 
 * The cash flow is 1 for direct employees and 2/3 for project employees. 

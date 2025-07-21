@@ -39,3 +39,4 @@ The following layouts are available for permanent or temporary employees of the 
 | **Senior Faculty Member Office**                                     | **HE Support Secretariat**                                                     |
 
 
+![footer](../../figures/footer-tudelft.jpg)

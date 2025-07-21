@@ -33,7 +33,7 @@ In this page you can find the floor plans of the HE Department with the relevant
 ![CiTG building](./Appendices/citg_building.jpg)
 
 
-### CEG Building 2nd Floor
+## CEG Building 2nd Floor
 
 - Download image of floorplan of second floor [here](./Appendices/2floor_HE_06062025.jpg).
 - Download pdf of floorplan of second floor [here](./Appendices/2_floor_plan_06062025.pdf).
@@ -42,7 +42,7 @@ Last update 06-06-2025.
 ```
 _________________________________________________________________________
 
-### CEG Building 3rd Floor
+## CEG Building 3rd Floor
 
 ```{note}
 You can preview the files by right clicking on the links below and selecting open in new tab, for both jpg and pdf files.
@@ -56,7 +56,7 @@ Last update 06-06-2025.
 _________________________________________________________________________
 
   
-### HE Laboratory
+## HE Laboratory
 
 - Download image of floorplan of waterlab [here](./Appendices/wlab_march_2025.jpg).
 - Download pdf of floorplan of waterlab [here](./Appendices/wlab_march_2.pdf).
@@ -64,3 +64,5 @@ _________________________________________________________________________
 
 
 [def]: /book/figures/citg_building.jpg
+
+![footer](../../figures/footer-tudelft.jpg)
