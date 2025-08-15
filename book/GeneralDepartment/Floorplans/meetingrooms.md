@@ -12,7 +12,7 @@ Available **meeting Rooms** on the third floor:
  
 **Additional meeting rooms:** 
 For up to 4 people, smaller rooms next to lift D are available.
-These rooms **3.80.6** and **3.82.6** can be booked for up to 4 people and are equiped with a monitor. These can be booked via the contacting the management assitantants or MS Calendar.
+These rooms **3.80.6** and **3.82.6** can be booked for up to 4 people and are equipped with a monitor. These can be booked via the contacting the management assistants or MS Calendar.
 
 
 **Meeting Rooms Bookings:**

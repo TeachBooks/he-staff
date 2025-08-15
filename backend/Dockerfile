@@ -1,8 +1,8 @@
-FROM python:3.11-slim
+FROM python:3.11-bullseye
 
 WORKDIR /app
 
-# Install system dependencies for python3-saml with specific versions
+# Install system dependencies 
 RUN apt-get update && apt-get install -y \
     build-essential \
     pkg-config \
@@ -11,14 +11,19 @@ RUN apt-get update && apt-get install -y \
     libxmlsec1-openssl \
     libffi-dev \
     libssl-dev \
+    libxslt1-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better Docker layer caching
 COPY requirements.txt .
 
-# Install Python dependencies with specific versions to avoid conflicts
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir \
+# Update pip and install wheel
+RUN pip install --no-cache-dir --upgrade pip wheel
+
+# Install dependencies with pre-compiled wheels when possible
+RUN pip install --no-cache-dir \
+    --find-links https://pypi.org/simple/ \
+    --prefer-binary \
     lxml==4.9.3 \
     xmlsec==1.3.13 \
     python3-saml==1.15.0 \

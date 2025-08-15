@@ -45,7 +45,7 @@ Some important notes:
 * About the **job interviews**: 
 
   * The management assistants can help you planning the interviews.  
-  * Using an [interview agenda](../PhDPostDocs/Appendices/Interview%20agenda%20-%20PhD%20Recruitment%20en%20Selection%20Guide%20V1%202023.05.docx) is recommended to treat all candidates the same.The interviews can also be split into [educational](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), 
+  * Using an [interview agenda](../PhDPostDocs/Appendices/Interview%20agenda%20-%20PhD%20Recruitment%20en%20Selection%20Guide%20V1%202023.05.docx) is recommended to treat all candidates the same. The interviews can also be split into [educational](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Education%20Questionaire%20-%2020221220.%20-final.docx), 
   [leadership](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Leadership%20questionaire%2020221220%20-%20final.docx) and [research](../PhDPostDocs/Appendices/JobInterview_HelpingFiles/SPV%20Research%20Questionaire%2020221220%20-%20final.docx) sections.
 
 

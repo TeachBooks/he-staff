@@ -1,4 +1,4 @@
-# --- Nginx Configuration ---
+# --- Nginx Configuration for HE Staff Backend with SAML ---
 
 upstream backend {
     server backend:8000;
@@ -41,7 +41,7 @@ server {
     }
 
     # --- Specific Main Book Assets (High Priority) ---
-    # main 페이지용
+    # Main page assets
     location ^~ /_static/ {
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
@@ -55,7 +55,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
-    # draft 페이지용 (정적 에셋)
+    # Draft page assets
     location ^~ /draft/_static/ {
         alias /usr/share/nginx/html/draft/_static/;
         try_files $uri $uri/ =404;
@@ -69,7 +69,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
-    # 동적 브랜치용 (정적 에셋)
+    # Dynamic branch assets
     location ~ ^/([^/]+)/_static/ {
         alias /usr/share/nginx/html/$1/_static/;
         try_files $uri $uri/ =404;
@@ -83,7 +83,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
-    # --- API Location ---
+    # --- API Location (Backend handles SAML authentication) ---
     location /api {
         proxy_pass http://backend;
         proxy_set_header Host $host;
@@ -92,18 +92,30 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # --- Dynamic Branch Location ---
-    # Handles ONLY requests WITH trailing slash (e.g., /test-branch/)
-    location ~ ^/([^/]+)/ {
-        set $branch_path $1;
-        # Safety checks (optional)
+    # --- Dynamic Branch Location (FIXED FOR BRANCH STRUCTURE) ---
+    # This handles requests like /HR/HR.html, /test-branch/something.html, etc.
+    location ~ ^/([^/]+)(/.*)?$ {
+        set $branch_name $1;
 
-        root /usr/share/nginx/html; # Correct root for branches
-        index index.html;
+        # Skip known system paths and special directories
+        if ($branch_name ~ ^(api|favicon\.ico|robots\.txt|_static|_images|_downloads)$) {
+            break;
+        }
+
+        # Check if it's a valid branch directory
+        root /usr/share/nginx/html;
+
+        # Try branch first, then main_book_root as fallback
+        try_files $uri @try_main_book;
+    }
+
+    # Fallback to main_book_root
+    location @try_main_book {
+        root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
 
-    # --- General Root Location (Fallback for remaining main book files) ---
+    # --- General Root Location (Final Fallback) ---
     location / {
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
@@ -126,8 +138,7 @@ server {
     ssl_session_cache shared:SSL:50m;
     ssl_session_tickets off;
 
-
-    # --- Location Blocks (Mirror the HTTP block) ---
+    # --- Location Blocks (Mirror the HTTP block with same logic) ---
 
     location = / { # Exact match
         root /usr/share/nginx/html/main_book_root;
@@ -172,10 +183,37 @@ server {
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
-    # Add other main book dirs if needed
 
-    # --- API ---
-    location /api { # Standard prefix
+    # Draft page assets
+    location ^~ /draft/_static/ {
+        alias /usr/share/nginx/html/draft/_static/;
+        try_files $uri $uri/ =404;
+    }
+    location ^~ /draft/_images/ {
+        alias /usr/share/nginx/html/draft/_images/;
+        try_files $uri $uri/ =404;
+    }
+    location ^~ /draft/_downloads/ {
+        alias /usr/share/nginx/html/draft/_downloads/;
+        try_files $uri $uri/ =404;
+    }
+
+    # Dynamic branch assets
+    location ~ ^/([^/]+)/_static/ {
+        alias /usr/share/nginx/html/$1/_static/;
+        try_files $uri $uri/ =404;
+    }
+    location ~ ^/([^/]+)/_images/ {
+        alias /usr/share/nginx/html/$1/_images/;
+        try_files $uri $uri/ =404;
+    }
+    location ~ ^/([^/]+)/_downloads/ {
+        alias /usr/share/nginx/html/$1/_downloads/;
+        try_files $uri $uri/ =404;
+    }
+
+    # --- API (Backend handles SAML authentication directly) ---
+    location /api {
         proxy_pass http://backend;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -183,13 +221,25 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # --- Dynamic Branch Location ---
-    # Handles ONLY requests WITH trailing slash (e.g., /test-branch/)
-    location ~ ^/(?!api)([^/]+)/ { # Dynamic branches
-        set $branch_path $1;
+    # --- Dynamic Branch Location (FIXED FOR BRANCH STRUCTURE) ---
+    location ~ ^/([^/]+)(/.*)?$ {
+        set $branch_name $1;
 
+        # Skip known system paths and special directories
+        if ($branch_name ~ ^(api|favicon\.ico|robots\.txt|consume|_static|_images|_downloads)$) {
+            break;
+        }
+
+        # Check if it's a valid branch directory
+        root /usr/share/nginx/html;
+
+        # Try branch first, then main_book_root as fallback
+        try_files $uri @try_main_book_https;
+    }
+
+    # Fallback to main_book_root for HTTPS
+    location @try_main_book_https {
         root /usr/share/nginx/html/main_book_root;
-        index index.html;
         try_files $uri $uri/ =404;
     }
 
@@ -197,6 +247,14 @@ server {
     location / { # Fallback for main book files
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
+    }
+
+    location = /consume {
+        proxy_pass http://backend;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
     }
 
     # --- Security Headers ---
