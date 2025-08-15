@@ -57,24 +57,24 @@ def get_saml_settings():
             "logoutRequestSigned": False,
             "logoutResponseSigned": False,
             "signMetadata": False,
-            
+
             # Response validation settings
             "wantAssertionsSigned": False,  # Don't require signed assertions
             "wantNameId": True,
             "wantAssertionsEncrypted": False,
             "wantNameIdEncrypted": False,
-            
+
             # Authentication context
             "requestedAuthnContext": True,
             "requestedAuthnContextComparison": "exact",
-            
+
             # XML validation
             "wantXMLValidation": True,
-            
+
             # Destination validation
             "relaxDestinationValidation": True,  # More lenient validation
             "destinationStrictlyMatches": False,
-            
+
             # Other settings
             "allowRepeatAttributeName": False,
             "rejectUnsolicitedResponsesWithInResponseTo": True,
@@ -104,18 +104,18 @@ def saml_login():
     try:
         req = prepare_flask_request(request)
         print(f"SAML Login Request prepared: {req}")
-        
+
         auth = init_saml_auth(req)
         sso_url = auth.login()
-        
+
         print(f"SAML Login initiated, redirecting to: {sso_url}")
-        
+
         # Check for errors in SAML request generation
         errors = auth.get_errors()
         if errors:
             print(f"SAML Login Errors: {errors}")
             return jsonify({'error': 'SAML login failed', 'details': errors}), 500
-            
+
         return redirect(sso_url)
     except Exception as e:
         print(f"SAML Login Error: {str(e)}")
@@ -145,7 +145,7 @@ def saml_consume():
                 session['authenticated'] = True
                 print(f"SAML Authentication successful for user: {uid}")
                 print(f"User attributes: {auth.get_attributes()}")
-                
+
                 # Redirect to frontend on success
                 redirect_to = session.get('saml_redirect_to', '/admin/')
                 return redirect(redirect_to)
