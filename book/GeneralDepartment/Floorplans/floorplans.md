@@ -42,7 +42,7 @@ You can preview the files by right clicking on the links below and selecting ope
 - Download image of floorplan of second floor [here](./Appendices/2floor_HE_06062025.jpg).
 - Download pdf of floorplan of second floor [here](./Appendices/2_floor_plan_06062025.pdf).
 ```{note}
-Last update 14-04-2025.
+Last update 06-06-2025.
 ```
 _________________________________________________________________________
 
