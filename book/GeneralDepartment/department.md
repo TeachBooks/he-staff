@@ -13,9 +13,4 @@ Currently, the available content includes:
 ![General Department photo](Vernieuwde_Afsluitdijk_small.jpg)
 
 
-
-
-
-
-
-
+![footer](../figures/footer-tudelft.jpg)

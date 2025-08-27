@@ -28,4 +28,10 @@ Approval Internal budget before project submission
 [download here](.././Finance/Appendices/2025.02_Approval_internal_budget_before_project_submission.pdf)
 
 
+## Project decision tree
+
+The project decision tree can be found here. It is currently only available in Dutch.
+[download here](../Finance/Appendices/Projecten_beslisboom_Finance_TU_Delft.pdf)
+
+
  ![footer](../figures/footer-tudelft.jpg)
