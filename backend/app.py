@@ -59,7 +59,7 @@ def get_saml_settings():
             "signMetadata": False,
 
             # Response validation settings
-            "wantAssertionsSigned": False,  # Don't require signed assertions
+            "wantAssertionsSigned": True,  # Don't require signed assertions
             "wantNameId": True,
             "wantAssertionsEncrypted": False,
             "wantNameIdEncrypted": False,
