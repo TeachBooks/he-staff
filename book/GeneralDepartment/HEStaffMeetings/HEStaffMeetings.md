@@ -11,7 +11,8 @@ The HE Staff Meetings are held every 6 weeks.
 | Thursday, May 22, 2025  |   Workload and leave balance           | [download here](../Appendices/Presentatie_HE_afdelingsbestuur_2025-05-22_fv.pdf) |
 | Friday, July 11, 2025    | Lunch and celebrating the year / highlights    | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2025-07-11.pdf)                 |
 | Wednesday, September 3, 2025 |  Looking ahead to the coming year   | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2025-09-03.pdf)                    |
-| Monday, October 13, 2025 |              |                     |
+| Monday, October 8, 2025 | Strategy session 1   | [download here](../Appendices/Presentatie_HE_strategysession_2025-10-08.pdf)        |
+| Tuesday, November 13, 2025 | Strategy session 2    |                     |
 | Tuesday, November 25, 2025 |               |                     |
 
 *Content for the meetings will be added later*
