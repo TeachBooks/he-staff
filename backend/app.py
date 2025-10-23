@@ -122,24 +122,47 @@ def saml_consume():
 
         errors = auth.get_errors()
         if not errors:
-            # Store session data
-            session['samlUserdata'] = auth.get_attributes()
-            session['samlNameId'] = auth.get_nameid()
+            attrs = auth.get_attributes()
+            name_id = auth.get_nameid()
+
+            session['samlUserdata'] = attrs
+            session['samlNameId'] = name_id
             session['samlSessionIndex'] = auth.get_session_index()
 
-            # Extract NetID (TU Delft uses 'uid' attribute)
-            uid = auth.get_attributes().get('uid', [None])[0]
+            def first_val(a, key):
+                v = a.get(key)
+                if isinstance(v, list) and len(v) > 0:
+                    return v[0]
+                return None
+
+            candidates = [
+                'uid',
+                'urn:oid:0.9.2342.19200300.100.1.1',
+                'eduPersonPrincipalName',
+                'urn:oid:1.3.6.1.4.1.5923.1.1.1.6',
+                'mail',
+                'email'
+            ]
+
+            uid = None
+            for k in candidates:
+                uid = first_val(attrs, k)
+                if uid:
+                    break
+
+            if not uid and name_id:
+                uid = name_id
+
             if uid:
                 session['netid'] = uid
                 session['authenticated'] = True
                 print(f"SAML Authentication successful for user: {uid}")
-                print(f"User attributes: {auth.get_attributes()}")
+                print(f"User attributes: {attrs}")
 
-                # Redirect to frontend on success
                 redirect_to = session.get('saml_redirect_to', '/admin/')
                 return redirect(redirect_to)
             else:
-                print("No NetID found in SAML response")
+                print(f"No accepted user identifier found in SAML response. Attributes keys: {list(attrs.keys())}, NameID: {name_id}")
                 return jsonify({'error': 'No NetID found in SAML response'}), 400
         else:
             print(f"SAML Authentication failed: {errors}")
