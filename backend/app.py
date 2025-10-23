@@ -159,7 +159,7 @@ def saml_consume():
                 print(f"SAML Authentication successful for user: {uid}")
                 print(f"User attributes: {attrs}")
 
-                redirect_to = session.get('saml_redirect_to', '/index.html')
+                redirect_to = session.get('saml_redirect_to', '/intro.html')
                 return redirect(redirect_to)
             else:
                 print(f"No accepted user identifier found in SAML response. Attributes keys: {list(attrs.keys())}, NameID: {name_id}")
@@ -240,7 +240,7 @@ def auth_check():
 def require_auth():
     """Redirect to login if authentication is required"""
     if not session.get('authenticated'):
-        session['saml_redirect_to'] = request.args.get('redirect_to', '/index.html')
+        session['saml_redirect_to'] = request.args.get('redirect_to', '/intro.html')
         return redirect('/api/auth/saml/login')
     else:
         return jsonify({'status': 'authenticated'})

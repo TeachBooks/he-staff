@@ -51,12 +51,20 @@ server {
     }
 
     location ^~ /draft/ { # High priority for draft
+        # Require login for draft content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/draft/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /branches/ { # High priority for branches index
+        # Require login for branches index
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/branches/;
         index index.html;
         try_files $uri $uri/ =404;
@@ -130,17 +138,29 @@ server {
         root /usr/share/nginx/html;
 
         # Try branch first, then main_book_root as fallback
+        # Require login for branch content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         try_files $uri @try_main_book;
     }
 
     # Fallback to main_book_root
     location @try_main_book {
+        # Require login for fallback to main book
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
 
     # --- General Root Location (Final Fallback) ---
     location / {
+        # Require login for main book content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
@@ -204,12 +224,20 @@ server {
     }
 
     location ^~ /draft/ { # High priority
+        # Require login for draft content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/draft/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /branches/ { # High priority
+        # Require login for branches index
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/branches/;
         index index.html;
         try_files $uri $uri/ =404;
@@ -280,18 +308,30 @@ server {
         # Check if it's a valid branch directory
         root /usr/share/nginx/html;
 
+        # Require login for branch content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         # Try branch first, then main_book_root as fallback
         try_files $uri @try_main_book_https;
     }
 
     # Fallback to main_book_root for HTTPS
     location @try_main_book_https {
+        # Require login for fallback to main book
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
 
     # --- General Root Fallback ---
     location / { # Fallback for main book files
+        # Require login for main book content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
