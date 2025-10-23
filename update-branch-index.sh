@@ -6,6 +6,14 @@
 #          1. admin/index.html (for /admin/ URL)
 #          2. branches/index.html (for /branches/ URL)
 
+#!/bin/bash
+
+# Script: update-branch-index.sh
+# Location: /var/web_server/update-branch-index.sh
+# Purpose: Scans the HOST directory /var/web_server/htdocs and generates TWO index files:
+#          1. admin/index.html (for /admin/ URL)
+#          2. branches/index.html (for /branches/ URL)
+
 echo "Updating admin and branches index pages..."
 
 # --- Configuration ---
@@ -68,7 +76,7 @@ cat << 'HTML_HEAD' > "$ADMIN_TMP_FILE"
 </head>
 <body>
   <div class="container">
-    <h1>HE Staff Book - Admin View</h1>
+    <h1>HE Staff Book - Admin View</h1> 
 HTML_HEAD
 
 # Fixed links for admin page
@@ -143,7 +151,7 @@ cat << 'HTML_HEAD' > "$BRANCHES_TMP_FILE"
 </head>
 <body>
   <div class="container">
-    <h1>HE Staff Book - Deployed Versions</h1>
+    <h1>HE Staff Book - Deployed Versions</h1> 
 HTML_HEAD
 
 # Fixed links for branches page (like user's original script)
