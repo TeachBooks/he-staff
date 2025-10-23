@@ -10,9 +10,9 @@ server {
     server_name he.citg.tudelft.nl;
 
     # --- Specific Location Blocks (High Priority First) ---
-    # Immediate login on root -> go back to index.html after SSO
+    # Immediate login on root -> go back to intro.html after SSO
     location = / {
-        return 302 /api/auth/require?redirect_to=/index.html;
+        return 302 /api/auth/require?redirect_to=/intro.html;
     }
 
     # --- Redirects for known paths without trailing slash ---
@@ -33,9 +33,9 @@ server {
         proxy_set_header Content-Length "";
     }
 
-    # Redirect unauthenticated clients to SSO login (land on /index.html after SSO)
+    # Redirect unauthenticated clients to SSO login (preserve original path)
     location @sso_redirect {
-        return 302 /api/auth/require?redirect_to=/index.html;
+        return 302 /api/auth/require?redirect_to=$request_uri;
     }
 
     # --- Locations WITH trailing slash (High Priority) ---
@@ -184,9 +184,9 @@ server {
 
     # --- Location Blocks (Mirror the HTTP block with same logic) ---
 
-    # Immediate login on root (HTTPS) -> go back to index.html after SSO
+    # Immediate login on root (HTTPS) -> go back to intro.html after SSO
     location = / {
-        return 302 /api/auth/require?redirect_to=/index.html;
+        return 302 /api/auth/require?redirect_to=/intro.html;
     }
 
     # --- Redirects ---
@@ -207,9 +207,9 @@ server {
         proxy_set_header Content-Length "";
     }
 
-    # Redirect unauthenticated clients to SSO login (land on /index.html after SSO)
+    # Redirect unauthenticated clients to SSO login (preserve original path)
     location @sso_redirect {
-        return 302 /api/auth/require?redirect_to=/index.html;
+        return 302 /api/auth/require?redirect_to=$request_uri;
     }
 
     # --- Locations WITH trailing slash ---
