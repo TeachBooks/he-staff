@@ -1,4 +1,11 @@
 (intro)=
+
+---
+html_meta:
+  "http-equiv": "refresh"
+  content: "0; url=https://he.citg.tudelft.nl"
+---
+
 # Hydraulic Engineering Staff Page
 
 **Welcome to the Hydraulic Engineering Staff Page**
