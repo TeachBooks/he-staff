@@ -2,10 +2,10 @@
 
 Below you can find onboarding and end-of-contract checklists for PhD candidates and supervisors.
 
-- PhD candidate onboarding checklist. [Download here](./Appendices/candidate_checklist.pdf)   <br>
+- PhD candidate onboarding checklist. [Download here](./Appendices/candidate_checklist_14-11-25.pdf)   <br>
   The pdf file with candidate's checklist corresponds to the image shown below.  <br>
   <br>
-  ![](./Appendices/candidate_checklist.jpg)
+  ![](./Appendices/candidate_checklist_14-11-25.png)
   <br>
   <br>
   <br>
