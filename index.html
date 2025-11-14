@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://he.citg.tudelft.nl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to HE Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #00A6D6, #0076BE);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .spinner {
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            border-top: 5px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        // JavaScript 리다이렉트 (메타 태그가 작동하지 않을 경우 백업)
+        window.location.replace("https://he.citg.tudelft.nl");
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting to HE Portal...</h1>
+        <div class="spinner"></div>
+        <p>If you are not redirected automatically, please click <a href="https://he.citg.tudelft.nl">here</a>.</p>
+    </div>
+</body>
+</html>
