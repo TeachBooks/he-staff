@@ -1,6 +1,6 @@
 # Finance
 
-This page provides staff members with key financial information relevant to the Hydraulic Engineering Department. It includes practical guidelines and procedures to support project budgeting and financial management.
+This page provides staff members with key financial information relevant to the Hydraulic Engineering Department. It includes practical guidelines and procedures to support project budgeting and financial management. Useful contact information can be found in the section [Contact Information](Contents/contact.md)
 
 You will find information on:
 - How research funding and internal financing work at TU Delft.

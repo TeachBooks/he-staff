@@ -12,7 +12,7 @@ For general inquiries please contact us at:
 For content-wise feedback, please contact the webmaster of hydraulic engineering:
 
 **Name:** Jelle Gortemaker
-**Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl)
+**Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl) 
 
 
 ### HE Department Executive Secretary
@@ -22,6 +22,19 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 
 <!-- ### Visiting Address
 **Office:** CiTG, Floor 3rd, Room 3.00 -->
+
+### HE Project Controller
+**Name:** Laurens van Haren 
+**Email:** [L.vanHaren@tudelft.nl](mailto:L.vanHaren@tudelft.nl)
+
+### HE Contract Manager 
+**Name:** Astrid Zuijdendorp  
+**Email:** [M.F.A.Zuijdendorp@tudelft.nl](mailto:M.F.A.Zuijdendorp@tudelft.nl)
+
+### HR Advisor
+**Name:** Monique Scheers-van der Horst 
+**Email:** [M.Scheers-vanderHorst@tudelft.nl](mailto:M.Scheers-vanderHorst@tudelft.nl)
+
 
 ### Management Assistants per Section:
 **Location:** CiTG, 3rd Floor, Room 3.73.1
