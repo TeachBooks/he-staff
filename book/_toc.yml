@@ -13,11 +13,12 @@ parts:
         - file: GeneralDepartment/HE_Department_Board/management_board.md
         - file: GeneralDepartment/HE_Department_Board/weekmails.md   
       - file: GeneralDepartment/HEStaffMeetings/HEStaffMeetings.md
-      - file: GeneralDepartment/Floorplans/floorplans.md
+      - file: GeneralDepartment/Floorplans/floorplans_building_access.md
         sections:
         - file: GeneralDepartment/Floorplans/office_layouts.md
         - file: GeneralDepartment/Floorplans/workspace_guidelines.md
         - file: GeneralDepartment/Floorplans/meetingrooms.md
+        - file: GeneralDepartment/Floorplans/building_access.md
     - file: HR/HR.md
       sections:
       # Hiring procedure PhD and PostDocs
