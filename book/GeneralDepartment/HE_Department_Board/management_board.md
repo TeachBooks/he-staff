@@ -17,4 +17,6 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 | 2025.10         | [Additional Departmental criteria for VENI and MSCA Doctoral Network (MSCA-DN) applications](./DecisionFiles/2025.10_Additional_Departmental_criteria_for_VENI_and_MSCA_Doctoral_Network_(MSCA-DN)_applications.pdf) | 19/09/2024 |
 
 
+<!--TEST -->
+
 ![footer](../../figures/footer-tudelft.jpg)
