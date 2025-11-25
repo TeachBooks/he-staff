@@ -12,8 +12,9 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 | 2025.03         | [Approval Conditions for First-Stream Expenditures Above €300](./DecisionFiles/2025.03%20Approval%20and%20Conditions%20for%20First-Stream%20Expenditures%20Above%20€300.pdf) | 19/09/2025 |
 | 2025.04         | [Approval of the Hydraulic Engineering Project guidelines](./DecisionFiles/2025.04%20Approval%20of%20the%20Hydraulic%20Engineering%20Project%20Guidelines.pdf) | 19/09/2025 |
 | 2025.05         | [Approval of the Hydraulic Engineering Hospitality policy](./DecisionFiles/2025.05%20Approval%20of%20the%20Hydraulic%20Engineering%20Hospitality%20%20policy.pdf)| 19/09/2025 |
+| 2025.07        | [Decision composition selection committees for PHD and Postdoc.pdf](./DecisionFiles/2025.07_Decision_composition_selection_committees_for_PHD_en_Postdoc.pdf)| 19/09/2024 |
+| 2025.09         | [Decision HE Procedure for extended building access and working alone](./DecisionFiles/2025.09_Decision_HE_Procedure_for_extended_building_access_and_working_alone.pdf)| 19/09/2024 |
+| 2025.10         | [Additional Departmental criteria for VENI and MSCA Doctoral Network (MSCA-DN) applications](./DecisionFiles/2025.10_Additional_Departmental_criteria_for_VENI_and_MSCA_Doctoral_Network_(MSCA-DN)_applications.pdf) | 19/09/2024 |
 
-
-2025.07_Decision_composition_selection_committees_for_PHD_and_Postdoc
 
 ![footer](../../figures/footer-tudelft.jpg)
