@@ -15,6 +15,8 @@ The key stages of the selection process are as follows:
 
 4. **Candidate selection.** In this stage, you select the preferred candidate. In this stage you rate candidates based on the criteria you defined, and you make reference calls. 
 
+5. **Rejection of the other candidates.** This step may only be done when the chosen candidate has formally accepted the proposal. 
+
 
 Please use Chapter 3 of the 'PhD Recruitment and Selection Guide', which can be found on [this intranet page](https://intranet.tudelft.nl/-/posting-a-vacancy?p_l_back_url=%2Fsearch%3Fq%3Dhiring%2Band%2Bselection%2Bguide). Although this guide is written for PhD hiring, it is also very valuable to use for other functions. 
 
@@ -32,7 +34,12 @@ Be aware of the **knowledge safety check**! Candidates from or with connections 
 
 
 Some important notes: 
-* Regarding the selection committee: the selection is done using the four-eye principle. This requires at least one other person to participate in the selection, ensuring that decisions are impartial and free from bias. It is recommended to include a senior staff member as well as a neutral party who has no vested interest in the hiring decision.
+
+* There are rules as to the composition of the selection committee. These are explained under [Preparation Phase](./1PreparationPhase.md).
+
+* Regarding the selection process: the committee strives to come to a unanimous decision. If unanimity is not possible, the majority of votes counts (2 out of 3 TU Delft committee members).
+
+* If the project leader is not in the committee, he or she can make a motivated objection to the decision. If the project leader is in the committee and disagrees with the other two members, he or she can once again make a motivated objection. In both cases, the decision is passed to the section leader.
 
 * The selection process is done using **MyCareer**. Instructions can be found [on this intranet page](https://intranet.tudelft.nl/-/recruitment-system?p_l_back_url=%2Fsearch%3Fq%3Drecruitment). Use this system as much as possible and do not store CVs or send CVs by mail. 
 
@@ -59,7 +66,7 @@ Some important notes:
 
 **Rejecting candidates after interviews**
 
-Once your preferred candidate has accepted the job offer, it is important to notify the remaining candidates. Candidates who were interviewed should be informed of the decision either by phone or in person. As the vacancy holder, this is your responsibility, and while it may be a challenging task, it is essential that these candidates are treated with respect and professionalism, acknowledging the time and effort they have invested in the application process.
+Once your preferred candidate has accepted the job offer, it is important to notify the remaining candidates. As has been stated before, this can only be done once the chosen candidate has formally accepted the offer. Candidates who were interviewed should be informed of the decision either by phone or in person. As the vacancy holder, this is your responsibility, and while it may be a challenging task, it is essential that these candidates are treated with respect and professionalism, acknowledging the time and effort they have invested in the application process.
 
 Remember, every interaction with a candidate can influence TU Delft’s reputation as an employer, as well as the reputation of your research department. Careful handling of rejections contributes to maintaining a positive professional image.
 
