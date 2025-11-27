@@ -239,11 +239,14 @@ def auth_check():
 @app.route('/api/auth/require')
 def require_auth():
     """Redirect to login if authentication is required"""
+    redirect_to = request.args.get('redirect_to', '/intro.html')
+    
     if not session.get('authenticated'):
-        session['saml_redirect_to'] = request.args.get('redirect_to', '/intro.html')
+        session['saml_redirect_to'] = redirect_to
         return redirect('/api/auth/saml/login')
     else:
-        return jsonify({'status': 'authenticated'})
+        # redirect when authenticated
+        return redirect(redirect_to)
 
 # Legacy SAML endpoints (for backward compatibility)
 @app.route('/api/saml/login')
