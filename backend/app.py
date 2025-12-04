@@ -22,7 +22,7 @@ def consume_metadata():
     """Entity ID endpoint - return metadata"""
     return saml_metadata()
 
-# SAML Configuration with explicit security settings (no signing)
+# SAML Configuration with explicit security settings
 def get_saml_settings():
     return {
         "sp": {
@@ -40,42 +40,31 @@ def get_saml_settings():
             "privateKey": ""
         },
         "idp": {
-            "entityId": "https://login-test.tudelft.nl/sso/saml2/idp/metadata.php",
+            "entityId": "https://login.tudelft.nl/sso/saml2/idp/metadata.php",
             "singleSignOnService": {
-                "url": "https://login-test.tudelft.nl/sso/module.php/saml/idp/singleSignOnService",
+                "url": "https://login.tudelft.nl/sso/module.php/saml/idp/singleSignOnService",
                 "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
             },
             "singleLogoutService": {
-                "url": "https://login-test.tudelft.nl/sso/module.php/saml/idp/singleLogout",
+                "url": "https://login.tudelft.nl/sso/module.php/saml/idp/singleLogout",
                 "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
             },
-            "x509cert": "MIIEGzCCAwOgAwIBAgIJAOZpaPLm92tzMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJOTDEVMBMGA1UECAwMWnVpZC1Ib2xsYW5kMQ4wDAYDVQQHDAVEZWxmdDEmMCQGA1UECgwdVGVjaG5pc2NoZSBVbml2ZXJzaXRlaXQgRGVsZnQxFTATBgNVBAsMDElDVCBEaXJlY3RpZTEuMCwGA1UEAwwlbG9naW4tdGVzdC50dWRlbGZ0Lm5sIG1ldGFkYXRhIHNpZ25lcjAeFw0xOTA1MDkxNTIwMzRaFw0yOTA1MDgxNTIwMzRaMIGjMQswCQYDVQQGEwJOTDEVMBMGA1UECAwMWnVpZC1Ib2xsYW5kMQ4wDAYDVQQHDAVEZWxmdDEmMCQGA1UECgwdVGVjaG5pc2NoZSBVbml2ZXJzaXRlaXQgRGVsZnQxFTATBgNVBAsMDElDVCBEaXJlY3RpZTEuMCwGA1UEAwwlbG9naW4tdGVzdC50dWRlbGZ0Lm5sIG1ldGFkYXRhIHNpZ25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMV7uciTXKvoMwvFsYL79t6fMPn44/fOZRPHEz1cKQPjhecAsNKW72EqUUCoMLPk18AACagfd4Eil07l9FTwYhVoXSuvbmM3i51DSwfDEjI7VxoBtR8OdM2XFntcvuVxPiLOAJHA9hTDngA1gG1GYHbweDsgWhaCJ1VH6UB95klrq6++91vauXjqGx463QkLvVpFnPk2TZiTL253wfw6h2QHomiIPyyBdPtP5Lg5R7COTJrz4neGZk3adXJEnlSIZfA587kXm4TU3wPDoCMAM9xpozGtvWWGz1o9U79nxz7vJt1xIGA/TS7C0zvZ5BK0Te/3nLEcFnMnTqQxeKoqQK0CAwEAAaNQME4wHQYDVR0OBBYEFKo0sh4IIRzpRqD1+OIFjJCYres6MB8GA1UdIwQYMBaAFKo0sh4IIRzpRqD1+OIFjJCYres6MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADwqQgupwUjLHDUjvKc7zGEx01DA4QAYD1FWBd9EkVw2YBJvh8EMlPfmUshbqk6ruDA/TtSm8jhcUCGD2fDO5a4eC6lml8jVmDAVssjnc9dOmcxDUIss3YrWJV2nqwOUL2g4zS75duaPpYONVxvcZTkc/Idb5OLm8kc9VxZpZ4ynMiJOMir/5K3j5VL+oglmNx0zr9SU73OepKUCCKz/84tRduKWbWKpiO3bry8jY3w8XzVnOd+rrYz44FzxDH/+NcIF5Ur1Gw/402kQpjDLz303Z81L4jR9Lc5C1edtilEFkrrZ0ckqVmqFy2EDDfWfO+X3M3Vb00CHEZV0EejfcRw="
+            "x509cert": "MIIEETCCAvmgAwIBAgIJAPlfQEGrHWVOMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJOTDEVMBMGA1UECAwMWnVpZC1Ib2xsYW5kMQ4wDAYDVQQHDAVEZWxmdDEmMCQGA1UECgwdVGVjaG5pc2NoZSBVbml2ZXJzaXRlaXQgRGVsZnQxFTATBgNVBAsMDElDVCBEaXJlY3RpZTEpMCcGA1UEAwwgbG9naW4udHVkZWxmdC5ubCBtZXRhZGF0YSBzaWduZXIwHhcNMjAwMTE2MTIyNDA4WhcNMzAwMTE1MTIyNDA4WjCBnjELMAkGA1UEBhMCTkwxFTATBgNVBAgMDFp1aWQtSG9sbGFuZDEOMAwGA1UEBwwFRGVsZnQxJjAkBgNVBAoMHVRlY2huaXNjaGUgVW5pdmVyc2l0ZWl0IERlbGZ0MRUwEwYDVQQLDAxJQ1QgRGlyZWN0aWUxKTAnBgNVBAMMIGxvZ2luLnR1ZGVsZnQubmwgbWV0YWRhdGEgc2lnbmVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwZfwGzcC4i0/t/nVWwvPqJ5OV+h+hG+D4cocsylwlg7DPcxNH3fVp+skGqg29j3KtmgUR8qiSrgin4Wec/+jMLs9X/D3ulhxQ4Tax1plKeVH5VohGGCtHwkEAcm9im5zhKCcm/y9wqfNLGaLbwTHs4yPNouqf87Zz9qM7X9ONUYx6CqwfWFwDGP48plZY+8PJlSdWId6shHdHmqn7Zf61hAeii8oiGCW/lBq0VXoB1CoCl/FmDoE+aIse4wTgrt9KTnF0/3E5qwwIJq4ugkM9yXrU9qg3/HHl89bH9/mlOdaEWsK4NgPUc2gES5qHopl5jWS+YqP4Nji3dQ+fgjoZQIDAQABo1AwTjAdBgNVHQ4EFgQU8nGBmwWwq4zx+uKB2Ro9BR72vHswHwYDVR0jBBgwFoAU8nGBmwWwq4zx+uKB2Ro9BR72vHswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAG/l8hS5V0xVaLCTKnKbf9vbKZP5dwevzfOVQO0tYX88oA2v5/6BXH1zOcHcUilZ0+ENCYeveyUDiZC7zA/w/P06WvWL/6IGUVoxwWtJYo0DCUffVzuh50QGDUrk/pdsHBtyFQdE9ZcDRGrHSyvd0NDApwLGVLeoDHkB2VDAoyfI5UXrBmaCL5+rkPbd1JPo8vHtpgD4ccL2bHefdx4feSPGOOJXyMzHFUigRbtzUUXh7hNKCHrsqvUGoY2MsD9o3lSLysDrUALxMl1GyydFzTLx03m8PCESRQ1BekMCfHA5rDqQs0QhZgeKFzaT3+zkymWhERdB/YeprbvDZz+peQg=="
         },
         "security": {
-            # Explicitly disable all signing requirements
             "authnRequestsSigned": False,
             "logoutRequestSigned": False,
             "logoutResponseSigned": False,
             "signMetadata": False,
-
-            # Response validation settings
-            "wantAssertionsSigned": False,  # Don't require signed assertions
+            "wantAssertionsSigned": True,
             "wantNameId": True,
             "wantAssertionsEncrypted": False,
             "wantNameIdEncrypted": False,
-
-            # Authentication context
             "requestedAuthnContext": True,
             "requestedAuthnContextComparison": "exact",
-
-            # XML validation
             "wantXMLValidation": True,
-
-            # Destination validation
-            "relaxDestinationValidation": True,  # More lenient validation
+            "relaxDestinationValidation": True,
             "destinationStrictlyMatches": False,
-
-            # Other settings
             "allowRepeatAttributeName": False,
             "rejectUnsolicitedResponsesWithInResponseTo": True,
             "signatureAlgorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
@@ -133,24 +122,47 @@ def saml_consume():
 
         errors = auth.get_errors()
         if not errors:
-            # Store session data
-            session['samlUserdata'] = auth.get_attributes()
-            session['samlNameId'] = auth.get_nameid()
+            attrs = auth.get_attributes()
+            name_id = auth.get_nameid()
+
+            session['samlUserdata'] = attrs
+            session['samlNameId'] = name_id
             session['samlSessionIndex'] = auth.get_session_index()
 
-            # Extract NetID (TU Delft uses 'uid' attribute)
-            uid = auth.get_attributes().get('uid', [None])[0]
+            def first_val(a, key):
+                v = a.get(key)
+                if isinstance(v, list) and len(v) > 0:
+                    return v[0]
+                return None
+
+            candidates = [
+                'uid',
+                'urn:oid:0.9.2342.19200300.100.1.1',
+                'eduPersonPrincipalName',
+                'urn:oid:1.3.6.1.4.1.5923.1.1.1.6',
+                'mail',
+                'email'
+            ]
+
+            uid = None
+            for k in candidates:
+                uid = first_val(attrs, k)
+                if uid:
+                    break
+
+            if not uid and name_id:
+                uid = name_id
+
             if uid:
                 session['netid'] = uid
                 session['authenticated'] = True
                 print(f"SAML Authentication successful for user: {uid}")
-                print(f"User attributes: {auth.get_attributes()}")
+                print(f"User attributes: {attrs}")
 
-                # Redirect to frontend on success
-                redirect_to = session.get('saml_redirect_to', '/admin/')
+                redirect_to = session.get('saml_redirect_to', '/intro.html')
                 return redirect(redirect_to)
             else:
-                print("No NetID found in SAML response")
+                print(f"No accepted user identifier found in SAML response. Attributes keys: {list(attrs.keys())}, NameID: {name_id}")
                 return jsonify({'error': 'No NetID found in SAML response'}), 400
         else:
             print(f"SAML Authentication failed: {errors}")
@@ -216,14 +228,25 @@ def auth_status():
     else:
         return jsonify({'authenticated': False})
 
+@app.route('/api/auth/check')
+def auth_check():
+    """Return 204 when authenticated, 401 otherwise (for Nginx auth_request)"""
+    if session.get('authenticated'):
+        return ('', 204)
+    else:
+        return ('', 401)
+
 @app.route('/api/auth/require')
 def require_auth():
     """Redirect to login if authentication is required"""
+    redirect_to = request.args.get('redirect_to', '/intro.html')
+    
     if not session.get('authenticated'):
-        session['saml_redirect_to'] = request.args.get('redirect_to', '/admin/')
+        session['saml_redirect_to'] = redirect_to
         return redirect('/api/auth/saml/login')
     else:
-        return jsonify({'status': 'authenticated'})
+        # redirect when authenticated
+        return redirect(redirect_to)
 
 # Legacy SAML endpoints (for backward compatibility)
 @app.route('/api/saml/login')
