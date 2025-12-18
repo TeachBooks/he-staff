@@ -34,8 +34,7 @@ At this stage, it is advisable to establish the selection committee. A few requi
 * It is allowed to have up to one external party, which can serve as an advisory member of the committee.
 * The decision is up to the three TU employees on the committee. Any external party fulfils an advisory role only.
 
-The selection chosen selection committee is an important part of the information that is filled in on the vacancy format. The validity of the selection committee will be checked by the department secretary once the vacancy format has been turned in. 
-
+The chosen selection committee is also filled in on the vacancy format. The validity of the selection committee will be checked by the department secretary once the vacancy format has been turned in.
 
 ## 1.3 Send vacancy format 
 
