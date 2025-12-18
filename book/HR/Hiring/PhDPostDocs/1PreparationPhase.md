@@ -4,7 +4,7 @@
 
 ## 1.1 Financial and departmenal checks 
 
-When posting a vacancy, the project procedure must be followed. If the project has approval and there is a _signed_ budget for the project, the recruitment process can be initiated. 
+Before posting a vacancy, the project procedure must be followed. If the project has approval and there is a _signed_ budget for the project, the recruitment process can be initiated. 
 
 For first-time vacancy holders it is recommended to meet with the Department Secretary to discuss the practicalities of the hiring process.
 
@@ -29,10 +29,10 @@ Some notes regarding the vacancy format:
 
 At this stage, it is advisable to establish the selection committee. A few requirements must be met regarding the composition of the committee:
 
-•	The committee consists of three TU Delft employees, up to two of which are directly involved in the project.
-•	At least one independent employee, preferably from a different section within the department.
-•	It is allowed to have up to one external party, which can serve as an advisory member of the committee. 
-•	The decision is up to the three TU employees on the committee. Any external party fulfils an advisory role only.
+* The committee consists of three TU Delft employees, up to two of which are directly involved in the project.
+* At least one independent employee, preferably from a different section within the department.
+* It is allowed to have up to one external party, which can serve as an advisory member of the committee.
+* The decision is up to the three TU employees on the committee. Any external party fulfils an advisory role only.
 
 The selection chosen selection committee is an important part of the information that is filled in on the vacancy format. The validity of the selection committee will be checked by the department secretary once the vacancy format has been turned in. 
 
