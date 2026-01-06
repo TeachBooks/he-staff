@@ -23,7 +23,7 @@ Alternatively, contact us, and we will make the adjustments.
 |:--------------------------------------------------------------:|:-------------------------------------------------------------:|
 |Download [here](./Files/hiring_graphic_7.png)                    | Download [here](./Files/hiring_graphic_8.png)                                    |
 
-Need more help or adjustments in one of the designs above? Please direct your emails to Maria at m.s.sklia@tudelft.nl. 
+Need more help or adjustments in one of the designs above? Please direct your emails to [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl). 
 
 
 ![footer](./Files/footer-tudelft.jpg)
