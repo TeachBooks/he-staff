@@ -12,7 +12,7 @@ For first-time vacancy holders it is recommended to meet with the Department Sec
 
 ## 1.2 Fill in vacancy format 
 
-Use the vacancy format for [PhDs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20PHD.docx) or [PostDocs](./Appendices/Vacancy%20format%20ENG%20-%20October%202024%20format%20POSTDOC.docx) to gather the required information for the vacancy. As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. 
+Use the vacancy format for [PhDs and PostDocs](./Appendices/Vacancy-format-ENG-November-2025.docx) to gather the required information for the vacancy. As some have noted, the format does not handle comments well, so you can consider making and shaping the vacancy text in a separate word document first. 
 
 
 Some notes regarding the vacancy format:
