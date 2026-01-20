@@ -2,7 +2,7 @@
 
 A summary of the steps to hire a PhD or PostDoc can be found in the table below.
 
-![A summary table of the hiring procedure](../PhDPostDocs/Appendices/SummaryTable.PNG)
+![A summary table of the hiring procedure](../PhDPostDocs/Appendices/SummaryTable.jpg)
 
 <sup>1</sup> The vacancy format is available for [PhDs and PostDocs](./Appendices/Vacancy-format-ENG-November-2025.docx).
 
