@@ -10,10 +10,9 @@ server {
     server_name he.citg.tudelft.nl;
 
     # --- Specific Location Blocks (High Priority First) ---
-    location = / { # Exact match for the root path first
-        root /usr/share/nginx/html/main_book_root;
-        index index.html;
-        try_files /index.html =404;
+    # Immediate login on root -> go back to intro.html after SSO
+    location = / {
+        return 302 /api/auth/require?redirect_to=/intro.html;
     }
 
     # --- Redirects for known paths without trailing slash ---
@@ -21,20 +20,51 @@ server {
     location = /draft { return 301 /draft/; }
     location = /branches { return 301 /branches/; }
 
+    # Internal auth subrequest for admin protection (returns 204 if authenticated, 401 otherwise)
+    location = /_auth {
+        internal;
+        proxy_pass http://backend/api/auth/check;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Cookie $http_cookie;
+        proxy_pass_request_body off;
+        proxy_set_header Content-Length "";
+    }
+
+    # Redirect unauthenticated clients to SSO login (preserve original path)
+    location @sso_redirect {
+        return 302 /api/auth/require?redirect_to=$request_uri;
+    }
+
     # --- Locations WITH trailing slash (High Priority) ---
-    location ^~ /admin/ { # High priority for admin
+    # Protected admin area - allow only authenticated users
+    location ^~ /admin/ {
+        auth_request /_auth;
+        # Redirect to SSO for any unauthenticated status
+        error_page 401 403 404 = @sso_redirect;
+
         alias /usr/share/nginx/html/admin/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /draft/ { # High priority for draft
+        # Require login for draft content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/draft/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /branches/ { # High priority for branches index
+        # Require login for branches index
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/branches/;
         index index.html;
         try_files $uri $uri/ =404;
@@ -84,12 +114,14 @@ server {
     }
 
     # --- API Location (Backend handles SAML authentication) ---
-    location /api {
+    # Use ^~ to prevent regex locations from capturing /api paths
+    location ^~ /api {
         proxy_pass http://backend;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Cookie $http_cookie;
     }
 
     # --- Dynamic Branch Location (FIXED FOR BRANCH STRUCTURE) ---
@@ -106,17 +138,29 @@ server {
         root /usr/share/nginx/html;
 
         # Try branch first, then main_book_root as fallback
+        # Require login for branch content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         try_files $uri @try_main_book;
     }
 
     # Fallback to main_book_root
     location @try_main_book {
+        # Require login for fallback to main book
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
 
     # --- General Root Location (Final Fallback) ---
     location / {
+        # Require login for main book content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
@@ -140,10 +184,9 @@ server {
 
     # --- Location Blocks (Mirror the HTTP block with same logic) ---
 
-    location = / { # Exact match
-        root /usr/share/nginx/html/main_book_root;
-        index index.html;
-        try_files /index.html =404;
+    # Immediate login on root (HTTPS) -> go back to intro.html after SSO
+    location = / {
+        return 302 /api/auth/require?redirect_to=/intro.html;
     }
 
     # --- Redirects ---
@@ -151,20 +194,50 @@ server {
     location = /draft { return 301 /draft/; }
     location = /branches { return 301 /branches/; }
 
+    # Internal auth subrequest for admin protection (returns 204 if authenticated, 401 otherwise)
+    location = /_auth {
+        internal;
+        proxy_pass http://backend/api/auth/check;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Cookie $http_cookie;
+        proxy_pass_request_body off;
+        proxy_set_header Content-Length "";
+    }
+
+    # Redirect unauthenticated clients to SSO login (preserve original path)
+    location @sso_redirect {
+        return 302 /api/auth/require?redirect_to=$request_uri;
+    }
+
     # --- Locations WITH trailing slash ---
-    location ^~ /admin/ { # High priority
+    # Protected admin area - allow only authenticated users
+    location ^~ /admin/ {
+        auth_request /_auth;
+        error_page 401 403 404 = @sso_redirect;
+
         alias /usr/share/nginx/html/admin/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /draft/ { # High priority
+        # Require login for draft content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/draft/;
         index index.html;
         try_files $uri $uri/ =404;
     }
 
     location ^~ /branches/ { # High priority
+        # Require login for branches index
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         alias /usr/share/nginx/html/branches/;
         index index.html;
         try_files $uri $uri/ =404;
@@ -213,12 +286,14 @@ server {
     }
 
     # --- API (Backend handles SAML authentication directly) ---
-    location /api {
+    # Use ^~ to prevent regex locations from capturing /api paths
+    location ^~ /api {
         proxy_pass http://backend;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Cookie $http_cookie;
     }
 
     # --- Dynamic Branch Location (FIXED FOR BRANCH STRUCTURE) ---
@@ -233,18 +308,30 @@ server {
         # Check if it's a valid branch directory
         root /usr/share/nginx/html;
 
+        # Require login for branch content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         # Try branch first, then main_book_root as fallback
         try_files $uri @try_main_book_https;
     }
 
     # Fallback to main_book_root for HTTPS
     location @try_main_book_https {
+        # Require login for fallback to main book
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
 
     # --- General Root Fallback ---
     location / { # Fallback for main book files
+        # Require login for main book content
+        auth_request /_auth;
+        error_page 401 403 = @sso_redirect;
+
         root /usr/share/nginx/html/main_book_root;
         try_files $uri $uri/ =404;
     }
