@@ -3,9 +3,3 @@ teachbooks # depends on jupyter-book v1
 
 # Our favourite Sphinx extensions in one line
 git+https://github.com/TeachBooks/TeachBooks-Favourites
-
-# TU Delft specific packages
---extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-
-# Docutils version for reference page formatting
-docutils==0.17.1
