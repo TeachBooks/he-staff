@@ -1,4 +1,4 @@
-# Documentation: HE Staff Book Web Server Setup (he.citg.tudelft.nl)
+# Documentation: HE Staff Book Web Server Setup (he.citg.tudelft.nl).
 
 This document outlines the configuration and workflow for deploying and serving the HE Staff Book website, including its main version, draft version, dynamic branch previews, and administrative index pages.
 
