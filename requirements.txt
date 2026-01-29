@@ -1,10 +1,13 @@
-jupyter-book==1.0.3
-jupyterbook-patches==1.0.2
-sphinx==5.3.0
-myst-nb==1.1.2
-myst-parser==2.0.0
+# first list the packages you wish to download from PyPI
+teachbooks # depends on jupyter-book v1
 
-docutils==0.17.1
+# Our favourite Sphinx extensions in one line, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+git+https://github.com/TeachBooks/TeachBooks-Favourites
+
+# TU Delft specific packages
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe~=0.9.9
 download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
+
+# Docutils version for reference page formatting
+docutils==0.17.1
