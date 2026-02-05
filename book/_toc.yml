@@ -8,6 +8,7 @@ parts:
     chapters:
     - file: GeneralDepartment/department.md
       sections:
+      - file: GeneralDepartment/VisionAndMission/VisionAndMission.md
       - file: GeneralDepartment/HE_Department_Board/board.md
         sections:
         - file: GeneralDepartment/HE_Department_Board/management_board.md
@@ -39,7 +40,9 @@ parts:
       # Vacancy Promotion
       - file: HR/Hiring/Vacancy_Promotion/vacancy_promotion.md
       # HE Hospitality Agreement Policy
-      - file: HR/Hiring/Hospitality_Agreement.md
+      - file: HR/Hiring/HospitalityAgreement/Hospitality_Agreement.md
+      # Training
+      - file: HR/Hiring/Training/Training.md
     # Finance  
     - file: Finance/finance.md
       sections:
