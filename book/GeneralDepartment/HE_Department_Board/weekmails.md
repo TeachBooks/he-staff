@@ -16,6 +16,9 @@ Here are all the previous team updates stored for your reference.
 | 43         | [Weekmail](./Weekmails/2025.10.20.pdf) | 20/10/2025 |
 | 44         | [Weekmail](./Weekmails/2025.10.27.pdf) | 27/10/2025 |
 | 47         | [Weekmail](./Weekmails/2025.11.17.pdf) | 17/11/2025 |
+| 48         | [Weekmail](./Weekmails/2025.11.27.pdf) | 27/11/2025 |
+| 5         | [Weekmail](./Weekmails/2026.1.20.pdf) | 20/01/2026 |
+| 7         | [Weekmail](./Weekmails/2026.2.13.pdf) | 12/02/2026 |
 
 ![footer](../../figures/footer-tudelft.jpg)
 
