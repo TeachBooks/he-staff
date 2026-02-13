@@ -20,7 +20,7 @@ Room: 23.HG 2.95
 Email: [K.A.C.Canny@tudelft.nl](mailto:K.A.C.Canny@tudelft.nl)
 Room: 23.HG 3.53
 
-As a team, we are committed to representing and supporting all PhDs within our department - collaborating not only with students but also with supervisors and staff. If there's anything you would like to discuss or share, feel free to reach out to us via email [PhDcouncil-CiTG-HE@tudelft.nl](mailto:PhDcouncil-CiTG-HE@tudelft.nl) or drop by our office for a chat.
+As a team, we are committed to representing and supporting all PhDs within our department - collaborating not only with students but also with supervisors and staff. If there's anything you would like to discuss or share, feel free to reach out to us via email [PhDcouncil-CiTG-HE@tudelft.nl](mailto:PhDcouncil-CEG-HE@tudelft.nl) or drop by our office for a chat.
 
 
 ![footer](../figures/footer-tudelft.jpg)
