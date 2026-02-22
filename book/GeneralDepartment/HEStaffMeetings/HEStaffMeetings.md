@@ -10,7 +10,7 @@ The HE Staff Meetings are held every 6 weeks.
 | Wednesday, November 11, 2026    |        |        |
 | Tuesday, October 6, 2026    |        |        |
 | Monday, August 31, 2026    |        |        |
-| Friday, July 9, 2026    |        |        |
+| Friday, July 10, 2026    |        |        |
 | Thursday, May 28, 2026   |        |        |
 | Wednesday, April 15, 2026    |        |        |
 | Tuesday, March 3, 2026    |        |        |
