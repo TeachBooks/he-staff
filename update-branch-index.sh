@@ -6,14 +6,6 @@
 #          1. admin/index.html (for /admin/ URL)
 #          2. branches/index.html (for /branches/ URL)
 
-#!/bin/bash
-
-# Script: update-branch-index.sh
-# Location: /var/web_server/update-branch-index.sh
-# Purpose: Scans the HOST directory /var/web_server/htdocs and generates TWO index files:
-#          1. admin/index.html (for /admin/ URL)
-#          2. branches/index.html (for /branches/ URL)
-
 echo "Updating admin and branches index pages..."
 
 # --- Configuration ---

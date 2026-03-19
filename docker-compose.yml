@@ -15,7 +15,8 @@ services:
     networks:
       - web_network
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
 
   # Backend service
   backend:
@@ -27,7 +28,13 @@ services:
     volumes:
       - /var/web_server/saml/certs:/app/saml/certs:ro
     environment:
-      - SECRET_KEY=${SECRET_KEY:-f7c518ccb0ce0dcfccdc85ff96d2700a5f6ec2a31f06a091df01c0bcb8d786be}
+      - SECRET_KEY=${SECRET_KEY:?SECRET_KEY environment variable is required - set it in .env file}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
 networks:
   web_network:

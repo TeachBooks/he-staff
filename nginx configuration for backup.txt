@@ -6,187 +6,11 @@ upstream backend {
 }
 
 # --- HTTP Server Block (Port 80) ---
+# Redirect all HTTP traffic to HTTPS
 server {
     listen 80;
     server_name he.citg.tudelft.nl;
-
-    # --- Specific Location Blocks (High Priority First) ---
-    # Immediate login on root -> go back to intro.html after SSO
-    location = / {
-        return 302 /api/auth/require?redirect_to=/intro.html;
-    }
-
-    # --- Redirects for known paths without trailing slash ---
-    location = /admin { return 301 /admin/; }
-    location = /draft { return 301 /draft/; }
-    location = /branches { return 301 /branches/; }
-
-    # Internal auth subrequest for admin protection (returns 204 if authenticated, 401 otherwise)
-    location = /_auth {
-        internal;
-        proxy_pass http://backend/api/auth/check;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header Cookie $http_cookie;
-        proxy_pass_request_body off;
-        proxy_set_header Content-Length "";
-    }
-
-    # Redirect unauthenticated clients to SSO login (preserve original path)
-    location @sso_redirect {
-        return 302 /api/auth/require?redirect_to=$request_uri;
-    }
-
-    # --- Locations WITH trailing slash (High Priority) ---
-    # Protected admin area - allow only authenticated users
-    location ^~ /admin/ {
-        auth_request /_auth;
-        error_page 401 403 404 = @sso_redirect;
-
-        alias /usr/share/nginx/html/admin/;
-        index index.html;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /draft/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/draft/;
-        index index.html;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /branches/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/branches/;
-        index index.html;
-        try_files $uri $uri/ =404;
-    }
-
-    # --- Main Book Assets (NOW PROTECTED) ---
-    location ^~ /_static/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        root /usr/share/nginx/html/main_book_root;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /_images/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        root /usr/share/nginx/html/main_book_root;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /_downloads/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        root /usr/share/nginx/html/main_book_root;
-        try_files $uri $uri/ =404;
-    }
-
-    # --- Draft Assets (NOW PROTECTED) ---
-    location ^~ /draft/_static/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/draft/_static/;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /draft/_images/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/draft/_images/;
-        try_files $uri $uri/ =404;
-    }
-
-    location ^~ /draft/_downloads/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/draft/_downloads/;
-        try_files $uri $uri/ =404;
-    }
-
-    # --- Dynamic Branch Assets (NOW PROTECTED) ---
-    location ~ ^/([^/]+)/_static/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/$1/_static/;
-        try_files $uri $uri/ =404;
-    }
-
-    location ~ ^/([^/]+)/_images/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/$1/_images/;
-        try_files $uri $uri/ =404;
-    }
-
-    location ~ ^/([^/]+)/_downloads/ {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        alias /usr/share/nginx/html/$1/_downloads/;
-        try_files $uri $uri/ =404;
-    }
-
-    # --- API Location (Backend handles SAML authentication) ---
-    location ^~ /api {
-        proxy_pass http://backend;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header Cookie $http_cookie;
-    }
-
-    # --- Dynamic Branch Location ---
-    location ~ ^/([^/]+)(/.*)?$ {
-        set $branch_name $1;
-
-        # Skip known system paths and special directories
-        if ($branch_name ~ ^(api|favicon\.ico|robots\.txt|_static|_images|_downloads)$) {
-            break;
-        }
-
-        root /usr/share/nginx/html;
-
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        try_files $uri @try_main_book;
-    }
-
-    # Fallback to main_book_root
-    location @try_main_book {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        root /usr/share/nginx/html/main_book_root;
-        try_files $uri $uri/ =404;
-    }
-
-    # --- General Root Location (Final Fallback) ---
-    location / {
-        auth_request /_auth;
-        error_page 401 403 = @sso_redirect;
-
-        root /usr/share/nginx/html/main_book_root;
-        try_files $uri $uri/ =404;
-    }
+    return 301 https://$host$request_uri;
 }
 
 # --- HTTPS Server Block (Port 443) ---
@@ -199,6 +23,12 @@ server {
     ssl_certificate /etc/nginx/ssl/he.citg.tudelft.nl.pem;
     ssl_certificate_key /etc/nginx/ssl/he.citg.tudelft.nl.key;
     ssl_protocols TLSv1.2 TLSv1.3;
+
+    # --- Security Headers ---
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    add_header X-Frame-Options SAMEORIGIN always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header X-XSS-Protection "1; mode=block" always;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
     ssl_prefer_server_ciphers off;
     ssl_session_timeout 1d;
@@ -348,15 +178,21 @@ server {
         proxy_set_header Cookie $http_cookie;
     }
 
+    # --- Public assets (no auth required) ---
+    location = /favicon.ico {
+        root /usr/share/nginx/html/main_book_root;
+        try_files $uri =404;
+    }
+
+    location = /robots.txt {
+        root /usr/share/nginx/html/main_book_root;
+        try_files $uri =404;
+    }
+
     # --- Dynamic Branch Location ---
+    # Note: /api, /_static/, /_images/, /_downloads/, /consume are already matched
+    # by more specific ^~ and = location blocks above, so no if check needed here.
     location ~ ^/([^/]+)(/.*)?$ {
-        set $branch_name $1;
-
-        # Skip known system paths and special directories
-        if ($branch_name ~ ^(api|favicon\.ico|robots\.txt|consume|_static|_images|_downloads)$) {
-            break;
-        }
-
         root /usr/share/nginx/html;
 
         auth_request /_auth;
@@ -392,9 +228,4 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # --- Security Headers ---
-    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
-    add_header X-Frame-Options SAMEORIGIN;
-    add_header X-Content-Type-Options nosniff;
-    add_header X-XSS-Protection "1; mode=block";
 }
