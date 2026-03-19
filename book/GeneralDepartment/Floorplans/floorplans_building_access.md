@@ -62,7 +62,7 @@ _________________________________________________________________________
 - Download pdf of floorplan of waterlab [here](./Appendices/wlab_floorplans_HE.pdf).
 
 ```{note}
-Last update 08-07-2025.
+Last update 09-07-2025.
 ```
 
 [def]: /book/figures/citg_building.jpg
