@@ -1,8 +1,5 @@
 # Management Board Published Decisions
 
-The files on this page are temporarily not available. We apologise for any inconvenience.
-
-<!-- 
 The full text of the decision is available (in Dutch) in the PDFs linked below; a summary in English is provided as well.
 
 | Decision Number | Title of Decision                                             | Date       |
@@ -19,8 +16,6 @@ The full text of the decision is available (in Dutch) in the PDFs linked below; 
 | 2025.07        | [Decision HE guideline for selection committees for PhD and Postdoc recruitment.pdf](./DecisionFiles/2025.07_Decision_composition_selection_committees_for_PHD_en_Postdoc.pdf)| 30/10/2025 |
 | 2025.09         | [Decision HE Procedure for extended building access and working alone](./DecisionFiles/2025.09_Decision_HE_Procedure_for_extended_building_access_and_working_alone.pdf)| 30/10/2025 |
 | 2025.10         | [Additional Departmental criteria for VENI and MSCA Doctoral Network (MSCA-DN) applications](./DecisionFiles/2025.10_Additional_Departmental_criteria_for_VENI_and_MSCA_Doctoral_Network_(MSCA-DN)_applications.pdf) | 30/10/2025 |
--->
 
-<!--TEST -->
 
 ![footer](../../figures/footer-tudelft.jpg)
