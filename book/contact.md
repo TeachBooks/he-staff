@@ -20,7 +20,7 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Phone:** +31 012 34 56789
 
 <!-- ### Visiting Address
-**Office:** CiTG, Floor 3rd, Room 3.00 -->
+**Office:** CiTG, Floor 3rd, Room 3.00. -->
 
 #### HE Project Controller
 **Name:** Laurens van Haren 
