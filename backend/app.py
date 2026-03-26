@@ -3,9 +3,29 @@ from onelogin.saml2.auth import OneLogin_Saml2_Auth
 from onelogin.saml2.settings import OneLogin_Saml2_Settings
 from onelogin.saml2.utils import OneLogin_Saml2_Utils
 import os
+import logging
+from urllib.parse import urlparse
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(name)s: %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY', 'secret-key-change-this-in-production')
+
+secret_key = os.environ.get('SECRET_KEY')
+if not secret_key:
+    raise RuntimeError('SECRET_KEY environment variable is required')
+app.secret_key = secret_key
+
+
+def is_safe_redirect_url(url):
+    """Only allow relative paths (no scheme, no netloc)."""
+    if not url:
+        return False
+    parsed = urlparse(url)
+    return not parsed.scheme and not parsed.netloc and url.startswith('/')
 
 # Health check endpoint
 @app.route('/api/health')
@@ -63,8 +83,8 @@ def get_saml_settings():
             "requestedAuthnContext": True,
             "requestedAuthnContextComparison": "exact",
             "wantXMLValidation": True,
-            "relaxDestinationValidation": True,
-            "destinationStrictlyMatches": False,
+            "relaxDestinationValidation": False,
+            "destinationStrictlyMatches": True,
             "allowRepeatAttributeName": False,
             "rejectUnsolicitedResponsesWithInResponseTo": True,
             "signatureAlgorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
@@ -92,24 +112,22 @@ def saml_login():
     """Initiate SAML login with improved debugging"""
     try:
         req = prepare_flask_request(request)
-        print(f"SAML Login Request prepared: {req}")
+        logger.info("SAML Login Request prepared: %s", req)
 
         auth = init_saml_auth(req)
         sso_url = auth.login()
 
-        print(f"SAML Login initiated, redirecting to: {sso_url}")
+        logger.info("SAML Login initiated, redirecting to: %s", sso_url)
 
         # Check for errors in SAML request generation
         errors = auth.get_errors()
         if errors:
-            print(f"SAML Login Errors: {errors}")
+            logger.error("SAML Login Errors: %s", errors)
             return jsonify({'error': 'SAML login failed', 'details': errors}), 500
 
         return redirect(sso_url)
     except Exception as e:
-        print(f"SAML Login Error: {str(e)}")
-        import traceback
-        traceback.print_exc()
+        logger.exception("SAML Login Error: %s", str(e))
         return jsonify({'error': 'SAML login failed', 'details': str(e)}), 500
 
 @app.route('/api/auth/saml/consume', methods=['POST'])
@@ -156,19 +174,21 @@ def saml_consume():
             if uid:
                 session['netid'] = uid
                 session['authenticated'] = True
-                print(f"SAML Authentication successful for user: {uid}")
-                print(f"User attributes: {attrs}")
+                logger.info("SAML Authentication successful for user: %s", uid)
+                logger.info("User attributes: %s", attrs)
 
-                redirect_to = session.get('saml_redirect_to', '/intro.html')
+                redirect_to = session.pop('saml_redirect_to', '/intro.html')
+                if not is_safe_redirect_url(redirect_to):
+                    redirect_to = '/intro.html'
                 return redirect(redirect_to)
             else:
-                print(f"No accepted user identifier found in SAML response. Attributes keys: {list(attrs.keys())}, NameID: {name_id}")
+                logger.warning("No accepted user identifier found. Attribute keys: %s, NameID: %s", list(attrs.keys()), name_id)
                 return jsonify({'error': 'No NetID found in SAML response'}), 400
         else:
-            print(f"SAML Authentication failed: {errors}")
+            logger.error("SAML Authentication failed: %s", errors)
             return jsonify({'error': 'SAML authentication failed', 'details': errors}), 400
     except Exception as e:
-        print(f"SAML Consume Error: {str(e)}")
+        logger.exception("SAML Consume Error: %s", str(e))
         return jsonify({'error': 'SAML consume failed', 'details': str(e)}), 500
 
 @app.route('/api/auth/saml/logout')
@@ -178,10 +198,10 @@ def saml_logout():
         req = prepare_flask_request(request)
         auth = init_saml_auth(req)
         slo_url = auth.logout()
-        print(f"SAML Logout initiated, redirecting to: {slo_url}")
+        logger.info("SAML Logout initiated, redirecting to: %s", slo_url)
         return redirect(slo_url)
     except Exception as e:
-        print(f"SAML Logout Error: {str(e)}")
+        logger.exception("SAML Logout Error: %s", str(e))
         return jsonify({'error': 'SAML logout failed', 'details': str(e)}), 500
 
 @app.route('/api/auth/saml/sls')
@@ -197,7 +217,7 @@ def saml_sls():
         else:
             return jsonify({'error': 'Logout failed', 'details': errors}), 400
     except Exception as e:
-        print(f"SAML SLS Error: {str(e)}")
+        logger.exception("SAML SLS Error: %s", str(e))
         return jsonify({'error': 'SAML SLS failed', 'details': str(e)}), 500
 
 @app.route('/api/auth/saml/metadata')
@@ -213,7 +233,7 @@ def saml_metadata():
         )
         return resp
     except Exception as e:
-        print(f"SAML Metadata Error: {str(e)}")
+        logger.exception("SAML Metadata Error: %s", str(e))
         return jsonify({'error': 'Failed to generate metadata', 'details': str(e)}), 500
 
 @app.route('/api/auth/status')
@@ -240,12 +260,13 @@ def auth_check():
 def require_auth():
     """Redirect to login if authentication is required"""
     redirect_to = request.args.get('redirect_to', '/intro.html')
-    
+    if not is_safe_redirect_url(redirect_to):
+        redirect_to = '/intro.html'
+
     if not session.get('authenticated'):
         session['saml_redirect_to'] = redirect_to
         return redirect('/api/auth/saml/login')
     else:
-        # redirect when authenticated
         return redirect(redirect_to)
 
 # Legacy SAML endpoints (for backward compatibility)
@@ -256,8 +277,8 @@ def saml_login_legacy():
 
 @app.route('/api/saml/acs', methods=['POST'])
 def saml_acs_legacy():
-    """Legacy SAML ACS (redirect to new endpoint)"""
-    return redirect('/api/auth/saml/consume')
+    """Legacy SAML ACS - forward directly to preserve POST body"""
+    return saml_consume()
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8000)
+    app.run(debug=False, host='0.0.0.0', port=8000)

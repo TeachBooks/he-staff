@@ -20,6 +20,12 @@ parts:
         - file: GeneralDepartment/Floorplans/workspace_guidelines.md
         - file: GeneralDepartment/Floorplans/meetingrooms.md
         - file: GeneralDepartment/Floorplans/building_access.md
+      - file: GeneralDepartment/cross_departmental_committees/cross_departmental_committees.md
+        sections:
+        - file: GeneralDepartment/cross_departmental_committees/safety_committee.md
+        - file: GeneralDepartment/cross_departmental_committees/education_committee.md
+        - file: GeneralDepartment/cross_departmental_committees/research_committee.md
+        - file: GeneralDepartment/cross_departmental_committees/lab_committee.md
     - file: HR/HR.md
       sections:
       # Hiring procedure PhD and PostDocs
