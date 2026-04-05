@@ -9,7 +9,6 @@ Currently, the available content includes:
 - Floorplans of the department.
 - Guidelines for workspaces within the HE Department.
 
-test
 
 ![General Department photo](Vernieuwde_Afsluitdijk_small.jpg)
 
