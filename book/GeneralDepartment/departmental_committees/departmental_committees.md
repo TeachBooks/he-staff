@@ -1,6 +1,6 @@
-# Cross-departmental committees
+# Departmental work groups
 
-On this page, you will find information about the HE Cross-departmental committees:
+On this page, you will find information about the HE Departmental committees:
 - Safety committee
 - Education committee
 - Research committee
