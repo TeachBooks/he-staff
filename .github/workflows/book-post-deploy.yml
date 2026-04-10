@@ -70,6 +70,7 @@ jobs:
         env:
           # Pass the determined Source Run ID to the script environment
           WORKFLOW_RUN_ID: ${{ steps.inputs.outputs.source_run_id }}
+          BRANCH_NAME: ${{ steps.inputs.outputs.branch }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -82,6 +83,10 @@ jobs:
               core.setFailed('Source Workflow Run ID environment variable not set!');
               return;
             }
+            // Clean branch name the same way deploy-book.yml does (replace special chars with '-')
+            const raw_branch = process.env.BRANCH_NAME;
+            const branch_name = raw_branch.replace(/[\/":< >|*?\\]/g, '-');
+            console.log(`Looking for artifact named: ${branch_name} (from branch: ${raw_branch})`);
             const artifact_path = '/tmp/book_artifact';
             fs.mkdirSync(artifact_path, { recursive: true });
             console.log(`Created artifact directory: ${artifact_path}`);
@@ -90,9 +95,9 @@ jobs:
               repo: context.repo.repo,
               run_id: parseInt(workflow_run_id, 10) // Use the determined ID
             });
-            const book_artifact = artifacts.data.artifacts.find(a => a.name === 'main');
+            const book_artifact = artifacts.data.artifacts.find(a => a.name === branch_name);
             if (!book_artifact) {
-              core.setFailed(`No artifact named "main" found for Run ID ${workflow_run_id}!`);
+              core.setFailed(`No artifact named "${branch_name}" found for Run ID ${workflow_run_id}!`);
               return;
             }
             console.log(`Found artifact: ${book_artifact.name} (ID: ${book_artifact.id})`);
