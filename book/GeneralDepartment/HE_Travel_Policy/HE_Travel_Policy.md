@@ -16,7 +16,7 @@ A few important points:
 
 -	Consider if the international business trip really is necessary or whether alternatives (online or otherwise) are available.
 -	All international business trips need to be booked via BCD travel; they have travel and accommodation options available.
--	Booking via other websites (for example when no accommodation is available, or the options on BCD are much more expensive) is allowed with permission from your line manager.
+-	Booking via other websites (for example when no accommodation is available, or the options on BCD are much more expensive) is allowed with permission from your section head. In such cases, please send screenshots to your section head.
 -	It is especially important to always try to book the flight via BCD for security reasons.
 
 
