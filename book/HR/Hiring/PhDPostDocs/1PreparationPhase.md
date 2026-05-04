@@ -38,7 +38,7 @@ The chosen selection committee is also filled in on the vacancy format. The vali
 
 ## 1.3 Send vacancy format 
 
-As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to secr-he-citg@tudelft.nl. The department secretary will check the vacancy and the vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl). The recruitment assistant will create the vacancy in the recruitmentsystem, after which you will receive an email to approve the vacancy.
+As soon as the financial check is done and the vacancy format is completed, you can send the vacancy form to E.H.Bakker@tudelft.nl. The department secretary will check the vacancy and the vacancy format will then be sent to recruitment. The recruitment assistant will create the vacancy in the recruitment system, after which you will receive an email to approve the vacancy.
 
 After approval your vacancy will appear on: 
 

@@ -49,7 +49,9 @@ parts:
       # HE Hospitality Agreement Policy
       - file: HR/Hiring/HospitalityAgreement/Hospitality_Agreement.md
       # Training
-      - file: HR/Hiring/Training/Training.md
+      - file: HR/Hiring/Training/0Introduction.md
+        sections:
+        - file: HR/Hiring/Training/DutchLanguagePilot.md
     # Finance  
     - file: Finance/finance.md
       sections:
