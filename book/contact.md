@@ -31,8 +31,8 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Email:** [M.F.A.Zuijdendorp@tudelft.nl](mailto:M.F.A.Zuijdendorp@tudelft.nl)
 
 #### HR Advisor
-**Name:** Monique Scheers-van der Horst 
-**Email:** [M.Scheers-vanderHorst@tudelft.nl](mailto:M.Scheers-vanderHorst@tudelft.nl)
+**Name:** Dian Verbunt
+**Email:** [D.W.A.M.Verbunt@tudelft.nl](mailto:D.W.A.M.Verbunt@tudelft.nl)
 
 
 #### Management Assistants:
