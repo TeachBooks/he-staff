@@ -52,6 +52,7 @@ parts:
       - file: HR/Hiring/Training/Training.md
         sections:
         - file: HR/Hiring/Training/Dutch_Language_Pilot.md
+
     # Finance  
     - file: Finance/finance.md
       sections:

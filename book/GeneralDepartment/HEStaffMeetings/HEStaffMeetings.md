@@ -13,7 +13,7 @@ The HE Staff Meetings are held every 6 weeks.
 | Monday, August 31, 2026    |        |        |
 | Friday, July 10, 2026    |        |        |
 | Thursday, May 28, 2026   |        |        |
-| Wednesday, April 15, 2026    |        |        |
+| Wednesday, April 15, 2026    | Next steps in finalising the outcomes of the four strategy sessions      | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2026-04-15)       |
 | Tuesday, March 10, 2026    | Working Together – HR Processes, Conduct and Safety    | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2026-03-10.pdf)       |
 | Thursday, January 29, 2026 | Strategy session 4    | [download here](../Appendices/Presentatie_HE_strategysession_2026-01-29.pdf)  |
 | Thursday, December 11, 2025 | Strategy session 3   | [download here](../Appendices/Presentatie_HE_strategysession_2025-12-11.pdf)                   |                     |
