@@ -39,4 +39,4 @@ As explained on the intranet page, there are five key factors to consider when t
 Please read the page thoroughly before going to your line manager with questions about the process. If anything is still unclear, reach out to the HR advisor with any unanswered questions.
 
 
-![footer](../figures/footer-tudelft.jpg)
+![footer](../../figures/footer-tudelft.jpg)
