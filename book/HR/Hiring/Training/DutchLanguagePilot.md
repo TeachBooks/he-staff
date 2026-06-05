@@ -36,7 +36,7 @@ Starting later in the year is possible. Please still register when you already k
 
 For practical questions about the pilot, please contact Elske Bakker ([E.H.Bakker@tudelft.nl](mailto:E.H.Bakker@tudelft.nl)). You can find some documents with supplementary information below:
 
-- Presentation HE Staff Meeting 03-09-2025 [Download here](../Training/Appendices/Presentatie%20HE%20afdelingsoverleg%202025-09-03.pdf)
+- Presentation HE Staff Meeting [Download here](../Training/Appendices/Presentatie%20HE%20afdelingsoverleg%202025-09-03.pdf)
 - Kick-off Meeting Dutch Language Pilot [Download here](../Training/Appendices/Kick-off%20meeting%20Dutch%20language%20pilot%20HE-3MD%2013052026%20fv.pdf)
 
 

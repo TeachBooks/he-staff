@@ -23,7 +23,7 @@ The MT consists of the following members:
 
 **Executive Secretary:** E.H. (Elske) Bakker
 
-**HR Advisor:** M. (Monique) Scheers-van der Horst
+**HR Advisor:** D.W.A.M. (Dian) Verbunt
 
 **Finance:** W.D. (David) Lodowica
 

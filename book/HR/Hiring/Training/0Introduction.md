@@ -1,5 +1,8 @@
 # Training
 
-All the available trainings will be posted here shortly.
+The following training programmes are currently hosted:
+- Dutch Language Pilot
+
+Availability varies per training.
 
 ![footer](../../../figures/footer-tudelft.jpg)

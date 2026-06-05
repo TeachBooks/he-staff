@@ -3,7 +3,7 @@
 ![General ](./Appendices/MeetingRooms/meeting-rooms-graphic.png)
 
 
-Available **meeting Rooms** on the third floor: 
+Available **meeting rooms** on the third floor: 
 - **3.47** (Bookings for up to 6 people, not a digital booking panel available)
 - **3.57** (Booking for up to 7 people, whiteboards and monitor)
 - **3.79** (Bookings for up to 7 people, white board, flip charts and monitor)

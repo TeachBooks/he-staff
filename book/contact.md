@@ -8,9 +8,10 @@
 For general inquiries please contact us at:  
 **Email:** [secr-he-citg@tudelft.nl](mailto:secr-he-citg@tudelft.nl@tudelft.nl)  
 
+
 #### Webpage content
-For content-wise feedback, please contact the webmaster of hydraulic engineering:
-**Name:** Jelle Gortemaker
+For content-wise feedback, please contact the webmaster of hydraulic engineering:  
+**Name:** Jelle Gortemaker  
 **Email:** [webmaster-wbk-citg@tudelft.nl](mailto:webmaster-wbk-citg@tudelft.nl) 
 
 
@@ -31,7 +32,7 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Email:** [M.F.A.Zuijdendorp@tudelft.nl](mailto:M.F.A.Zuijdendorp@tudelft.nl)
 
 #### HR Advisor
-**Name:** Dian Verbunt
+**Name:** Dian Verbunt  
 **Email:** [D.W.A.M.Verbunt@tudelft.nl](mailto:D.W.A.M.Verbunt@tudelft.nl)
 
 
@@ -40,10 +41,10 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Name:** Eefke Copper, Management Assistant Offshore Engineering
 **Email:** [e.copper@tudelft.nl](mailto:e.copper@tudelft.nl)
 
-**Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics
+**Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics  
 **Email:** [a.verkouter@tudelft.nl](mailto:a.verkouter@tudelft.nl)
 
-**Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab
+**Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab  
 **Email:** [m.ammerlaan-kalkman@tudelft.nl](mailto:m.ammerlaan-kalkman@tudelft.nl)
 
 

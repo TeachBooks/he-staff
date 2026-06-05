@@ -66,7 +66,7 @@ Some notes regarding the vacancy format:
 * A reasonable start date will be six months from the moment you start the vacancy process. Please be aware that the visa arrangement and the safety check may take weeks for NON-EU candidates.
 
 
-When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (m.scheers-vanderhorst@tudelft.nl). The vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl) and the recruitment assistant will create the vacancy in the recruitmentsystem. You will receive an email to approve the vacancy.
+When the vacancy form is complete, you can send the vacancy form to the Department Secretary (E.H.Bakker@tudelft.nl) and the HR advisor (see 'Contact Information'). The vacancy format will then be sent to recruitment (Recruitment-CITG@tudelft.nl) and the recruitment assistant will create the vacancy in the recruitmentsystem. You will receive an email to approve the vacancy.
 
 After submitting your vacancy will appear on: 
 
