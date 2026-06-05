@@ -44,7 +44,7 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics  
 **Email:** [a.verkouter@tudelft.nl](mailto:a.verkouter@tudelft.nl)
 
-**Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab
+**Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab  
 **Email:** [m.ammerlaan-kalkman@tudelft.nl](mailto:m.ammerlaan-kalkman@tudelft.nl)
 
 
