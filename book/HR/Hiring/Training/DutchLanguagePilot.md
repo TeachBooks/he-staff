@@ -4,6 +4,8 @@ The Dutch Language Pilot is a two-year programme for academic staff in Hydraulic
 
 The programme consists of one-to-one Dutch lessons tailored to your current level, learning goals and availability. The learning pathway is designed to support progression towards at least B2 level, with the possibility to continue towards C1 where relevant.
 
+![Dutch Language Pilot photo](./Appendices/Dutch_Language_Pilot_logo.png)
+
 
 ## What is it?
 
