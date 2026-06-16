@@ -24,7 +24,7 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Office:** CiTG, Floor 3rd, Room 3.00. -->
 
 #### HE Project Controller
-**Name:** Laurens van Haren 
+**Name:** Laurens van Haren  
 **Email:** [L.vanHaren@tudelft.nl](mailto:L.vanHaren@tudelft.nl)
 
 #### HE Contract Manager 
@@ -37,8 +37,8 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 
 
 #### Management Assistants:
-**Location:** CiTG, 3rd Floor, Room 3.73.1
-**Name:** Eefke Copper, Management Assistant Offshore Engineering
+**Location:** CiTG, 3rd Floor, Room 3.73.1  
+**Name:** Eefke Copper, Management Assistant Offshore Engineering  
 **Email:** [e.copper@tudelft.nl](mailto:e.copper@tudelft.nl)
 
 **Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics  
@@ -46,6 +46,9 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 
 **Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab  
 **Email:** [m.ammerlaan-kalkman@tudelft.nl](mailto:m.ammerlaan-kalkman@tudelft.nl)
+
+**Name:** Noemi Cianfa  
+**Email:** [N.Cianfa@tudelft.nl](mailto:N.Cianfa@tudelft.nl)
 
 
 #### HE Department Webpage
