@@ -38,16 +38,17 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 
 #### Management Assistants:
 **Location:** CiTG, 3rd Floor, Room 3.73.1  
-**Name:** Eefke Copper, Management Assistant Offshore Engineering  
+**Name:** Eefke Copper, Management Assistant Coastal Engineering  
 **Email:** [e.copper@tudelft.nl](mailto:e.copper@tudelft.nl)
 
-**Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics  
+**Name:** Sandra Verkouter, Management Assistant Environmental Fluid Mechanics & Rivers and Ports
 **Email:** [a.verkouter@tudelft.nl](mailto:a.verkouter@tudelft.nl)
 
 **Name:** Marlene Ammerlaan-Kalkman, Management Assistant Hydraulic Engineering and Flood Risk & Hydraulic Engineering Lab  
 **Email:** [m.ammerlaan-kalkman@tudelft.nl](mailto:m.ammerlaan-kalkman@tudelft.nl)
 
-**Name:** Noemi Cianfa  
+**Name:** Noemi Cianfa, Management Assistant Offshore Engineering
+   
 **Email:** [N.Cianfa@tudelft.nl](mailto:N.Cianfa@tudelft.nl)
 
 

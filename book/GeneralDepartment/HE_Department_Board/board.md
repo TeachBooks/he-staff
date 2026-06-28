@@ -17,7 +17,7 @@ The MT consists of the following members:
 
 - Dr. T.S. (Ton) van den Bremer (EFM),
 
-- Dr. ir. O. (Oswaldo) Morales Napoles (HFSR),
+- Dr. ir. M. (Maria) Pregnolato (HFSR),
 
 - Dr. ir. W.S.J. (Wim) Uijttewaal
 
