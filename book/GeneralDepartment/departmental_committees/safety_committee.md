@@ -15,6 +15,8 @@ The HE Safety Committee, as of April 30th, consists of the following people:
 
 The safety committee has two external advisors:
 
+| Role | Name |
+|------|------|
 | HSE Advisor | Annemarie Vonk |
 | HR Advisor | Dian Verbunt |
 
