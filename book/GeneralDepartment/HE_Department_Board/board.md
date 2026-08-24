@@ -11,7 +11,7 @@ The MT consists of the following members:
 **Section Leaders:**
 - Dr. ir. B.C. (Bram) van Prooijen (CE),
 
-- Dr. ir. A. (Astrid) Blom (R&P),
+- Dr. ir. M. (Maria) Pregnolato (R&P),
 
 - Dr. ir. A. (Apostolos) Tsouvalas (OE),
 
@@ -25,7 +25,7 @@ The MT consists of the following members:
 
 **HR Advisor:** D.W.A.M. (Dian) Verbunt
 
-**Finance:** W.D. (David) Lodowica
+**Finance:**  L. (Laurens) van Haren
 
 The MT meets every two weeks on Thursday to make key decisions. In urgent cases, additional meetings may be scheduled. If you have any points you would like the MT to address, please contact your section leader or the Executive Secretary to have them included in the agenda.
 

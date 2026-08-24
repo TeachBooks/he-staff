@@ -9,7 +9,7 @@ The selection process is done using **MyCareer**. Instructions can be found [on 
 
 The selection process begins with a preselection, carried out by the committee chair and two additional members of the selection committee, also referred to as the "small committee." Utilize MyCareer to categorize candidates into "recommended" and "not recommended" and put comments for each candidate. This stage results in the creation of a longlist of candidates, who will then proceed to online interviews.
 
-Contact the talent acquisition specialist (A.Fishman@tudelft.nl) or the HR advisor (m.scheers-vanderhorst@tudelft.nl) if no promising candidates have applied. 
+Contact the talent acquisition specialist or the HR advisor (see [Contact](../../../contact.md)) if no promising candidates have applied.
 
 In cases where there are a large number of applicants, it is advisable to make an initial selection based on a single, essential criterion. Subsequently, you may apply the full scoring chart. Adhere strictly to the checklist and remain mindful of potential biases. For example, CV gaps may be interpreted negatively, leading to the rejection of candidates. However, it is important to consider that such gaps may have valid reasons.
 

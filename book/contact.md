@@ -35,6 +35,10 @@ For content-wise feedback, please contact the webmaster of hydraulic engineering
 **Name:** Dian Verbunt  
 **Email:** [D.W.A.M.Verbunt@tudelft.nl](mailto:D.W.A.M.Verbunt@tudelft.nl)
 
+#### Talent Acquisition Specialist
+**Name:** Avital Fishman
+**Email:**: [A.Fishman@tudelft.nl](mailto:A.Fishman@tudelft.nl)
+
 
 #### Management Assistants:
 **Location:** CiTG, 3rd Floor, Room 3.73.1  
