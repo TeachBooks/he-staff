@@ -37,6 +37,8 @@ Some important notes:
 
 * There are rules as to the composition of the selection committee. These are explained under [Preparation Phase](./1PreparationPhase.md).
 
+* Before making an offer, _always_ check with the department secretary whether we can make this candidate an offer.
+
 * Regarding the selection process: the committee strives to come to a unanimous decision. If unanimity is not possible, the majority of votes counts (2 out of 3 TU Delft committee members).
 
 * If the project leader is not in the committee, he or she can make a motivated objection to the decision. If the project leader is in the committee and disagrees with the other two members, he or she can once again make a motivated objection. In both cases, the decision is passed to the section leader.
@@ -45,7 +47,7 @@ Some important notes:
 
 * For a smooth selection process, it helps to plan the CV review and some potential interview moments soon in the agendas of the committee members.
 
-* Contact the talent acquisition specialist (A.Fishman@tudelft.nl) or the HR advisor (m.scheers-vanderhorst@tudelft.nl) if no promising candidates have applied. 
+* Contact the talent acquisition specialist or the HR advisor (see [Contact](../../../contact.md)) if no promising candidates have applied. 
 
 * Please note: we aim to inform candidates about their application (rejection or invitation) within 2 weeks of the application deadline. Please finish the cv-review within those 2 weeks. The Management Assistants will then reject the candidates via the recruitment system and they can help you with planning the interviews.
 
