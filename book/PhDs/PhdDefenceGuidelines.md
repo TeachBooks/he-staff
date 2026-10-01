@@ -1,5 +1,9 @@
 # PhD defence guidelines
 
-The budget guidelines for PhD defences can be found in [this pdf file](./Appendices/PhD%20Defence%20Budget%20Guidelines%20–%20Hydraulic%20Engineering%2006022025%20(1).pdf)
+Information regarding the budget guidelines for PhD defences can be found in the following documents:
+
+- [PhD Defence guidelines](./Appendices/PhD_Defence_Budget_Guidelines_Hydraulic_Engineering_06022025.pdf)
+- [PhD Defence Budget Template](./Appendices/PhD_Defence_Budget_Template.xlsx)
+
 
 ![footer](../figures/footer-tudelft.jpg)
