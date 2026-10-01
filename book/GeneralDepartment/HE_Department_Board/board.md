@@ -11,7 +11,7 @@ The MT consists of the following members:
 **Section Leaders:**
 - Dr. ir. B.C. (Bram) van Prooijen (CE),
 
-- Dr. ir. M. (Maria) Pregnolato (R&P),
+- Dr. ir. H. (Hayo) Hendrikse (R&P),
 
 - Dr. ir. A. (Apostolos) Tsouvalas (OE),
 
