@@ -11,7 +11,7 @@ The HE Staff Meetings are held every 6 weeks.
 | Meeting Date          | Theme         | Presentation     |
 |-----------------------|--------------------|---------------------|
 | Thursday, December 17, 2026    |        |        |
-| Wednesday, November 11, 2026    |        |        |
+| Wednesday, November 11, 2026    | Priorities Education Committee       | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2026-11-11.pdf)       |
 | Tuesday, October 6, 2026    |        |        |
 | Friday, July 10, 2026    |        |        |
 | Thursday, May 28, 2026   | HE Staff Meeting       | [download here](../Appendices/Presentatie_HE_afdelingsoverleg_2026-05-28.pdf)       |
